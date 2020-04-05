@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.3.0...v1.3.1) (2020-04-05)
+
+
+### Bug Fixes
+
+* fake commit to trigger release ([e013e64](https://github.com/lyne-design-system/lyne-design-tokens/commit/e013e64d47abde64c18ddeeec1016f817d615dc9))
+
 # [1.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.2.0...v1.3.0) (2020-04-05)
 
 
