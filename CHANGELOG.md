@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.4.0...v1.4.1) (2020-04-05)
+
+
+### Bug Fixes
+
+* add linting step before building package ([a5441f4](https://github.com/lyne-design-system/lyne-design-tokens/commit/a5441f4972fb9b84b8f6c9d7f1908793e1d74b69))
+
 # [1.4.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.3.1...v1.4.0) (2020-04-05)
 
 
