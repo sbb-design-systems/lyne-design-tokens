@@ -1,0 +1,11 @@
+{
+  "color": {
+    "base": {
+      "red": {
+        "regular" : { "value": "#EB0000" },
+        "medium": { "value": "#C60018" },
+        "dark"  : { "value": "#A20013" }
+      }
+    }
+  }
+}

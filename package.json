@@ -1,0 +1,23 @@
+{
+  "name": "lyne-design-tokens",
+  "version": "1.0.0",
+  "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
+  "main": "index.js",
+  "dependencies": {
+    "style-dictionary": "^2.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyne-design-system/lyne-design-tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyne-design-system/lyne-design-tokens/issues"
+  },
+  "homepage": "https://github.com/lyne-design-system/lyne-design-tokens#readme"
+}

@@ -1,0 +1,9 @@
+{
+  "color": {
+    "font": {
+      "base"     : { "value": "{color.base.red.regular.value}" },
+      "hover": { "value": "{color.base.red.medium.value}" },
+      "active" : { "value": "{color.base.red.dark.value}" }
+    }
+  }
+}
