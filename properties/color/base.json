@@ -6,7 +6,7 @@
         "medium": {"value": "#C60018"},
         "dark"  : {"value": "#A20013"}
       },
-      "white": "#FFFFFF"
+      "white": {"value": "#FFFFFF"}
     }
   }
 }
