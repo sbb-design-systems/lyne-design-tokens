@@ -17,7 +17,7 @@
     "semantic-release-slack-bot": "^1.6.1"
   },
   "files": [
-    "build/"
+    "dist/"
   ],
   "scripts": {
     "build": "./node_modules/style-dictionary/bin/style-dictionary build",
