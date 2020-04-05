@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.2.0...v1.3.0) (2020-04-05)
+
+
+### Bug Fixes
+
+* remove build folder, build in dist folder ([3d85e76](https://github.com/lyne-design-system/lyne-design-tokens/commit/3d85e76f811b49a43e1c0f4a6d4dc40c9e2bd4ad))
+
+
+### Features
+
+* fake commit to trigger release ([a70c433](https://github.com/lyne-design-system/lyne-design-tokens/commit/a70c433b47ffb006b9ead825468db123b375f716))
+* make sure npm publishes the build folder ([297ff7d](https://github.com/lyne-design-system/lyne-design-tokens/commit/297ff7db5f29727534731511d435e7ae0436394e))
+
 # [1.2.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.1.0...v1.2.0) (2020-04-05)
 
 
