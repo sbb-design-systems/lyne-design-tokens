@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.3.1...v1.4.0) (2020-04-05)
+
+
+### Bug Fixes
+
+* fix json format ([90dc180](https://github.com/lyne-design-system/lyne-design-tokens/commit/90dc180a341343d6481d5ef258e27c98ad78a42d))
+
+
+### Features
+
+* fake commit to trigger release ([56adf30](https://github.com/lyne-design-system/lyne-design-tokens/commit/56adf305a045d9012a4f693201d68d6625d795d4))
+* test chaning some properties ([8f67915](https://github.com/lyne-design-system/lyne-design-tokens/commit/8f67915e1a7a1dbe5a0564290e7783a5aa0043d8))
+
 ## [1.3.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.3.0...v1.3.1) (2020-04-05)
 
 
