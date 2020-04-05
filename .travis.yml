@@ -1,0 +1,14 @@
+os: linux
+language: node_js
+jobs:
+  include:
+    - stage: build, test and deploy packages and storybook for production
+      script:
+
+        # build style dictionaries
+        - ./node_modules/style-dictionary/bin/style-dictionary build
+
+      after_success:
+
+        # run semantic release
+        # - npm run semantic-release
