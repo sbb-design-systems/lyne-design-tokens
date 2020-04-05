@@ -7,7 +7,6 @@ jobs:
 
         # build style dictionaries
         - ./node_modules/style-dictionary/bin/style-dictionary build
-
       after_success:
 
         # run semantic release
