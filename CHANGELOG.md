@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.1.0...v1.2.0) (2020-04-05)
+
+
+### Features
+
+* fake commit to trigger release ([e4f1bd1](https://github.com/lyne-design-system/lyne-design-tokens/commit/e4f1bd16f06cfd9c004fb879c4ae2c05c465b832))
+* make sure that build folder is published ([5630810](https://github.com/lyne-design-system/lyne-design-tokens/commit/56308106c4e61a2240de748640df5e2027bf26a9))
+
 # [1.1.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.0.0...v1.1.0) (2020-04-05)
 
 
