@@ -12,10 +12,20 @@
     "js": {
       "transformGroup": "web",
       "buildPath": "dist/js/",
-      "files": [{
-        "destination": "tokens.es6.js",
-        "format": "javascript/es6"
-      }]
+      "files": [
+        {
+          "destination": "tokens.es6.js",
+          "format": "javascript/es6"
+        },
+        {
+          "destination": "tokens_nested.json",
+          "format": "json/nested"
+        },
+        {
+          "destination": "tokens_flat.json",
+          "format": "json/flat"
+        }
+      ]
     },
     "sketch": {
       "transforms": ["name/cti/camel","attribute/cti", "color/sketch"],
