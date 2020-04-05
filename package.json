@@ -20,6 +20,7 @@
     "build/"
   ],
   "scripts": {
+    "build": "./node_modules/style-dictionary/bin/style-dictionary build",
     "semantic-release": "semantic-release"
   },
   "repository": {
