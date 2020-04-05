@@ -9,6 +9,29 @@
         "format": "scss/variables"
       }]
     },
+    "js": {
+      "transformGroup": "web",
+      "buildPath": "dist/js/",
+      "files": [{
+        "destination": "tokens.es6.js",
+        "format": "javascript/es6"
+      }]
+    },
+    "sketch": {
+      "transforms": ["name/cti/camel","attribute/cti", "color/sketch"],
+      "buildPath": "dist/sketch/",
+      "files": [
+        {
+          "destination": "tokens.sketchpalette",
+          "format": "sketch/palette/v2",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        }
+      ]
+    },
     "android": {
       "transformGroup": "android",
       "buildPath": "dist/android/",
