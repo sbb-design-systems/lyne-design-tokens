@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.5.0...v1.6.0) (2020-04-06)
+
+
+### Bug Fixes
+
+* add comment for red main color ([bdce397](https://github.com/lyne-design-system/lyne-design-tokens/commit/bdce397d057a9d00a1d9888c195f3234b17760fc))
+* fix linting issue ([d4ae8a1](https://github.com/lyne-design-system/lyne-design-tokens/commit/d4ae8a1003381ae8f08a00fcc5ebe5d048f6386c))
+
+
+### Features
+
+* add javascript module and object as additional output target ([9dc9803](https://github.com/lyne-design-system/lyne-design-tokens/commit/9dc9803b9838416f7c40dac7a1f99091a5dfbb11))
+
 # [1.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.4.1...v1.5.0) (2020-04-05)
 
 
