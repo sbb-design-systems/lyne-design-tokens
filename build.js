@@ -11,6 +11,11 @@ StyleDictionary.registerFormat({
   formatter: _.template(fs.readFileSync(__dirname + '/templates/web-scss.template'))
 });
 
+StyleDictionary.registerFormat({
+  name: 'custom/format/javascript/module',
+  formatter: _.template(fs.readFileSync(__dirname + '/templates/commonjs.template'))
+});
+
 // FINALLY, BUILD ALL THE PLATFORMS
 StyleDictionary.buildAllPlatforms();
 

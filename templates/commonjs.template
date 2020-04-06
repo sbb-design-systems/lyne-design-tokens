@@ -1,0 +1,27 @@
+module.exports = {
+<% _.each(allProperties, function(prop, iterator) {
+  var output = "  ";
+
+  if(prop.deprecated) {
+    output += "// Notice: " + prop.name + " is deprecated";
+
+    if(prop.deprecated_comment) {
+      output += " (" + prop.deprecated_comment + ")";
+    }
+
+    output += "\n  ";
+
+  }
+
+  output += prop.name + ": '" + prop.value + "',";
+
+  if(prop.comment) {
+    output += " // " + prop.comment + iterator;
+  }
+
+  if(iterator < allProperties.length - 1) {
+    output += "\n";
+  }
+  print(output);
+}); %>
+};

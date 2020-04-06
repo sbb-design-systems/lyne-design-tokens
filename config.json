@@ -8,14 +8,6 @@
         {
           "destination": "_variables.scss",
           "format": "custom/format/scss"
-        },
-        {
-          "destination": "_variables.map.flat.scss",
-          "format": "scss/map-flat"
-        },
-        {
-          "destination": "_variables.map.deep.scss",
-          "format": "scss/map-deep"
         }
       ]
     },
@@ -44,19 +36,15 @@
           "format": "javascript/es6"
         },
         {
-          "destination": "tokens.object.js",
-          "format": "javascript/object"
-        },
-        {
-          "destination": "tokens.module.js",
-          "format": "javascript/module"
+          "destination": "tokens.commonjs.js",
+          "format": "custom/format/javascript/module"
         },
         {
           "destination": "tokens.umd.js",
           "format": "javascript/umd"
         },
         {
-          "destination": "tokens.json",
+          "destination": "tokens.raw.json",
           "format": "json"
         },
         {
