@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "./node_modules/style-dictionary/bin/style-dictionary build",
-    "jsonlint": "./node_modules/@prantlf/jsonlint/lib/cli.js -q ./properties/**/*.json",
+    "lint": "./node_modules/@prantlf/jsonlint/lib/cli.js -q ./properties/**/*.json",
     "semantic-release": "semantic-release"
   },
   "repository": {

@@ -6,7 +6,7 @@ jobs:
       script:
 
         # lint
-        - npm run jsonlint
+        - npm run lint
 
         # build style dictionaries
         - npm run build
