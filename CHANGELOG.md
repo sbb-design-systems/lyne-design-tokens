@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.7.0...v1.8.0) (2020-04-06)
+
+
+### Bug Fixes
+
+* rename lint script ([f07c5c4](https://github.com/lyne-design-system/lyne-design-tokens/commit/f07c5c4436c107456fddab62ead8e87479f72d3d))
+
+
+### Features
+
+* add more output targets for sass, less ([207ef94](https://github.com/lyne-design-system/lyne-design-tokens/commit/207ef947aba548189bf974e0f21b7afadea12621))
+
 # [1.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.6.0...v1.7.0) (2020-04-06)
 
 
