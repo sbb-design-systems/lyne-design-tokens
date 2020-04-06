@@ -7,7 +7,7 @@
       "files": [
         {
           "destination": "_variables.scss",
-          "format": "scss/variables"
+          "format": "custom/format/scss"
         },
         {
           "destination": "_variables.map.flat.scss",

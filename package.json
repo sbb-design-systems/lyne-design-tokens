@@ -14,6 +14,7 @@
     "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "husky": "^4.2.3",
+    "lodash": "^4.17.15",
     "semantic-release": "^17.0.4",
     "semantic-release-slack-bot": "^1.6.1"
   },
@@ -21,7 +22,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "./node_modules/style-dictionary/bin/style-dictionary build",
+    "build": "node ./build.js",
     "lint": "./node_modules/@prantlf/jsonlint/lib/cli.js -q ./properties/**/*.json",
     "semantic-release": "semantic-release"
   },
