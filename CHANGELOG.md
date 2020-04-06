@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.6.0...v1.7.0) (2020-04-06)
+
+
+### Features
+
+* add umd exports for javascript output target ([0e8224e](https://github.com/lyne-design-system/lyne-design-tokens/commit/0e8224e42688f9647f56ea13bf28ed0cce599ab5))
+
 # [1.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.5.0...v1.6.0) (2020-04-06)
 
 
