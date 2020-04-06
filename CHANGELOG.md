@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.9.0...v1.9.1) (2020-04-06)
+
+
+### Bug Fixes
+
+* add custom commonjs transformer and remove deprecated transformers ([b51c766](https://github.com/lyne-design-system/lyne-design-tokens/commit/b51c7662e0c13d75daeb39e152a62e7849d56554))
+
 # [1.9.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.8.0...v1.9.0) (2020-04-06)
 
 
