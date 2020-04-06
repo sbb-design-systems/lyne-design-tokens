@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.8.0...v1.9.0) (2020-04-06)
+
+
+### Bug Fixes
+
+* make sure js output target is correctly transformed ([8a066a4](https://github.com/lyne-design-system/lyne-design-tokens/commit/8a066a49c4bada067f8e68dee28902aeb545a0a0))
+
+
+### Features
+
+* add sample for token deprecation ([23d9a81](https://github.com/lyne-design-system/lyne-design-tokens/commit/23d9a81ba7a2277179dcf8b7723567aec4d6b8b3))
+
 # [1.8.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.7.0...v1.8.0) (2020-04-06)
 
 
