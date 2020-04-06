@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.4.1...v1.5.0) (2020-04-05)
+
+
+### Features
+
+* add json output target ([04bb093](https://github.com/lyne-design-system/lyne-design-tokens/commit/04bb093651ea37bd6b524dc0e4495389491061de))
+* add sketch and js output targets ([8de0998](https://github.com/lyne-design-system/lyne-design-tokens/commit/8de099866833b074264350ede16c12c492961296))
+
 ## [1.4.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.4.0...v1.4.1) (2020-04-05)
 
 
