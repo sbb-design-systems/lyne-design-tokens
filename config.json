@@ -36,7 +36,7 @@
       }]
     },
     "js": {
-      "transformGroup": "web",
+      "transformGroup": "js",
       "buildPath": "dist/js/",
       "files": [
         {
