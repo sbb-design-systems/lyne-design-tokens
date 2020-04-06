@@ -4,9 +4,35 @@
     "scss": {
       "transformGroup": "scss",
       "buildPath": "dist/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        },
+        {
+          "destination": "_variables.map.flat.scss",
+          "format": "scss/map-flat"
+        },
+        {
+          "destination": "_variables.map.deep.scss",
+          "format": "scss/map-deep"
+        }
+      ]
+    },
+    "less": {
+      "transformGroup": "less",
+      "buildPath": "dist/less/",
       "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
+        "destination": "_variables.less",
+        "format": "less/variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "dist/css/",
+      "files": [{
+        "destination": "_variables.css",
+        "format": "css/variables"
       }]
     },
     "js": {
@@ -26,16 +52,20 @@
           "format": "javascript/module"
         },
         {
+          "destination": "tokens.umd.js",
+          "format": "javascript/umd"
+        },
+        {
+          "destination": "tokens.json",
+          "format": "json"
+        },
+        {
           "destination": "tokens.nested.json",
           "format": "json/nested"
         },
         {
           "destination": "tokens.flat.json",
           "format": "json/flat"
-        },
-        {
-          "destination": "tokens.umd.js",
-          "format": "javascript/umd"
         }
       ]
     },
