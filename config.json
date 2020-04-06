@@ -32,6 +32,10 @@
         {
           "destination": "tokens.flat.json",
           "format": "json/flat"
+        },
+        {
+          "destination": "tokens.umd.js",
+          "format": "javascript/umd"
         }
       ]
     },
