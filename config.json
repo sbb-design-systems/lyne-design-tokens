@@ -18,11 +18,19 @@
           "format": "javascript/es6"
         },
         {
-          "destination": "tokens_nested.json",
+          "destination": "tokens.object.js",
+          "format": "javascript/object"
+        },
+        {
+          "destination": "tokens.module.js",
+          "format": "javascript/module"
+        },
+        {
+          "destination": "tokens.nested.json",
           "format": "json/nested"
         },
         {
-          "destination": "tokens_flat.json",
+          "destination": "tokens.flat.json",
           "format": "json/flat"
         }
       ]
