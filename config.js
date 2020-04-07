@@ -137,30 +137,6 @@ module.exports = {
         className: "StyleDictionary",
         filter: {}
       }]
-    },
-    iosSwiftSeparateEnums: {
-      transformGroup: "ios-swift-separate",
-      buildPath: "dist/ios-swift/",
-      files: [{
-        destination: "StyleDictionaryColor.swift",
-        format: "ios-swift/enum.swift",
-        className: "StyleDictionaryColor",
-        filter: {
-          attributes: {
-            category: "color"
-          }
-        }
-      },{
-        destination: "StyleDictionarySize.swift",
-        format: "ios-swift/enum.swift",
-        className: "StyleDictionarySize",
-        type: "float",
-        filter: {
-          attributes: {
-            category: "size"
-          }
-        }
-      }]
     }
   }
 }
