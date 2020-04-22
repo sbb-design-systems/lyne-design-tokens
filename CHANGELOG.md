@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.9.1...v1.10.0) (2020-04-22)
+
+
+### Features
+
+* add sample sketch constructor, but comment it out ([5cb2de4](https://github.com/lyne-design-system/lyne-design-tokens/commit/5cb2de4bd1877b9da7bd0398a85d47aff87a81d9))
+
 ## [1.9.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.9.0...v1.9.1) (2020-04-06)
 
 
