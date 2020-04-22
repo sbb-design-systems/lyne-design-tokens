@@ -1,4 +1,4 @@
-const StyleDictionary = require('style-dictionary').extend(__dirname + '/config.json');
+const StyleDictionary = require('style-dictionary').extend(__dirname + '/config.js');
 const fs = require('fs');
 const _ = require('lodash');
 

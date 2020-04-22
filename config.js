@@ -1,5 +1,11 @@
 module.exports = {
   source: ["properties/**/*.json"],
+  // action: {
+  //   buildSketch: {
+  //     do: require('./sketch'),
+  //     undo: () => console.log('no undo')
+  //   }
+  // },
   platforms: {
     scss: {
       transformGroup: "scss",
@@ -57,21 +63,10 @@ module.exports = {
         }
       ]
     },
-    sketch: {
-      transforms: ["name/cti/camel","attribute/cti", "color/sketch"],
-      buildPath: "dist/sketch/",
-      files: [
-        {
-          destination: "tokens.sketchpalette",
-          format: "sketch/palette/v2",
-          filter: {
-            attributes: {
-              category: "color"
-            }
-          }
-        }
-      ]
-    },
+    // sketch: {
+    //   transforms: ['attribute/cti','name/cti/snake'],
+    //   actions: ['buildSketch']
+    // },
     android: {
       transformGroup: "android",
       buildPath: "dist/android/",
