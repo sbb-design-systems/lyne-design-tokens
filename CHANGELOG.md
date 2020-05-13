@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.10.0...v1.11.0) (2020-05-13)
+
+
+### Features
+
+* test color change ([395cd2c](https://github.com/lyne-design-system/lyne-design-tokens/commit/395cd2c27cd6ae69662d0124f61a5ea33d849e29))
+
 # [1.10.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.9.1...v1.10.0) (2020-04-22)
 
 
