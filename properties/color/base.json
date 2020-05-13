@@ -3,7 +3,7 @@
     "base": {
       "red": {
         "regular" : {
-          "value": "#009A00",
+          "value": "#EB0000",
           "comment": "Main red color"
         },
         "medium": {"value": "#C60018"},
