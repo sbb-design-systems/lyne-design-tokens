@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.0...v1.11.1) (2020-05-13)
+
+
+### Bug Fixes
+
+* revert test change ([cff9971](https://github.com/lyne-design-system/lyne-design-tokens/commit/cff997171cb233ef7a96e3316dd0fff1c8cfcb97))
+
 # [1.11.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.10.0...v1.11.0) (2020-05-13)
 
 
