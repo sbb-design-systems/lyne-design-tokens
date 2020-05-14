@@ -16,7 +16,7 @@
     "husky": "^4.2.3",
     "lodash": "^4.17.15",
     "semantic-release": "^17.0.4",
-    "semantic-release-slack-bot": "^1.6.1",
+    "semantic-release-slack-bot": "^1.6.2",
     "sketch-constructor": "^1.20.1"
   },
   "files": [
