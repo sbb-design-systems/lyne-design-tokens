@@ -4,7 +4,7 @@
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
   "main": "index.js",
   "dependencies": {
-    "style-dictionary": "^2.8.3"
+    "style-dictionary": "^2.10.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -13,10 +13,10 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
-    "husky": "^4.2.3",
+    "husky": "^4.2.5",
     "lodash": "^4.17.15",
-    "semantic-release": "^17.0.4",
-    "semantic-release-slack-bot": "^1.6.1",
+    "semantic-release": "^17.0.7",
+    "semantic-release-slack-bot": "^1.6.2",
     "sketch-constructor": "^1.20.1"
   },
   "files": [
