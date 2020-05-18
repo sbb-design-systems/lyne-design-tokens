@@ -1,3 +1,10 @@
+## [1.11.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.2...v1.11.3) (2020-05-18)
+
+
+### Bug Fixes
+
+* add slack notification for travis builds ([a07ad9e](https://github.com/lyne-design-system/lyne-design-tokens/commit/a07ad9e7922882076b8e76575251948971d76e55))
+
 ## [1.11.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.1...v1.11.2) (2020-05-18)
 
 
