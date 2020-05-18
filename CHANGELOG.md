@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.1...v1.11.2) (2020-05-18)
+
+
+### Bug Fixes
+
+* reformat release message (fake fix to trigger release) ([109a13d](https://github.com/lyne-design-system/lyne-design-tokens/commit/109a13d1478f41896dd86f456f8fca6e4e358630))
+
 ## [1.11.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.0...v1.11.1) (2020-05-13)
 
 
