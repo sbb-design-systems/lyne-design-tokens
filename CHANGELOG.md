@@ -1,3 +1,11 @@
+## [1.11.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.4...v1.11.5) (2020-07-10)
+
+
+### Bug Fixes
+
+* change description of base color ([6a70cfa](https://github.com/lyne-design-system/lyne-design-tokens/commit/6a70cfa63d18587498cbd4bd43aa867e40e9c158))
+* temporary change base color ([444db46](https://github.com/lyne-design-system/lyne-design-tokens/commit/444db4607e273cf135933aba8bc018beb6081bdf))
+
 ## [1.11.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.3...v1.11.4) (2020-06-02)
 
 
