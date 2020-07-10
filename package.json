@@ -1,18 +1,20 @@
 {
   "name": "lyne-design-tokens",
-  "version": "1.11.3",
+  "version": "1.11.4",
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
   "main": "index.js",
   "dependencies": {
     "style-dictionary": "^2.10.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@prantlf/jsonlint": "^10.2.0",
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-yaml": "^0.2.0",
     "husky": "^4.2.5",
     "lodash": "^4.17.15",
     "semantic-release": "^17.0.8",
@@ -24,7 +26,9 @@
   ],
   "scripts": {
     "build": "node ./build.js",
-    "lint": "./node_modules/@prantlf/jsonlint/lib/cli.js -q ./properties/**/*.json",
+    "lint": "npm run lint:json && npm run lint:yml",
+    "lint:json": "eslint ./ --ext .json",
+    "lint:yml": "eslint ./ --ext .yml,.yaml",
     "semantic-release": "semantic-release"
   },
   "repository": {

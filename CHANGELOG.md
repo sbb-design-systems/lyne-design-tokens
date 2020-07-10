@@ -1,3 +1,12 @@
+## [1.11.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.3...v1.11.4) (2020-06-02)
+
+
+### Bug Fixes
+
+* add eslint as a dependency ([dc2f658](https://github.com/lyne-design-system/lyne-design-tokens/commit/dc2f65802e50bbbe604b56db5dbf8f21ba55d1ce))
+* add eslint config ([311f718](https://github.com/lyne-design-system/lyne-design-tokens/commit/311f718778c17b909a42439400b031e922e24a34))
+* add line breaks in json files ([81e5a82](https://github.com/lyne-design-system/lyne-design-tokens/commit/81e5a82f7a0abaf57f94163d2d41cb6a1488ffc2))
+
 ## [1.11.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.2...v1.11.3) (2020-05-18)
 
 

@@ -6,10 +6,16 @@
           "value": "#000000",
           "comment": "Main red color"
         },
-        "medium": {"value": "#C60018"},
-        "dark"  : {"value": "#A20013"}
+        "medium": {
+          "value": "#C60018"
+        },
+        "dark": {
+          "value": "#A20013"
+        }
       },
-      "white": {"value": "#FFFFFF"},
+      "white": {
+        "value": "#FFFFFF"
+      },
       "green": {
         "value": "#FFFFFF",
         "deprecated": true,
