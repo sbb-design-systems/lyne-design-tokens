@@ -4,7 +4,7 @@
       "red": {
         "regular" : {
           "value": "#000000",
-          "comment": "Main red color"
+          "comment": "Main red color (temporary black)"
         },
         "medium": {
           "value": "#C60018"
