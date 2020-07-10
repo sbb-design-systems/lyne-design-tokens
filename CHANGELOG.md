@@ -1,3 +1,10 @@
+## [1.11.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.5...v1.11.6) (2020-07-10)
+
+
+### Bug Fixes
+
+* revert base color change ([fa3290d](https://github.com/lyne-design-system/lyne-design-tokens/commit/fa3290d8865265b072cb1787ca596c613339bf90))
+
 ## [1.11.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.4...v1.11.5) (2020-07-10)
 
 
