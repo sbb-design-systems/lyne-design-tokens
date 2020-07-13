@@ -1,3 +1,10 @@
+## [1.11.7](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.6...v1.11.7) (2020-07-13)
+
+
+### Bug Fixes
+
+* change main color ([588a587](https://github.com/lyne-design-system/lyne-design-tokens/commit/588a5879b1d7e0a7290310ec1295b532f186e88b))
+
 ## [1.11.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.5...v1.11.6) (2020-07-10)
 
 
