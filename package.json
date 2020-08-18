@@ -12,6 +12,8 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
+    "axios": "~0.19.2",
+    "dotenv": "~8.2.0",
     "eslint": "^7.0.0",
     "eslint-plugin-json": "^2.1.1",
     "eslint-plugin-yaml": "^0.3.0",
@@ -19,6 +21,7 @@
     "lodash": "^4.17.15",
     "semantic-release": "^17.0.8",
     "semantic-release-slack-bot": "^1.6.2",
+    "shelljs": "~0.8.4",
     "sketch-constructor": "^1.20.1"
   },
   "files": [
@@ -26,7 +29,7 @@
   ],
   "scripts": {
     "build": "node ./build.js",
-    "figma:extract": "figma_extractor/figma_extractor.sh",
+    "figma:extract": "node figma_extractor/figma_extractor.js",
     "lint": "npm run lint:json && npm run lint:yml",
     "lint:json": "eslint ./ --ext .json",
     "lint:yml": "eslint ./ --ext .yml,.yaml",
