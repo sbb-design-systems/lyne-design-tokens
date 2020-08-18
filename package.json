@@ -26,6 +26,7 @@
   ],
   "scripts": {
     "build": "node ./build.js",
+    "figma:extract": "figma_extractor/figma_extractor.sh",
     "lint": "npm run lint:json && npm run lint:yml",
     "lint:json": "eslint ./ --ext .json",
     "lint:yml": "eslint ./ --ext .yml,.yaml",
