@@ -28,7 +28,8 @@
     "dist/"
   ],
   "scripts": {
-    "build": "node ./build.js",
+    "build": "npm run figma:extract && npm run build:stiledictionary",
+    "build:stiledictionary": "node ./build.js",
     "figma:extract": "node figmaExtractor/figmaExtractor.js",
     "lint": "npm run lint:json && npm run lint:yml",
     "lint:json": "eslint ./ --ext .json",
