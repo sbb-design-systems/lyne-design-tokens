@@ -16,16 +16,13 @@ const config = {
     childTypes: {
       frame: 'FRAME',
       group: 'GROUP',
-      text: 'TEXT'
+      text: 'TEXT',
+      rectangle: 'RECTANGLE'
     },
     styleTypes: {
       color: 'color',
       fontSize: 'fontSize',
       typography: 'typography'
-    },
-    elementNames: {
-      rectangle: 'RECTANGLE',
-      text: 'text'
     }
   },
   output: {
@@ -33,6 +30,7 @@ const config = {
   }
 };
 
+// self-invoking
 (async () => {
 
   try {
@@ -45,6 +43,7 @@ const config = {
     const figmaData = await figmaApi(apiConfig);
     const figmaFrames = getFigmaFrames(figmaData, config);
     const figmaJson = getFigmaJson(figmaFrames, config);
+
     writeJson(figmaJson, config);
 
     console.log('-->> FIGMA JSON EXTRACTED SUCCESSFULLY');
