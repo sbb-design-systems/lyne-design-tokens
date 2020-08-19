@@ -32,7 +32,6 @@ const config = {
 
 // self-invoking
 (async () => {
-
   try {
 
     const apiConfig = {
