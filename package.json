@@ -31,8 +31,7 @@
     "build": "npm run figma:extract && npm run build:stiledictionary",
     "build:stiledictionary": "node ./build.js",
     "figma:extract": "node figmaExtractor/figmaExtractor.js",
-    "lint": "npm run lint:json && npm run lint:yml",
-    "lint:json": "eslint ./ --ext .json",
+    "lint": "npm run lint:yml",
     "lint:yml": "eslint ./ --ext .yml,.yaml",
     "semantic-release": "semantic-release"
   },
