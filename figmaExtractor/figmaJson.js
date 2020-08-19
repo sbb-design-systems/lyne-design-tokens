@@ -26,7 +26,7 @@ const rgbaToHex = (color) => {
 
 // iterate children until no more children are found and build up the final
 // json
-const buildFinalJson = (children, finalJson, figmaType, styleProperty) => {
+const buildFinalJson = (children, finalJson, figmaType, styleProperty, config) => {
 
   while (children.length > 0) {
     const child = children.pop();
@@ -34,38 +34,38 @@ const buildFinalJson = (children, finalJson, figmaType, styleProperty) => {
     if (child.type === figmaType) {
       let value;
 
-      if (styleProperty === 'color') {
+      if (styleProperty === config.figma.styleTypes.color) {
         value = rgbaToHex(child.fills[0].color);
-      } else if (styleProperty === 'fontSize') {
+      } else if (styleProperty === config.figma.styleTypes.fontSize) {
         value = child.style.fontSize;
       }
 
       finalJson[child.name] = {
         value: value
       };
-    } else if (child.type === 'GROUP') {
+    } else if (child.type === config.figma.childTypes.group) {
       const groupChildren = child.children;
       const groupName = child.name;
 
-      finalJson[groupName] = buildFinalJson(groupChildren, {}, figmaType, styleProperty);
+      finalJson[groupName] = buildFinalJson(groupChildren, {}, figmaType, styleProperty, config);
     }
   }
 
   return finalJson;
 };
 
-module.exports = (frames) => {
+module.exports = (frames, config) => {
   const designTokens = [];
 
   // build colors
-  const colorFrame = getFrameForName('color', frames);
+  const colorFrame = getFrameForName(config.figma.frameNames.color, frames);
   const colorChildren = colorFrame.children;
-  const colorJson = buildFinalJson(colorChildren, {}, 'RECTANGLE', 'color');
+  const colorJson = buildFinalJson(colorChildren, {}, config.figma.childTypes.rectangle, config.figma.styleTypes.color, config);
 
   // build font sizes
-  const typoFrame = getFrameForName('typography', frames);
+  const typoFrame = getFrameForName(config.figma.frameNames.typography, frames);
   const typoChildren = typoFrame.children;
-  const fontSizeJson = buildFinalJson(typoChildren, {}, 'TEXT', 'fontSize');
+  const fontSizeJson = buildFinalJson(typoChildren, {}, config.figma.childTypes.text, config.figma.styleTypes.fontSize, config);
 
   return {
     color: { // this key will be the file name of the json

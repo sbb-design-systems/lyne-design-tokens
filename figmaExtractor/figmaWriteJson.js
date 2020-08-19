@@ -1,10 +1,11 @@
 const fs = require('fs');
 
-module.exports = (json) => {
+module.exports = (json, config) => {
 
   // make sure directory is there
-  if (!fs.existsSync('./properties')) {
-    fs.mkdirSync('./properties');
+  const outputFolder = `./${config.output.folder}`;
+  if (!fs.existsSync(outputFolder)) {
+    fs.mkdirSync(outputFolder);
   }
 
   // the main keys in the object are used as
@@ -14,7 +15,7 @@ module.exports = (json) => {
   keys.forEach((key) => {
     const content = json[key];
 
-    fs.writeFileSync(`./properties/${key}.json`, JSON.stringify(content));
+    fs.writeFileSync(`${outputFolder}/${key}.json`, JSON.stringify(content));
   });
 
 }

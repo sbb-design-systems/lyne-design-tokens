@@ -1,5 +1,5 @@
 // Get frames from 1st page of the Figma file
-module.exports = (figmaData) => {
+module.exports = (figmaData, config) => {
 
   // make sure that file is not empty
   const figmaDocument = figmaData.document;
@@ -27,7 +27,7 @@ module.exports = (figmaData) => {
   }
 
   const figmaFrames = figmaChildren.filter((frame) => {
-    return frame.type === 'FRAME';
+    return frame.type === config.figma.childTypes.frame;
   });
 
   if (figmaFrames.length < 1) {

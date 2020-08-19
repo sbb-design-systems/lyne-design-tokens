@@ -7,9 +7,31 @@ const writeJson = require('./figmaWriteJson');
 require('dotenv').config();
 
 // general configuration
-// const config = {
-  // destinationFileName: './figma_extractor/figma.json'
-// };
+const config = {
+  figma: {
+    frameNames: {
+      color: 'color',
+      typography: 'typography'
+    },
+    childTypes: {
+      frame: 'FRAME',
+      group: 'GROUP',
+      text: 'TEXT'
+    },
+    styleTypes: {
+      color: 'color',
+      fontSize: 'fontSize',
+      typography: 'typography'
+    },
+    elementNames: {
+      rectangle: 'RECTANGLE',
+      text: 'text'
+    }
+  },
+  output: {
+    folder: 'properties'
+  }
+};
 
 (async () => {
 
@@ -21,14 +43,15 @@ require('dotenv').config();
     };
 
     const figmaData = await figmaApi(apiConfig);
-    const figmaFrames = getFigmaFrames(figmaData);
-    const figmaJson = getFigmaJson(figmaFrames);
-    writeJson(figmaJson);
+    const figmaFrames = getFigmaFrames(figmaData, config);
+    const figmaJson = getFigmaJson(figmaFrames, config);
+    writeJson(figmaJson, config);
 
+    console.log('-->> FIGMA JSON EXTRACTED SUCCESSFULLY');
     shell.exit(0);
 
   } catch (error) {
     console.log(error);
-    shell.exit(0);
+    shell.exit(1);
   }
 })();
