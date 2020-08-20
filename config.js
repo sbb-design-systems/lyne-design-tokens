@@ -9,6 +9,7 @@ module.exports = {
   platforms: {
     scss: {
       transformGroup: "scss",
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "color/css"],
       buildPath: "dist/scss/",
       files: [
         {
@@ -19,6 +20,7 @@ module.exports = {
     },
     less: {
       transformGroup: "less",
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "color/hex"],
       buildPath: "dist/less/",
       files: [{
         destination: "_variables.less",
@@ -27,6 +29,7 @@ module.exports = {
     },
     css: {
       transformGroup: "css",
+      transforms: ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/px", "color/css"],
       buildPath: "dist/css/",
       files: [{
         destination: "_variables.css",
@@ -35,6 +38,7 @@ module.exports = {
     },
     js: {
       transformGroup: "js",
+      transforms: ['attribute/cti', 'name/cti/pascal', 'size/px', 'color/hex'],
       buildPath: "dist/js/",
       files: [
         {
