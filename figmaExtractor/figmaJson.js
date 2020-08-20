@@ -72,9 +72,9 @@ module.exports = (frames, config) => {
     color: { // this key will be the file name of the json
       color: colorJson
     },
-    font: {
-      font: {
-        size: fontSizeJson
+    size: {
+      size: {
+        font: fontSizeJson
       }
     }
   };
