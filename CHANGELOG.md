@@ -1,3 +1,10 @@
+## [1.12.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.2...v1.12.3) (2020-08-20)
+
+
+### Bug Fixes
+
+* fake commit to trigger release ([90630f1](https://github.com/lyne-design-system/lyne-design-tokens/commit/90630f11d485a7e3d952dd3656140ca062dabf3f))
+
 ## [1.12.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.1...v1.12.2) (2020-08-20)
 
 
