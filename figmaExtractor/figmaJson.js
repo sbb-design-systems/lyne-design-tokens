@@ -31,16 +31,17 @@ const buildFinalJson = (children, finalJson, figmaType, styleProperty, config) =
   while (children.length > 0) {
     const child = children.pop();
 
-    if (child.type === figmaType) {
+    if (child.type === config.figma.childTypes.component) {
+      const realChild = child.children[0];
       let value;
 
       if (styleProperty === config.figma.styleTypes.color) {
-        value = rgbaToHex(child.fills[0].color);
+        value = rgbaToHex(realChild.fills[0].color);
       } else if (styleProperty === config.figma.styleTypes.fontSize) {
-        value = child.style.fontSize;
+        value = realChild.style.fontSize;
       }
 
-      finalJson[child.name] = {
+      finalJson[realChild.name] = {
         value: value
       };
     } else if (child.type === config.figma.childTypes.group) {
@@ -77,4 +78,5 @@ module.exports = (frames, config) => {
       }
     }
   };
+
 };

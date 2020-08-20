@@ -17,7 +17,8 @@ const config = {
       frame: 'FRAME',
       group: 'GROUP',
       text: 'TEXT',
-      rectangle: 'RECTANGLE'
+      rectangle: 'RECTANGLE',
+      component: 'COMPONENT'
     },
     styleTypes: {
       color: 'color',
@@ -41,6 +42,7 @@ const config = {
 
     const figmaData = await figmaApi(apiConfig);
     const figmaFrames = getFigmaFrames(figmaData, config);
+
     const figmaJson = getFigmaJson(figmaFrames, config);
 
     writeJson(figmaJson, config);
