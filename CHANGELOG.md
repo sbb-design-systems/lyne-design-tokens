@@ -1,3 +1,11 @@
+## [1.12.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.1...v1.12.2) (2020-08-20)
+
+
+### Bug Fixes
+
+* fake commit to trigger release ([dde287d](https://github.com/lyne-design-system/lyne-design-tokens/commit/dde287d493d77fb78954667f09ad5ee04dbd9965))
+* make sure font size is defined in px ([f248ef3](https://github.com/lyne-design-system/lyne-design-tokens/commit/f248ef37b3082dffb6f70c0ff3eae1f6203c1186))
+
 ## [1.12.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.0...v1.12.1) (2020-08-20)
 
 
