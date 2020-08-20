@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.0...v1.12.1) (2020-08-20)
+
+
+### Bug Fixes
+
+* font size json ([edc09f9](https://github.com/lyne-design-system/lyne-design-tokens/commit/edc09f94e1560a1e2e7eeaf7b3b1385a2ee8f49f))
+
 # [1.12.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.8...v1.12.0) (2020-08-20)
 
 
