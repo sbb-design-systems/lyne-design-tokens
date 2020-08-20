@@ -64,7 +64,7 @@ module.exports = (frames, config) => {
   const colorJson = buildFinalJson(colorChildren, {}, config.figma.childTypes.rectangle, config.figma.styleTypes.color, config);
 
   // build font sizes
-  const typoFrame = getFrameForName(config.figma.frameNames.typography, frames);
+  const typoFrame = getFrameForName(config.figma.frameNames.fontSize, frames);
   const typoChildren = typoFrame.children;
   const fontSizeJson = buildFinalJson(typoChildren, {}, config.figma.childTypes.text, config.figma.styleTypes.fontSize, config);
 

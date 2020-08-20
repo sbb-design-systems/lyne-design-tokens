@@ -11,7 +11,7 @@ const config = {
   figma: {
     frameNames: {
       color: 'color',
-      typography: 'typography'
+      fontSize: 'font-size'
     },
     childTypes: {
       frame: 'FRAME',
@@ -22,8 +22,7 @@ const config = {
     },
     styleTypes: {
       color: 'color',
-      fontSize: 'fontSize',
-      typography: 'typography'
+      fontSize: 'fontSize'
     }
   },
   output: {
