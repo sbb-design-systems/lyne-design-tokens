@@ -1,6 +1,6 @@
 {
   "name": "lyne-design-tokens",
-  "version": "1.11.8",
+  "version": "1.12.0",
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
   "main": "index.js",
   "dependencies": {

@@ -1,3 +1,26 @@
+# [1.12.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.8...v1.12.0) (2020-08-20)
+
+
+### Bug Fixes
+
+* add comments, uncommend non-zero exit code for travis ([bed5093](https://github.com/lyne-design-system/lyne-design-tokens/commit/bed509390033a84a3c436bb44a8adf12079a8a64))
+* add correct build scripts ([68d7d93](https://github.com/lyne-design-system/lyne-design-tokens/commit/68d7d9326b1164828bf929c45e3e0c13fd691257))
+* add properties folder to gitignore ([6470c31](https://github.com/lyne-design-system/lyne-design-tokens/commit/6470c31922cf1087fe8fa38ac8147379c5c554ed))
+* correct comment ([90ddd97](https://github.com/lyne-design-system/lyne-design-tokens/commit/90ddd97cadd3537f9139ce8a5dd3d3611c8aac60))
+* remove json lint ([934a5bf](https://github.com/lyne-design-system/lyne-design-tokens/commit/934a5bf12449a79b59a52e003ab58cf12582ec44))
+* remove shell script, get figma json in node instead ([2c5fbfa](https://github.com/lyne-design-system/lyne-design-tokens/commit/2c5fbfab8a6406a8fbee43b1fa2ddcb0876e4dfe))
+* switch frames and texts to figma components ([3f7d93d](https://github.com/lyne-design-system/lyne-design-tokens/commit/3f7d93d14b7c0699e8a0323e2b8041615e5c8e0b))
+* use correct config parameter ([b0656cb](https://github.com/lyne-design-system/lyne-design-tokens/commit/b0656cb6921b51beee37842ca5478704344b54f3))
+
+
+### Features
+
+* add npm script to run figma shell script ([38d5cb0](https://github.com/lyne-design-system/lyne-design-tokens/commit/38d5cb09a0fba499555931cd435c8175a0a26809))
+* add shell script to get file info json from figma api ([62177f3](https://github.com/lyne-design-system/lyne-design-tokens/commit/62177f3444ad80a46de8e02d7445be762452cded))
+* extract design values from figma file ([05fe6c9](https://github.com/lyne-design-system/lyne-design-tokens/commit/05fe6c9fa7eb957fca9ff902843716635a3d5876))
+* finalize workflow ([1850be3](https://github.com/lyne-design-system/lyne-design-tokens/commit/1850be3f641aa69124d6013fbf6e4c2a848b1b97))
+* write json files ([4c49c3b](https://github.com/lyne-design-system/lyne-design-tokens/commit/4c49c3b9873e47e2750b8941e5cf9d9bff5af852))
+
 ## [1.11.8](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.11.7...v1.11.8) (2020-07-17)
 
 
