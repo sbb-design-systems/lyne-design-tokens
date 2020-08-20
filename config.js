@@ -1,6 +1,5 @@
 module.exports = {
   source: ["properties/**/*.json"],
-
   // action: {
   //   buildSketch: {
   //     do: require('./sketch'),
