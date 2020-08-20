@@ -8,10 +8,6 @@ module.exports = {
       sourceType: 'module'
     },
     plugins: [
-      'yaml',
-      'json'
-    ],
-    extends: [
-      'plugin:json/recommended'
+      'yaml'
     ]
 };

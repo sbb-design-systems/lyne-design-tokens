@@ -2,7 +2,9 @@
 
 # Lyne Design Tokens
 
-Managing and publishing design tokens for the lyne design system: [https://github.com/lyne-design-system](https://github.com/lyne-design-system).
+Automatically generate design tokens for the lyne design system based on the Figma Design Library:
+- Lyne Design System: [https://github.com/lyne-design-system](https://github.com/lyne-design-system).
+- Lyne Figma Library [https://www.figma.com/file/mWknI2rC5DJmOgRO61WKai/LyneDesignSystemLibrary?node-id=2%3A2](https://www.figma.com/file/mWknI2rC5DJmOgRO61WKai/LyneDesignSystemLibrary?node-id=2%3A2)
 
 ## Installation
 
@@ -21,12 +23,36 @@ Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-
 
 Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to make sure we can automatically determine the next release version if any.
 
-### JSON Lint
-
-Since the heart of this repo are the configuration json files inside the properties folder, we use jsonlint to make sure we don't have parsing errors in the json. This will automatically be checked in the CI before the release is deployed.
-
-If you develop locally, make sure to run ```npm run jsonlint``` before commiting and pushing to the repo.
-
 ## Deployment
 
-TravisCI is building as soon as a branch gets merged into the master branch. After successfull linting, the package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
+The TravisCI job to build and deploy the design tokens will be triggered as soon as the Team Library Figma File is changed an published. In that case, the configured Figma webhook will fire a request to the Express server hosted on Heroku (https://powerful-harbor-93786.herokuapp.com/). After the express server has verified, that the request comes from the corresponding figma file, it will trigger the Travis build via API.
+
+As well, TravisCI is building as soon as a branch gets merged into the master branch. After successfull linting, the package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
+
+## Figma
+
+For the whole workflow to work correctly, it is neccessary that the Figma Team Library File has the proper content. Following are the requirements:
+- All the style definitions must be on the first page of the figma document.
+- Every design token type should be listed on a separate frame in Figma. If you want to define colors, make a frame named "colors".
+- Every token must be defined as a Figma Component. If you want to define a color design token, make a frame, give it a background color and convert it to a component.
+- Every component shall only have one child element (for example a frame representing a color). That child must be named correctly. If you want to create a design token for red color, name the child red.
+- Everything inside a frame can be organized in groups as you like.
+
+### Examples
+
+#### color-white
+- Frame: color
+  - Component (name does not matter)
+    - Child: white (a frame with white background)
+
+#### color-red-regular
+- Frame: color
+  - Group: red
+    - Component (name does not matter)
+      - Child: regular (a frame with red background)
+
+#### font-size-headline-1
+- Frame: font-size
+  - Group: headline
+    - Component (name does not matter)
+      - Child: 1 (A Text box with a text that has desired font size)

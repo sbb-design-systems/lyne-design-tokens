@@ -1,9 +1,0 @@
-{
-  "color": {
-    "font": {
-      "base": {
-        "value": "{color.base.white.value}"
-      }
-    }
-  }
-}
