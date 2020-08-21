@@ -1,3 +1,4 @@
+const shell = require('shelljs');
 const fs = require("fs");
 const path = require("path");
 const simpleGit = require('simple-git');
@@ -20,10 +21,18 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 };
 
 (async () => {
-  const propertiesFiles = getAllFiles('./properties');
-  console.log(propertiesFiles);
+  try {
+    const propertiesFiles = getAllFiles('./properties');
 
-  await git.add(propertiesFiles);
-  await git.commit('fix: figma library update');
-  await git.push('origin', 'master');
+    await git.add(propertiesFiles);
+    await git.commit('fix: figma library update');
+    //await git.push('origin', 'master');
+
+    console.log('-->> successfully puhed files back to git');
+    shell.exit(0);
+  } catch (e) {
+    console.log('Error while pushing files back to git');
+
+    shell.exit(1);
+  }
 })();
