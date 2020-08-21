@@ -1,2 +1,1 @@
-- Adopt documentation to new workflow with figma
 - Add linter for figmaExtractor files
