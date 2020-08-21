@@ -2,6 +2,7 @@ const shell = require('shelljs');
 const fs = require("fs");
 const path = require("path");
 const simpleGit = require('simple-git');
+require('dotenv').config();
 const git = simpleGit();
 
 const getAllFiles = function(dirPath, arrayOfFiles) {
@@ -26,12 +27,15 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 
     await git.add(propertiesFiles);
     await git.commit('fix: figma library update');
-    await git.push('origin', 'master');
+
+    const remote = `https://lyne-admin:${process.env.GH_TOKEN}@github.com/lyne-design-system/lyne-design-tokens`;
+
+    await git.push(remote, 'origin', 'master');
 
     console.log('-->> successfully puhed files back to git');
     shell.exit(0);
   } catch (e) {
-    console.log('Error while pushing files back to git');
+    console.log('-->> Error while pushing files back to git');
     console.log(e);
 
     shell.exit(1);
