@@ -32,6 +32,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
     shell.exit(0);
   } catch (e) {
     console.log('Error while pushing files back to git');
+    console.log(e);
 
     shell.exit(1);
   }
