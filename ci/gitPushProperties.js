@@ -28,11 +28,11 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
     await git.add(propertiesFiles);
     await git.commit('fix: figma library update');
 
-    const remote = `https://lyne-admin:${process.env.GH_TOKEN}@github.com/lyne-design-system/lyne-design-tokens`;
+    //const remote = `https://lyne-admin:${process.env.GH_TOKEN}@github.com/lyne-design-system///lyne-design-tokens`;
 
-    await git.push([remote, '-u', 'origin', 'master']);
+    //await git.push([remote, '-u', 'origin', 'master']);
 
-    console.log('-->> successfully puhed files back to git');
+    // console.log('-->> successfully puhed files back to git');
     shell.exit(0);
   } catch (e) {
     console.log('-->> Error while pushing files back to git');
