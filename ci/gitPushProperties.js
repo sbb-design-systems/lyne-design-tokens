@@ -26,7 +26,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 
     await git.add(propertiesFiles);
     await git.commit('fix: figma library update');
-    //await git.push('origin', 'master');
+    await git.push('origin', 'master');
 
     console.log('-->> successfully puhed files back to git');
     shell.exit(0);
