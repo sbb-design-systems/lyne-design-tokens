@@ -1,3 +1,11 @@
+## [1.12.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.3...v1.12.4) (2020-08-21)
+
+
+### Bug Fixes
+
+* figma library update ([0d6c0fe](https://github.com/lyne-design-system/lyne-design-tokens/commit/0d6c0fe6e9e893be250b2674e43a8feb074099af))
+* try to push properties file back to repo ([d104a44](https://github.com/lyne-design-system/lyne-design-tokens/commit/d104a44aec1ea4040261e3597cb10a5b6aa707a2))
+
 ## [1.12.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.2...v1.12.3) (2020-08-20)
 
 
