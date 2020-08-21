@@ -18,9 +18,7 @@ jobs:
     script:
     - npm run lint
     - npm run build
-    - git add properties/color.json
-    - git commit -m "fix: figma library update"
-    - git push origin master
+    - node ci/gitPushProperties.js
 
     after_success:
     - npm run semantic-release
