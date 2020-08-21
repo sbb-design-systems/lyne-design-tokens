@@ -27,7 +27,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 
     // git add and commit. Files will be pushed during semantic-release
     await git.add(propertiesFiles);
-    await git.commit('fix: figma library update');
+    await git.commit('fix: figma library update [skip ci]');
 
     shell.exit(0);
   } catch (e) {
