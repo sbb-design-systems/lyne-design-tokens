@@ -1,3 +1,10 @@
+## [1.12.17](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.16...v1.12.17) (2020-08-24)
+
+
+### Bug Fixes
+
+* add skip ci instruction ([dca9a25](https://github.com/lyne-design-system/lyne-design-tokens/commit/dca9a2585dd4b93c62909ebdeb889b68b5cf4b7e))
+
 ## [1.12.16](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.15...v1.12.16) (2020-08-24)
 
 
