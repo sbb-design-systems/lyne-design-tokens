@@ -2,6 +2,7 @@ const shell = require('shelljs');
 const fs = require('fs');
 const path = require('path');
 const simpleGit = require('simple-git');
+const argv = require('minimist');
 
 require('dotenv')
   .config();
@@ -31,9 +32,11 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
 
 (async () => {
   try {
-    const args = process.argv;
+    const commitMessage = argv(process.argv.slice(2));
 
-    console.log(args);
+    console.log(commitMessage);
+
+    console.log(commitMessage['message']);
 
     const propertiesFiles = getAllFiles('./properties');
 
