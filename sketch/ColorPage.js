@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 /*
 const { Page, Artboard } = require('sketch-constructor');
 const colorGroup = require('./colorGroup');

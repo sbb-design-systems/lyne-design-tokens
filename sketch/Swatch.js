@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 /*
 const { Group, Text, Rectangle } = require('sketch-constructor');
 

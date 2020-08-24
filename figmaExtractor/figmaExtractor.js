@@ -4,21 +4,22 @@ const getFigmaFrames = require('./figmaFrames');
 const getFigmaJson = require('./figmaJson');
 const writeJson = require('./figmaWriteJson');
 
-require('dotenv').config();
+require('dotenv')
+  .config();
 
 // general configuration
 const config = {
   figma: {
+    childTypes: {
+      component: 'COMPONENT',
+      frame: 'FRAME',
+      group: 'GROUP',
+      rectangle: 'RECTANGLE',
+      text: 'TEXT'
+    },
     frameNames: {
       color: 'color',
       fontSize: 'font-size'
-    },
-    childTypes: {
-      frame: 'FRAME',
-      group: 'GROUP',
-      text: 'TEXT',
-      rectangle: 'RECTANGLE',
-      component: 'COMPONENT'
     },
     styleTypes: {
       color: 'color',
@@ -35,8 +36,8 @@ const config = {
   try {
 
     const apiConfig = {
-      token: process.env.FIGMA_ACCESS_TOKEN,
-      file: process.env.FIGMA_FILE_URL
+      file: process.env.FIGMA_FILE_URL,
+      token: process.env.FIGMA_ACCESS_TOKEN
     };
 
     const figmaData = await figmaApi(apiConfig);

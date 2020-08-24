@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 /*
 const { Group, stackLayers } = require('sketch-constructor');
 const Swatch = require('./Swatch');

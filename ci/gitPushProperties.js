@@ -1,24 +1,32 @@
 const shell = require('shelljs');
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 const simpleGit = require('simple-git');
-require('dotenv').config();
+
+require('dotenv')
+  .config();
+
 const git = simpleGit();
 
-const getAllFiles = function(dirPath, arrayOfFiles) {
+const getAllFiles = (dirPath, arrayOfFiles) => {
   const files = fs.readdirSync(dirPath);
 
-  arrayOfFiles = arrayOfFiles || [];
+  let _arrayOfFiles = arrayOfFiles || [];
 
-  files.forEach(function(file) {
-    if (fs.statSync(dirPath + "/" + file).isDirectory()) {
-      arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles);
+  files.forEach((file) => {
+    const filePath = `${dirPath}/${file}`;
+    const isDirectory = fs
+      .statSync(filePath)
+      .isDirectory();
+
+    if (isDirectory) {
+      _arrayOfFiles = getAllFiles(filePath, _arrayOfFiles);
     } else {
-      arrayOfFiles.push(path.join(dirPath, "/", file));
+      _arrayOfFiles.push(path.join(dirPath, '/', file));
     }
   })
 
-  return arrayOfFiles
+  return _arrayOfFiles;
 };
 
 (async () => {

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 /*
 const { Sketch } = require('sketch-constructor');
 const ColorPage = require('./ColorPage');

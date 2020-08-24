@@ -13,8 +13,8 @@ module.exports = async (config) => {
     };
 
     const requestConfig = {
-      method: 'GET',
       headers: requestHeaders,
+      method: 'GET',
       url: file
     };
 
@@ -23,6 +23,6 @@ module.exports = async (config) => {
     return figmaJson.data;
 
   } catch (e) {
-    throw new Error('figmaApi.js: ' + e.message);
+    throw new Error(`figmaApi.js: ${e.message}`);
   }
 }
