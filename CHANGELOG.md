@@ -1,3 +1,18 @@
+## [1.12.15](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.14...v1.12.15) (2020-08-24)
+
+
+### Bug Fixes
+
+* figma library update [skip ci] ([d34ed76](https://github.com/lyne-design-system/lyne-design-tokens/commit/d34ed76b97b5c3793ba7a6ce63083ff2780d0492))
+
+## [1.12.14](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.13...v1.12.14) (2020-08-24)
+
+
+### Bug Fixes
+
+* add linter, fix linting styles ([5a0040a](https://github.com/lyne-design-system/lyne-design-tokens/commit/5a0040a577f97da3cd305fc23f4b815c524760ff))
+* figma library update [skip ci] ([8dffac0](https://github.com/lyne-design-system/lyne-design-tokens/commit/8dffac04850277125da5d399163536acb082aac1))
+
 ## [1.12.13](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.12...v1.12.13) (2020-08-24)
 
 
