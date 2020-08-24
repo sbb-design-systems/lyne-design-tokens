@@ -32,17 +32,12 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
 
 (async () => {
   try {
-    const commitMessage = argv(process.argv.slice(2));
-
-    console.log(commitMessage);
-
-    console.log(commitMessage['m']);
-
+    const commitMessage = argv(process.argv.slice(2))['m'];
     const propertiesFiles = getAllFiles('./properties');
 
     // git add and commit. Files will be pushed during semantic-release
     await git.add(propertiesFiles);
-    await git.commit('fix: figma library update [skip ci]');
+    await git.commit(`${commitMessage} [skip ci]`);
 
     shell.exit(0);
   } catch (e) {
