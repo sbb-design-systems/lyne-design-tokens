@@ -1,3 +1,10 @@
+## [1.12.12](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.11...v1.12.12) (2020-08-24)
+
+
+### Bug Fixes
+
+* figma library update [skip ci] ([6207da0](https://github.com/lyne-design-system/lyne-design-tokens/commit/6207da02b3783b5038517d2b38b23edc72512037))
+
 ## [1.12.11](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.10...v1.12.11) (2020-08-24)
 
 
