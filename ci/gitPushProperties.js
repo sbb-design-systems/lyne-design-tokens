@@ -36,7 +36,7 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
 
     console.log(commitMessage);
 
-    console.log(commitMessage['message']);
+    console.log(commitMessage['m']);
 
     const propertiesFiles = getAllFiles('./properties');
 

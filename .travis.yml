@@ -18,7 +18,7 @@ jobs:
     script:
     - npm run lint
     - npm run build
-    - node ci/gitPushProperties.js -message ${message}
+    - node ci/gitPushProperties.js -m ${message}
 
     after_success:
     - npm run semantic-release
