@@ -31,6 +31,10 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
 
 (async () => {
   try {
+    const args = process.argv;
+
+    console.log(args);
+
     const propertiesFiles = getAllFiles('./properties');
 
     // git add and commit. Files will be pushed during semantic-release

@@ -35,10 +35,6 @@ const config = {
 (async () => {
   try {
 
-    const args = process.argv;
-
-    console.log(args);
-
     const apiConfig = {
       file: process.env.FIGMA_FILE_URL,
       token: process.env.FIGMA_ACCESS_TOKEN
