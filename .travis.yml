@@ -22,3 +22,4 @@ jobs:
 
     after_success:
     - npm run semantic-release
+    - ./ci/triggerLyneDocumentation.sh
