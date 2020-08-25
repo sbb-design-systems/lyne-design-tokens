@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.1.2...v2.1.3) (2020-08-25)
+
+
+### Bug Fixes
+
+* new size headline level 1 (triggered from Figma) [skip ci] ([52c86a0](https://github.com/lyne-design-system/lyne-design-tokens/commit/52c86a093979644791312e98dd28ceead6f6f7bd))
+
 ## [2.1.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.1.1...v2.1.2) (2020-08-25)
 
 
