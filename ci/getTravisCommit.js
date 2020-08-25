@@ -19,6 +19,8 @@ module.exports = async (id) => {
       url: `https://api.travis-ci.org/build/${id}`
     };
 
+    console.log(requestConfig);
+
     const travisResponse = await axios.request(requestConfig);
 
     console.log('------------ response');
