@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const simpleGit = require('simple-git');
 const argv = require('minimist');
+const getCommit = require('./getTravisCommit');
 
 require('dotenv')
   .config();
@@ -32,10 +33,9 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
 
 (async () => {
   try {
-    const commitMessage = argv(process.argv.slice(2))['m'];
+    const jobId = argv(process.argv.slice(2))['i'];
+    const commitMessage = await getCommit(jobId);
     const propertiesFiles = getAllFiles('./properties');
-
-    console.log(process.argv);
 
     // git add and commit. Files will be pushed during semantic-release
     await git.add(propertiesFiles);
