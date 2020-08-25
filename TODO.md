@@ -1,4 +1,3 @@
-- Currently, the changed files inside properties folder are commited like "fix: ..." which will make a new patch release. Optimize like that: Designer leaves a comment when publishing the library. According to that comment we decide what kind of release we should do
 - Currently, the design tokens are immediately released. Would it make sense to first create a pull request?
 - The new design tokens need to be installed manually in lyne-components. would it make sense to:
   - ... trigger a build of lyne-components automatically?
