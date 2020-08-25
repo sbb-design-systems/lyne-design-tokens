@@ -1,3 +1,5 @@
+const shouldIgnoreFrame = (frame, config) => frame.name.indexOf(config.frameIgnorePattern) !== -1;
+
 // Get frames from 1st page of the Figma file
 module.exports = (figmaData, config) => {
 
@@ -31,11 +33,14 @@ module.exports = (figmaData, config) => {
   }
 
   const figmaFrames = children.filter((frame) => frame.type === config.figma.childTypes.frame);
+  const onlyNotIgnoredFrames = figmaFrames.filter((frame) => !shouldIgnoreFrame(frame, config));
 
-  if (figmaFrames.length < 1) {
+  if (onlyNotIgnoredFrames.length < 1) {
     throw new Error('ERROR: 1st page of the Figma file does not have any frames');
   }
 
-  return figmaFrames;
+  console.log(onlyNotIgnoredFrames);
+
+  return onlyNotIgnoredFrames;
 
 }

@@ -26,6 +26,7 @@ const config = {
       fontSize: 'fontSize'
     }
   },
+  frameIgnorePattern: '***ignore***',
   output: {
     folder: 'properties'
   }
