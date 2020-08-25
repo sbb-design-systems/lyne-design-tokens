@@ -21,6 +21,10 @@ module.exports = async (id) => {
 
     const travisResponse = await axios.request(requestConfig);
 
+    console.log('------------ response');
+    console.log(travisResponse);
+    console.log('------------ ');
+
     return travisResponse.data.commit.message;
 
   } catch (e) {
