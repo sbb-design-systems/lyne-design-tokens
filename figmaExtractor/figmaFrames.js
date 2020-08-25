@@ -39,8 +39,6 @@ module.exports = (figmaData, config) => {
     throw new Error('ERROR: 1st page of the Figma file does not have any frames');
   }
 
-  console.log(onlyNotIgnoredFrames);
-
   return onlyNotIgnoredFrames;
 
 }
