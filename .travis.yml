@@ -18,7 +18,7 @@ jobs:
     script:
     - npm run lint
     - npm run build
-    - node ci/gitPushProperties.js -i "$TRAVIS_JOB_ID"
+    - node ci/gitPushProperties.js -i "$TRAVIS_BUILD_ID"
 
     after_success:
     - npm run semantic-release
