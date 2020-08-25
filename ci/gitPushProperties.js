@@ -37,10 +37,6 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
     const commitMessage = await getCommit(jobId);
     const propertiesFiles = getAllFiles('./properties');
 
-    console.log('.-------------------');
-    console.log(jobId);
-    console.log(commitMessage);
-
     // git add and commit. Files will be pushed during semantic-release
     await git.add(propertiesFiles);
     await git.commit(`${commitMessage} [skip ci]`);
