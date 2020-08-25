@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.19...v1.13.0) (2020-08-25)
+
+
+### Features
+
+* test feature, should release 1.13.0 (triggered from Figma) [skip ci] ([6a09a98](https://github.com/lyne-design-system/lyne-design-tokens/commit/6a09a989f274af594f8d075c11022f98b763fb5c))
+
 ## [1.12.19](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.18...v1.12.19) (2020-08-25)
 
 
