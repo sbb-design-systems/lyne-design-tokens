@@ -34,6 +34,10 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
 (async () => {
   try {
     const jobId = argv(process.argv.slice(2))['i'];
+
+    console.log('.-------------------');
+    console.log(jobId);
+
     const commitMessage = await getCommit(jobId);
     const propertiesFiles = getAllFiles('./properties');
 
