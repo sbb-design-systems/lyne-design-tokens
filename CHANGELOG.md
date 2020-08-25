@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.0.0...v2.1.0) (2020-08-25)
+
+
+### Features
+
+* add feature to ignore frame in figma ([76c0f38](https://github.com/lyne-design-system/lyne-design-tokens/commit/76c0f3869a851a07bbf1f446f7df6360a690e758))
+
 # [2.0.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.13.0...v2.0.0) (2020-08-25)
 
 
