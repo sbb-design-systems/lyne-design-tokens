@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.13.0...v2.0.0) (2020-08-25)
+
+
+### chore
+
+* added description ([b8ae982](https://github.com/lyne-design-system/lyne-design-tokens/commit/b8ae982afc0656ac0eb424464c5f7e4cf9aae94a))
+
+
+### BREAKING CHANGES
+
+* test breaking change, should release 2.0.0 (triggered from Figma) [skip ci]
+
 # [1.13.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.19...v1.13.0) (2020-08-25)
 
 
