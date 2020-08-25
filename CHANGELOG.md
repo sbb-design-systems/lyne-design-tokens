@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.1.0...v2.1.1) (2020-08-25)
+
+
+### Bug Fixes
+
+* change color red dark (triggered from Figma) [skip ci] ([e698e0f](https://github.com/lyne-design-system/lyne-design-tokens/commit/e698e0fad7f81ecbc18ddda10a550b3540ae40c9))
+
 # [2.1.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.0.0...v2.1.0) (2020-08-25)
 
 
