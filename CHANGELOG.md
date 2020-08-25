@@ -1,3 +1,11 @@
+## [1.12.18](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.17...v1.12.18) (2020-08-25)
+
+
+### Bug Fixes
+
+* fix error message ([4d2edef](https://github.com/lyne-design-system/lyne-design-tokens/commit/4d2edef8697124d5e56448e75cfe906d58dd2d75))
+* get travis commit message for job id from api ([3b24fd6](https://github.com/lyne-design-system/lyne-design-tokens/commit/3b24fd610c12bb83a806a9598eac8735fe510764))
+
 ## [1.12.17](https://github.com/lyne-design-system/lyne-design-tokens/compare/v1.12.16...v1.12.17) (2020-08-24)
 
 
