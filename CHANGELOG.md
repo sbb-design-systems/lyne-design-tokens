@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.0...v2.3.1) (2020-08-26)
+
+
+### Bug Fixes
+
+* update vulerable deps ([47f3b1b](https://github.com/lyne-design-system/lyne-design-tokens/commit/47f3b1b657dc81ea33dbd493ece4e6eeb110b070))
+
 # [2.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.2.0...v2.3.0) (2020-08-26)
 
 
