@@ -2,45 +2,46 @@
 
 # Lyne Design Tokens
 
-Automatically generate design tokens for the lyne design system based on the Figma Design Library:
+Automatically generate Design Tokens for the Lyne Design System based on the Figma Design Library:
 - Lyne Design System: [https://github.com/lyne-design-system](https://github.com/lyne-design-system).
 - Lyne Figma Library [https://www.figma.com/file/mWknI2rC5DJmOgRO61WKai/LyneDesignSystemLibrary?node-id=2%3A2](https://www.figma.com/file/mWknI2rC5DJmOgRO61WKai/LyneDesignSystemLibrary?node-id=2%3A2)
 
 ## Installation
 
-Install the design tokens with the following command:
+Install the Design Tokens with the following command:
 ```bash
 npm install --save-dev lyne-design-tokens
 ```
 
 ## Usage
 
-Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-tokens/dist/`. There you will find the different variables files that you can import and use inside your project.
+Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-tokens/dist/`. There you will find the different variables files which you can import to and use in your project.
 
 ## Development
 
-### Conventinal commit
+### Conventional Commits
 
-Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to make sure we can automatically determine the next release version if any.
+Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification to make sure we can automatically determine the next release version if necessary.
 
 ## Deployment
 
-The TravisCI job to build and deploy the design tokens will be triggered as soon as the Team Library Figma File is changed an published. In that case, the configured Figma webhook will fire a request to the Express server hosted on Heroku (https://powerful-harbor-93786.herokuapp.com/). After the express server has verified, that the request comes from the corresponding figma file, it will trigger the Travis build via API.
+The TravisCI job to build and deploy the Design Tokens will be triggered as soon as the Figma Team Library file got changed and published. In this case, the configured Figma Webhook will fire a request to the Express Server hosted on Heroku (https://powerful-harbor-93786.herokuapp.com/). After the Express Server has verified that the request comes from the corresponding Figma file, it will trigger the Travis build via API.
 
-As well, TravisCI is building as soon as a branch gets merged into the master branch. After successfull linting, the package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
+Furthermore, TravisCI is building as soon as a branch gets merged into the master branch. After successful linting, the Lyne Design Tokens package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
 
 ## Figma
 
-For the whole workflow to work correctly, it is neccessary that the Figma Team Library File has the proper content. Following are the requirements:
-- All the style definitions must be on the first page of the figma document.
-- Every design token type should be listed on a separate frame in Figma. If you want to define colors, make a frame named "colors".
-- Every token must be defined as a Figma Component. If you want to define a color design token, make a frame, give it a background color and convert it to a component.
-- Every component shall only have one child element (for example a frame representing a color). That child must be named correctly. If you want to create a design token for red color, name the child red.
+For the whole workflow to work correctly, it is necessary, that the Figma Team Library file has the proper content. Following are the requirements:
+- All style definitions must be on the first page of the Figma document.
+- Every Design Token type should be listed on a separate frame in Figma. If you want to define colors, create a new frame named "colors".
+- Every token must be defined as a Figma component. If you want to define a color Design Token, create a new frame, give it a background color and convert it to a component.
+- Every component shall only have one child element (for example a frame representing a color). That child must be named correctly. If you want to create a Design Token for the color red, name the child red.
 - Everything inside a frame can be organized in groups as you like.
-- The editor of the Figma Library MUST provide a description when publishing changes to the library. The description shall follow the conventional commit messages.
-- Frames that contain the string ```***ignore***``` in their name are ignored by this workflow.
+- The person who edits the Figma Library MUST provide a description when they want to publish their changes to the library. The description shall follow the Conventional Commit specification as well.
+- Frames which contain the string ```***ignore***``` in their name, will be ignored from processing during the workflow.
 
 ### Examples
+Explaining the necessary structure and naming of the Design Tokens within Figma.
 
 #### color-white
 - Frame: color

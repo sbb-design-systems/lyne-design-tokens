@@ -1,4 +1,4 @@
-- Currently, the design tokens are immediately released. Would it make sense to first create a pull request?
-- The new design tokens need to be installed manually in lyne-components. would it make sense to:
+- Currently, the Design Tokens will get released immediately. Would it make sense to first create a pull request?
+- The new Design Tokens need to be installed manually in lyne-components. would it make sense to:
   - ... trigger a build of lyne-components automatically?
-  - ... create a pull requests at lyne-components with the new design tokens?
+  - ... create a pull requests at lyne-components with the new Design Tokens?
