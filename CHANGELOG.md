@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.2.0...v2.3.0) (2020-08-26)
+
+
+### Features
+
+* add blue (triggered from Figma) [skip ci] ([a356544](https://github.com/lyne-design-system/lyne-design-tokens/commit/a35654403e433c0f18dfb32ee77f9d45e15b7100))
+
 # [2.2.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.1.5...v2.2.0) (2020-08-25)
 
 
