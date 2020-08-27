@@ -22,6 +22,8 @@ const triggerTravis = async (commitMessage) => {
     }
   }
 
+  console.log('-->> Will trigger lyne-components job with message: ', commitMessage);
+
   const requestConfig = {
     body: JSON.stringify(body),
     headers: requestHeaders,
