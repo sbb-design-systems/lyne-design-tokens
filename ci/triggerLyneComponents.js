@@ -6,9 +6,10 @@ const getCommit = require('./getTravisCommit');
 require('dotenv')
   .config();
 
-const triggerTravis = async (commitMessage) => {
+const triggerTravis = async (_commitMessage) => {
   const travisUrl = 'https://api.travis-ci.org/repo/lyne-design-system%2Flyne-components/requests';
   const travisToken = process.env.TRAVIS_TOKEN;
+  const commitMessage = `${_commitMessage} (triggered from design tokens build)`;
   const requestHeaders = {
     'Accept': 'application/json',
     'Authorization': `token ${travisToken}`,
@@ -18,14 +19,14 @@ const triggerTravis = async (commitMessage) => {
 
   const body = {
     request: {
-      message: `${commitMessage} (triggered from design tokens build)`
+      message: commitMessage
     }
   }
 
   console.log('-->> Will trigger lyne-components job with message: ', commitMessage);
 
   const requestConfig = {
-    body: JSON.stringify(body),
+    data: body,
     headers: requestHeaders,
     method: 'POST',
     url: travisUrl
