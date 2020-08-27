@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.4...v2.3.5) (2020-08-27)
+
+
+### Bug Fixes
+
+* add log ([6859a20](https://github.com/lyne-design-system/lyne-design-tokens/commit/6859a203d96c7a8a05e6acf3b1de70bea616ec30))
+
 ## [2.3.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.3...v2.3.4) (2020-08-27)
 
 
