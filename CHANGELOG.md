@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.4.1...v2.5.0) (2020-08-27)
+
+
+### Features
+
+* revert red color (triggered from Figma) [skip ci] ([f6a6d98](https://github.com/lyne-design-system/lyne-design-tokens/commit/f6a6d98783acd6f42cc17f97a36a1a5fbd4597d1))
+
 ## [2.4.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.4.0...v2.4.1) (2020-08-27)
 
 
