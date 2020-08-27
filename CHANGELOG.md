@@ -1,3 +1,10 @@
+## [2.3.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.5...v2.3.6) (2020-08-27)
+
+
+### Bug Fixes
+
+* use data instead of body attribute in axios request ([4981d60](https://github.com/lyne-design-system/lyne-design-tokens/commit/4981d605879b5fde1ed92457c0c6dfaf88e6a60e))
+
 ## [2.3.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.4...v2.3.5) (2020-08-27)
 
 
