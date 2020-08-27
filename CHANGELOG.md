@@ -1,3 +1,10 @@
+## [2.3.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.2...v2.3.3) (2020-08-27)
+
+
+### Bug Fixes
+
+* trying out new workflow, should update lyne-components (triggered from Figma) [skip ci] ([8b1013f](https://github.com/lyne-design-system/lyne-design-tokens/commit/8b1013fe6f4eb1c122e72167c71d7a76c26b941d))
+
 ## [2.3.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.1...v2.3.2) (2020-08-26)
 
 
