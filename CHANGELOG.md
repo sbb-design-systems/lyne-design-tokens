@@ -1,3 +1,10 @@
+## [2.3.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.3...v2.3.4) (2020-08-27)
+
+
+### Bug Fixes
+
+* try worflow 2 (triggered from Figma) [skip ci] ([b6565c6](https://github.com/lyne-design-system/lyne-design-tokens/commit/b6565c67b1cf8bf7bb71667ce43b410d5c04d9c0))
+
 ## [2.3.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.2...v2.3.3) (2020-08-27)
 
 
