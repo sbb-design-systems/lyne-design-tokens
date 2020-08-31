@@ -1,3 +1,10 @@
+## [2.5.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.1...v2.5.2) (2020-08-31)
+
+
+### Bug Fixes
+
+* revert color red-regular from pink-ish back to red (triggered from Figma) [skip ci] ([36931e5](https://github.com/lyne-design-system/lyne-design-tokens/commit/36931e5851374c5d6ee87a0a66525c2a170b686f))
+
 ## [2.5.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.0...v2.5.1) (2020-08-31)
 
 
