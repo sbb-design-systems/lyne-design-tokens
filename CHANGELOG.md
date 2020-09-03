@@ -1,3 +1,10 @@
+## [2.5.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.5...v2.5.6) (2020-09-03)
+
+
+### Bug Fixes
+
+* change red to green (triggered from Figma) [skip ci] ([1e2c27e](https://github.com/lyne-design-system/lyne-design-tokens/commit/1e2c27ef75d2109ba007c1181cbc008d33e3a3ee))
+
 ## [2.5.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.4...v2.5.5) (2020-09-02)
 
 
