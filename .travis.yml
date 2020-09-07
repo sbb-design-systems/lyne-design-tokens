@@ -16,7 +16,6 @@ jobs:
     - stage: build and deploy design tokens
       if: env(TYPE) = tokens OR NOT env(TYPE)
       script:
-      - echo 'First'
       - npm run lint
       - npm run build:tokens
       - node ci/gitPushProperties.js -i "$TRAVIS_BUILD_ID"

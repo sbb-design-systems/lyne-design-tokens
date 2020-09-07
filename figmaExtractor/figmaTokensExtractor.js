@@ -1,7 +1,7 @@
 const shell = require('shelljs');
 const figmaApi = require('./figmaApi');
 const getFigmaFrames = require('./figmaFrames');
-const getFigmaJson = require('./figmaJson');
+const getFigmaJson = require('./figmaTokensJson');
 const writeJson = require('./figmaWriteJson');
 
 require('dotenv')
@@ -37,7 +37,7 @@ const config = {
   try {
 
     const apiConfig = {
-      file: process.env.FIGMA_FILE_URL,
+      file: `https://api.figma.com/v1/files/${process.env.FIGMA_TOKENS_FILE_ID}`,
       token: process.env.FIGMA_ACCESS_TOKEN
     };
 
@@ -48,7 +48,7 @@ const config = {
 
     writeJson(figmaJson, config);
 
-    console.log('-->> FIGMA JSON EXTRACTED SUCCESSFULLY');
+    console.log('-->> FIGMA JSON FOR TOKENS EXTRACTED SUCCESSFULLY');
     shell.exit(0);
 
   } catch (error) {
