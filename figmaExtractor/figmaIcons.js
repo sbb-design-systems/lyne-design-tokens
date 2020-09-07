@@ -1,5 +1,8 @@
 const axios = require('axios');
 
+/**
+ * Get id and name from each child
+ */
 const getIconNamesAndIds = (frames) => {
   const icons = {};
 
@@ -12,6 +15,9 @@ const getIconNamesAndIds = (frames) => {
   return icons;
 };
 
+/**
+ * Generate a request to the Figma api for each icon the get the svg-url
+ */
 const getIconUrlRequests = (figmaConfig, icons) => {
   const {
     fileId,
@@ -40,6 +46,9 @@ const getIconUrlRequests = (figmaConfig, icons) => {
   return requests;
 };
 
+/**
+ * Extract the image url from the Figma api response
+ */
 const getSVGUrls = (iconResponses) => {
   const urls = {};
 
@@ -68,6 +77,9 @@ const getSVGUrls = (iconResponses) => {
   return urls;
 };
 
+/**
+ * Make an object for each icon with id, name and url
+ */
 const getMergedIdsAndNames = (names, urls) => {
   const mergedIconInfo = [];
   const urlKeys = Object.keys(urls);
@@ -86,6 +98,9 @@ const getMergedIdsAndNames = (names, urls) => {
   return mergedIconInfo;
 };
 
+/**
+ * Make a request to AWS for each icon to get the content of the svg
+ */
 const getIconContentRequests = (iconsInfo) => {
   const requests = [];
 
@@ -107,6 +122,9 @@ const getIconContentRequests = (iconsInfo) => {
   return requests;
 };
 
+/**
+ * Make an object for each icon with id, name and svg-content
+ */
 const getSVGContent = (responses) => {
   const content = [];
 
@@ -127,11 +145,17 @@ module.exports = async (frames, figmaConfig) => {
   const icons = getIconNamesAndIds(frames);
   const urlRequests = getIconUrlRequests(figmaConfig, icons);
   const response = await Promise.all(urlRequests);
+
+  console.log('SVG INFO: fetched url\'s to download svg');
+
   const iconUrls = getSVGUrls(response);
   const iconsInfo = getMergedIdsAndNames(icons, iconUrls);
   const iconsContentRequests = getIconContentRequests(iconsInfo);
   const svgResponses = await Promise.all(iconsContentRequests);
+
+  console.log('SVG INFO: fetched svg\'s contents');
+
   const svgContent = getSVGContent(svgResponses);
 
-  console.log(svgContent);
+  return svgContent;
 };
