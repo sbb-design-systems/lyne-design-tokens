@@ -1,3 +1,10 @@
+## [2.7.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.7.2...v2.7.3) (2020-09-07)
+
+
+### Bug Fixes
+
+* remove files and configs for icons workflow ([dc8c36d](https://github.com/lyne-design-system/lyne-design-tokens/commit/dc8c36df3f878534ff874fc7fcdc2cd5ee2652ac))
+
 ## [2.7.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.7.1...v2.7.2) (2020-09-07)
 
 
