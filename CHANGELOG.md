@@ -1,3 +1,10 @@
+## [2.5.12](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.11...v2.5.12) (2020-09-07)
+
+
+### Bug Fixes
+
+* remove stage ([c4ab848](https://github.com/lyne-design-system/lyne-design-tokens/commit/c4ab848adb2b5fde2545af31d5564d5e2e53f73d))
+
 ## [2.5.11](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.10...v2.5.11) (2020-09-07)
 
 
