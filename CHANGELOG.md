@@ -1,3 +1,14 @@
+# [2.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.17...v2.6.0) (2020-09-07)
+
+
+### Features
+
+* add sample icons after extract ([c264873](https://github.com/lyne-design-system/lyne-design-tokens/commit/c26487393db94041431c7ed9dc7abb4a125a9b44))
+* add second workflow to get svg icons from figma api ([e3874b6](https://github.com/lyne-design-system/lyne-design-tokens/commit/e3874b6273f6bad137c4705e2b6cacfb0d9f2dca))
+* add workflow to save svg's ([e0a1ad3](https://github.com/lyne-design-system/lyne-design-tokens/commit/e0a1ad31733b8022068bddd948c0693e2ae893cb))
+* write svg's to folder ([618f457](https://github.com/lyne-design-system/lyne-design-tokens/commit/618f45715eee9ceb0daa82893eb29e12d5225392))
+* write svg's to folder ([6b99e59](https://github.com/lyne-design-system/lyne-design-tokens/commit/6b99e59c2b655d6d4afa253158ef8426b1479a2d))
+
 ## [2.5.17](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.16...v2.5.17) (2020-09-07)
 
 
