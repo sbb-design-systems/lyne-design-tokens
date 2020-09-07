@@ -16,7 +16,9 @@ const config = {
   },
   frameIgnorePattern: '***ignore***',
   output: {
-    folder: 'icons'
+    folder: 'icons',
+    subfolder: 'files',
+    infoFile: 'info'
   }
 };
 
