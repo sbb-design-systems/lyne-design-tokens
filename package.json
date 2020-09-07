@@ -32,6 +32,7 @@
     "build:tokens": "npm run figma:extract && npm run build:stiledictionary",
     "build:stiledictionary": "node ./build.js",
     "figma:extract": "node figmaExtractor/figmaTokensExtractor.js",
+    "icons:extract": "node figmaExtractor/figmaIconsExtractor.js",
     "lint": "npm run lint:yml && npm run lint:js",
     "lint:js": "eslint ./ --ext .js",
     "lint:yml": "eslint ./ --ext .yml,.yaml",
