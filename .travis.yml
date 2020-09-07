@@ -13,11 +13,7 @@ notifications:
     secure: kLUxvh6KgSnQ+i4l1RknOppzHKx9lebkmuiEZjC1wx87uqEPleDOqznmHvXYyyE55kot3+EPKW8kVj/cRiR5Ut25EOyNkf0vWPOr4zAqWYjdqPoD9pnN/lSGWriZKLJifPg/dz1KDe+TxHLTGavrG97zbeiWJ6Kzixl5lyn5YDPRuhr+Ey5SuUVyfMJ8csdsSnvqHrpzBf5gQIa9Ne25WJ1BwVadoCdb2zQDuMSPYWUr7vJ8pbQwyq185QPJMWYqSNw/uLyb7WllumMd/GrE5eJ5Y7+oyQqps9FXB6XpqZRul4mu25ASqWpbR1Hwwb85BZajKDxpZyQ8pMVxbNVmhC2WZghGJYocO9/rYMmRZLpYrvYxsdTuSxQnOI3D0lqwgD8RoGqZNVfYsr1eTeHuyPzfN7OZR1bPZkZOM06lVLEuVor6Dy8CuAkggoSOMf1Y73iAw/ma57IOGpOZSGXZ8f0KE4KTSYQ9z0rHMC8uOBNaz/lI+XwUtNa4Myq/7tqgBj01QkphzXYQwKnbr6c4nlpO7ajFLK3uBCXnSMx0oB/t9D7pgLD0GZU//32a3XuHumTtdCArUnpc7hBsiqEi6lEUQrUsmmctkzh+Usq8s9O/4XzArhorbdDVyA8SWyinyqjg+vGK7VrVspoCZ/1F6EiEPqmY4HZBOHGupv23uHQ=
 jobs:
   include:
-  - stage: build, test and deploy design tokens
-
-    env: TYPE=tokens
-
-    script:
+  - script:
     - npm run lint
     - npm run build:tokens
     - node ci/gitPushProperties.js -i "$TRAVIS_BUILD_ID"
@@ -25,10 +21,3 @@ jobs:
     after_success:
     - npm run semantic-release
     - node ./ci/triggerLyneComponents.js -i "$TRAVIS_BUILD_ID"
-
-  - stage: build, test and deploy icons
-
-    env: TYPE=icons
-
-    script:
-    - echo 'Will build'
