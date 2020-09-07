@@ -19,6 +19,7 @@
     "eslint-plugin-yaml": "^0.3.0",
     "husky": "^4.2.5",
     "lodash": "^4.17.15",
+    "minimist": "~1.2.5",
     "semantic-release": "^17.0.8",
     "semantic-release-slack-bot": "^1.6.2",
     "shelljs": "~0.8.4",
