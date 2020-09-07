@@ -29,7 +29,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "npm run figma:extract && npm run build:stiledictionary",
+    "build:tokens": "npm run figma:extract && npm run build:stiledictionary",
     "build:stiledictionary": "node ./build.js",
     "figma:extract": "node figmaExtractor/figmaExtractor.js",
     "lint": "npm run lint:yml && npm run lint:js",
