@@ -1,3 +1,10 @@
+## [2.5.16](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.15...v2.5.16) (2020-09-07)
+
+
+### Bug Fixes
+
+* test (triggered from Figma) [skip ci] ([4883599](https://github.com/lyne-design-system/lyne-design-tokens/commit/4883599d5d8fc53b8d913b5193ecc247df101132))
+
 ## [2.5.15](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.14...v2.5.15) (2020-09-07)
 
 
