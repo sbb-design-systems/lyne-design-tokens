@@ -2,3 +2,6 @@
 - The new Design Tokens need to be installed manually in lyne-components. would it make sense to:
   - ... trigger a build of lyne-components automatically?
   - ... create a pull requests at lyne-components with the new Design Tokens?
+- travis -> 2 stages for tokens and icons. If only one stage is triggered, everything is fine. But if one commits something in this repo without according env-variable, both stages will run -> semantic release and trigger lyne-components will run 2 times!!
+- update documentation with icon workflow
+- add description to figma file for icons
