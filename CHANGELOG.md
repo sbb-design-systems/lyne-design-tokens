@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.6.0...v2.7.0) (2020-09-07)
+
+
+### Features
+
+* save info file and move icons to files folder ([659048c](https://github.com/lyne-design-system/lyne-design-tokens/commit/659048c85875d427b84caeb092e50cb9802986c2))
+
 # [2.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.17...v2.6.0) (2020-09-07)
 
 
