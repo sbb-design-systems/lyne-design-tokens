@@ -1,3 +1,10 @@
+## [2.5.11](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.10...v2.5.11) (2020-09-07)
+
+
+### Bug Fixes
+
+* add second build stage for icons ([69e141f](https://github.com/lyne-design-system/lyne-design-tokens/commit/69e141f2483c48cdce3f255751c2f260cb70de23))
+
 ## [2.5.10](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.9...v2.5.10) (2020-09-07)
 
 
