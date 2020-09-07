@@ -36,7 +36,7 @@ For the whole workflow to work correctly, it is necessary, that the Figma Team L
 - Every Design Token type should be listed on a separate frame in Figma. If you want to define colors, create a new frame named "colors".
 - Every token must be defined as a Figma component. If you want to define a color Design Token, create a new frame, give it a background color and convert it to a component.
 - Every component shall only have one child element (for example a frame representing a color). That child must be named correctly. If you want to create a Design Token for the color red, name the child red.
-- Everything inside a frame can be organized in groups as you like.
+- Everything inside a frame can be organized in groups as you like. Nesting of groups is possible to achieve multi-level names e.g. for variants.
 - The person who edits the Figma Library MUST provide a description when they want to publish their changes to the library. The description shall follow the Conventional Commit specification as well.
 - Frames which contain the string ```***ignore***``` in their name, will be ignored from processing during the workflow.
 

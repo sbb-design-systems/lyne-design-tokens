@@ -1,3 +1,108 @@
+## [2.5.10](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.9...v2.5.10) (2020-09-07)
+
+
+### Bug Fixes
+
+* test (triggered from Figma) [skip ci] ([13d21b0](https://github.com/lyne-design-system/lyne-design-tokens/commit/13d21b090af723a09f042321f9482ecba239147a))
+
+## [2.5.9](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.8...v2.5.9) (2020-09-07)
+
+
+### Bug Fixes
+
+* test (triggered from Figma) [skip ci] ([d35bae6](https://github.com/lyne-design-system/lyne-design-tokens/commit/d35bae6256fd2797d0a3269c48546be535e954cf))
+
+## [2.5.8](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.7...v2.5.8) (2020-09-07)
+
+
+### Bug Fixes
+
+* test pipeline (triggered from Figma) [skip ci] ([d4bb071](https://github.com/lyne-design-system/lyne-design-tokens/commit/d4bb07105b1dd2f8dedafaaf31f89c7134c64905))
+
+## [2.5.7](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.6...v2.5.7) (2020-09-03)
+
+
+### Bug Fixes
+
+* revert green to red (triggered from Figma) [skip ci] ([89d4031](https://github.com/lyne-design-system/lyne-design-tokens/commit/89d4031d100883657ebcc95b69c61cd3987e627f))
+
+## [2.5.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.5...v2.5.6) (2020-09-03)
+
+
+### Bug Fixes
+
+* change red to green (triggered from Figma) [skip ci] ([1e2c27e](https://github.com/lyne-design-system/lyne-design-tokens/commit/1e2c27ef75d2109ba007c1181cbc008d33e3a3ee))
+
+## [2.5.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.4...v2.5.5) (2020-09-02)
+
+
+### Bug Fixes
+
+* revert test-change (triggered from Figma) [skip ci] ([252b0cf](https://github.com/lyne-design-system/lyne-design-tokens/commit/252b0cf133ca435bdfefcf39e0ae15563a35995c))
+
+## [2.5.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.3...v2.5.4) (2020-09-02)
+
+
+### Bug Fixes
+
+* test workflow before review meeting (triggered from Figma) [skip ci] ([1f9a33e](https://github.com/lyne-design-system/lyne-design-tokens/commit/1f9a33ed0a98c6b14acea88ce42906b53fd79701))
+
+## [2.5.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.2...v2.5.3) (2020-08-31)
+
+
+### Bug Fixes
+
+* try worflow 2 (triggered from Figma) [skip ci] ([d523dc4](https://github.com/lyne-design-system/lyne-design-tokens/commit/d523dc4616c477669319ebebe0b464926bf08463))
+
+## [2.5.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.1...v2.5.2) (2020-08-31)
+
+
+### Bug Fixes
+
+* revert color red-regular from pink-ish back to red (triggered from Figma) [skip ci] ([36931e5](https://github.com/lyne-design-system/lyne-design-tokens/commit/36931e5851374c5d6ee87a0a66525c2a170b686f))
+
+## [2.5.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.0...v2.5.1) (2020-08-31)
+
+
+### Bug Fixes
+
+* change red-regular to pink-ish (triggered from Figma) [skip ci] ([ff8c692](https://github.com/lyne-design-system/lyne-design-tokens/commit/ff8c69230df8d3d00e54d421e6f651394843a176))
+
+# [2.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.4.1...v2.5.0) (2020-08-27)
+
+
+### Features
+
+* revert red color (triggered from Figma) [skip ci] ([f6a6d98](https://github.com/lyne-design-system/lyne-design-tokens/commit/f6a6d98783acd6f42cc17f97a36a1a5fbd4597d1))
+
+## [2.4.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.4.0...v2.4.1) (2020-08-27)
+
+
+### Bug Fixes
+
+* change red color (triggered from Figma) [skip ci] ([3f0cc45](https://github.com/lyne-design-system/lyne-design-tokens/commit/3f0cc45a09a398e72232011c52e6913c277fb124))
+
+# [2.4.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.7...v2.4.0) (2020-08-27)
+
+
+### Features
+
+* revert green to red (triggered from Figma) [skip ci] ([e07d67d](https://github.com/lyne-design-system/lyne-design-tokens/commit/e07d67da7f77beafcce712d2d3023025db868bfc))
+
+## [2.3.7](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.6...v2.3.7) (2020-08-27)
+
+
+### Bug Fixes
+
+* test change red to green (triggered from Figma) [skip ci] ([7ecf3f6](https://github.com/lyne-design-system/lyne-design-tokens/commit/7ecf3f63d0db4d4d6a1edbb5d7ff6e33774b1bdf))
+
+## [2.3.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.5...v2.3.6) (2020-08-27)
+
+
+### Bug Fixes
+
+* use data instead of body attribute in axios request ([4981d60](https://github.com/lyne-design-system/lyne-design-tokens/commit/4981d605879b5fde1ed92457c0c6dfaf88e6a60e))
+
 ## [2.3.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.3.4...v2.3.5) (2020-08-27)
 
 
