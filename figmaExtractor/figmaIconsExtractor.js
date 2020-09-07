@@ -2,6 +2,7 @@ const shell = require('shelljs');
 const figmaApi = require('./figmaApi');
 const getFigmaFrames = require('./figmaFrames');
 const figmaIcons = require('./figmaIcons');
+const writeSvgData = require('./figmaWriteSvgData');
 
 require('dotenv')
   .config();
@@ -13,7 +14,10 @@ const config = {
       frame: 'FRAME'
     }
   },
-  frameIgnorePattern: '***ignore***'
+  frameIgnorePattern: '***ignore***',
+  output: {
+    folder: 'icons'
+  }
 };
 
 // self-invoking
@@ -27,12 +31,12 @@ const config = {
     };
 
     const figmaData = await figmaApi(apiConfig);
-
     const figmaFrames = getFigmaFrames(figmaData, config);
+    const iconData = await figmaIcons(figmaFrames, apiConfig);
 
-    await figmaIcons(figmaFrames, apiConfig);
+    writeSvgData(iconData, config);
 
-    console.log('-->> FIGMA JSON FOR ICONS EXTRACTED SUCCESSFULLY');
+    console.log('-->> FIGMA SVG FILES SAVED');
     shell.exit(0);
 
   } catch (error) {
