@@ -1,3 +1,40 @@
+## [2.5.17](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.16...v2.5.17) (2020-09-07)
+
+
+### Bug Fixes
+
+* test (triggered from Figma) [skip ci] ([3e3d1cb](https://github.com/lyne-design-system/lyne-design-tokens/commit/3e3d1cb07021f10604547fac4be7584019ce0a5b))
+
+## [2.5.16](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.15...v2.5.16) (2020-09-07)
+
+
+### Bug Fixes
+
+* test (triggered from Figma) [skip ci] ([4883599](https://github.com/lyne-design-system/lyne-design-tokens/commit/4883599d5d8fc53b8d913b5193ecc247df101132))
+
+## [2.5.15](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.14...v2.5.15) (2020-09-07)
+
+
+### Bug Fixes
+
+* test (triggered from Figma) [skip ci] ([f67b9c0](https://github.com/lyne-design-system/lyne-design-tokens/commit/f67b9c0b06ecd5d0bd672932061e6c73c3298518))
+
+## [2.5.14](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.13...v2.5.14) (2020-09-07)
+
+
+### Bug Fixes
+
+* test pipeline (triggered from Figma) [skip ci] ([c3332ec](https://github.com/lyne-design-system/lyne-design-tokens/commit/c3332ecca9ec465cd50611b6dd13b38cd3f0301b))
+
+## [2.5.13](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.12...v2.5.13) (2020-09-07)
+
+
+### Bug Fixes
+
+* add type condition ([8726b77](https://github.com/lyne-design-system/lyne-design-tokens/commit/8726b773df8a5b09567ed338ad79d6e4178a62a1))
+* try to fix condition ([b8c88fb](https://github.com/lyne-design-system/lyne-design-tokens/commit/b8c88fb67316a1a67496a7b03c27f918028180c0))
+* try to fix condition ([a6e1a79](https://github.com/lyne-design-system/lyne-design-tokens/commit/a6e1a7994dc472636aa41d39b940c1a03df9612f))
+
 ## [2.5.12](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.11...v2.5.12) (2020-09-07)
 
 
