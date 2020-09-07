@@ -14,7 +14,6 @@ notifications:
 jobs:
   include:
     - stage: build and deploy design tokens
-      if: env(TYPE) = tokens OR NOT env(TYPE)
       script:
       - npm run lint
       - npm run build:tokens
@@ -23,9 +22,3 @@ jobs:
       after_success:
       - npm run semantic-release
       - node ./ci/triggerLyneComponents.js -i "$TRAVIS_BUILD_ID"
-
-    - stage: build and deploy icons
-      if: env(TYPE) = icons OR NOT env(TYPE)
-      script:
-      - npm run lint
-      - npm run icons:extract
