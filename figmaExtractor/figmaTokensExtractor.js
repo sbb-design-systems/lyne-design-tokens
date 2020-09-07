@@ -2,7 +2,7 @@ const shell = require('shelljs');
 const figmaApi = require('./figmaApi');
 const getFigmaFrames = require('./figmaFrames');
 const getFigmaJson = require('./figmaTokensJson');
-const writeJson = require('./figmaWriteJson');
+const writeJson = require('./figmaWriteTokenJson');
 
 require('dotenv')
   .config();
