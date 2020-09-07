@@ -1,3 +1,12 @@
+## [2.5.13](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.12...v2.5.13) (2020-09-07)
+
+
+### Bug Fixes
+
+* add type condition ([8726b77](https://github.com/lyne-design-system/lyne-design-tokens/commit/8726b773df8a5b09567ed338ad79d6e4178a62a1))
+* try to fix condition ([b8c88fb](https://github.com/lyne-design-system/lyne-design-tokens/commit/b8c88fb67316a1a67496a7b03c27f918028180c0))
+* try to fix condition ([a6e1a79](https://github.com/lyne-design-system/lyne-design-tokens/commit/a6e1a7994dc472636aa41d39b940c1a03df9612f))
+
 ## [2.5.12](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.5.11...v2.5.12) (2020-09-07)
 
 
