@@ -14,7 +14,7 @@ notifications:
 jobs:
   include:
     - stage: build and deploy design tokens
-      if: env(TYPE) = tokens
+      if: env(TYPE) = tokens OR env(type) = ''
       script:
       - echo 'First'
       - npm run lint
@@ -26,6 +26,6 @@ jobs:
       - node ./ci/triggerLyneComponents.js -i "$TRAVIS_BUILD_ID"
 
     - stage: build and deploy icons
-      if: env(TYPE) = icons
+      if: env(TYPE) = icons OR env(type) = ''
       script:
       - echo 'Second'
