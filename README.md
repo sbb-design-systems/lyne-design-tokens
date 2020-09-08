@@ -25,13 +25,15 @@ Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/
 
 ## Deployment
 
-The TravisCI job to build and deploy the Design Tokens will be triggered as soon as the Figma Team Library file got changed and published. In this case, the configured Figma Webhook will fire a request to the Express Server hosted on Heroku (https://powerful-harbor-93786.herokuapp.com/). After the Express Server has verified that the request comes from the corresponding Figma file, it will trigger the Travis build via API.
+The TravisCI job to build and deploy the Design Tokens will be triggered as soon as the Figma Team Library file for the Design Tokens got changed and published. In this case, the configured Figma Webhook will fire a request to the Express Server hosted on Heroku (https://powerful-harbor-93786.herokuapp.com/). After the Express Server has verified that the request comes from the corresponding Figma file, it will trigger the Travis build via API.
 
 Furthermore, TravisCI is building as soon as a branch gets merged into the master branch. After successful linting, the Lyne Design Tokens package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
 
+After successful build, the job for lyne-components will be triggered.
+
 ## Figma
 
-For the whole workflow to work correctly, it is necessary, that the Figma Team Library file has the proper content. Following are the requirements:
+For the whole workflow to work correctly, it is necessary that the Figma Team Library file has the proper content. Following are the requirements:
 - All style definitions must be on the first page of the Figma document.
 - Every Design Token type should be listed on a separate frame in Figma. If you want to define colors, create a new frame named "colors".
 - Every token must be defined as a Figma component. If you want to define a color Design Token, create a new frame, give it a background color and convert it to a component.
