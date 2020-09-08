@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.0.0...v3.1.0) (2020-09-08)
+
+
+### Features
+
+* add real sbb colors and add correct names (triggered from Figma) [skip ci] ([2978c79](https://github.com/lyne-design-system/lyne-design-tokens/commit/2978c792f1d81cb3a19dfd60b7845718a21d1d9e))
+
 # [3.0.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.7.3...v3.0.0) (2020-09-08)
 
 
