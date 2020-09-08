@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/lyne-design-system/lyne-design-tokens.svg?branch=master)](https://travis-ci.org/lyne-design-system/lyne-design-tokens) [![Depfu](https://badges.depfu.com/badges/4f0c4270e17baf64e8ac9d54b16e1fd8/overview.svg)](https://depfu.com/github/lyne-design-system/lyne-design-tokens?project_id=12757) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/lyne-design-system/lyne-design-tokens?label=release)
+[![Build Status](https://travis-ci.org/lyne-design-system/lyne-design-tokens.svg?branch=master)](https://travis-ci.org/lyne-design-system/lyne-design-tokens) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/lyne-design-system/lyne-design-tokens?label=release)
 
 # Lyne Design Tokens
 
