@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.7.3...v3.0.0) (2020-09-08)
+
+
+### Bug Fixes
+
+* try workflow for major change ([cebca6a](https://github.com/lyne-design-system/lyne-design-tokens/commit/cebca6a5a184989b22a667144d5c1283d256af2e))
+
+
+### BREAKING CHANGES
+
+* test major release (triggered from Figma) [skip ci]
+
 ## [2.7.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v2.7.2...v2.7.3) (2020-09-07)
 
 
