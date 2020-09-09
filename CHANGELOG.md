@@ -1,3 +1,10 @@
+## [3.1.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.1...v3.1.2) (2020-09-09)
+
+
+### Bug Fixes
+
+* changed font face to SBBWeb, added border-radius frame with 4 radius variants (triggered from Figma) [skip ci] ([262ddb4](https://github.com/lyne-design-system/lyne-design-tokens/commit/262ddb414fd5853e33b48b7387dd49d838e5fdd9))
+
 ## [3.1.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.0...v3.1.1) (2020-09-09)
 
 
