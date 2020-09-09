@@ -7,9 +7,10 @@ require('dotenv')
   .config();
 
 (async () => {
+  const jobId = argv(process.argv.slice(2))['i'];
+  const commitMessage = await getCommit(jobId);
+
   try {
-    const jobId = argv(process.argv.slice(2))['i'];
-    const commitMessage = await getCommit(jobId);
 
     await triggerTravis({
       branchName: 'master',
