@@ -1,4 +1,3 @@
-const axios = require('axios');
 const shell = require('shelljs');
 const argv = require('minimist');
 const getCommit = require('./getTravisCommit');
