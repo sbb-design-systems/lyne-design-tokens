@@ -153,8 +153,8 @@ module.exports = {
     'no-undef': 'error',
     'no-undef-init': 'error',
     'no-undefined': 'off',
-    'no-unused-vars': 'off',
-    'no-use-before-define': 'off',
+    'no-unused-vars': 'error',
+    'no-use-before-define': 'error',
 
     // ####################################################
     // Node.js
@@ -283,10 +283,10 @@ module.exports = {
     'template-tag-spacing': 'error',
     'unicode-bom': 'error',
     'wrap-regex': 'error',
-    'indent': 'off',
-    'semi': 'off',
-    'camelcase': 'off',
-    'no-array-constructor': 'off',
+    'indent': ["error", 2],
+    'semi': 'error',
+    'camelcase': 'error',
+    'no-array-constructor': 'error',
 
     // ####################################################
     // ECMAScript 6
