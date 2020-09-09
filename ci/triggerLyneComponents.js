@@ -14,7 +14,7 @@ require('dotenv')
 
     await triggerTravis({
       branchName: 'master',
-      message: commitMessage,
+      message: `${commitMessage} (triggered from design tokens build)`,
       travisToken: process.env.TRAVIS_TOKEN,
       travisUrl: 'https://api.travis-ci.org/repo/lyne-design-system%2Flyne-components/requests'
     });
