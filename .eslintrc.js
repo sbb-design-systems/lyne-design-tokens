@@ -1,21 +1,21 @@
 module.exports = {
-    env: {
-      browser: true,
-      es6: true
-    },
-    parserOptions: {
-      ecmaVersion: 2018,
-      sourceType: 'module'
-    },
-    globals: {
-      'require': 'readonly',
-      'module': 'readonly',
-      'process': 'readonly',
-      '__dirname': 'readonly'
-    },
-    plugins: [
-      'yaml'
-    ],
+  env: {
+    browser: true,
+    es6: true
+  },
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module'
+  },
+  globals: {
+    'require': 'readonly',
+    'module': 'readonly',
+    'process': 'readonly',
+    '__dirname': 'readonly'
+  },
+  plugins: [
+    'yaml'
+  ],
   rules: {
     // ####################################################
     // Possible errors
