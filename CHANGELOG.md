@@ -1,3 +1,11 @@
+## [3.1.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.0...v3.1.1) (2020-09-09)
+
+
+### Bug Fixes
+
+* update helper trigger travis ([622efb8](https://github.com/lyne-design-system/lyne-design-tokens/commit/622efb89f13b6dd3c0dc16918cd5ccfda458f57a))
+* update helper trigger travis [skip ci] ([6c5c1e3](https://github.com/lyne-design-system/lyne-design-tokens/commit/6c5c1e37008fd13fc383e3d92a0b08c02354e29f))
+
 # [3.1.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.0.0...v3.1.0) (2020-09-08)
 
 
