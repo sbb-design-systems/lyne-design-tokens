@@ -21,4 +21,4 @@ module.exports = (json, config) => {
     fs.writeFileSync(`${outputFolder}/${key}.json`, JSON.stringify(content));
   });
 
-}
+};

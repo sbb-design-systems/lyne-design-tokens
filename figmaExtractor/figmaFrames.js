@@ -41,4 +41,4 @@ module.exports = (figmaData, config) => {
 
   return onlyNotIgnoredFrames;
 
-}
+};

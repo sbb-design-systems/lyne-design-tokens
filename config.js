@@ -185,4 +185,4 @@ module.exports = {
     }
   },
   source: ['properties/**/*.json']
-}
+};

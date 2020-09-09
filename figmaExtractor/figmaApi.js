@@ -25,4 +25,4 @@ module.exports = async (config) => {
   } catch (e) {
     throw new Error(`figmaApi.js: ${e.message}`);
   }
-}
+};

@@ -26,7 +26,7 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
     } else {
       _arrayOfFiles.push(path.join(dirPath, '/', file));
     }
-  })
+  });
 
   return _arrayOfFiles;
 };
