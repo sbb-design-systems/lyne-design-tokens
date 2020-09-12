@@ -1,6 +1,5 @@
 const shell = require('shelljs');
-const figmaApi = require('./figmaApi');
-const getFigmaFrames = require('./figmaFrames');
+const figma = require('lyne-helper-figma-api');
 const getFigmaJson = require('./figmaTokensJson');
 const writeJson = require('./figmaWriteTokenJson');
 
@@ -12,7 +11,6 @@ const config = {
   figma: {
     childTypes: {
       component: 'COMPONENT',
-      frame: 'FRAME',
       group: 'GROUP',
       rectangle: 'RECTANGLE',
       text: 'TEXT'
@@ -41,10 +39,16 @@ const config = {
       token: process.env.FIGMA_ACCESS_TOKEN
     };
 
-    const figmaData = await figmaApi(apiConfig);
-    const figmaFrames = getFigmaFrames(figmaData, config);
+    const figmaDocument = await figma.document(apiConfig.file, apiConfig.token);
+    const pages = figma.pages(figmaDocument, config.pagesIgnorePattern);
 
-    const figmaJson = getFigmaJson(figmaFrames, config);
+    if (!pages || pages.length < 1) {
+      throw new Error('No relevant figma pages found.');
+    }
+
+    const frames = figma.frames(pages[0], config.frameIgnorePattern);
+
+    const figmaJson = getFigmaJson(frames, config);
 
     writeJson(figmaJson, config);
 
