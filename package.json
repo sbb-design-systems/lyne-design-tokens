@@ -4,7 +4,6 @@
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
   "main": "index.js",
   "dependencies": {
-    "lyne-helper-figma-api": "~1.0.4",
     "style-dictionary": "^2.10.0"
   },
   "devDependencies": {
@@ -20,6 +19,7 @@
     "husky": "^4.2.5",
     "lodash": "^4.17.15",
     "lyne-helper-eslint-config": "~1.0.1",
+    "lyne-helper-figma-api": "~1.1.2",
     "lyne-helper-trigger-travis": "~1.0.1",
     "minimist": "~1.2.5",
     "semantic-release": "^17.0.8",
