@@ -1,3 +1,11 @@
+## [3.1.7](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.6...v3.1.7) (2020-09-13)
+
+
+### Bug Fixes
+
+* update deps ([6717833](https://github.com/lyne-design-system/lyne-design-tokens/commit/67178336d86a738a6fccfb2c5450a9bf04b6076b))
+* update travis trigger ([776651b](https://github.com/lyne-design-system/lyne-design-tokens/commit/776651be7d3b529083d53f4279015bb6a6923423))
+
 ## [3.1.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.5...v3.1.6) (2020-09-13)
 
 
