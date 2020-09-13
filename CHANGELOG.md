@@ -1,3 +1,11 @@
+## [3.1.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.5...v3.1.6) (2020-09-13)
+
+
+### Bug Fixes
+
+* update figma api helper ([67e1765](https://github.com/lyne-design-system/lyne-design-tokens/commit/67e1765d53d2b47f924869a0d19b39c27c7a2994))
+* update lyne api helper ([cbc7fbf](https://github.com/lyne-design-system/lyne-design-tokens/commit/cbc7fbfb30120592e6d73e5fd973a4098c29f63f))
+
 ## [3.1.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.4...v3.1.5) (2020-09-12)
 
 
