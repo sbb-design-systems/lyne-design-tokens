@@ -21,4 +21,4 @@ jobs:
 
       after_success:
       - npm run semantic-release
-      - node ./ci/triggerLyneComponents.js -i "$TRAVIS_BUILD_ID"
+      - node ./ci/triggerLyneComponents.js -i "$TRAVIS_BUILD_ID" -j $(< .version)

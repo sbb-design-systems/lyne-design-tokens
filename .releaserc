@@ -7,6 +7,9 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
+    ["@semantic-release/exec", {
+      "prepareCmd": "echo ${nextRelease.version} > .version"
+    }],
     ["@semantic-release/git", {
       "assets": [
         "package.json",
