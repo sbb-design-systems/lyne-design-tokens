@@ -1,3 +1,10 @@
+## [3.1.9](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.8...v3.1.9) (2020-09-14)
+
+
+### Bug Fixes
+
+* fake commit to test release ([2f8e04e](https://github.com/lyne-design-system/lyne-design-tokens/commit/2f8e04e63c4a706632cb5cdd3641a0d394711e1c))
+
 ## [3.1.8](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.7...v3.1.8) (2020-09-14)
 
 
