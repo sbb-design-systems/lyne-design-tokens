@@ -15,7 +15,7 @@ npm install --save-dev lyne-design-tokens
 
 ## Usage
 
-Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-tokens/dist/`. There you will find the different variables files which you can import to and use in your project.
+Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-tokens/dist/`. There you will find the different variables files which you can import and use in your project.
 
 ## Development
 
