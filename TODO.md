@@ -3,4 +3,3 @@
   - ... trigger a build of lyne-components automatically?
   - ... create a pull requests at lyne-components with the new Design Tokens?
 - add description to figma file for icons
-- Only trigger lyne-components if there was actually a release
