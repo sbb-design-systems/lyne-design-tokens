@@ -23,6 +23,17 @@ Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-
 
 Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification to make sure we can automatically determine the next release version if necessary.
 
+### Env Variables
+
+To test and develop the workflow on your local machine, you need to setup an `.env` file in the root directory of the project with the following content:
+```bash
+FIGMA_ACCESS_TOKEN=XXX
+FIGMA_TOKENS_FILE_ID=XXX
+TRAVIS_TOKEN=XXX
+```
+
+Replace `XXX` with the according values.
+
 ## Deployment
 
 The TravisCI job to build and deploy the Design Tokens will be triggered as soon as the Figma Team Library file for the Design Tokens got changed and published. In this case, the configured Figma Webhook will fire a request to the Express Server hosted on Heroku (https://powerful-harbor-93786.herokuapp.com/). After the Express Server has verified that the request comes from the corresponding Figma file, it will trigger the Travis build via API.
