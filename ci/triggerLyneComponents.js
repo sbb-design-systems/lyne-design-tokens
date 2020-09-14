@@ -13,6 +13,7 @@ require('dotenv')
 
   if (!version || version === true) {
     console.log('No new version was released, thus not triggering lyne-components');
+
     shell.exit(0);
   }
 
