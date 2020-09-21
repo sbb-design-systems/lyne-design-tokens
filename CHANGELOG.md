@@ -1,3 +1,10 @@
+## [3.1.12](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.11...v3.1.12) (2020-09-21)
+
+
+### Bug Fixes
+
+* revert color to white (triggered from Figma) [skip ci] ([4a2aa39](https://github.com/lyne-design-system/lyne-design-tokens/commit/4a2aa39311853d52cc7d2386dd0fb2020146ba56))
+
 ## [3.1.11](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.10...v3.1.11) (2020-09-21)
 
 
