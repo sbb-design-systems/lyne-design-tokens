@@ -1,3 +1,10 @@
+## [3.1.11](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.10...v3.1.11) (2020-09-21)
+
+
+### Bug Fixes
+
+* change (triggered from Figma) [skip ci] ([263edc4](https://github.com/lyne-design-system/lyne-design-tokens/commit/263edc4b0048e5765ba1ca5db2e3d00ab40f2305))
+
 ## [3.1.10](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.9...v3.1.10) (2020-09-14)
 
 
