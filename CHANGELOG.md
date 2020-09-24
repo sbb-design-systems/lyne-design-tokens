@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.0...v3.2.1) (2020-09-24)
+
+
+### Bug Fixes
+
+* install netlify ([56861c3](https://github.com/lyne-design-system/lyne-design-tokens/commit/56861c30b54f1ce0f00208a6029ad91af14062e0))
+
 # [3.2.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.12...v3.2.0) (2020-09-24)
 
 
