@@ -1,3 +1,15 @@
+# [3.2.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.12...v3.2.0) (2020-09-24)
+
+
+### Bug Fixes
+
+* remove rimraf ([9f68a6b](https://github.com/lyne-design-system/lyne-design-tokens/commit/9f68a6b1c4f266843788e2dfff8bb89a9f8d4828))
+
+
+### Features
+
+* add files to generate and publish cdn ressources ([868fe5e](https://github.com/lyne-design-system/lyne-design-tokens/commit/868fe5e4aff51f73fe104ab0a9cebcaa256b57c4))
+
 ## [3.1.12](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.1.11...v3.1.12) (2020-09-21)
 
 
