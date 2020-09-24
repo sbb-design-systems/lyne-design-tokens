@@ -1,13 +1,19 @@
 const fs = require('fs');
+const rimraf = require('rimraf');
 
 module.exports = (json, config) => {
 
   // make sure directory is there
   const outputFolder = `./${config.output.folder}`;
 
-  if (!fs.existsSync(outputFolder)) {
-    fs.mkdirSync(outputFolder);
-  }
+  // delete output folder
+  rimraf.sync(outputFolder);
+
+  // delete dist
+  rimraf.sync('./dist');
+
+  // create output folder
+  fs.mkdirSync(outputFolder);
 
   /**
    * the main keys in the object are used as
