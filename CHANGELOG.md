@@ -1,3 +1,10 @@
+## [3.2.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.1...v3.2.2) (2020-09-30)
+
+
+### Bug Fixes
+
+* test change white color to gray (triggered from Figma) [skip ci] ([288d601](https://github.com/lyne-design-system/lyne-design-tokens/commit/288d6019550794f03a477fa0dc24188062e112cc))
+
 ## [3.2.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.0...v3.2.1) (2020-09-24)
 
 
