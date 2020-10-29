@@ -1,3 +1,31 @@
+## [3.2.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.4...v3.2.5) (2020-10-05)
+
+
+### Bug Fixes
+
+* correct color (triggered from Figma) [skip ci] ([f1a0404](https://github.com/lyne-design-system/lyne-design-tokens/commit/f1a040493954312c7238e950a678d27d7769e924))
+
+## [3.2.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.3...v3.2.4) (2020-10-05)
+
+
+### Bug Fixes
+
+* change accent color to green (triggered from Figma) [skip ci] ([d785289](https://github.com/lyne-design-system/lyne-design-tokens/commit/d785289472e2419dbc25e4a0118f6373d492f3c4))
+
+## [3.2.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.2...v3.2.3) (2020-09-30)
+
+
+### Bug Fixes
+
+* fix white color (triggered from Figma) [skip ci] ([02b11b5](https://github.com/lyne-design-system/lyne-design-tokens/commit/02b11b5e7865f5413eac37c824c3bbcb4afe6b1e))
+
+## [3.2.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.1...v3.2.2) (2020-09-30)
+
+
+### Bug Fixes
+
+* test change white color to gray (triggered from Figma) [skip ci] ([288d601](https://github.com/lyne-design-system/lyne-design-tokens/commit/288d6019550794f03a477fa0dc24188062e112cc))
+
 ## [3.2.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.0...v3.2.1) (2020-09-24)
 
 
