@@ -1,3 +1,11 @@
+## [3.2.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.5...v3.2.6) (2020-10-29)
+
+
+### Bug Fixes
+
+* use com instead of org for travis url ([baa2582](https://github.com/lyne-design-system/lyne-design-tokens/commit/baa258252060729491244a9c237344aba8b071fd))
+* use com instead of org for travis url [skip ci] ([7fe5da5](https://github.com/lyne-design-system/lyne-design-tokens/commit/7fe5da528b50b8d2786346319b9993a0689d4d11))
+
 ## [3.2.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.4...v3.2.5) (2020-10-05)
 
 
