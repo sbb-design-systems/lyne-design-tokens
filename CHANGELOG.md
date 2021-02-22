@@ -1,3 +1,10 @@
+## [3.3.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.0...v3.3.1) (2021-02-22)
+
+
+### Bug Fixes
+
+* add logs before pushing properites ([f15a4f9](https://github.com/lyne-design-system/lyne-design-tokens/commit/f15a4f960bc441b41bd2dfbdf5d6856df0ce4ef9))
+
 # [3.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.6...v3.3.0) (2021-02-22)
 
 
