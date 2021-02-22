@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.6...v3.3.0) (2021-02-22)
+
+
+### Features
+
+* test workflow (triggered from Figma) [skip ci] ([92b243b](https://github.com/lyne-design-system/lyne-design-tokens/commit/92b243b356aedf0063b41cec8a0b6bf1b4fe835b))
+
 ## [3.2.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.2.5...v3.2.6) (2020-10-29)
 
 
