@@ -34,7 +34,13 @@ const getAllFiles = (dirPath, arrayOfFiles) => {
 (async () => {
   try {
     const jobId = argv(process.argv.slice(2))['i'];
+
+    console.log(`Get info from travis jobId: ${jobId}`);
+
     const commitMessage = await getCommit(jobId);
+
+    console.log(`Found commit message on job: ${commitMessage}`);
+
     const propertiesFiles = getAllFiles('./properties');
 
     // git add and commit. Files will be pushed during semantic-release
