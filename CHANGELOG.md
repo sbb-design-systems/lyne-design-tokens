@@ -1,3 +1,10 @@
+## [3.3.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.2...v3.3.3) (2021-02-22)
+
+
+### Bug Fixes
+
+* make ordinary component from color rect (triggered from Figma) [skip ci] ([b0a8248](https://github.com/lyne-design-system/lyne-design-tokens/commit/b0a82483bccee2b559d7f1e5f285beed24498e46))
+
 ## [3.3.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.1...v3.3.2) (2021-02-22)
 
 
