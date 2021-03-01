@@ -1,3 +1,38 @@
+## [3.3.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.5...v3.3.6) (2021-03-01)
+
+
+### Bug Fixes
+
+* test color change (triggered from Figma) [skip ci] ([36754c2](https://github.com/lyne-design-system/lyne-design-tokens/commit/36754c2851510fd65e0ee3f691a91550579be321))
+
+## [3.3.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.4...v3.3.5) (2021-03-01)
+
+
+### Bug Fixes
+
+* change primary button background color (triggered from Figma) [skip ci] ([8db1ebe](https://github.com/lyne-design-system/lyne-design-tokens/commit/8db1ebedbeb9159979766ddaca10c420b105b950))
+
+## [3.3.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.3...v3.3.4) (2021-02-27)
+
+
+### Bug Fixes
+
+* test changing color-red-regular (triggered from Figma) [skip ci] ([646ddb8](https://github.com/lyne-design-system/lyne-design-tokens/commit/646ddb862035a424d824e2675a04e9b00ee4a32b))
+
+## [3.3.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.2...v3.3.3) (2021-02-22)
+
+
+### Bug Fixes
+
+* make ordinary component from color rect (triggered from Figma) [skip ci] ([b0a8248](https://github.com/lyne-design-system/lyne-design-tokens/commit/b0a82483bccee2b559d7f1e5f285beed24498e46))
+
+## [3.3.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.1...v3.3.2) (2021-02-22)
+
+
+### Bug Fixes
+
+* make ordinary component from color rect (triggered from Figma) [skip ci] ([eafa476](https://github.com/lyne-design-system/lyne-design-tokens/commit/eafa47634aed2245f5fa001d4a637abbcf964839))
+
 ## [3.3.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.0...v3.3.1) (2021-02-22)
 
 
