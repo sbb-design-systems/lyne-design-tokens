@@ -1,3 +1,10 @@
+## [3.3.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.4...v3.3.5) (2021-03-01)
+
+
+### Bug Fixes
+
+* change primary button background color (triggered from Figma) [skip ci] ([8db1ebe](https://github.com/lyne-design-system/lyne-design-tokens/commit/8db1ebedbeb9159979766ddaca10c420b105b950))
+
 ## [3.3.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.3...v3.3.4) (2021-02-27)
 
 
