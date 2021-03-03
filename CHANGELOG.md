@@ -1,3 +1,101 @@
+## [3.3.20](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.19...v3.3.20) (2021-03-03)
+
+
+### Bug Fixes
+
+* revert test color change (triggered from Figma) [skip ci] ([bc803f8](https://github.com/lyne-design-system/lyne-design-tokens/commit/bc803f82a23eb1aa7e8f8056c9cf63612a792748))
+
+## [3.3.19](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.18...v3.3.19) (2021-03-02)
+
+
+### Bug Fixes
+
+* change color from red to green (triggered from Figma) [skip ci] ([7aae9d3](https://github.com/lyne-design-system/lyne-design-tokens/commit/7aae9d392f76c4a416f8a4c2afb5ac1e61ebb8f3))
+
+## [3.3.18](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.17...v3.3.18) (2021-03-02)
+
+
+### Bug Fixes
+
+* change green to red again (triggered from Figma) [skip ci] ([22d9027](https://github.com/lyne-design-system/lyne-design-tokens/commit/22d90270b1c9e733c3dc36c4ff508e722c9c6aac))
+
+## [3.3.17](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.16...v3.3.17) (2021-03-02)
+
+
+### Bug Fixes
+
+* change red to green (triggered from Figma) [skip ci] ([ef12cf8](https://github.com/lyne-design-system/lyne-design-tokens/commit/ef12cf8fbc321145312f55e2bbda8c731aab2107))
+
+## [3.3.16](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.15...v3.3.16) (2021-03-02)
+
+
+### Bug Fixes
+
+* test color change (triggered from Figma) [skip ci] ([d68e3cf](https://github.com/lyne-design-system/lyne-design-tokens/commit/d68e3cfe4c3fb1a191f34b1df2c2fddac30e9cc2))
+
+## [3.3.15](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.14...v3.3.15) (2021-03-02)
+
+
+### Bug Fixes
+
+* test color change (triggered from Figma) [skip ci] ([6e61870](https://github.com/lyne-design-system/lyne-design-tokens/commit/6e61870eaa60e7ca7235bffd9a23606e27f624cc))
+
+## [3.3.14](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.13...v3.3.14) (2021-03-02)
+
+
+### Bug Fixes
+
+* change green to red again (triggered from Figma) [skip ci] ([6a0a9fb](https://github.com/lyne-design-system/lyne-design-tokens/commit/6a0a9fb3ee4f27035b37fbce158777bfce77a4b8))
+
+## [3.3.13](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.12...v3.3.13) (2021-03-02)
+
+
+### Bug Fixes
+
+* change red to green (triggered from Figma) [skip ci] ([84d1011](https://github.com/lyne-design-system/lyne-design-tokens/commit/84d1011d214d05ba0debd49f969f07606a191d89))
+
+## [3.3.12](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.11...v3.3.12) (2021-03-01)
+
+
+### Bug Fixes
+
+* change green color to red (triggered from Figma) [skip ci] ([6a83409](https://github.com/lyne-design-system/lyne-design-tokens/commit/6a83409ed3e771fc9f5300fba920ec741178fdde))
+
+## [3.3.11](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.10...v3.3.11) (2021-03-01)
+
+
+### Bug Fixes
+
+* change color red to green (triggered from Figma) [skip ci] ([0f891ee](https://github.com/lyne-design-system/lyne-design-tokens/commit/0f891ee454a118df2016a30e5c8c088c345da20b))
+
+## [3.3.10](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.9...v3.3.10) (2021-03-01)
+
+
+### Bug Fixes
+
+* change green to red (triggered from Figma) [skip ci] ([fd17deb](https://github.com/lyne-design-system/lyne-design-tokens/commit/fd17debe7f93cdbd5f44d5295c9ccc1ee8c52cfb))
+
+## [3.3.9](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.8...v3.3.9) (2021-03-01)
+
+
+### Bug Fixes
+
+* change color to green (triggered from Figma) [skip ci] ([e79aaae](https://github.com/lyne-design-system/lyne-design-tokens/commit/e79aaae736c27772b4044900bda110d40720bbb9))
+
+## [3.3.8](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.7...v3.3.8) (2021-03-01)
+
+
+### Bug Fixes
+
+* change color to red (triggered from Figma) [skip ci] ([953527d](https://github.com/lyne-design-system/lyne-design-tokens/commit/953527d40d6b95c989227bfbc66480655ebf730f))
+
+## [3.3.7](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.6...v3.3.7) (2021-03-01)
+
+
+### Bug Fixes
+
+* test color change to green (triggered from Figma) [skip ci] ([1129ffe](https://github.com/lyne-design-system/lyne-design-tokens/commit/1129ffe4a854bdd583265643929386468a8d7220))
+
 ## [3.3.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.5...v3.3.6) (2021-03-01)
 
 
