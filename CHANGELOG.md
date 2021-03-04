@@ -1,3 +1,10 @@
+## [3.3.21](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.20...v3.3.21) (2021-03-04)
+
+
+### Bug Fixes
+
+* enable dependabot after demo ([46e0970](https://github.com/lyne-design-system/lyne-design-tokens/commit/46e09700e8f6dc62b6ca3504dd4676cb9b2ad1ca))
+
 ## [3.3.20](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.19...v3.3.20) (2021-03-03)
 
 
