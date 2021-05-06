@@ -1,3 +1,24 @@
+## [3.3.23](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.22...v3.3.23) (2021-05-06)
+
+
+### Bug Fixes
+
+* change color to red (triggered from Figma) [skip ci] ([a41b17a](https://github.com/lyne-design-system/lyne-design-tokens/commit/a41b17a9b1b8f987d72b9de4f41747a839d610f0))
+
+## [3.3.22](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.21...v3.3.22) (2021-05-04)
+
+
+### Bug Fixes
+
+* test color change (triggered from Figma) [skip ci] ([86d9262](https://github.com/lyne-design-system/lyne-design-tokens/commit/86d9262672c6c0410758afaf7311c68daf309e53))
+
+## [3.3.21](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.20...v3.3.21) (2021-03-04)
+
+
+### Bug Fixes
+
+* enable dependabot after demo ([46e0970](https://github.com/lyne-design-system/lyne-design-tokens/commit/46e09700e8f6dc62b6ca3504dd4676cb9b2ad1ca))
+
 ## [3.3.20](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.19...v3.3.20) (2021-03-03)
 
 
