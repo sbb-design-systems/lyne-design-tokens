@@ -1,3 +1,10 @@
+## [3.3.26](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.25...v3.3.26) (2021-05-06)
+
+
+### Bug Fixes
+
+* test color change (triggered from Figma) [skip ci] ([382086a](https://github.com/lyne-design-system/lyne-design-tokens/commit/382086a47650a873b533fc6cfd08761171b0df6c))
+
 ## [3.3.25](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.24...v3.3.25) (2021-05-06)
 
 
