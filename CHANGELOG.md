@@ -1,3 +1,10 @@
+## [3.3.27](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.26...v3.3.27) (2021-05-06)
+
+
+### Bug Fixes
+
+* reset default red (triggered from Figma) [skip ci] ([10d532d](https://github.com/lyne-design-system/lyne-design-tokens/commit/10d532dcd6ea588137b82316f92b131cd1dd6175))
+
 ## [3.3.26](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.25...v3.3.26) (2021-05-06)
 
 
