@@ -1,3 +1,15 @@
+# [3.4.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.30...v3.4.0) (2021-06-20)
+
+
+### Bug Fixes
+
+* diable graviton ([3e6c563](https://github.com/lyne-design-system/lyne-design-tokens/commit/3e6c563f3623999cb236e9ebfdb38f3d786dd621))
+
+
+### Features
+
+* use graviton architecture ([b2c5bee](https://github.com/lyne-design-system/lyne-design-tokens/commit/b2c5bee14bd5a467f092b572cbe3fccc81eedb31))
+
 ## [3.3.30](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.29...v3.3.30) (2021-06-03)
 
 
