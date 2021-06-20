@@ -1,9 +1,9 @@
 os: linux
-dist: focal
-group: edge
+# dist: focal
+# group: edge
 language: node_js
-arch: arm64-graviton2
-virt: lxd
+# arch: arm64-graviton2
+# virt: lxd
 notifications:
   slack:
     template:
