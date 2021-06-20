@@ -1,9 +1,5 @@
 os: linux
-dist: focal
-group: edge
 language: node_js
-arch: arm64-graviton2
-virt: lxd
 notifications:
   slack:
     template:
@@ -19,9 +15,6 @@ jobs:
   include:
     - stage: build and deploy design tokens
       script:
-      # prepare git for pushes
-      - git remote set-url origin https://lyne-design-system:$GH_TOKEN@github.com/lyne-design-system/lyne-design-tokens.git || travis_terminate 1
-
       - npm run lint || travis_terminate 1
       - npm run build:tokens || travis_terminate 1
       - node ci/gitPushProperties.js -i "$TRAVIS_BUILD_ID" || travis_terminate 1
@@ -30,4 +23,6 @@ jobs:
       - npm run semantic-release || travis_terminate 1
       - node ./ci/triggerLyneComponents.js -i "$TRAVIS_BUILD_ID" -j $(< .version) || travis_terminate 1
 
+      # prepare git for pushes
+      - git remote set-url origin https://lyne-design-system:$GH_TOKEN@github.com/lyne-design-system/lyne-design-tokens.git || travis_terminate 1
       - ./ci/deploy_cdn_assets.sh || travis_terminate 1
