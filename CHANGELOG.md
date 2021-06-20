@@ -1,3 +1,13 @@
+## [3.4.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.4.0...v3.4.1) (2021-06-20)
+
+
+### Bug Fixes
+
+* disable graviton again ([85785a0](https://github.com/lyne-design-system/lyne-design-tokens/commit/85785a00bc43616955b6b7ba9feedcece327a2b7))
+* fail build if step fails ([3fab04a](https://github.com/lyne-design-system/lyne-design-tokens/commit/3fab04ab0e09590d3575cf16c137c655b38cf8aa))
+* move prepare git step ([68055d4](https://github.com/lyne-design-system/lyne-design-tokens/commit/68055d4bbd75d1b79ca00dc563702617b86b464a))
+* use graviton again ([0c531fe](https://github.com/lyne-design-system/lyne-design-tokens/commit/0c531fe97a437973c6b8aecb11c684d4498d09e3))
+
 # [3.4.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.3.30...v3.4.0) (2021-06-20)
 
 
