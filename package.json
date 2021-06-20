@@ -24,7 +24,7 @@
     "lyne-helper-trigger-travis": "~1.0.3",
     "minimist": "~1.2.5",
     "netlify-cli": "~3.37.31",
-    "semantic-release": "^17.0.8",
+    "semantic-release": "~17.4.4",
     "semantic-release-slack-bot": "^2.1.0",
     "shelljs": "~0.8.4",
     "simple-git": "~2.40.0",
