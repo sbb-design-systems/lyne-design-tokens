@@ -16,7 +16,7 @@
     "dotenv": "~10.0.0",
     "eslint": "^7.0.0",
     "eslint-plugin-yaml": "^0.5.0",
-    "husky": "^6.0.0",
+    "husky": "^7.0.1",
     "lodash": "^4.17.15",
     "lyne-helper-eslint-config": "~1.0.1",
     "lyne-helper-trigger-travis": "~1.0.3",
