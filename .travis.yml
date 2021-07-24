@@ -13,11 +13,12 @@ notifications:
     secure: kLUxvh6KgSnQ+i4l1RknOppzHKx9lebkmuiEZjC1wx87uqEPleDOqznmHvXYyyE55kot3+EPKW8kVj/cRiR5Ut25EOyNkf0vWPOr4zAqWYjdqPoD9pnN/lSGWriZKLJifPg/dz1KDe+TxHLTGavrG97zbeiWJ6Kzixl5lyn5YDPRuhr+Ey5SuUVyfMJ8csdsSnvqHrpzBf5gQIa9Ne25WJ1BwVadoCdb2zQDuMSPYWUr7vJ8pbQwyq185QPJMWYqSNw/uLyb7WllumMd/GrE5eJ5Y7+oyQqps9FXB6XpqZRul4mu25ASqWpbR1Hwwb85BZajKDxpZyQ8pMVxbNVmhC2WZghGJYocO9/rYMmRZLpYrvYxsdTuSxQnOI3D0lqwgD8RoGqZNVfYsr1eTeHuyPzfN7OZR1bPZkZOM06lVLEuVor6Dy8CuAkggoSOMf1Y73iAw/ma57IOGpOZSGXZ8f0KE4KTSYQ9z0rHMC8uOBNaz/lI+XwUtNa4Myq/7tqgBj01QkphzXYQwKnbr6c4nlpO7ajFLK3uBCXnSMx0oB/t9D7pgLD0GZU//32a3XuHumTtdCArUnpc7hBsiqEi6lEUQrUsmmctkzh+Usq8s9O/4XzArhorbdDVyA8SWyinyqjg+vGK7VrVspoCZ/1F6EiEPqmY4HZBOHGupv23uHQ=
 jobs:
   include:
-    - stage: build and deploy design tokens
+
+    - stage: production build and deploy design tokens
+      if: ((branch = master AND type != pull_request) AND fork = false)
       script:
       - npm run lint || travis_terminate 1
-      - npm run build:tokens || travis_terminate 1
-      - node ci/gitPushProperties.js -i "$TRAVIS_BUILD_ID" || travis_terminate 1
+      - npm run build || travis_terminate 1
 
       after_success:
       - npm run semantic-release || travis_terminate 1
@@ -26,3 +27,9 @@ jobs:
       # prepare git for pushes
       - git remote set-url origin https://lyne-design-system:$GH_TOKEN@github.com/lyne-design-system/lyne-design-tokens.git || travis_terminate 1
       - ./ci/deploy_cdn_assets.sh || travis_terminate 1
+
+    - stage: branch build and deploy design tokens
+      if: ((branch != master OR type = pull_request) AND fork = false)
+      script:
+      - npm run lint || travis_terminate 1
+      - npm run build || travis_terminate 1
