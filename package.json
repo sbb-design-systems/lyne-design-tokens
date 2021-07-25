@@ -25,7 +25,7 @@
     "semantic-release": "~17.4.4",
     "semantic-release-slack-bot": "^2.1.0",
     "shelljs": "~0.8.4",
-    "simple-git": "~2.40.0",
+    "simple-git": "~2.41.1",
     "sketch-constructor": "^1.20.1"
   },
   "files": [
