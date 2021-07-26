@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "~13.1.0",
     "@commitlint/config-conventional": "~13.1.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^5.0.0",
@@ -14,7 +14,7 @@
     "dotenv": "~10.0.0",
     "eslint": "^7.0.0",
     "eslint-plugin-yaml": "^0.5.0",
-    "husky": "^7.0.1",
+    "husky": "~7.0.1",
     "lodash": "^4.17.15",
     "lyne-helper-eslint-config": "~1.0.1",
     "lyne-helper-trigger-travis": "~1.0.3",
@@ -35,7 +35,8 @@
     "lint": "npm run lint:yml && npm run lint:js",
     "lint:js": "eslint ./ --ext .js",
     "lint:yml": "eslint ./ --ext .yml,.yaml",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
