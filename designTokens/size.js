@@ -1,17 +1,9 @@
 module.exports = {
-   "size":{
-      "font":{
-         "regular":{
-            "value":16
-         },
-         "headline":{
-            "1":{
-               "value":40
-            },
-            "2":{
-               "value":24
-            }
-         }
+  size: {
+    font: {
+      regular: {
+        value: 16
       }
-   }
-}
+    }
+  }
+};
