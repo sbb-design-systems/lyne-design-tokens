@@ -1,8 +1,8 @@
-{
+module.exports = {
    "color":{
       "red":{
          "1":{
-            "value":"#c60018"
+              "value":"#c60018"
          },
          "2":{
             "value":"#a20013"
