@@ -1,4 +1,4 @@
 module.exports = {
-  core: require('./core'),
-  button: require('./button')
+  button: require('./button'),
+  core: require('./core')
 };
