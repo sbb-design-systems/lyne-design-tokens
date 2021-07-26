@@ -184,5 +184,5 @@ module.exports = {
       ]
     }
   },
-  source: ['properties/**/*.json']
+  source: ['designTokens/**/*.json']
 };
