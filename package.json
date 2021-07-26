@@ -3,9 +3,7 @@
   "version": "3.4.1",
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
   "main": "index.js",
-  "dependencies": {
-    "style-dictionary": "^3.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "~13.1.0",
@@ -26,7 +24,8 @@
     "semantic-release-slack-bot": "^2.1.0",
     "shelljs": "~0.8.4",
     "simple-git": "~2.41.1",
-    "sketch-constructor": "^1.20.1"
+    "sketch-constructor": "^1.20.1",
+    "style-dictionary": "~3.0.1"
   },
   "files": [
     "dist/"
