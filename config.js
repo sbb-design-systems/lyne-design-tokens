@@ -36,7 +36,10 @@ module.exports = {
       files: [
         {
           destination: '_variables.css',
-          format: 'css/variables'
+          format: 'css/variables',
+          options: {
+            outputReferences: true
+          }
         }
       ],
       transformGroup: 'css',
