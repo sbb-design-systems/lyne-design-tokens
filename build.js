@@ -3,7 +3,9 @@ const StyleDictionary = require('style-dictionary')
 const fs = require('fs');
 const _ = require('lodash');
 const tokens = require('./designTokens');
-const baseSpacing = tokens.core.baseSpacing;
+const {
+  baseSpacing
+} = tokens.core;
 
 StyleDictionary.registerTransform({
   matcher: (token) => token.attributes.type === 'spacings',
