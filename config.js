@@ -46,7 +46,8 @@ module.exports = {
         'time/seconds',
         'content/icon',
         'size/px',
-        'color/css'
+        'color/css',
+        'calculateSpacings'
       ]
     },
     ios: {
@@ -144,7 +145,8 @@ module.exports = {
         'attribute/cti',
         'name/cti/pascal',
         'size/px',
-        'color/hex'
+        'color/hex',
+        'calculateSpacings'
       ]
     },
     less: {
@@ -162,7 +164,8 @@ module.exports = {
         'time/seconds',
         'content/icon',
         'size/px',
-        'color/hex'
+        'color/hex',
+        'calculateSpacings'
       ]
     },
     scss: {
@@ -180,7 +183,8 @@ module.exports = {
         'time/seconds',
         'content/icon',
         'size/px',
-        'color/css'
+        'color/css',
+        'calculateSpacings'
       ]
     }
   },
