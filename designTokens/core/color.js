@@ -1,25 +1,12 @@
+/* eslint-disable sort-keys */
+
 module.exports = {
   black: {
+    regular: {
+      value: 'rgba(0,0,0,1)'
+    },
     1: {
       value: 'rgba(21,21,21,1)'
-    },
-    10: {
-      value: 'rgba(189,189,189,1)'
-    },
-    11: {
-      value: 'rgba(205,205,205,1)'
-    },
-    12: {
-      value: 'rgba(210,210,210,1)'
-    },
-    13: {
-      value: 'rgba(220,220,220,1)'
-    },
-    14: {
-      value: 'rgba(229,229,229,1)'
-    },
-    15: {
-      value: 'rgba(246,246,246,1)'
     },
     2: {
       value: 'rgba(33,33,33,1)'
@@ -45,6 +32,24 @@ module.exports = {
     9: {
       value: 'rgba(183,183,183,1)'
     },
+    10: {
+      value: 'rgba(189,189,189,1)'
+    },
+    11: {
+      value: 'rgba(205,205,205,1)'
+    },
+    12: {
+      value: 'rgba(210,210,210,1)'
+    },
+    13: {
+      value: 'rgba(220,220,220,1)'
+    },
+    14: {
+      value: 'rgba(229,229,229,1)'
+    },
+    15: {
+      value: 'rgba(246,246,246,1)'
+    },
     alpha: {
       10: {
         value: 'rgba(0,0,0,.1)'
@@ -61,23 +66,23 @@ module.exports = {
       70: {
         value: 'rgba(0,0,0,.7)'
       }
-    },
-    regular: {
-      value: 'rgba(0,0,0,1)'
     }
   },
   red: {
+    regular: {
+      value: 'rgba(235,0,0,1)'
+    },
     125: {
       value: 'rgba(198,0,24,1)'
     },
     150: {
       value: 'rgba(162,0,19,1)'
-    },
-    regular: {
-      value: 'rgba(235,0,0,1)'
     }
   },
   white: {
+    regular: {
+      value: 'rgba(255,255,255,1)'
+    },
     alpha: {
       20: {
         value: 'rgba(255,255,255,.5)'
@@ -91,9 +96,8 @@ module.exports = {
       70: {
         value: 'rgba(255,255,255,.7)'
       }
-    },
-    regular: {
-      value: 'rgba(255,255,255,1)'
     }
   }
 };
+
+/* eslint-enable sort-keys */
