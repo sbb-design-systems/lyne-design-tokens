@@ -17,6 +17,7 @@ jobs:
     - stage: production build and deploy design tokens
       if: ((branch = master AND type != pull_request) AND fork = false)
       script:
+      - npm ci --only=production --ignore-scripts
       - npm run lint || travis_terminate 1
       - npm run build || travis_terminate 1
 
@@ -31,5 +32,6 @@ jobs:
     - stage: branch build and deploy design tokens
       if: ((branch != master OR type = pull_request) AND fork = false)
       script:
+      - npm ci --only=production --ignore-scripts
       - npm run lint || travis_terminate 1
       - npm run build || travis_terminate 1
