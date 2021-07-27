@@ -73,75 +73,75 @@ module.exports = {
       ultra: {
         value: 8
       }
-    }
-  },
-  'spacing-m': {
-    zero: {
-      value: 8
     },
-    micro: {
-      value: 8
+    'spacing-m': {
+      zero: {
+        value: 8
+      },
+      micro: {
+        value: 8
+      },
+      small: {
+        value: 8
+      },
+      medium: {
+        value: 10
+      },
+      large: {
+        value: 10
+      },
+      wide: {
+        value: 12
+      },
+      ultra: {
+        value: 12
+      }
     },
-    small: {
-      value: 8
+    'spacing-l': {
+      zero: {
+        value: 8
+      },
+      micro: {
+        value: 8
+      },
+      small: {
+        value: 10
+      },
+      medium: {
+        value: 12
+      },
+      large: {
+        value: 14
+      },
+      wide: {
+        value: 14
+      },
+      ultra: {
+        value: 16
+      }
     },
-    medium: {
-      value: 10
-    },
-    large: {
-      value: 10
-    },
-    wide: {
-      value: 12
-    },
-    ultra: {
-      value: 12
-    }
-  },
-  'spacing-l': {
-    zero: {
-      value: 8
-    },
-    micro: {
-      value: 8
-    },
-    small: {
-      value: 10
-    },
-    medium: {
-      value: 12
-    },
-    large: {
-      value: 14
-    },
-    wide: {
-      value: 14
-    },
-    ultra: {
-      value: 16
-    }
-  },
-  'spacing-xl': {
-    zero: {
-      value: 8
-    },
-    micro: {
-      value: 8
-    },
-    small: {
-      value: 12
-    },
-    medium: {
-      value: 16
-    },
-    large: {
-      value: 20
-    },
-    wide: {
-      value: 20
-    },
-    ultra: {
-      value: 24
+    'spacing-xl': {
+      zero: {
+        value: 8
+      },
+      micro: {
+        value: 8
+      },
+      small: {
+        value: 12
+      },
+      medium: {
+        value: 16
+      },
+      large: {
+        value: 20
+      },
+      wide: {
+        value: 20
+      },
+      ultra: {
+        value: 24
+      }
     }
   }
 };
