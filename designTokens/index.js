@@ -1,3 +1,4 @@
 module.exports = {
-  core: require('./core')
+  color: require('./color'),
+  spacings: require('./spacings')
 };
