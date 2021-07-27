@@ -1,66 +1,103 @@
+/* eslint-disable sort-keys */
+
 module.exports = {
   black: {
+    regular: {
+      value: 'rgba(0,0,0,1)'
+    },
     1: {
-      value: '151515'
-    },
-    10: {
-      value: 'bdbdbd'
-    },
-    11: {
-      value: 'cdcdcd'
-    },
-    12: {
-      value: 'd2d2d2'
-    },
-    13: {
-      value: 'dcdcdc'
-    },
-    14: {
-      value: 'e5e5e5'
-    },
-    15: {
-      value: 'f6f6f6'
+      value: 'rgba(21,21,21,1)'
     },
     2: {
-      value: '212121'
+      value: 'rgba(33,33,33,1)'
     },
     3: {
-      value: '444444'
+      value: 'rgba(68,68,68,1)'
     },
     4: {
-      value: '5a5a5a'
+      value: 'rgba(90,90,90,1)'
     },
     5: {
-      value: '686868'
+      value: 'rgba(104,104,104,1)'
     },
     6: {
-      value: '767676'
+      value: 'rgba(118,118,118,1)'
     },
     7: {
-      value: '8d8d8d'
+      value: 'rgba(141,141,141,1)'
     },
     8: {
-      value: 'a8a8a8'
+      value: 'rgba(168,168,168,1)'
     },
     9: {
-      value: 'b7b7b7'
+      value: 'rgba(183,183,183,1)'
     },
-    regular: {
-      value: '#000000'
+    10: {
+      value: 'rgba(189,189,189,1)'
+    },
+    11: {
+      value: 'rgba(205,205,205,1)'
+    },
+    12: {
+      value: 'rgba(210,210,210,1)'
+    },
+    13: {
+      value: 'rgba(220,220,220,1)'
+    },
+    14: {
+      value: 'rgba(229,229,229,1)'
+    },
+    15: {
+      value: 'rgba(246,246,246,1)'
+    },
+    alpha: {
+      10: {
+        value: 'rgba(0,0,0,.1)'
+      },
+      20: {
+        value: 'rgba(0,0,0,.2)'
+      },
+      50: {
+        value: 'rgba(0,0,0,.5)'
+      },
+      60: {
+        value: 'rgba(0,0,0,.6)'
+      },
+      70: {
+        value: 'rgba(0,0,0,.7)'
+      }
     }
   },
   red: {
+    regular: {
+      value: 'rgba(235,0,0,1)'
+    },
     125: {
-      value: '#c60018'
+      value: 'rgba(198,0,24,1)'
     },
     150: {
-      value: '#a20013'
-    },
-    regular: {
-      value: '#eb0000'
+      value: 'rgba(162,0,19,1)'
     }
   },
   white: {
-    value: '#ffffff'
+    regular: {
+      value: 'rgba(255,255,255,1)'
+    },
+    alpha: {
+      20: {
+        value: 'rgba(255,255,255,.5)'
+      },
+      50: {
+        value: 'rgba(255,255,255,.5)'
+      },
+      60: {
+        value: 'rgba(255,255,255,.6)'
+      },
+      70: {
+        value: 'rgba(255,255,255,.7)'
+      }
+    }
   }
 };
+
+/* eslint-enable sort-keys */
