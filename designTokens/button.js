@@ -8,7 +8,7 @@ module.exports = {
   },
   size: {
     padding: {
-      value: '{core.size.spacing.small.value}'
+      value: '{core.spacings.fixed.spacing-5x.value}'
     }
   }
 };
