@@ -1,6 +1,21 @@
-/* eslint sort-keys: 0 */
+/*
+ * Aside from the base definition, the number assigned to the value is
+ * representing the factor by which the base value will get multiplied by
+ * to create the actual spacing size (e.g. spacing-3x: 8 * 4 = 32). The
+ * transformation is happening in the calculateSpacings transformation
+ * inside of the build.js file.
+ */
 
+/* eslint-disable sort-keys */
 module.exports = {
+  'base': {
+    spacing: {
+      value: 4,
+      attributes: {
+        type: ''
+      }
+    }
+  },
   'fixed': {
     'spacing': {
       value: 1
@@ -145,3 +160,5 @@ module.exports = {
     }
   }
 };
+
+/* eslint-enable sort-keys */
