@@ -8,9 +8,7 @@ const baseSpacing = tokens.core.baseSpacing;
 StyleDictionary.registerTransform({
   matcher: (token) => token.attributes.type === 'spacings',
   name: 'calculateSpacings',
-  transformer: (token) => {
-    return token.value * baseSpacing;
-  },
+  transformer: (token) => token.value * baseSpacing,
   transitive: true,
   type: 'value'
 });
