@@ -2,6 +2,18 @@ const StyleDictionary = require('style-dictionary')
   .extend(`${__dirname}/config.js`);
 const fs = require('fs');
 const _ = require('lodash');
+const tokens = require('./designTokens');
+const baseSpacing = tokens.core.baseSpacing;
+
+StyleDictionary.registerTransform({
+  matcher: (token) => token.attributes.type === 'spacings',
+  name: 'calculateSpacings',
+  transformer: (token) => {
+    return token.value * baseSpacing;
+  },
+  transitive: true,
+  type: 'value'
+});
 
 console.log('Build started...');
 console.log('\n==============================================');

@@ -1,4 +1,5 @@
 module.exports = {
+  baseSpacing: 4,
   color: require('./color'),
-  size: require('./size')
+  spacings: require('./spacings')
 };
