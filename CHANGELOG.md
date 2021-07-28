@@ -1,3 +1,10 @@
+## [3.6.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.0...v3.6.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* use :host selector instead of default :root ([84aed4a](https://github.com/lyne-design-system/lyne-design-tokens/commit/84aed4a042405cb6c4ce673344842be8f9327257))
+
 # [3.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.5.0...v3.6.0) (2021-07-28)
 
 
