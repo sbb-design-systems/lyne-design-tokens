@@ -1,3 +1,10 @@
+## [3.7.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.7.0...v3.7.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* rename colors to match color names defined in figma ([b5f6b6d](https://github.com/lyne-design-system/lyne-design-tokens/commit/b5f6b6dda0d10d6e38aa53c47676e052d8ea6fa9))
+
 # [3.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.1...v3.7.0) (2021-07-28)
 
 
