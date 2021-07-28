@@ -1,4 +1,5 @@
 module.exports = {
   color: require('./color'),
-  spacings: require('./spacings')
+  spacings: require('./spacings'),
+  touch: require('./touch')
 };
