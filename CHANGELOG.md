@@ -1,3 +1,48 @@
+# [3.9.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.8.0...v3.9.0) (2021-07-28)
+
+
+### Features
+
+* is adding breakpoint tokens ([414f2f2](https://github.com/lyne-design-system/lyne-design-tokens/commit/414f2f22012e0548c2aeb9eb440b0bb7e28b2ed9))
+* is adding minimal touch size token information ([2a0674b](https://github.com/lyne-design-system/lyne-design-tokens/commit/2a0674b9b41ce8f134159066b95ee474b541e78e))
+
+# [3.8.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.7.1...v3.8.0) (2021-07-28)
+
+
+### Features
+
+* is adding icon-size design tokens ([f65b2ef](https://github.com/lyne-design-system/lyne-design-tokens/commit/f65b2ef11446cee48fc15644d1780841f6f52b97))
+
+## [3.7.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.7.0...v3.7.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* rename colors to match color names defined in figma ([b5f6b6d](https://github.com/lyne-design-system/lyne-design-tokens/commit/b5f6b6dda0d10d6e38aa53c47676e052d8ea6fa9))
+
+# [3.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.1...v3.7.0) (2021-07-28)
+
+
+### Features
+
+* add design tokens for shadows ([d520d0f](https://github.com/lyne-design-system/lyne-design-tokens/commit/d520d0f53dc68b651b9914e8b06d6289f32a2b68))
+* include design token file for shadows ([9ebaf0d](https://github.com/lyne-design-system/lyne-design-tokens/commit/9ebaf0d84623704b2b3aae11ec50c03c2bdaf3d5))
+* restructure hard/soft shadow nesting ([8de18a6](https://github.com/lyne-design-system/lyne-design-tokens/commit/8de18a61bf6f9b0c119d890a69626262baf1aa09))
+
+## [3.6.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.0...v3.6.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* use :host selector instead of default :root ([84aed4a](https://github.com/lyne-design-system/lyne-design-tokens/commit/84aed4a042405cb6c4ce673344842be8f9327257))
+
+# [3.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.5.0...v3.6.0) (2021-07-28)
+
+
+### Features
+
+* output css variables in scss file ([0a9249b](https://github.com/lyne-design-system/lyne-design-tokens/commit/0a9249b9f0b01065526469ab0b8af0923bcf545d))
+
 # [3.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.4.1...v3.5.0) (2021-07-27)
 
 
