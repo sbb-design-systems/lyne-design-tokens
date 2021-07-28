@@ -1,3 +1,57 @@
+## [3.7.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.7.0...v3.7.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* rename colors to match color names defined in figma ([b5f6b6d](https://github.com/lyne-design-system/lyne-design-tokens/commit/b5f6b6dda0d10d6e38aa53c47676e052d8ea6fa9))
+
+# [3.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.1...v3.7.0) (2021-07-28)
+
+
+### Features
+
+* add design tokens for shadows ([d520d0f](https://github.com/lyne-design-system/lyne-design-tokens/commit/d520d0f53dc68b651b9914e8b06d6289f32a2b68))
+* include design token file for shadows ([9ebaf0d](https://github.com/lyne-design-system/lyne-design-tokens/commit/9ebaf0d84623704b2b3aae11ec50c03c2bdaf3d5))
+* restructure hard/soft shadow nesting ([8de18a6](https://github.com/lyne-design-system/lyne-design-tokens/commit/8de18a61bf6f9b0c119d890a69626262baf1aa09))
+
+## [3.6.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.0...v3.6.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* use :host selector instead of default :root ([84aed4a](https://github.com/lyne-design-system/lyne-design-tokens/commit/84aed4a042405cb6c4ce673344842be8f9327257))
+
+# [3.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.5.0...v3.6.0) (2021-07-28)
+
+
+### Features
+
+* output css variables in scss file ([0a9249b](https://github.com/lyne-design-system/lyne-design-tokens/commit/0a9249b9f0b01065526469ab0b8af0923bcf545d))
+
+# [3.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.4.1...v3.5.0) (2021-07-27)
+
+
+### Bug Fixes
+
+* add missing hash tag to colors ([c6136b1](https://github.com/lyne-design-system/lyne-design-tokens/commit/c6136b1a1464a38cca0e56c7a4b8c329cce1ccc2))
+* adobt new file structure ([3ebba81](https://github.com/lyne-design-system/lyne-design-tokens/commit/3ebba811d58995fd3484b6abae18ec228e07408f))
+* is taking over pr suggestions and adding additional documentation ([b8bb736](https://github.com/lyne-design-system/lyne-design-tokens/commit/b8bb736bd0cb4d4d8f51956683eac163abd5c975))
+* remove button tokens ([18f6e2b](https://github.com/lyne-design-system/lyne-design-tokens/commit/18f6e2b1ee7256b67af946d379829937614ccf07))
+* remove chore from path, use category instead of type ([e3c0b3b](https://github.com/lyne-design-system/lyne-design-tokens/commit/e3c0b3bd83e56dc932a606673edd953f864a2af9))
+* remove core folder ([dd12c26](https://github.com/lyne-design-system/lyne-design-tokens/commit/dd12c26e3433f241b19299598647ff02c514fb93))
+* remove core folder ([829e71c](https://github.com/lyne-design-system/lyne-design-tokens/commit/829e71c83e1e0a7c97b1830f9409f2788ed210e6))
+* try to disable commit-msg hook on ci ([4cae729](https://github.com/lyne-design-system/lyne-design-tokens/commit/4cae729683cd0debfbf5db159c6ffdcd3fbca889))
+* try to skip prepare script on ci ([64117ec](https://github.com/lyne-design-system/lyne-design-tokens/commit/64117ecb99484800542667e96c1bb390aa9cfe8a))
+* try to skip prepare script on ci ([40fab04](https://github.com/lyne-design-system/lyne-design-tokens/commit/40fab047bfd46a138fd6c88908a0bde67f4b4cc1))
+
+
+### Features
+
+* add colors for primary button ([b2c9b10](https://github.com/lyne-design-system/lyne-design-tokens/commit/b2c9b105812d8d20576406f15518301aa3a37eb2))
+* add core colors include color attribute ([941db15](https://github.com/lyne-design-system/lyne-design-tokens/commit/941db156c3287cadfa760ec2ef90dd9543806082))
+* add design tokens for buttons ([f855ba9](https://github.com/lyne-design-system/lyne-design-tokens/commit/f855ba9c67ce90ce52d467d97f9e79bc9a16b7b8))
+* enable outputReferences for css-variables ([4f3867b](https://github.com/lyne-design-system/lyne-design-tokens/commit/4f3867b4eeb3a226c70ff80be04cf86c90d59a50))
+
 ## [3.4.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.4.0...v3.4.1) (2021-06-20)
 
 
