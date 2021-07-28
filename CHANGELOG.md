@@ -1,3 +1,11 @@
+## [3.9.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.9.0...v3.9.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* choosing clearer variable name ([b0ab8c2](https://github.com/lyne-design-system/lyne-design-tokens/commit/b0ab8c2980eedf97fc5e50ccd0c5863374b26b18))
+* improving spacing variables output ([0056bf2](https://github.com/lyne-design-system/lyne-design-tokens/commit/0056bf2d9a601acf56d3cd85fc059699333d86f0))
+
 # [3.9.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.8.0...v3.9.0) (2021-07-28)
 
 
