@@ -1,3 +1,12 @@
+# [3.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.1...v3.7.0) (2021-07-28)
+
+
+### Features
+
+* add design tokens for shadows ([d520d0f](https://github.com/lyne-design-system/lyne-design-tokens/commit/d520d0f53dc68b651b9914e8b06d6289f32a2b68))
+* include design token file for shadows ([9ebaf0d](https://github.com/lyne-design-system/lyne-design-tokens/commit/9ebaf0d84623704b2b3aae11ec50c03c2bdaf3d5))
+* restructure hard/soft shadow nesting ([8de18a6](https://github.com/lyne-design-system/lyne-design-tokens/commit/8de18a61bf6f9b0c119d890a69626262baf1aa09))
+
 ## [3.6.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.6.0...v3.6.1) (2021-07-28)
 
 
