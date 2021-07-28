@@ -1,3 +1,11 @@
+# [3.9.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.8.0...v3.9.0) (2021-07-28)
+
+
+### Features
+
+* is adding breakpoint tokens ([414f2f2](https://github.com/lyne-design-system/lyne-design-tokens/commit/414f2f22012e0548c2aeb9eb440b0bb7e28b2ed9))
+* is adding minimal touch size token information ([2a0674b](https://github.com/lyne-design-system/lyne-design-tokens/commit/2a0674b9b41ce8f134159066b95ee474b541e78e))
+
 # [3.8.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.7.1...v3.8.0) (2021-07-28)
 
 
