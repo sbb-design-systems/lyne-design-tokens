@@ -8,42 +8,40 @@
 
 /* eslint-disable sort-keys */
 module.exports = {
-  'base': {
-    spacing: {
-      value: 4,
-      attributes: {
-        category: ''
-      }
+  base: {
+    value: 4,
+    attributes: {
+      category: ''
     }
   },
-  'fixed': {
-    'spacing': {
+  fixed: {
+    '-1x': {
       value: 1
     },
-    'spacing-2x': {
+    '-2x': {
       value: 2
     },
-    'spacing-3x': {
+    '-3x': {
       value: 3
     },
-    'spacing-4x': {
+    '-4x': {
       value: 4
     },
-    'spacing-5x': {
+    '-5x': {
       value: 5
     },
-    'spacing-6x': {
+    '-6x': {
       value: 6
     },
-    'spacing-8x': {
+    '-8x': {
       value: 8
     },
-    'spacing-10x': {
+    '-10x': {
       value: 10
     }
   },
-  'responsive': {
-    'spacing-xs': {
+  responsive: {
+    '-xs': {
       zero: {
         value: 5
       },
@@ -66,7 +64,7 @@ module.exports = {
         value: 6
       }
     },
-    'spacing-s': {
+    '-s': {
       zero: {
         value: 6
       },
@@ -88,75 +86,75 @@ module.exports = {
       ultra: {
         value: 8
       }
-    }
-  },
-  'spacing-m': {
-    zero: {
-      value: 8
     },
-    micro: {
-      value: 8
+    '-m': {
+      zero: {
+        value: 8
+      },
+      micro: {
+        value: 8
+      },
+      small: {
+        value: 8
+      },
+      medium: {
+        value: 10
+      },
+      large: {
+        value: 10
+      },
+      wide: {
+        value: 12
+      },
+      ultra: {
+        value: 12
+      }
     },
-    small: {
-      value: 8
+    '-l': {
+      zero: {
+        value: 8
+      },
+      micro: {
+        value: 8
+      },
+      small: {
+        value: 10
+      },
+      medium: {
+        value: 12
+      },
+      large: {
+        value: 14
+      },
+      wide: {
+        value: 14
+      },
+      ultra: {
+        value: 16
+      }
     },
-    medium: {
-      value: 10
-    },
-    large: {
-      value: 10
-    },
-    wide: {
-      value: 12
-    },
-    ultra: {
-      value: 12
-    }
-  },
-  'spacing-l': {
-    zero: {
-      value: 8
-    },
-    micro: {
-      value: 8
-    },
-    small: {
-      value: 10
-    },
-    medium: {
-      value: 12
-    },
-    large: {
-      value: 14
-    },
-    wide: {
-      value: 14
-    },
-    ultra: {
-      value: 16
-    }
-  },
-  'spacing-xl': {
-    zero: {
-      value: 8
-    },
-    micro: {
-      value: 8
-    },
-    small: {
-      value: 12
-    },
-    medium: {
-      value: 16
-    },
-    large: {
-      value: 20
-    },
-    wide: {
-      value: 20
-    },
-    ultra: {
-      value: 24
+    '-xl': {
+      zero: {
+        value: 8
+      },
+      micro: {
+        value: 8
+      },
+      small: {
+        value: 12
+      },
+      medium: {
+        value: 16
+      },
+      large: {
+        value: 20
+      },
+      wide: {
+        value: 20
+      },
+      ultra: {
+        value: 24
+      }
     }
   }
 };
