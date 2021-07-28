@@ -5,8 +5,8 @@ const _color3 = 'rgba(141,141,141,.1)';
 const _color4 = 'rgba(141,141,141,.2)';
 
 const shadowObject = (x1, y1, blur1, spread1, x2, y2, blur2, spread2, color1, color2, color3, color4) => ({
-  soft: {
-    shadow: {
+  shadow: {
+    soft: {
       1: {
         color: {
           value: color1
@@ -17,10 +17,8 @@ const shadowObject = (x1, y1, blur1, spread1, x2, y2, blur2, spread2, color1, co
           value: color2
         }
       }
-    }
-  },
-  hard: {
-    shadow: {
+    },
+    hard: {
       1: {
         color: {
           value: color3
@@ -31,9 +29,7 @@ const shadowObject = (x1, y1, blur1, spread1, x2, y2, blur2, spread2, color1, co
           value: color4
         }
       }
-    }
-  },
-  shadow: {
+    },
     1: {
       offset: {
         x: {
