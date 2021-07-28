@@ -174,6 +174,13 @@ module.exports = {
         {
           destination: '_variables.scss',
           format: 'custom/format/scss'
+        },
+        {
+          destination: '_css_variables.scss',
+          format: 'css/variables',
+          options: {
+            selector: ':host'
+          }
         }
       ],
       transformGroup: 'scss',
