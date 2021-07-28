@@ -1,3 +1,10 @@
+# [3.8.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.7.1...v3.8.0) (2021-07-28)
+
+
+### Features
+
+* is adding icon-size design tokens ([f65b2ef](https://github.com/lyne-design-system/lyne-design-tokens/commit/f65b2ef11446cee48fc15644d1780841f6f52b97))
+
 ## [3.7.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.7.0...v3.7.1) (2021-07-28)
 
 
