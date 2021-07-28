@@ -2,5 +2,6 @@ module.exports = {
   color: require('./color'),
   iconSize: require('./icon-size'),
   shadow: require('./shadow'),
-  spacings: require('./spacings')
+  spacings: require('./spacings'),
+  touch: require('./touch')
 };
