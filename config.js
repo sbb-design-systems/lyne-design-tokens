@@ -177,7 +177,10 @@ module.exports = {
         },
         {
           destination: '_css_variables.scss',
-          format: 'css/variables'
+          format: 'css/variables',
+          options: {
+            selector: ':host'
+          }
         }
       ],
       transformGroup: 'scss',
