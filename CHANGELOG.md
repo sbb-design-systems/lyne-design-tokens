@@ -1,3 +1,10 @@
+# [3.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.5.0...v3.6.0) (2021-07-28)
+
+
+### Features
+
+* output css variables in scss file ([0a9249b](https://github.com/lyne-design-system/lyne-design-tokens/commit/0a9249b9f0b01065526469ab0b8af0923bcf545d))
+
 # [3.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.4.1...v3.5.0) (2021-07-27)
 
 
