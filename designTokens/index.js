@@ -4,5 +4,6 @@ module.exports = {
   iconSize: require('./icon-size'),
   shadow: require('./shadow'),
   spacing: require('./spacing'),
-  touch: require('./touch')
+  touch: require('./touch'),
+  typo: require('./typo')
 };
