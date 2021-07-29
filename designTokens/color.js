@@ -51,6 +51,11 @@ module.exports = {
   metal: {
     default: {
       value: 'rgba(118,118,118,1)'
+    },
+    alpha: {
+      20: {
+        value: 'rgba(118,118,118,.2)'
+      }
     }
   },
   smoke: {
@@ -59,7 +64,13 @@ module.exports = {
     },
     alpha: {
       5: {
-        value: 'value: rgba(141,141,141,.05)'
+        value: 'rgba(141,141,141,.05)'
+      },
+      10: {
+        value: 'rgba(141,141,141,.1)'
+      },
+      20: {
+        value: 'rgba(141,141,141,.2)'
       }
     }
   },
@@ -76,11 +87,21 @@ module.exports = {
   cement: {
     default: {
       value: 'rgba(189,189,189,1)'
+    },
+    alpha: {
+      20: {
+        value: 'rgba(189,189,189,.2)'
+      }
     }
   },
   platinum: {
     default: {
       value: 'rgba(205,205,205,1)'
+    },
+    alpha: {
+      20: {
+        value: 'rgba(205,205,205,.2)'
+      }
     }
   },
   aluminium: {
@@ -107,10 +128,24 @@ module.exports = {
     default: {
       value: 'rgba(235,0,0,1)'
     },
-    125: {
+    alpha: {
+      20: {
+        value: 'rgba(235,0,0,.2)'
+      }
+    }
+  },
+  red125: {
+    default: {
       value: 'rgba(198,0,24,1)'
     },
-    150: {
+    alpha: {
+      20: {
+        value: 'rgba(198,0,24,.2)'
+      }
+    }
+  },
+  red150: {
+    default: {
       value: 'rgba(162,0,19,1)'
     }
   },
