@@ -1,3 +1,11 @@
+# [3.10.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.9.1...v3.10.0) (2021-07-29)
+
+
+### Features
+
+* adding typo design tokens ([235984e](https://github.com/lyne-design-system/lyne-design-tokens/commit/235984e819033197145c2ce130aaeec61ed0bc49))
+* is adding structure for font families ([de5bad0](https://github.com/lyne-design-system/lyne-design-tokens/commit/de5bad0a2239ae679f941f5bb0e652449946f1a9))
+
 ## [3.9.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.9.0...v3.9.1) (2021-07-28)
 
 
