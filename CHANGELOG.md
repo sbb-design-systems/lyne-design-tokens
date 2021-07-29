@@ -1,3 +1,17 @@
+# [3.11.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.10.0...v3.11.0) (2021-07-29)
+
+
+### Bug Fixes
+
+* add alpha colors needed for shadow design tokens ([6bd7fff](https://github.com/lyne-design-system/lyne-design-tokens/commit/6bd7fff0bdf96aaadd400acb85bfa0b90b36b0a0))
+* add default to all colors ([c60f60b](https://github.com/lyne-design-system/lyne-design-tokens/commit/c60f60b7d50e835847f3b3b76b5e3425a264f3ea))
+* use color tokens as shadow colors ([eb2b3cb](https://github.com/lyne-design-system/lyne-design-tokens/commit/eb2b3cb5dc225a9c1974a7aa9dfa73a133fe2a29))
+
+
+### Features
+
+* add button shadows ([8cf04bf](https://github.com/lyne-design-system/lyne-design-tokens/commit/8cf04bf4d2c74c40c25992438b65dfcd36694585))
+
 # [3.10.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.9.1...v3.10.0) (2021-07-29)
 
 
