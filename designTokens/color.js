@@ -6,6 +6,9 @@ module.exports = {
       value: 'rgba(0,0,0,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(0,0,0,0)'
+      },
       10: {
         value: 'rgba(0,0,0,.1)'
       },
@@ -53,6 +56,9 @@ module.exports = {
       value: 'rgba(118,118,118,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(118,118,118,0)'
+      },
       20: {
         value: 'rgba(118,118,118,.2)'
       }
@@ -63,6 +69,9 @@ module.exports = {
       value: 'rgba(141,141,141,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(141,141,141,0)'
+      },
       5: {
         value: 'rgba(141,141,141,.05)'
       },
@@ -89,6 +98,9 @@ module.exports = {
       value: 'rgba(189,189,189,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(189,189,189,0)'
+      },
       20: {
         value: 'rgba(189,189,189,.2)'
       }
@@ -99,6 +111,9 @@ module.exports = {
       value: 'rgba(205,205,205,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(205,205,205,0)'
+      },
       20: {
         value: 'rgba(205,205,205,.2)'
       }
@@ -129,6 +144,9 @@ module.exports = {
       value: 'rgba(235,0,0,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(235,0,0,0)'
+      },
       20: {
         value: 'rgba(235,0,0,.2)'
       }
@@ -139,6 +157,9 @@ module.exports = {
       value: 'rgba(198,0,24,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(198,0,24,0)'
+      },
       20: {
         value: 'rgba(198,0,24,.2)'
       }
@@ -154,6 +175,9 @@ module.exports = {
       value: 'rgba(255,255,255,1)'
     },
     alpha: {
+      0: {
+        value: 'rgba(255,255,255,0)'
+      },
       20: {
         value: 'rgba(255,255,255,.5)'
       },
