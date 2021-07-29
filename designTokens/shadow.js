@@ -63,6 +63,7 @@ const shadowObject = (x1, y1, blur1, spread1, x2, y2, blur2, spread2, color1, co
         }
       }
     };
+
   } else {
     returnObject['1'] = {
       color: {
