@@ -1,3 +1,10 @@
+## [3.11.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.0...v3.11.1) (2021-07-29)
+
+
+### Bug Fixes
+
+* fake commit to trigger release ([6257820](https://github.com/lyne-design-system/lyne-design-tokens/commit/6257820902134e870bfce4b4bc35bdc8de0c5a35))
+
 # [3.11.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.10.0...v3.11.0) (2021-07-29)
 
 
