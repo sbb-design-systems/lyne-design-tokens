@@ -14,7 +14,7 @@
 module.exports = {
   default: {
     fontColor: {
-      value: '{color.charcoal.value}'
+      value: '{color.charcoal.default.value}'
     },
     fontFamily: {
       value: '{typo.font.family.sbbRoman.value}'
