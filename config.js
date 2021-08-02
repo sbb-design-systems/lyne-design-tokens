@@ -145,7 +145,7 @@ module.exports = {
         'attribute/cti',
         'name/cti/pascal',
         'size/px',
-        'color/hex',
+        'color/css',
         'calculateSpacings'
       ]
     },
@@ -164,7 +164,7 @@ module.exports = {
         'time/seconds',
         'content/icon',
         'size/px',
-        'color/hex',
+        'color/css',
         'calculateSpacings'
       ]
     },
