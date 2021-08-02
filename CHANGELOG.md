@@ -1,3 +1,10 @@
+## [3.11.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.1...v3.11.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* use css color transform for less and javascript targets ([da27faf](https://github.com/lyne-design-system/lyne-design-tokens/commit/da27faf0b10d16c7ab669fe73e0596bba5351e81))
+
 ## [3.11.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.0...v3.11.1) (2021-07-29)
 
 
