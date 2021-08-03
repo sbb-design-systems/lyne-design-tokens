@@ -26,8 +26,7 @@ module.exports = {
       value: '{typo.font.family.sbbRoman.value}'
     },
     fontSize: {
-      value: 16,
-      ...sizeCategory
+      value: 16
     },
     letterSpacing: {
       value: '0.03em'
