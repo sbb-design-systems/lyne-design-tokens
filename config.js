@@ -16,7 +16,7 @@ module.exports = {
         'content/icon',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
     },
     js: {
@@ -53,7 +53,7 @@ module.exports = {
         'name/cti/pascal',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
     },
     less: {
@@ -72,7 +72,7 @@ module.exports = {
         'content/icon',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
     },
     scss: {
@@ -98,7 +98,7 @@ module.exports = {
         'content/icon',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
     }
   },
