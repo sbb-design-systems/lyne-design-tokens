@@ -18,6 +18,13 @@ const sizeCategory = {
 /* eslint-disable sort-keys */
 
 module.exports = {
+  base: {
+    font: {
+      size: {
+        value: 16
+      }
+    }
+  },
   default: {
     fontColor: {
       value: '{color.charcoal.default.value}'
@@ -26,7 +33,8 @@ module.exports = {
       value: '{typo.font.family.sbbRoman.value}'
     },
     fontSize: {
-      value: 16
+      value: 16,
+      ...sizeCategory
     },
     letterSpacing: {
       value: '0.03em'
