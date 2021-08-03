@@ -3,7 +3,7 @@ const StyleDictionary = require('style-dictionary')
 const fs = require('fs');
 const _ = require('lodash');
 const typo = require('./designTokens/typo');
-const baseFontSize = typo.default.fontSize.value;
+const baseFontSize = typo.base.font.size.value;
 
 console.log(baseFontSize);
 
