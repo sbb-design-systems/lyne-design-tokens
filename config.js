@@ -19,68 +19,6 @@ module.exports = {
         'calculateSpacings'
       ]
     },
-    ios: {
-      buildPath: 'dist/ios/',
-      files: [
-        {
-          className: 'StyleDictionaryColor',
-          destination: 'StyleDictionaryColor.h',
-          filter: {
-            attributes: {
-              category: 'color'
-            }
-          },
-          format: 'ios/colors.h',
-          type: 'StyleDictionaryColorName'
-        },
-        {
-          className: 'StyleDictionaryColor',
-          destination: 'StyleDictionaryColor.m',
-          filter: {
-            attributes: {
-              category: 'color'
-            }
-          },
-          format: 'ios/colors.m',
-          type: 'StyleDictionaryColorName'
-        },
-        {
-          className: 'StyleDictionarySize',
-          destination: 'StyleDictionarySize.h',
-          filter: {
-            attributes: {
-              category: 'size'
-            }
-          },
-          format: 'ios/static.h',
-          type: 'float'
-        },
-        {
-          className: 'StyleDictionarySize',
-          destination: 'StyleDictionarySize.m',
-          filter: {
-            attributes: {
-              category: 'size'
-            }
-          },
-          format: 'ios/static.m',
-          type: 'float'
-        }
-      ],
-      transformGroup: 'ios'
-    },
-    iosSwift: {
-      buildPath: 'dist/ios-swift/',
-      files: [
-        {
-          className: 'StyleDictionary',
-          destination: 'StyleDictionary.swift',
-          filter: {},
-          format: 'ios-swift/class.swift'
-        }
-      ],
-      transformGroup: 'ios-swift'
-    },
     js: {
       buildPath: 'dist/js/',
       files: [
