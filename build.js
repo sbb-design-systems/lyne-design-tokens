@@ -5,8 +5,6 @@ const _ = require('lodash');
 const typo = require('./designTokens/typo');
 const baseFontSize = typo.base.font.size.value;
 
-console.log(baseFontSize);
-
 // Transform to calculate rem from pixel values based on basePxFontSize
 StyleDictionary.registerTransform({
   matcher: (token) => token.attributes.implicitCategory === 'size',
