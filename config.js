@@ -4,7 +4,7 @@ module.exports = {
       buildPath: 'dist/css/',
       files: [
         {
-          destination: '_variables.css',
+          destination: 'variables.css',
           format: 'css/variables'
         }
       ],
