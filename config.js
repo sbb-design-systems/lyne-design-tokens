@@ -60,7 +60,7 @@ module.exports = {
       buildPath: 'dist/less/',
       files: [
         {
-          destination: '_variables.less',
+          destination: 'variables.less',
           format: 'less/variables'
         }
       ],
@@ -79,11 +79,11 @@ module.exports = {
       buildPath: 'dist/scss/',
       files: [
         {
-          destination: '_variables.scss',
+          destination: 'variables.scss',
           format: 'custom/format/scss'
         },
         {
-          destination: '_css_variables.scss',
+          destination: 'css_variables.scss',
           format: 'css/variables',
           options: {
             selector: ':host'
