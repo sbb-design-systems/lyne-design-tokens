@@ -1,159 +1,149 @@
-/*
- * Aside from the base definition, the number assigned to the value is
- * representing the factor by which the base value will get multiplied by
- * to create the actual spacing size (e.g. spacing-3x: 8 * 4 = 32). The
- * transformation is happening in the calculateSpacings transformation
- * inside of the build.js file.
- */
+const baseSpacing = 4;
+
+const spacing = (value) => value * Number(baseSpacing);
 
 /* eslint-disable sort-keys */
 module.exports = {
-  base: {
-    value: 4,
-    attributes: {
-      category: ''
-    }
-  },
   fixed: {
     '-1x': {
-      value: 1
+      value: spacing(1)
     },
     '-2x': {
-      value: 2
+      value: spacing(2)
     },
     '-3x': {
-      value: 3
+      value: spacing(3)
     },
     '-4x': {
-      value: 4
+      value: spacing(4)
     },
     '-5x': {
-      value: 5
+      value: spacing(5)
     },
     '-6x': {
-      value: 6
+      value: spacing(6)
     },
     '-8x': {
-      value: 8
+      value: spacing(8)
     },
     '-10x': {
-      value: 10
+      value: spacing(10)
     }
   },
   responsive: {
     '-xs': {
       zero: {
-        value: 5
+        value: spacing(5)
       },
       micro: {
-        value: 5
+        value: spacing(5)
       },
       small: {
-        value: 5
+        value: spacing(5)
       },
       medium: {
-        value: 6
+        value: spacing(6)
       },
       large: {
-        value: 6
+        value: spacing(6)
       },
       wide: {
-        value: 6
+        value: spacing(6)
       },
       ultra: {
-        value: 6
+        value: spacing(6)
       }
     },
     '-s': {
       zero: {
-        value: 6
+        value: spacing(6)
       },
       micro: {
-        value: 6
+        value: spacing(6)
       },
       small: {
-        value: 6
+        value: spacing(6)
       },
       medium: {
-        value: 8
+        value: spacing(8)
       },
       large: {
-        value: 8
+        value: spacing(8)
       },
       wide: {
-        value: 8
+        value: spacing(8)
       },
       ultra: {
-        value: 8
+        value: spacing(8)
       }
     },
     '-m': {
       zero: {
-        value: 8
+        value: spacing(8)
       },
       micro: {
-        value: 8
+        value: spacing(8)
       },
       small: {
-        value: 8
+        value: spacing(8)
       },
       medium: {
-        value: 10
+        value: spacing(10)
       },
       large: {
-        value: 10
+        value: spacing(10)
       },
       wide: {
-        value: 12
+        value: spacing(12)
       },
       ultra: {
-        value: 12
+        value: spacing(12)
       }
     },
     '-l': {
       zero: {
-        value: 8
+        value: spacing(8)
       },
       micro: {
-        value: 8
+        value: spacing(8)
       },
       small: {
-        value: 10
+        value: spacing(10)
       },
       medium: {
-        value: 12
+        value: spacing(12)
       },
       large: {
-        value: 14
+        value: spacing(14)
       },
       wide: {
-        value: 14
+        value: spacing(14)
       },
       ultra: {
-        value: 16
+        value: spacing(16)
       }
     },
     '-xl': {
       zero: {
-        value: 8
+        value: spacing(8)
       },
       micro: {
-        value: 8
+        value: spacing(8)
       },
       small: {
-        value: 12
+        value: spacing(12)
       },
       medium: {
-        value: 16
+        value: spacing(16)
       },
       large: {
-        value: 20
+        value: spacing(20)
       },
       wide: {
-        value: 20
+        value: spacing(20)
       },
       ultra: {
-        value: 24
+        value: spacing(24)
       }
     }
   }
