@@ -1,36 +1,5 @@
 module.exports = {
-
-  /*
-   * action: {
-   *   buildSketch: {
-   *     do: require('./sketch'),
-   *     undo: () => console.log('no undo')
-   *   }
-   * },
-   */
   platforms: {
-
-    /**
-     * sketch: {
-     *  transforms: ['attribute/cti','name/cti/snake'],
-     *  actions: ['buildSketch']
-     * },
-     */
-
-    android: {
-      buildPath: 'dist/android/',
-      files: [
-        {
-          destination: 'font_dimens.xml',
-          format: 'android/fontDimens'
-        },
-        {
-          destination: 'colors.xml',
-          format: 'android/colors'
-        }
-      ],
-      transformGroup: 'android'
-    },
     css: {
       buildPath: 'dist/css/',
       files: [
