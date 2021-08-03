@@ -1,3 +1,24 @@
+## [3.11.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.2...v3.11.3) (2021-08-03)
+
+
+### Bug Fixes
+
+* abstract baseFontSize from defaultFontSize ([9b5b067](https://github.com/lyne-design-system/lyne-design-tokens/commit/9b5b067315af62afb0949a0348f2a939a3c3f64d))
+* add implicitCategory to breakpoint ([6763b41](https://github.com/lyne-design-system/lyne-design-tokens/commit/6763b4142f1f72970102e103a627ea9dff302841))
+* add implicitCategory to icon-size ([07caaa3](https://github.com/lyne-design-system/lyne-design-tokens/commit/07caaa3ab1270be0a05a079fe9ae90a406d618c8))
+* add implicitCategory to shadow ([c4f20bb](https://github.com/lyne-design-system/lyne-design-tokens/commit/c4f20bb5675c0c2c8901629677fe650858847d47))
+* add implicitCategory to spacing ([be384c1](https://github.com/lyne-design-system/lyne-design-tokens/commit/be384c16df5ab02279480a34e0ba3f45fe6c115a))
+* add implicitCategory to touch ([5bea4b4](https://github.com/lyne-design-system/lyne-design-tokens/commit/5bea4b4fd5995f9ea14234b19ffdbf5a18c7cff7))
+* add implicitCategory to typo ([245fe24](https://github.com/lyne-design-system/lyne-design-tokens/commit/245fe24584c6c81ef48c5c75026978ba422f0db7))
+* change output name for css ([ae03414](https://github.com/lyne-design-system/lyne-design-tokens/commit/ae034142690820a6fd24f22299767a1f3b070bbc))
+* make base-spacing calculation directly inside spacings file ([462b925](https://github.com/lyne-design-system/lyne-design-tokens/commit/462b9251d63aec632995f0d640ad9cd9ed53caf8))
+* make sure that default font size does not get transformed to rem ([239db59](https://github.com/lyne-design-system/lyne-design-tokens/commit/239db59cfdff124e0bdc9f10efb83c33d58abae9))
+* remove shadow design tokens for buttons ([d66b964](https://github.com/lyne-design-system/lyne-design-tokens/commit/d66b9644104feee1b3b83e2e0481adbce1035a01))
+* remove spacings transform ([7e41855](https://github.com/lyne-design-system/lyne-design-tokens/commit/7e418552a37e54d013b9b72e336304c11477a30f))
+* remove spacings transform, add empty transform for pxToRem ([f502fea](https://github.com/lyne-design-system/lyne-design-tokens/commit/f502fea12b8c550c54c98d18e47671498b6da857))
+* set transform for pxToRem ([d282acd](https://github.com/lyne-design-system/lyne-design-tokens/commit/d282acd7b3e2fdecd96cb67060df5703308d5a94))
+* use baseFontSize ([91d52f4](https://github.com/lyne-design-system/lyne-design-tokens/commit/91d52f49c845e9668d6c1daaaa28b78d1080d838))
+
 ## [3.11.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.1...v3.11.2) (2021-08-02)
 
 
