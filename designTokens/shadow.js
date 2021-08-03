@@ -1,36 +1,51 @@
 /* eslint-disable sort-keys */
+
+const sizeCategory = {
+  attributes: {
+    implicitCategory: 'size'
+  }
+};
+
 const shadowObject = (x1, y1, blur1, spread1, x2, y2, blur2, spread2, color1, color2, color3, color4) => ({
   shadow: {
     1: {
       offset: {
         x: {
-          value: x1
+          value: x1,
+          ...sizeCategory
         },
         y: {
-          value: y1
+          value: y1,
+          ...sizeCategory
         }
       },
       blur: {
-        value: blur1
+        value: blur1,
+        ...sizeCategory
       },
       spread: {
-        value: spread1
+        value: spread1,
+        ...sizeCategory
       }
     },
     2: {
       offset: {
         x: {
-          value: x2
+          value: x2,
+          ...sizeCategory
         },
         y: {
-          value: y2
+          value: y2,
+          ...sizeCategory
         }
       },
       blur: {
-        value: blur2
+        value: blur2,
+        ...sizeCategory
       },
       spread: {
-        value: spread2
+        value: spread2,
+        ...sizeCategory
       }
     }
   },
