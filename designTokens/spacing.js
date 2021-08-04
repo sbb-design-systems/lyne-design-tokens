@@ -15,33 +15,33 @@ module.exports = {
     }
   },
   fixed: {
-    '-1x': {
+    '1x': {
       value: 1
     },
-    '-2x': {
+    '2x': {
       value: 2
     },
-    '-3x': {
+    '3x': {
       value: 3
     },
-    '-4x': {
+    '4x': {
       value: 4
     },
-    '-5x': {
+    '5x': {
       value: 5
     },
-    '-6x': {
+    '6x': {
       value: 6
     },
-    '-8x': {
+    '8x': {
       value: 8
     },
-    '-10x': {
+    '10x': {
       value: 10
     }
   },
   responsive: {
-    '-xs': {
+    xs: {
       zero: {
         value: 5
       },
@@ -64,7 +64,7 @@ module.exports = {
         value: 6
       }
     },
-    '-s': {
+    s: {
       zero: {
         value: 6
       },
@@ -87,7 +87,7 @@ module.exports = {
         value: 8
       }
     },
-    '-m': {
+    m: {
       zero: {
         value: 8
       },
@@ -110,7 +110,7 @@ module.exports = {
         value: 12
       }
     },
-    '-l': {
+    l: {
       zero: {
         value: 8
       },
@@ -133,7 +133,7 @@ module.exports = {
         value: 16
       }
     },
-    '-xl': {
+    xl: {
       zero: {
         value: 8
       },
