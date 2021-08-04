@@ -1,41 +1,10 @@
 module.exports = {
-
-  /*
-   * action: {
-   *   buildSketch: {
-   *     do: require('./sketch'),
-   *     undo: () => console.log('no undo')
-   *   }
-   * },
-   */
   platforms: {
-
-    /**
-     * sketch: {
-     *  transforms: ['attribute/cti','name/cti/snake'],
-     *  actions: ['buildSketch']
-     * },
-     */
-
-    android: {
-      buildPath: 'dist/android/',
-      files: [
-        {
-          destination: 'font_dimens.xml',
-          format: 'android/fontDimens'
-        },
-        {
-          destination: 'colors.xml',
-          format: 'android/colors'
-        }
-      ],
-      transformGroup: 'android'
-    },
     css: {
       buildPath: 'dist/css/',
       files: [
         {
-          destination: '_variables.css',
+          destination: 'variables.css',
           format: 'css/variables'
         }
       ],
@@ -47,70 +16,8 @@ module.exports = {
         'content/icon',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
-    },
-    ios: {
-      buildPath: 'dist/ios/',
-      files: [
-        {
-          className: 'StyleDictionaryColor',
-          destination: 'StyleDictionaryColor.h',
-          filter: {
-            attributes: {
-              category: 'color'
-            }
-          },
-          format: 'ios/colors.h',
-          type: 'StyleDictionaryColorName'
-        },
-        {
-          className: 'StyleDictionaryColor',
-          destination: 'StyleDictionaryColor.m',
-          filter: {
-            attributes: {
-              category: 'color'
-            }
-          },
-          format: 'ios/colors.m',
-          type: 'StyleDictionaryColorName'
-        },
-        {
-          className: 'StyleDictionarySize',
-          destination: 'StyleDictionarySize.h',
-          filter: {
-            attributes: {
-              category: 'size'
-            }
-          },
-          format: 'ios/static.h',
-          type: 'float'
-        },
-        {
-          className: 'StyleDictionarySize',
-          destination: 'StyleDictionarySize.m',
-          filter: {
-            attributes: {
-              category: 'size'
-            }
-          },
-          format: 'ios/static.m',
-          type: 'float'
-        }
-      ],
-      transformGroup: 'ios'
-    },
-    iosSwift: {
-      buildPath: 'dist/ios-swift/',
-      files: [
-        {
-          className: 'StyleDictionary',
-          destination: 'StyleDictionary.swift',
-          filter: {},
-          format: 'ios-swift/class.swift'
-        }
-      ],
-      transformGroup: 'ios-swift'
     },
     js: {
       buildPath: 'dist/js/',
@@ -146,14 +53,14 @@ module.exports = {
         'name/cti/pascal',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
     },
     less: {
       buildPath: 'dist/less/',
       files: [
         {
-          destination: '_variables.less',
+          destination: 'variables.less',
           format: 'less/variables'
         }
       ],
@@ -165,18 +72,18 @@ module.exports = {
         'content/icon',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
     },
     scss: {
       buildPath: 'dist/scss/',
       files: [
         {
-          destination: '_variables.scss',
+          destination: 'variables.scss',
           format: 'custom/format/scss'
         },
         {
-          destination: '_css_variables.scss',
+          destination: 'css_variables.scss',
           format: 'css/variables',
           options: {
             selector: ':host'
@@ -191,7 +98,7 @@ module.exports = {
         'content/icon',
         'size/px',
         'color/css',
-        'calculateSpacings'
+        'size/pxToRem'
       ]
     }
   },

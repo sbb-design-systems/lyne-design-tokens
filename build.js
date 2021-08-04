@@ -2,13 +2,14 @@ const StyleDictionary = require('style-dictionary')
   .extend(`${__dirname}/config.js`);
 const fs = require('fs');
 const _ = require('lodash');
-const spacingTokens = require('./designTokens/spacing');
-const baseSpacing = spacingTokens.base.value;
+const typo = require('./designTokens/typo');
+const baseFontSize = typo.base.font.size.value;
 
+// Transform to calculate rem from pixel values based on basePxFontSize
 StyleDictionary.registerTransform({
-  matcher: (token) => token.attributes.category === 'spacing',
-  name: 'calculateSpacings',
-  transformer: (token) => token.value * baseSpacing,
+  matcher: (token) => token.attributes.implicitCategory === 'size',
+  name: 'size/pxToRem',
+  transformer: (token) => `${token.value / baseFontSize}rem`,
   transitive: true,
   type: 'value'
 });

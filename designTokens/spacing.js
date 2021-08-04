@@ -1,159 +1,196 @@
-/*
- * Aside from the base definition, the number assigned to the value is
- * representing the factor by which the base value will get multiplied by
- * to create the actual spacing size (e.g. spacing-3x: 8 * 4 = 32). The
- * transformation is happening in the calculateSpacings transformation
- * inside of the build.js file.
- */
+const baseSpacing = 4;
+const spacing = (value) => value * Number(baseSpacing);
+const sizeCategory = {
+  attributes: {
+    implicitCategory: 'size'
+  }
+};
 
 /* eslint-disable sort-keys */
 module.exports = {
-  base: {
-    value: 4,
-    attributes: {
-      category: ''
-    }
-  },
   fixed: {
-    '1x': {
-      value: 1
+    '-1x': {
+      value: spacing(1),
+      ...sizeCategory
     },
-    '2x': {
-      value: 2
+    '-2x': {
+      value: spacing(2),
+      ...sizeCategory
     },
-    '3x': {
-      value: 3
+    '-3x': {
+      value: spacing(3),
+      ...sizeCategory
     },
-    '4x': {
-      value: 4
+    '-4x': {
+      value: spacing(4),
+      ...sizeCategory
     },
-    '5x': {
-      value: 5
+    '-5x': {
+      value: spacing(5),
+      ...sizeCategory
     },
-    '6x': {
-      value: 6
+    '-6x': {
+      value: spacing(6),
+      ...sizeCategory
     },
-    '8x': {
-      value: 8
+    '-8x': {
+      value: spacing(8),
+      ...sizeCategory
     },
-    '10x': {
-      value: 10
+    '-10x': {
+      value: spacing(10),
+      ...sizeCategory
     }
   },
   responsive: {
     xs: {
       zero: {
-        value: 5
+        value: spacing(5),
+        ...sizeCategory
       },
       micro: {
-        value: 5
+        value: spacing(5),
+        ...sizeCategory
       },
       small: {
-        value: 5
+        value: spacing(5),
+        ...sizeCategory
       },
       medium: {
-        value: 6
+        value: spacing(6),
+        ...sizeCategory
       },
       large: {
-        value: 6
+        value: spacing(6),
+        ...sizeCategory
       },
       wide: {
-        value: 6
+        value: spacing(6),
+        ...sizeCategory
       },
       ultra: {
-        value: 6
+        value: spacing(6),
+        ...sizeCategory
       }
     },
     s: {
       zero: {
-        value: 6
+        value: spacing(6),
+        ...sizeCategory
       },
       micro: {
-        value: 6
+        value: spacing(6),
+        ...sizeCategory
       },
       small: {
-        value: 6
+        value: spacing(6),
+        ...sizeCategory
       },
       medium: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       large: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       wide: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       ultra: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       }
     },
     m: {
       zero: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       micro: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       small: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       medium: {
-        value: 10
+        value: spacing(10),
+        ...sizeCategory
       },
       large: {
-        value: 10
+        value: spacing(10),
+        ...sizeCategory
       },
       wide: {
-        value: 12
+        value: spacing(12),
+        ...sizeCategory
       },
       ultra: {
-        value: 12
+        value: spacing(12),
+        ...sizeCategory
       }
     },
     l: {
       zero: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       micro: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       small: {
-        value: 10
+        value: spacing(10),
+        ...sizeCategory
       },
       medium: {
-        value: 12
+        value: spacing(12),
+        ...sizeCategory
       },
       large: {
-        value: 14
+        value: spacing(14),
+        ...sizeCategory
       },
       wide: {
-        value: 14
+        value: spacing(14),
+        ...sizeCategory
       },
       ultra: {
-        value: 16
+        value: spacing(16),
+        ...sizeCategory
       }
     },
     xl: {
       zero: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       micro: {
-        value: 8
+        value: spacing(8),
+        ...sizeCategory
       },
       small: {
-        value: 12
+        value: spacing(12),
+        ...sizeCategory
       },
       medium: {
-        value: 16
+        value: spacing(16),
+        ...sizeCategory
       },
       large: {
-        value: 20
+        value: spacing(20),
+        ...sizeCategory
       },
       wide: {
-        value: 20
+        value: spacing(20),
+        ...sizeCategory
       },
       ultra: {
-        value: 24
+        value: spacing(24),
+        ...sizeCategory
       }
     }
   }
