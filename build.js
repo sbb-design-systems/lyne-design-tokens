@@ -27,6 +27,36 @@ StyleDictionary.registerFormat({
   name: 'custom/format/javascript/module'
 });
 
+StyleDictionary.registerFormat({
+  formatter: ({
+    dictionary
+  }) => {
+    const {
+      allTokens
+    } = dictionary;
+
+    allTokens.forEach((token) => {
+
+      // if a token uses a refernce token, we add the original token object
+      const usesReference = dictionary.usesReference(token);
+
+      if (usesReference) {
+        const ref = dictionary.getReferences(token.original.value);
+
+        token.refOriginal = ref;
+      }
+
+    });
+
+    const fileContents = {
+      tokens: allTokens
+    };
+
+    return JSON.stringify(fileContents, null, 2);
+  },
+  name: 'json/extended'
+});
+
 // FINALLY, BUILD ALL THE PLATFORMS
 StyleDictionary.buildAllPlatforms();
 
