@@ -1,3 +1,15 @@
+# [3.12.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.3...v3.12.0) (2021-08-05)
+
+
+### Bug Fixes
+
+* remove redundant dash in property key ([b455b8b](https://github.com/lyne-design-system/lyne-design-tokens/commit/b455b8bc63ffaf733171367285d825a3585939bc))
+
+
+### Features
+
+* add custom format for raw json ([2eb6610](https://github.com/lyne-design-system/lyne-design-tokens/commit/2eb661086cfa216a310bff5116ede96da2e06bd1))
+
 ## [3.11.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.2...v3.11.3) (2021-08-03)
 
 
