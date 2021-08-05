@@ -31,19 +31,7 @@ module.exports = {
           format: 'custom/format/javascript/module'
         },
         {
-          destination: 'tokens.umd.js',
-          format: 'javascript/umd'
-        },
-        {
-          destination: 'tokens.raw.json',
-          format: 'json'
-        },
-        {
-          destination: 'tokens.nested.json',
-          format: 'json/nested'
-        },
-        {
-          destination: 'tokens.flat.json',
+          destination: 'tokens.json',
           format: 'json/flat'
         }
       ],
@@ -51,6 +39,23 @@ module.exports = {
       transforms: [
         'attribute/cti',
         'name/cti/pascal',
+        'size/px',
+        'color/css',
+        'size/pxToRem'
+      ]
+    },
+    jsRaw: {
+      buildPath: 'dist/js/',
+      files: [
+        {
+          destination: 'tokens-raw.json',
+          format: 'json/extended'
+        }
+      ],
+      transformGroup: 'js',
+      transforms: [
+        'attribute/cti',
+        'name/cti/kebab',
         'size/px',
         'color/css',
         'size/pxToRem'
