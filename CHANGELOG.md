@@ -1,3 +1,10 @@
+## [3.13.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.1...v3.13.2) (2021-08-06)
+
+
+### Bug Fixes
+
+* remove link from root url ([9e2badd](https://github.com/lyne-design-system/lyne-design-tokens/commit/9e2badd78c42ea5cb114b4d43a4c1ac12b73ae2d))
+
 ## [3.13.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.0...v3.13.1) (2021-08-06)
 
 
