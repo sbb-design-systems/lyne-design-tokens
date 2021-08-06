@@ -110,7 +110,7 @@ const createIndexHtmlPage = () => {
       const liElem = `
       <li>
         <h4>Version ${key}</h4>
-        <p>Root URL: <a href="${versionItem.url}/">${versionItem.url}/</a></p>
+        <p>Root URL: ${versionItem.url}</p>
         <p>Tokens file: <a href="${versionItem.tokens}">${versionItem.tokens}</a></p>
       </li>`;
 
