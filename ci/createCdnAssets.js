@@ -12,8 +12,19 @@ const config = {
   archiveFolder: 'versions',
   cdnFolder: 'cdn',
   cdnVersionsFile: 'versions.json',
-  propertiesFolder: 'properties',
-  tokensFileName: 'tokens.json'
+  tokensFileName: 'tokens.json',
+  tokensSourcePath: './dist/js/'
+};
+
+const generateTokensFile = (version, sourceFile, targetFile) => {
+  const tokenContent = fs.readFileSync(sourceFile);
+  const outputRaw = {
+    tokens: JSON.parse(tokenContent),
+    version
+  };
+  const output = JSON.stringify(outputRaw, null, 2);
+
+  fs.writeFileSync(targetFile, output);
 };
 
 const copyFile = (source, destination) => {
@@ -30,27 +41,10 @@ const copyFile = (source, destination) => {
   return promise;
 };
 
-const generateTokensFile = (version, targetFile) => {
-  const files = fs.readdirSync(`./${config.propertiesFolder}`);
-  const finalOutput = {
-    version
-  };
+const createVersionsFile = (archiveDir) => {
+  const files = fs.readdirSync(archiveDir);
 
-  files.forEach((file) => {
-    const [fileName] = file.split('.json');
-    const tokenContentRaw = fs.readFileSync(`./${config.propertiesFolder}/${file}`);
-    const tokenContent = JSON.parse(tokenContentRaw)[fileName];
-
-    finalOutput[fileName] = tokenContent;
-
-  });
-
-  fs.writeFileSync(targetFile, JSON.stringify(finalOutput));
-};
-
-const createVersionsFile = () => {
-  const files = fs.readdirSync(`./${config.cdnFolder}/${config.archiveFolder}`);
-
+  // make sure files are sorted correctly when leaving period
   files.sort((a, b) => {
     const aRemoveDot = a.replace('.', 0);
     const bRemoveDot = b.replace('.', 0);
@@ -138,8 +132,9 @@ const createIndexHtmlPage = () => {
   const cdnDir = `./${config.cdnFolder}`;
   const archiveDir = `${cdnDir}/${config.archiveFolder}`;
   const versionDir = `${archiveDir}/${version}`;
-  const tokensFileSource = `./${config.cdnFolder}/${config.tokensFileName}`;
-  const tokensFileTarget = `${versionDir}/${config.tokensFileName}`;
+  const versionFileTarget = `${versionDir}/${config.tokensFileName}`;
+  const tokensFileSource = `${config.tokensSourcePath}${config.tokensFileName}`;
+  const tokensFileTarget = `${cdnDir}/${config.tokensFileName}`;
 
   await git.checkout('master');
   await git.pull();
@@ -165,13 +160,14 @@ const createIndexHtmlPage = () => {
 
   try {
     // generate tokens file
-    generateTokensFile(version, tokensFileSource);
+    generateTokensFile(version, tokensFileSource, tokensFileTarget);
 
     // copy files to archive version folder
-    await copyFile(tokensFileSource, tokensFileTarget);
+    console.log(tokensFileTarget, versionFileTarget);
+    await copyFile(tokensFileTarget, versionFileTarget);
 
     // create versions file
-    createVersionsFile();
+    createVersionsFile(archiveDir);
 
     // create index page
     createIndexHtmlPage();
