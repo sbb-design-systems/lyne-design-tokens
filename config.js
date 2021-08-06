@@ -44,7 +44,24 @@ module.exports = {
         'size/pxToRem'
       ]
     },
-    jsRaw: {
+    jsonFlat: {
+      buildPath: 'dist/js/',
+      files: [
+        {
+          destination: 'tokens.json',
+          format: 'json/flat'
+        }
+      ],
+      transformGroup: 'js',
+      transforms: [
+        'attribute/cti',
+        'name/cti/kebab',
+        'size/px',
+        'color/css',
+        'size/pxToRem'
+      ]
+    },
+    jsonRaw: {
       buildPath: 'dist/js/',
       files: [
         {
