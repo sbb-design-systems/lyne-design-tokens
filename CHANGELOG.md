@@ -1,3 +1,10 @@
+# [3.13.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.12.0...v3.13.0) (2021-08-05)
+
+
+### Features
+
+* add group attribute to shadow tokens ([97705a0](https://github.com/lyne-design-system/lyne-design-tokens/commit/97705a009a642c6243e1bdcc44959a33cca032dc))
+
 # [3.12.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.11.3...v3.12.0) (2021-08-05)
 
 
