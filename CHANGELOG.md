@@ -1,3 +1,12 @@
+## [3.13.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.0...v3.13.1) (2021-08-06)
+
+
+### Bug Fixes
+
+* make sure to break travis in catch ([984ca77](https://github.com/lyne-design-system/lyne-design-tokens/commit/984ca773101b6a8b4ae4ed7d58c0349c4994e2e9))
+* output flat json in kebab case ([229145b](https://github.com/lyne-design-system/lyne-design-tokens/commit/229145b7da35017f3cfbf3534dcd23d80e8d84dd))
+* various issues ([e2a4034](https://github.com/lyne-design-system/lyne-design-tokens/commit/e2a40341de2c886c6d251850c1dd14f912083899))
+
 # [3.13.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.12.0...v3.13.0) (2021-08-05)
 
 
