@@ -187,5 +187,6 @@ const createIndexHtmlPage = () => {
 
   } catch (error) {
     console.log(`-->> Generate CDN Assets error: ${error}`);
+    shell.exit(0);
   }
 })();
