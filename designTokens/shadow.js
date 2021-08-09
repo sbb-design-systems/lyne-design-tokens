@@ -1,13 +1,8 @@
 /* eslint-disable sort-keys */
 
-const groupAttribute = (shadowLevel) => ({
-  group: shadowLevel
-});
-
 const attributes = (shadowLevel) => ({
   attributes: {
-    implicitCategory: 'size',
-    ...groupAttribute(shadowLevel)
+    group: shadowLevel
   }
 });
 
@@ -59,7 +54,7 @@ const shadowObject = (shadowLevel, x1, y1, blur1, spread1, x2, y2, blur2, spread
       color: {
         value: color1,
         attributes: {
-          ...groupAttribute(shadowLevel)
+          ...attributes(shadowLevel)
         }
       }
     },
@@ -67,7 +62,7 @@ const shadowObject = (shadowLevel, x1, y1, blur1, spread1, x2, y2, blur2, spread
       color: {
         value: color2,
         attributes: {
-          ...groupAttribute(shadowLevel)
+          ...attributes(shadowLevel)
         }
       }
     }
@@ -77,7 +72,7 @@ const shadowObject = (shadowLevel, x1, y1, blur1, spread1, x2, y2, blur2, spread
       color: {
         value: color3,
         attributes: {
-          ...groupAttribute(shadowLevel)
+          ...attributes(shadowLevel)
         }
       }
     },
@@ -85,7 +80,7 @@ const shadowObject = (shadowLevel, x1, y1, blur1, spread1, x2, y2, blur2, spread
       color: {
         value: color4,
         attributes: {
-          ...groupAttribute(shadowLevel)
+          ...attributes(shadowLevel)
         }
       }
     }
