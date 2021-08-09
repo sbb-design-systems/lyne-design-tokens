@@ -15,8 +15,7 @@ module.exports = {
         'time/seconds',
         'content/icon',
         'size/px',
-        'color/css',
-        'size/pxToRem'
+        'color/css'
       ]
     },
     js: {
@@ -40,8 +39,7 @@ module.exports = {
         'attribute/cti',
         'name/cti/pascal',
         'size/px',
-        'color/css',
-        'size/pxToRem'
+        'color/css'
       ]
     },
     jsonFlat: {
@@ -57,8 +55,7 @@ module.exports = {
         'attribute/cti',
         'name/cti/kebab',
         'size/px',
-        'color/css',
-        'size/pxToRem'
+        'color/css'
       ]
     },
     jsonRaw: {
@@ -74,8 +71,7 @@ module.exports = {
         'attribute/cti',
         'name/cti/kebab',
         'size/px',
-        'color/css',
-        'size/pxToRem'
+        'color/css'
       ]
     },
     less: {
@@ -93,8 +89,7 @@ module.exports = {
         'time/seconds',
         'content/icon',
         'size/px',
-        'color/css',
-        'size/pxToRem'
+        'color/css'
       ]
     },
     scss: {
@@ -119,8 +114,7 @@ module.exports = {
         'time/seconds',
         'content/icon',
         'size/px',
-        'color/css',
-        'size/pxToRem'
+        'color/css'
       ]
     }
   },
