@@ -7,9 +7,6 @@
 
 module.exports = {
   sizeMin: {
-    attributes: {
-      implicitCategory: 'size'
-    },
     value: 48
   }
 };
