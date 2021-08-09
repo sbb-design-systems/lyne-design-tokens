@@ -9,12 +9,6 @@
  * breakpoint definitions to avoid repetition.
  */
 
-const sizeCategory = {
-  attributes: {
-    implicitCategory: 'size'
-  }
-};
-
 /* eslint-disable sort-keys */
 
 module.exports = {
@@ -33,8 +27,7 @@ module.exports = {
       value: '{typo.font.family.sbbRoman.value}'
     },
     fontSize: {
-      value: 16,
-      ...sizeCategory
+      value: 16
     },
     letterSpacing: {
       value: '0.03em'
@@ -63,13 +56,11 @@ module.exports = {
           value: '{typo.font.family.sbbBold.value}'
         },
         letterSpacing: {
-          value: 0,
-          ...sizeCategory
+          value: 0
         },
         zeroToMicro: {
           fontSize: {
-            value: 40,
-            ...sizeCategory
+            value: 40
           },
           lineHeight: {
             value: 1.2
@@ -77,8 +68,7 @@ module.exports = {
         },
         smallToMedium: {
           fontSize: {
-            value: 48,
-            ...sizeCategory
+            value: 48
           },
           lineHeight: {
             value: 1.1
@@ -86,8 +76,7 @@ module.exports = {
         },
         largeToWide: {
           fontSize: {
-            value: 56,
-            ...sizeCategory
+            value: 56
           },
           lineHeight: {
             value: 1.2
@@ -95,8 +84,7 @@ module.exports = {
         },
         ultra: {
           fontSize: {
-            value: 64,
-            ...sizeCategory
+            value: 64
           },
           lineHeight: {
             value: 1.1
@@ -108,13 +96,11 @@ module.exports = {
           value: '{typo.font.family.sbbBold.value}'
         },
         letterSpacing: {
-          value: 0,
-          ...sizeCategory
+          value: 0
         },
         zeroToMedium: {
           fontSize: {
-            value: 32,
-            ...sizeCategory
+            value: 32
           },
           lineHeight: {
             value: 1.3
@@ -122,8 +108,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 40,
-            ...sizeCategory
+            value: 40
           },
           lineHeight: {
             value: 1.2
@@ -135,13 +120,11 @@ module.exports = {
           value: '{typo.font.family.sbbBold.value}'
         },
         letterSpacing: {
-          value: 0,
-          ...sizeCategory
+          value: 0
         },
         zeroToMedium: {
           fontSize: {
-            value: 24,
-            ...sizeCategory
+            value: 24
           },
           lineHeight: {
             value: 1.3
@@ -149,8 +132,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 32,
-            ...sizeCategory
+            value: 32
           },
           lineHeight: {
             value: 1.3
@@ -162,13 +144,11 @@ module.exports = {
           value: '{typo.font.family.sbbBold.value}'
         },
         letterSpacing: {
-          value: 0,
-          ...sizeCategory
+          value: 0
         },
         zeroToMedium: {
           fontSize: {
-            value: 20,
-            ...sizeCategory
+            value: 20
           },
           lineHeight: {
             value: 1.4
@@ -176,8 +156,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 24,
-            ...sizeCategory
+            value: 24
           },
           lineHeight: {
             value: 1.3
@@ -189,13 +168,11 @@ module.exports = {
           value: '{typo.font.family.sbbBold.value}'
         },
         letterSpacing: {
-          value: 0,
-          ...sizeCategory
+          value: 0
         },
         zeroToSmall: {
           fontSize: {
-            value: 16,
-            ...sizeCategory
+            value: 16
           },
           lineHeight: {
             value: 1.5
@@ -203,8 +180,7 @@ module.exports = {
         },
         medium: {
           fontSize: {
-            value: 18,
-            ...sizeCategory
+            value: 18
           },
           lineHeight: {
             value: 1.4
@@ -212,8 +188,7 @@ module.exports = {
         },
         largeToUltra: {
           fontSize: {
-            value: 20,
-            ...sizeCategory
+            value: 20
           },
           lineHeight: {
             value: 1.4
@@ -225,13 +200,11 @@ module.exports = {
           value: '{typo.font.family.sbbBold.value}'
         },
         letterSpacing: {
-          value: 0,
-          ...sizeCategory
+          value: 0
         },
         zeroToSmall: {
           fontSize: {
-            value: 14,
-            ...sizeCategory
+            value: 14
           },
           lineHeight: {
             value: 1.6
@@ -239,8 +212,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 16,
-            ...sizeCategory
+            value: 16
           },
           lineHeight: {
             value: 1.5
@@ -249,13 +221,11 @@ module.exports = {
       },
       'titlePanel': {
         letterSpacing: {
-          value: 0,
-          ...sizeCategory
+          value: 0
         },
         zeroToSmall: {
           fontSize: {
-            value: 24,
-            ...sizeCategory
+            value: 24
           },
           lineHeight: {
             value: 1.3
@@ -263,8 +233,7 @@ module.exports = {
         },
         medium: {
           fontSize: {
-            value: 32,
-            ...sizeCategory
+            value: 32
           },
           lineHeight: {
             value: 1.3
@@ -272,8 +241,7 @@ module.exports = {
         },
         largeToUltra: {
           fontSize: {
-            value: 40,
-            ...sizeCategory
+            value: 40
           },
           lineHeight: {
             value: 1.2
@@ -283,8 +251,7 @@ module.exports = {
       'lead': {
         zeroToSmall: {
           fontSize: {
-            value: 20,
-            ...sizeCategory
+            value: 20
           },
           lineHeight: {
             value: 1.5
@@ -292,8 +259,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 24,
-            ...sizeCategory
+            value: 24
           },
           lineHeight: {
             value: 1.6
@@ -303,8 +269,7 @@ module.exports = {
       'text-1-regular': {
         zeroToSmall: {
           fontSize: {
-            value: 16,
-            ...sizeCategory
+            value: 16
           },
           lineHeight: {
             value: 1.6
@@ -312,8 +277,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 18,
-            ...sizeCategory
+            value: 18
           },
           lineHeight: {
             value: 1.8
@@ -333,8 +297,7 @@ module.exports = {
       'text-2-regular': {
         zeroToSmall: {
           fontSize: {
-            value: 14,
-            ...sizeCategory
+            value: 14
           },
           lineHeight: {
             value: 1.6
@@ -342,8 +305,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 16,
-            ...sizeCategory
+            value: 16
           },
           letterSpacing: {
             value: '0.03em'
@@ -363,8 +325,7 @@ module.exports = {
       'text-3-regular': {
         zeroToSmall: {
           fontSize: {
-            value: 12,
-            ...sizeCategory
+            value: 12
           },
           lineHeight: {
             value: 1.6
@@ -372,8 +333,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 14,
-            ...sizeCategory
+            value: 14
           },
           lineHeight: {
             value: 1.6
@@ -393,8 +353,7 @@ module.exports = {
       'text-4-regular': {
         zeroToSmall: {
           fontSize: {
-            value: 10,
-            ...sizeCategory
+            value: 10
           },
           lineHeight: {
             value: 1.6
@@ -402,8 +361,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 12,
-            ...sizeCategory
+            value: 12
           },
           lineHeight: {
             value: 1.6
@@ -422,8 +380,7 @@ module.exports = {
       },
       'label-1': {
         fontSize: {
-          value: 16,
-          ...sizeCategory
+          value: 16
         },
         lineHeight: {
           value: 1.4
@@ -431,8 +388,7 @@ module.exports = {
       },
       'label-2': {
         fontSize: {
-          value: 14,
-          ...sizeCategory
+          value: 14
         },
         lineHeight: {
           value: 1.4
@@ -440,8 +396,7 @@ module.exports = {
       },
       'label-3': {
         fontSize: {
-          value: 12,
-          ...sizeCategory
+          value: 12
         },
         lineHeight: {
           value: 1.5
@@ -452,8 +407,7 @@ module.exports = {
           value: '{typo.font.family.sbbBold.value}'
         },
         fontSize: {
-          value: 18,
-          ...sizeCategory
+          value: 18
         },
         lineHeight: {
           value: 1.4
@@ -467,8 +421,7 @@ module.exports = {
       'badge': {
         zeroToSmall: {
           fontSize: {
-            value: 10,
-            ...sizeCategory
+            value: 10
           },
           lineHeight: {
             value: 1.4
@@ -479,8 +432,7 @@ module.exports = {
             value: '{typo.font.family.sbbBold.value}'
           },
           fontSize: {
-            value: 12,
-            ...sizeCategory
+            value: 12
           },
           lineHeight: {
             value: 1.4
@@ -493,8 +445,7 @@ module.exports = {
             value: '{typo.font.family.sbbBold.value}'
           },
           fontSize: {
-            value: 13,
-            ...sizeCategory
+            value: 13
           },
           letterSpacing: {
             value: '0.01em'
@@ -508,8 +459,7 @@ module.exports = {
             value: '{typo.font.family.sbbBold.value}'
           },
           fontSize: {
-            value: 14,
-            ...sizeCategory
+            value: 14
           },
           letterSpacing: {
             value: '0.01em'
@@ -527,8 +477,7 @@ module.exports = {
       'caption': {
         zeroToSmall: {
           fontSize: {
-            value: 13,
-            ...sizeCategory
+            value: 13
           },
           lineHeight: {
             value: 1.6
@@ -536,8 +485,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 14,
-            ...sizeCategory
+            value: 14
           },
           lineHeight: {
             value: 1.6
@@ -547,8 +495,7 @@ module.exports = {
       'input': {
         zeroToSmall: {
           fontSize: {
-            value: 16,
-            ...sizeCategory
+            value: 16
           },
           lineHeight: {
             value: 1.6
@@ -556,8 +503,7 @@ module.exports = {
         },
         mediumToUltra: {
           fontSize: {
-            value: 18,
-            ...sizeCategory
+            value: 18
           },
           lineHeight: {
             value: 1.8
