@@ -1,80 +1,60 @@
 /* eslint-disable sort-keys */
 
-const sizeCategory = {
-  attributes: {
-    implicitCategory: 'size'
-  }
-};
-
 module.exports = {
   zero: {
     min: {
-      value: 0,
-      ...sizeCategory
+      value: 0
     },
     max: {
-      value: 359,
-      ...sizeCategory
+      value: 359
     }
   },
   micro: {
     min: {
-      value: 360,
-      ...sizeCategory
+      value: 360
     },
     max: {
-      value: 599,
-      ...sizeCategory
+      value: 599
     }
   },
   small: {
     min: {
-      value: 600,
-      ...sizeCategory
+      value: 600
     },
     max: {
-      value: 839,
-      ...sizeCategory
+      value: 839
     }
   },
   medium: {
     min: {
-      value: 840,
-      ...sizeCategory
+      value: 840
     },
     max: {
-      value: 1023,
-      ...sizeCategory
+      value: 1023
     }
   },
   large: {
     min: {
-      value: 1024,
-      ...sizeCategory
+      value: 1024
     },
     max: {
-      value: 1279,
-      ...sizeCategory
+      value: 1279
     }
   },
   wide: {
     min: {
-      value: 1280,
-      ...sizeCategory
+      value: 1280
     },
     max: {
-      value: 1439,
-      ...sizeCategory
+      value: 1439
     }
   },
   ultra: {
     min: {
-      value: 1440,
-      ...sizeCategory
+      value: 1440
     },
     max: {
-      value: 2579,
-      ...sizeCategory
+      value: 2579
     }
   }
 };

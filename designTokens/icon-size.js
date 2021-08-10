@@ -1,43 +1,30 @@
 /* eslint-disable sort-keys */
 
-const sizeCategory = {
-  attributes: {
-    implicitCategory: 'size'
-  }
-};
-
 module.exports = {
   ui: {
     small: {
-      value: 24,
-      ...sizeCategory
+      value: 24
     },
     medium: {
-      value: 36,
-      ...sizeCategory
+      value: 36
     },
     large: {
-      value: 48,
-      ...sizeCategory
+      value: 48
     }
   },
   timetable: {
     'attribute': {
-      value: 16,
-      ...sizeCategory
+      value: 16
     },
     'him-cus': {
-      value: 16,
-      ...sizeCategory
+      value: 16
     },
     'product-brand': {
-      value: 20,
-      ...sizeCategory
+      value: 20
     }
   },
   pictograms: {
-    value: 24,
-    ...sizeCategory
+    value: 24
   }
 };
 
