@@ -1,3 +1,11 @@
+## [3.13.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.2...v3.13.3) (2021-08-10)
+
+
+### Bug Fixes
+
+* remove px to rem transform ([09af3df](https://github.com/lyne-design-system/lyne-design-tokens/commit/09af3dfa2d4cdcf8a33118f15344da015916d21e))
+* remove px to rem transformer ([b9f2d42](https://github.com/lyne-design-system/lyne-design-tokens/commit/b9f2d4278234435aac4c7ca2eb3fcb2cf3b499e6))
+
 ## [3.13.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.1...v3.13.2) (2021-08-06)
 
 
