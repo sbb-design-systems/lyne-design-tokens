@@ -53,17 +53,13 @@ const shadowObject = (shadowLevel, x1, y1, blur1, spread1, x2, y2, blur2, spread
     1: {
       color: {
         value: color1,
-        attributes: {
-          ...attributes(shadowLevel)
-        }
+        ...attributes(shadowLevel)
       }
     },
     2: {
       color: {
         value: color2,
-        attributes: {
-          ...attributes(shadowLevel)
-        }
+        ...attributes(shadowLevel)
       }
     }
   },
@@ -71,17 +67,13 @@ const shadowObject = (shadowLevel, x1, y1, blur1, spread1, x2, y2, blur2, spread
     1: {
       color: {
         value: color3,
-        attributes: {
-          ...attributes(shadowLevel)
-        }
+        ...attributes(shadowLevel)
       }
     },
     2: {
       color: {
         value: color4,
-        attributes: {
-          ...attributes(shadowLevel)
-        }
+        ...attributes(shadowLevel)
       }
     }
   }
