@@ -1,3 +1,10 @@
+## [3.13.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.3...v3.13.4) (2021-08-10)
+
+
+### Bug Fixes
+
+* add attributes in correct place ([6397e3b](https://github.com/lyne-design-system/lyne-design-tokens/commit/6397e3bd85adc2009c5904994732d0cdf5ff07d0))
+
 ## [3.13.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.2...v3.13.3) (2021-08-10)
 
 
