@@ -1,3 +1,10 @@
+## [3.14.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.14.1...v3.14.2) (2021-08-13)
+
+
+### Bug Fixes
+
+* remove size transform ([d7a5a05](https://github.com/lyne-design-system/lyne-design-tokens/commit/d7a5a05c5619b3acf839cc826b145b39b69e720e))
+
 ## [3.14.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.14.0...v3.14.1) (2021-08-13)
 
 
