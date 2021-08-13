@@ -8,21 +8,21 @@ const borderRadius = (width) => width * Number(baseBorderRadius);
 
 module.exports = {
   width: {
-    1: {
+    '1x': {
       value: borderWidth(1)
     },
-    2: {
+    '2x': {
       value: borderWidth(2)
     }
   },
   radius: {
-    1: {
+    '1x': {
       value: borderRadius(1)
     },
-    8: {
+    '8x': {
       value: borderRadius(8)
     },
-    16: {
+    '16x': {
       value: borderRadius(16)
     }
   }
