@@ -1,3 +1,21 @@
+# [3.14.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.4...v3.14.0) (2021-08-13)
+
+
+### Bug Fixes
+
+* delete icon size ([829e4eb](https://github.com/lyne-design-system/lyne-design-tokens/commit/829e4ebc7bf5319c0099a7d06d5936b664bc031b))
+* remove iconSize, add animation, border and size ([febb8be](https://github.com/lyne-design-system/lyne-design-tokens/commit/febb8be87d595e48cfc0e61907322889a68ca327))
+* remove touch ([232ad93](https://github.com/lyne-design-system/lyne-design-tokens/commit/232ad93db654eaaeed1856ca950ad2a7ea5baa1b))
+* remove touch ([3814bee](https://github.com/lyne-design-system/lyne-design-tokens/commit/3814bee16ff0097f2ae096c8e1b060a8378d6f12))
+* stick to naming conventions with x ([e2cc690](https://github.com/lyne-design-system/lyne-design-tokens/commit/e2cc690492efe69c313c161fe5168392e8ffe2dc))
+
+
+### Features
+
+* add animation tokens ([56c4592](https://github.com/lyne-design-system/lyne-design-tokens/commit/56c4592a421da149181b44352422e72c6a8419bb))
+* add border tokens ([85b6ea4](https://github.com/lyne-design-system/lyne-design-tokens/commit/85b6ea4203c9da9d934ab0c0fe6a4f5e6c3d96f7))
+* add size tokens ([7a37954](https://github.com/lyne-design-system/lyne-design-tokens/commit/7a379549c3d476a9ff461129031f5d5c655f3111))
+
 ## [3.13.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.3...v3.13.4) (2021-08-10)
 
 
