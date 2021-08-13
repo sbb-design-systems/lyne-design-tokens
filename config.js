@@ -14,7 +14,6 @@ module.exports = {
         'name/cti/kebab',
         'time/seconds',
         'content/icon',
-        'size/px',
         'color/css'
       ]
     },
@@ -38,7 +37,6 @@ module.exports = {
       transforms: [
         'attribute/cti',
         'name/cti/pascal',
-        'size/px',
         'color/css'
       ]
     },
@@ -54,7 +52,6 @@ module.exports = {
       transforms: [
         'attribute/cti',
         'name/cti/kebab',
-        'size/px',
         'color/css'
       ]
     },
@@ -70,7 +67,6 @@ module.exports = {
       transforms: [
         'attribute/cti',
         'name/cti/kebab',
-        'size/px',
         'color/css'
       ]
     },
@@ -88,7 +84,6 @@ module.exports = {
         'name/cti/kebab',
         'time/seconds',
         'content/icon',
-        'size/px',
         'color/css'
       ]
     },
@@ -113,7 +108,6 @@ module.exports = {
         'name/cti/kebab',
         'time/seconds',
         'content/icon',
-        'size/px',
         'color/css'
       ]
     }
