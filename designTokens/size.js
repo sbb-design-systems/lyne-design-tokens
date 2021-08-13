@@ -13,7 +13,7 @@ module.exports = {
       small: {
         min: {
           height: {
-            value: 56
+            value: 40
           }
         }
       }
