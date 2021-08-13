@@ -6,6 +6,5 @@ module.exports = {
   shadow: require('./shadow'),
   size: require('./size'),
   spacing: require('./spacing'),
-  touch: require('./touch'),
   typo: require('./typo')
 };
