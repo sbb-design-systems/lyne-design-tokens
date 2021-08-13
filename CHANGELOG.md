@@ -1,3 +1,11 @@
+## [3.14.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.14.0...v3.14.1) (2021-08-13)
+
+
+### Bug Fixes
+
+* correct min height of small element ([30f68d7](https://github.com/lyne-design-system/lyne-design-tokens/commit/30f68d7096d3be687b04ce2a12971049cd8e9867))
+* fake commit to trigger release ([90ce1d1](https://github.com/lyne-design-system/lyne-design-tokens/commit/90ce1d1f40ee1a611ff1a5cc7a4471bb226c4bc7))
+
 # [3.14.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.13.4...v3.14.0) (2021-08-13)
 
 
