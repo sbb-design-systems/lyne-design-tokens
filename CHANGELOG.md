@@ -1,3 +1,10 @@
+## [3.14.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.14.3...v3.14.4) (2021-08-24)
+
+
+### Bug Fixes
+
+* remove obsolete shadows ([c18b34d](https://github.com/lyne-design-system/lyne-design-tokens/commit/c18b34dac3fa5c4ecdefe8c29a2d90cc9e7f7c60))
+
 ## [3.14.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.14.2...v3.14.3) (2021-08-14)
 
 
