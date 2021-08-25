@@ -19,6 +19,9 @@ module.exports = {
     '1x': {
       value: borderRadius(1)
     },
+    '4x': {
+      value: borderRadius(4)
+    },
     '8x': {
       value: borderRadius(8)
     },
