@@ -1,3 +1,10 @@
+# [3.15.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.14.4...v3.15.0) (2021-08-25)
+
+
+### Features
+
+* add border-radius-4x ([e02dc46](https://github.com/lyne-design-system/lyne-design-tokens/commit/e02dc465edba82ed44ca0fa71c7a7663a09cb7cd))
+
 ## [3.14.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.14.3...v3.14.4) (2021-08-24)
 
 
