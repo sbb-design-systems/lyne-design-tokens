@@ -1,3 +1,10 @@
+## [3.15.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.15.1...v3.15.2) (2021-08-26)
+
+
+### Bug Fixes
+
+* re-factoring typo design tokens to primitives ([e3a8d4c](https://github.com/lyne-design-system/lyne-design-tokens/commit/e3a8d4c38ed1dc624806d96185b44a4e8a1f52d9))
+
 ## [3.15.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.15.0...v3.15.1) (2021-08-25)
 
 
