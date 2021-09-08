@@ -1,3 +1,10 @@
+## [3.15.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.15.2...v3.15.3) (2021-09-08)
+
+
+### Bug Fixes
+
+* replacing single with double quotes to avoid malformed output in js ([f2be272](https://github.com/lyne-design-system/lyne-design-tokens/commit/f2be2724508a8133a24a307336609c6ec4b88b9b))
+
 ## [3.15.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.15.1...v3.15.2) (2021-08-26)
 
 
