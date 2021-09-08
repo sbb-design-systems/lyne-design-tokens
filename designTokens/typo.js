@@ -5,21 +5,21 @@ const typoSpacing = (value) => value * Number(baseTypoSpacing);
 
 module.exports = {
   fontFamilyFallback: {
-    value: '\'Helvetica Neue\', Helvetica, Arial, sans-serif'
+    value: '"Helvetica Neue", Helvetica, Arial, sans-serif'
   },
   typeFace: {
     sbbLight: {
-      value: '\'SBBWeb Light\', {typo.fontFamilyFallback.value}'
+      value: '"SBBWeb Light", {typo.fontFamilyFallback.value}'
     },
     sbbRoman: {
-      value: '\'SBBWeb Roman\', {typo.fontFamilyFallback.value}'
+      value: '"SBBWeb Roman", {typo.fontFamilyFallback.value}'
     },
     sbbBold: {
-      value: '\'SBBWeb Bold\', {typo.fontFamilyFallback.value}'
+      value: '"SBBWeb Bold", {typo.fontFamilyFallback.value}'
     },
     i18n: {
       traditionalChinese: {
-        value: '\'Example for possible i18n structure\''
+        value: '"Example for possible i18n structure"'
       }
     }
   },
