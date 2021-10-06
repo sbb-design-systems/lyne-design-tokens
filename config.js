@@ -4,8 +4,18 @@ module.exports = {
       buildPath: 'dist/css/',
       files: [
         {
-          destination: 'variables.css',
-          format: 'css/variables'
+          destination: 'variables--root.css',
+          format: 'css/variables',
+          options: {
+            selector: ':root'
+          }
+        },
+        {
+          destination: 'variables--host.css',
+          format: 'css/variables',
+          options: {
+            selector: ':host'
+          }
         }
       ],
       transformGroup: 'css',
@@ -95,10 +105,10 @@ module.exports = {
           format: 'custom/format/scss'
         },
         {
-          destination: 'css_variables.scss',
+          destination: 'variables_css--placeholder.scss',
           format: 'css/variables',
           options: {
-            selector: ':host'
+            selector: '%lyne-design-tokens-css-variables'
           }
         }
       ],
