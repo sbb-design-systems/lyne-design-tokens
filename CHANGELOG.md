@@ -1,3 +1,10 @@
+# [3.16.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.15.3...v3.16.0) (2021-10-06)
+
+
+### Features
+
+* introduce new custom properties/CSS variables selector ([1f0ff75](https://github.com/lyne-design-system/lyne-design-tokens/commit/1f0ff75d68748f811b68cc0eaae5191f15f2849e))
+
 ## [3.15.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.15.2...v3.15.3) (2021-09-08)
 
 
