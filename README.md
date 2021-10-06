@@ -10,6 +10,24 @@ Install the Design Tokens with the following command:
 ```bash
 npm install --save-dev lyne-design-tokens
 ```
+## What's included
+
+lyne-design-tokens/
+├── designTokens/                           # Token source files
+└── dist/
+    ├── css/
+    │    ├── variables--host.css            # CSS variables with :host selector
+    │    └── variables--root.css            # CSS variables with :root selector
+    ├── js/
+    │    ├── tokens-raw.json                # Nested .json file
+    │    ├── tokens.commonjs.js             # Flat commonjs file
+    │    ├── tokens.es6.js                  # Flat es6 file
+    │    └── tokens.json                    # Flat .json file
+    ├── less/                            
+    │   └── variables.less                  # Less variables
+    └── scss/                            
+        ├── variables_css--placeholder.scss # CSS variables with Sass % selector
+        └── variables.scss                  # Sass variables
 
 ## Usage
 
