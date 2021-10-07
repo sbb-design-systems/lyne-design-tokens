@@ -6,15 +6,15 @@ Automatically generate Design Tokens for the Lyne Design System based json prope
 
 ## Installation
 
-Install the Design Tokens with the following command:
+Install the Lyne Design Tokens with the following command:
 ```bash
 npm install --save-dev lyne-design-tokens
 ```
 ## What's included
-
+```
 lyne-design-tokens/
 ├── designTokens/                           # Token source files
-└── dist/
+└── dist/                                   # These files get built through the build task and get published via npm — are part of the npm package
     ├── css/
     │    ├── variables--host.css            # CSS variables with :host selector
     │    └── variables--root.css            # CSS variables with :root selector
@@ -26,8 +26,9 @@ lyne-design-tokens/
     ├── less/                            
     │   └── variables.less                  # Less variables
     └── scss/                            
-        ├── variables_css--placeholder.scss # CSS variables with Sass % selector
+        ├── variables_css--placeholder.scss # CSS variables with Sass placeholder selector (%)
         └── variables.scss                  # Sass variables
+```
 
 ## Usage
 
