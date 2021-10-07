@@ -2,7 +2,7 @@
 
 # Lyne Design Tokens
 
-Automatically generate Design Tokens for the Lyne Design System based json properties files.
+Automatically generate cross plattform Design Tokens for the Lyne Design System based json properties files and publish them as `lyne-design-tokens` npm package.
 
 ## Installation
 
