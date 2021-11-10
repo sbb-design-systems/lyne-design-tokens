@@ -27,6 +27,24 @@ module.exports = {
     },
     '-10x': {
       value: spacing(10)
+    },
+    '-12x': {
+      value: spacing(12)
+    },
+    '-14x': {
+      value: spacing(14)
+    },
+    '-16x': {
+      value: spacing(16)
+    },
+    '-18x': {
+      value: spacing(18)
+    },
+    '-20x': {
+      value: spacing(20)
+    },
+    '-24x': {
+      value: spacing(24)
     }
   },
   responsive: {
