@@ -30,6 +30,52 @@ module.exports = {
     }
   },
   responsive: {
+    xxxs: {
+      zero: {
+        value: spacing(3)
+      },
+      micro: {
+        value: spacing(3)
+      },
+      small: {
+        value: spacing(3)
+      },
+      medium: {
+        value: spacing(4)
+      },
+      large: {
+        value: spacing(4)
+      },
+      wide: {
+        value: spacing(4)
+      },
+      ultra: {
+        value: spacing(4)
+      }
+    },
+    xxs: {
+      zero: {
+        value: spacing(4)
+      },
+      micro: {
+        value: spacing(4)
+      },
+      small: {
+        value: spacing(4)
+      },
+      medium: {
+        value: spacing(6)
+      },
+      large: {
+        value: spacing(6)
+      },
+      wide: {
+        value: spacing(6)
+      },
+      ultra: {
+        value: spacing(6)
+      }
+    },
     xs: {
       zero: {
         value: spacing(5)
@@ -143,6 +189,29 @@ module.exports = {
       },
       ultra: {
         value: spacing(24)
+      }
+    },
+    xxl: {
+      zero: {
+        value: spacing(12)
+      },
+      micro: {
+        value: spacing(12)
+      },
+      small: {
+        value: spacing(18)
+      },
+      medium: {
+        value: spacing(20)
+      },
+      large: {
+        value: spacing(24)
+      },
+      wide: {
+        value: spacing(24)
+      },
+      ultra: {
+        value: spacing(30)
       }
     }
   }
