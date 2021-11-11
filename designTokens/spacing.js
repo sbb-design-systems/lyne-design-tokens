@@ -45,6 +45,9 @@ module.exports = {
     },
     '-24x': {
       value: spacing(24)
+    },
+    '-30x': {
+      value: spacing(30)
     }
   },
   responsive: {
