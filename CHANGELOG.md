@@ -1,3 +1,12 @@
+# [3.17.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.16.0...v3.17.0) (2021-11-15)
+
+
+### Features
+
+* add fixed spacing 30x ([b60b4fc](https://github.com/lyne-design-system/lyne-design-tokens/commit/b60b4fcb014dbbf7bac227465e4a945b75b2dfef))
+* fixed spacings ([e57ac15](https://github.com/lyne-design-system/lyne-design-tokens/commit/e57ac1519e3e52edba35b2513a22a29a909817f1))
+* responsive spacing ([3cb74ee](https://github.com/lyne-design-system/lyne-design-tokens/commit/3cb74eec9ba7c2250284e292f71dc47659b3253d))
+
 # [3.16.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.15.3...v3.16.0) (2021-10-06)
 
 
