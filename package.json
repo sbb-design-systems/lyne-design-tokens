@@ -21,7 +21,7 @@
     "minimist": "~1.2.5",
     "netlify-cli": "~6.14.1",
     "semantic-release": "~17.4.4",
-    "semantic-release-slack-bot": "^2.1.0",
+    "semantic-release-slack-bot": "^3.0.0",
     "shelljs": "~0.8.4",
     "simple-git": "~2.47.0",
     "style-dictionary": "~3.0.1"
