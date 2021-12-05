@@ -23,7 +23,7 @@
     "semantic-release": "~17.4.4",
     "semantic-release-slack-bot": "^3.0.0",
     "shelljs": "~0.8.4",
-    "simple-git": "~2.47.0",
+    "simple-git": "~2.48.0",
     "style-dictionary": "~3.0.1"
   },
   "files": [
