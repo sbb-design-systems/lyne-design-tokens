@@ -19,7 +19,7 @@
     "lyne-helper-eslint-config": "~1.0.1",
     "lyne-helper-trigger-travis": "~1.0.3",
     "minimist": "~1.2.5",
-    "netlify-cli": "~8.6.0",
+    "netlify-cli": "~8.8.2",
     "semantic-release": "~17.4.4",
     "semantic-release-slack-bot": "^3.0.0",
     "shelljs": "~0.8.4",
