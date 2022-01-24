@@ -1,3 +1,10 @@
+## [3.17.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.17.0...v3.17.1) (2022-01-24)
+
+
+### Bug Fixes
+
+* resolving merge conflict ([7016915](https://github.com/lyne-design-system/lyne-design-tokens/commit/7016915f80f1df71ed8e9ff3ebaaa95964ef1db0))
+
 # [3.17.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.16.0...v3.17.0) (2021-11-15)
 
 
