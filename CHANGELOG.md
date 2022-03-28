@@ -1,3 +1,15 @@
+# [3.18.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.17.1...v3.18.0) (2022-03-28)
+
+
+### Bug Fixes
+
+* typo ([ee1e458](https://github.com/lyne-design-system/lyne-design-tokens/commit/ee1e45844f07569503e3a74d44a2cfdcd82d9e47))
+
+
+### Features
+
+* layout design tokens ([abbd2e6](https://github.com/lyne-design-system/lyne-design-tokens/commit/abbd2e6bab81607e6b46274dd4a312f3187f9516))
+
 ## [3.17.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.17.0...v3.17.1) (2022-01-24)
 
 
