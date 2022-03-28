@@ -1,3 +1,10 @@
+# [3.19.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.18.0...v3.19.0) (2022-03-28)
+
+
+### Features
+
+* rename token category names ([322569d](https://github.com/lyne-design-system/lyne-design-tokens/commit/322569d25bebc6036791cbe5b2823f35b34694ff))
+
 # [3.18.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.17.1...v3.18.0) (2022-03-28)
 
 
