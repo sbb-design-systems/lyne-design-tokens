@@ -1,3 +1,10 @@
+# [3.20.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.19.0...v3.20.0) (2022-03-29)
+
+
+### Features
+
+* restructure layout design tokens ([62a3853](https://github.com/lyne-design-system/lyne-design-tokens/commit/62a3853f0a4ef9c7e3d3f2d4ca5039c44c1c6f01))
+
 # [3.19.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.18.0...v3.19.0) (2022-03-28)
 
 
