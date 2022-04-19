@@ -1,3 +1,10 @@
+## [3.20.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.20.0...v3.20.1) (2022-04-19)
+
+
+### Bug Fixes
+
+* adapt form element size tokens to figma specifications ([200efc1](https://github.com/lyne-design-system/lyne-design-tokens/commit/200efc1bb9cc1aeeebda01cbe7ccc3f98acc5ba5))
+
 # [3.20.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.19.0...v3.20.0) (2022-03-29)
 
 
