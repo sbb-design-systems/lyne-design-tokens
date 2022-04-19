@@ -9,19 +9,71 @@ const attributes = (group) => ({
 module.exports = {
   form: {
     element: {
-      large: {
+      m: {
         min: {
           height: {
-            value: 56,
-            ...attributes('form')
+            zero: {
+              value: 40,
+              ...attributes('form')
+            },
+            micro: {
+              value: 40,
+              ...attributes('form')
+            },
+            small: {
+              value: 40,
+              ...attributes('form')
+            },
+            medium: {
+              value: 48,
+              ...attributes('form')
+            },
+            large: {
+              value: 48,
+              ...attributes('form')
+            },
+            wide: {
+              value: 48,
+              ...attributes('form')
+            },
+            ultra: {
+              value: 48,
+              ...attributes('form')
+            }
           }
         }
       },
-      small: {
+      l: {
         min: {
           height: {
-            value: 40,
-            ...attributes('form')
+            zero: {
+              value: 48,
+              ...attributes('form')
+            },
+            micro: {
+              value: 48,
+              ...attributes('form')
+            },
+            small: {
+              value: 48,
+              ...attributes('form')
+            },
+            medium: {
+              value: 56,
+              ...attributes('form')
+            },
+            large: {
+              value: 56,
+              ...attributes('form')
+            },
+            wide: {
+              value: 56,
+              ...attributes('form')
+            },
+            ultra: {
+              value: 56,
+              ...attributes('form')
+            }
           }
         }
       }
