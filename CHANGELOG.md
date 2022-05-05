@@ -1,3 +1,10 @@
+## [3.20.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.20.2...v3.20.3) (2022-05-05)
+
+
+### Bug Fixes
+
+* remove doubled animation prefix ([4c9d02e](https://github.com/lyne-design-system/lyne-design-tokens/commit/4c9d02e90aa64435508c2cc8cab6391cb5d3bc1f))
+
 ## [3.20.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.20.1...v3.20.2) (2022-05-05)
 
 
