@@ -13,15 +13,15 @@ module.exports = {
         min: {
           height: {
             zero: {
-              value: 40,
+              value: 44,
               ...attributes('form')
             },
             micro: {
-              value: 40,
+              value: 44,
               ...attributes('form')
             },
             small: {
-              value: 40,
+              value: 44,
               ...attributes('form')
             },
             medium: {
@@ -81,7 +81,7 @@ module.exports = {
   },
   touch: {
     min: {
-      value: 48,
+      value: 44,
       ...attributes('touch')
     }
   },
