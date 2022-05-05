@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys */
 const baseDuration = 40;
-const duration = (value) => value * Number(baseDuration);
+const duration = (value) => `${value * Number(baseDuration)}ms`;
 
 module.exports = {
   animation: {
