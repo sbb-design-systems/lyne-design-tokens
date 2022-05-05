@@ -1,3 +1,11 @@
+## [3.20.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.20.1...v3.20.2) (2022-05-05)
+
+
+### Bug Fixes
+
+* add ms ([7d36ffa](https://github.com/lyne-design-system/lyne-design-tokens/commit/7d36ffa078b912342246a1bcb5696e71a8b1915a))
+* fix min size of buttons and add animation duration tokens ([79d0f5f](https://github.com/lyne-design-system/lyne-design-tokens/commit/79d0f5f371956411908039157bf0e37bed3c4ffb))
+
 ## [3.20.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.20.0...v3.20.1) (2022-04-19)
 
 
