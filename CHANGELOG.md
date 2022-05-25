@@ -1,3 +1,10 @@
+# [3.21.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.20.3...v3.21.0) (2022-05-25)
+
+
+### Features
+
+* focus outline design token ([#405](https://github.com/lyne-design-system/lyne-design-tokens/issues/405)) ([fbea86e](https://github.com/lyne-design-system/lyne-design-tokens/commit/fbea86eda35288baf64ce08b5ef11254bdeeeb85))
+
 ## [3.20.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v3.20.2...v3.20.3) (2022-05-05)
 
 
