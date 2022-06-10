@@ -1,6 +1,6 @@
 {
-  "name": "lyne-design-tokens",
-  "version": "3.21.0",
+  "name": "@sbb-esta/lyne-design-tokens",
+  "version": "0.1.0",
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lyne-design-system/lyne-design-tokens/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "homepage": "https://github.com/lyne-design-system/lyne-design-tokens#readme"
 }
