@@ -4,11 +4,13 @@ dist/
 *.sw[mnpcod]
 *.log
 *.lock
+!yarn.lock
 *.tmp
 *.tmp.*
 log.txt
 *.sublime-project
 *.sublime-workspace
+package-lock.json
 
 .idea/
 .vscode/

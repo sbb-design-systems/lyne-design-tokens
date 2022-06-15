@@ -21,7 +21,7 @@ then
   node ./ci/createCdnAssets.js -i $VERSION
 
   # Deploy CDN assets to netlify
-  netlify deploy --prod --message "::$VERSION::" --site $NETLIFY_SITE_ID --auth $NETLIFY_TOKEN --dir ./cdn/
+  netlify deploy --prod --message "::$VERSION::" --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir ./cdn/
 
 else
   echo "-->> No version released, thus skipping netlify depoly"
