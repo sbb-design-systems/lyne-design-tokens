@@ -1,0 +1,49 @@
+name: Release
+# Secure execution of continuous integration jobs
+# which are performed upon completion of the
+# "Continuous Integration" workflow
+# https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
+on:
+  workflow_run:
+    workflows: ["Continuous Integration"]
+    types: [completed]
+    branches: [master]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: >
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      (
+        startsWith(github.event.workflow_run.head_commit, 'feat') ||
+        startsWith(github.event.workflow_run.head_commit, 'fix') ||
+        startsWith(github.event.workflow_run.head_commit, 'refactor')
+      )
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - name: Yarn Install
+        uses: ./.github/actions/yarn-install
+      - name: Download artifacts
+        uses: ./.github/actions/download-artifacts-from-workflow
+        with:
+          artifacts: dist
+      - run: unzip dist.zip
+
+      - name: Create release with semantic-release
+        run: yarn -s semantic-release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: Install netlify CLI
+        run: yarn global add netlify-cli
+      - name: Deploy CDN assets
+        run: ./ci/deploy_cdn_assets.sh
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
