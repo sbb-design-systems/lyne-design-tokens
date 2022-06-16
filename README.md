@@ -7,10 +7,13 @@ Automatically generate cross platform Design Tokens for the Lyne Design System b
 ## Installation
 
 Install the Lyne Design Tokens with the following command:
+
 ```bash
 npm install --save-dev lyne-design-tokens
 ```
+
 ## What's included
+
 ```
 lyne-design-tokens/
 ├── designTokens/                           # Token source files
@@ -23,9 +26,9 @@ lyne-design-tokens/
     │    ├── tokens.commonjs.js             # Flat commonjs file
     │    ├── tokens.es6.js                  # Flat es6 file
     │    └── tokens.json                    # Flat .json file
-    ├── less/                            
+    ├── less/
     │   └── variables.less                  # Less variables
-    └── scss/                            
+    └── scss/
         ├── variables_css--placeholder.scss # CSS variables with Sass placeholder selector (%)
         └── variables.scss                  # Sass variables
 ```
@@ -43,6 +46,7 @@ Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/
 ### Env Variables
 
 To test and develop the workflow on your local machine, you need to setup an `.env` file in the root directory of the project with the following content:
+
 ```bash
 TRAVIS_TOKEN=XXX
 ```

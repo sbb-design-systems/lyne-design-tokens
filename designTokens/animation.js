@@ -5,27 +5,27 @@ const duration = (value) => `${value * Number(baseDuration)}ms`;
 module.exports = {
   duration: {
     '-1x': {
-      value: duration(1)
+      value: duration(1),
     },
     '-2x': {
-      value: duration(2)
+      value: duration(2),
     },
     '-3x': {
-      value: duration(3)
+      value: duration(3),
     },
     '-4x': {
-      value: duration(4)
+      value: duration(4),
     },
     '-5x': {
-      value: duration(5)
+      value: duration(5),
     },
     '-6x': {
-      value: duration(6)
-    }
+      value: duration(6),
+    },
   },
   easing: {
-    value: 'cubic-bezier(.47, .1, 1, .63)'
-  }
+    value: 'cubic-bezier(.47, .1, 1, .63)',
+  },
 };
 
 /* eslint-enable sort-keys */

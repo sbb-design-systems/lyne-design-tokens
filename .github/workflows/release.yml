@@ -5,7 +5,7 @@ name: Release
 # https://securitylab.github.com/research/github-actions-preventing-pwn-requests/
 on:
   workflow_run:
-    workflows: ["Continuous Integration"]
+    workflows: ['Continuous Integration']
     types: [completed]
     branches: [master]
 
@@ -38,7 +38,6 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 
       - name: Install netlify CLI
         run: yarn global add netlify-cli

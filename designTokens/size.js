@@ -2,8 +2,8 @@
 
 const attributes = (group) => ({
   attributes: {
-    group
-  }
+    group,
+  },
 });
 
 module.exports = {
@@ -14,111 +14,111 @@ module.exports = {
           height: {
             zero: {
               value: 44,
-              ...attributes('form')
+              ...attributes('form'),
             },
             micro: {
               value: 44,
-              ...attributes('form')
+              ...attributes('form'),
             },
             small: {
               value: 44,
-              ...attributes('form')
+              ...attributes('form'),
             },
             medium: {
               value: 48,
-              ...attributes('form')
+              ...attributes('form'),
             },
             large: {
               value: 48,
-              ...attributes('form')
+              ...attributes('form'),
             },
             wide: {
               value: 48,
-              ...attributes('form')
+              ...attributes('form'),
             },
             ultra: {
               value: 48,
-              ...attributes('form')
-            }
-          }
-        }
+              ...attributes('form'),
+            },
+          },
+        },
       },
       l: {
         min: {
           height: {
             zero: {
               value: 48,
-              ...attributes('form')
+              ...attributes('form'),
             },
             micro: {
               value: 48,
-              ...attributes('form')
+              ...attributes('form'),
             },
             small: {
               value: 48,
-              ...attributes('form')
+              ...attributes('form'),
             },
             medium: {
               value: 56,
-              ...attributes('form')
+              ...attributes('form'),
             },
             large: {
               value: 56,
-              ...attributes('form')
+              ...attributes('form'),
             },
             wide: {
               value: 56,
-              ...attributes('form')
+              ...attributes('form'),
             },
             ultra: {
               value: 56,
-              ...attributes('form')
-            }
-          }
-        }
-      }
-    }
+              ...attributes('form'),
+            },
+          },
+        },
+      },
+    },
   },
   touch: {
     min: {
       value: 44,
-      ...attributes('touch')
-    }
+      ...attributes('touch'),
+    },
   },
   icon: {
     ui: {
       small: {
         value: 24,
-        ...attributes('icon')
+        ...attributes('icon'),
       },
       medium: {
         value: 36,
-        ...attributes('icon')
+        ...attributes('icon'),
       },
       large: {
         value: 48,
-        ...attributes('icon')
-      }
+        ...attributes('icon'),
+      },
     },
     timetable: {
-      'attribute': {
+      attribute: {
         value: 16,
-        ...attributes('icon')
+        ...attributes('icon'),
       },
       'him-cus': {
         value: 16,
-        ...attributes('icon')
+        ...attributes('icon'),
       },
       'product-brand': {
         value: 20,
-        ...attributes('icon')
-      }
+        ...attributes('icon'),
+      },
     },
     pictograms: {
       value: 24,
-      ...attributes('icon')
-    }
-  }
+      ...attributes('icon'),
+    },
+  },
 };
 
 /* eslint-enable sort-keys */

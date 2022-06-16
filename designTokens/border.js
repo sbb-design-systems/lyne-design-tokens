@@ -9,26 +9,26 @@ const borderRadius = (width) => width * Number(baseBorderRadius);
 module.exports = {
   width: {
     '1x': {
-      value: borderWidth(1)
+      value: borderWidth(1),
     },
     '2x': {
-      value: borderWidth(2)
-    }
+      value: borderWidth(2),
+    },
   },
   radius: {
     '1x': {
-      value: borderRadius(1)
+      value: borderRadius(1),
     },
     '4x': {
-      value: borderRadius(4)
+      value: borderRadius(4),
     },
     '8x': {
-      value: borderRadius(8)
+      value: borderRadius(8),
     },
     '16x': {
-      value: borderRadius(16)
-    }
-  }
+      value: borderRadius(16),
+    },
+  },
 };
 
 /* eslint-enable sort-keys */

@@ -3,8 +3,7 @@ const shell = require('shelljs');
 const argv = require('minimist');
 const simpleGit = require('simple-git');
 
-require('dotenv')
-  .config();
+require('dotenv').config();
 
 const git = simpleGit();
 
@@ -13,14 +12,14 @@ const config = {
   cdnFolder: 'cdn',
   cdnVersionsFile: 'versions.json',
   tokensFileName: 'tokens.json',
-  tokensSourcePath: './dist/js/'
+  tokensSourcePath: './dist/js/',
 };
 
 const generateTokensFile = (version, sourceFile, targetFile) => {
   const tokenContent = fs.readFileSync(sourceFile);
   const outputRaw = {
     tokens: JSON.parse(tokenContent),
-    version
+    version,
   };
   const output = JSON.stringify(outputRaw, null, 2);
 
@@ -71,9 +70,8 @@ const createVersionsFile = (archiveDir) => {
 
     fileContent[file] = {
       tokens: `${rootPath}/${config.tokensFileName}`,
-      url: rootPath
+      url: rootPath,
     };
-
   });
 
   fs.writeFileSync(`./${config.cdnFolder}/${config.cdnVersionsFile}`, JSON.stringify(fileContent));
@@ -95,7 +93,9 @@ const createIndexHtmlPage = () => {
 
       <p>Every release has a folder containing a file with all the design token declarations.</p>
 
-      <p>There is a JSON-File containing all the versions along with the corresponding urls to the tokens.json file: <a href="/${config.tokensFileName}">tokens.json</a></p>
+      <p>There is a JSON-File containing all the versions along with the corresponding urls to the tokens.json file: <a href="/${
+        config.tokensFileName
+      }">tokens.json</a></p>
 
       <h2>Directories</h2>
 
@@ -105,18 +105,18 @@ const createIndexHtmlPage = () => {
       <h3>Versions</h3>
       <ul>
       ${Object.keys(versions)
-    .map((key) => {
-      const versionItem = versions[key];
-      const liElem = `
+        .map((key) => {
+          const versionItem = versions[key];
+          const liElem = `
       <li>
         <h4>Version ${key}</h4>
         <p>Root URL: ${versionItem.url}</p>
         <p>Tokens file: <a href="${versionItem.tokens}">${versionItem.tokens}</a></p>
       </li>`;
 
-      return liElem;
-    })
-    .join('')}
+          return liElem;
+        })
+        .join('')}
       </ul>
 
     </body>
@@ -176,11 +176,10 @@ const createIndexHtmlPage = () => {
     await git.add(`${cdnDir}/*`);
     await git.commit(`chore: add CDN assets for version ${version} [skip ci]`);
     await git.push('origin', 'master', {
-      '--force': true
+      '--force': true,
     });
 
     console.log('-->> Generate CDN Assets: generated and pushed assets to git');
-
   } catch (error) {
     console.log(`-->> Generate CDN Assets error: ${error}`);
     shell.exit(0);
