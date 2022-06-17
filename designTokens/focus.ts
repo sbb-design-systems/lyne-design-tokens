@@ -1,12 +1,10 @@
-/* eslint-disable sort-keys */
-
-const attributes = (group) => ({
+const attributes = (group: string) => ({
   attributes: {
     group,
   },
 });
 
-module.exports = {
+export const focus = {
   outline: {
     offset: {
       value: 3,
@@ -14,5 +12,3 @@ module.exports = {
     },
   },
 };
-
-/* eslint-enable sort-keys */

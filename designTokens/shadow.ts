@@ -1,25 +1,23 @@
-/* eslint-disable sort-keys */
-
-const attributes = (shadowLevel) => ({
+const attributes = (shadowLevel: number) => ({
   attributes: {
     group: shadowLevel,
   },
 });
 
 const shadowObject = (
-  shadowLevel,
-  x1,
-  y1,
-  blur1,
-  spread1,
-  x2,
-  y2,
-  blur2,
-  spread2,
-  color1,
-  color2,
-  color3,
-  color4
+  shadowLevel: number,
+  x1: number,
+  y1: number,
+  blur1: number,
+  spread1: number,
+  x2: number,
+  y2: number,
+  blur2: number,
+  spread2: number,
+  color1: string,
+  color2: string,
+  color3: string,
+  color4: string
 ) => ({
   shadow: {
     1: {
@@ -93,7 +91,7 @@ const shadowObject = (
   },
 });
 
-module.exports = {
+export const shadow = {
   elevation: {
     level: {
       3: {
@@ -150,4 +148,3 @@ module.exports = {
     },
   },
 };
-/* eslint-enable sort-keys */

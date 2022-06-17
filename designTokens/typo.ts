@@ -1,9 +1,7 @@
-/* eslint-disable sort-keys */
-
 const baseTypoSpacing = 16;
-const typoSpacing = (value) => value * Number(baseTypoSpacing);
+const typoSpacing = (value: number) => value * baseTypoSpacing;
 
-module.exports = {
+export const typo = {
   fontFamilyFallback: {
     value: '"Helvetica Neue", Helvetica, Arial, sans-serif',
   },
@@ -78,5 +76,3 @@ module.exports = {
     },
   },
 };
-
-/* eslint-enable sort-keys */

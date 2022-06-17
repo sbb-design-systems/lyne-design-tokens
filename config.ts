@@ -1,4 +1,6 @@
-module.exports = {
+import { Config } from 'style-dictionary';
+
+export const config: Config = {
   platforms: {
     css: {
       buildPath: 'dist/css/',
@@ -31,6 +33,10 @@ module.exports = {
         {
           destination: 'tokens.commonjs.js',
           format: 'custom/format/javascript/module',
+        },
+        {
+          destination: 'tokens.es6.d.ts',
+          format: 'typescript/es6-declarations',
         },
         {
           destination: 'tokens.json',

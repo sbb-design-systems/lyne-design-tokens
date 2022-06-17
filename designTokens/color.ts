@@ -1,6 +1,4 @@
-/* eslint-disable sort-keys */
-
-module.exports = {
+export const color = {
   black: {
     default: {
       value: 'rgba(0,0,0,1)',
@@ -193,5 +191,3 @@ module.exports = {
     },
   },
 };
-
-/* eslint-enable sort-keys */

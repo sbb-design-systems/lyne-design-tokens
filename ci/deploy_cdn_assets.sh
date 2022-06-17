@@ -18,7 +18,7 @@ then
   VERSION="$(cat .version)"
 
   # generate cdn assets
-  node ./ci/createCdnAssets.js -i $VERSION
+  yarn tsx ./ci/createCdnAssets.ts -i $VERSION
 
   # Deploy CDN assets to netlify
   netlify deploy --prod --message "::$VERSION::" --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir ./cdn/

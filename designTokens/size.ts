@@ -1,12 +1,10 @@
-/* eslint-disable sort-keys */
-
-const attributes = (group) => ({
+const attributes = (group: string) => ({
   attributes: {
     group,
   },
 });
 
-module.exports = {
+export const size = {
   form: {
     element: {
       m: {
@@ -120,5 +118,3 @@ module.exports = {
     },
   },
 };
-
-/* eslint-enable sort-keys */

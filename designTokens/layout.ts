@@ -1,12 +1,10 @@
-/* eslint-disable sort-keys */
-
-const attributes = (group) => ({
+const attributes = (group: string) => ({
   attributes: {
     group,
   },
 });
 
-module.exports = {
+export const layout = {
   base: {
     grid: {
       columns: {
@@ -106,5 +104,3 @@ module.exports = {
     },
   },
 };
-
-/* eslint-enable sort-keys */

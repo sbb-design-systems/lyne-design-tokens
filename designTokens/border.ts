@@ -1,12 +1,10 @@
-/* eslint-disable sort-keys */
-
 const baseBorderWidth = 1;
 const baseBorderRadius = 2;
 
-const borderWidth = (width) => width * Number(baseBorderWidth);
-const borderRadius = (width) => width * Number(baseBorderRadius);
+const borderWidth = (width: number) => width * baseBorderWidth;
+const borderRadius = (width: number) => width * baseBorderRadius;
 
-module.exports = {
+export const border = {
   width: {
     '1x': {
       value: borderWidth(1),
@@ -30,5 +28,3 @@ module.exports = {
     },
   },
 };
-
-/* eslint-enable sort-keys */

@@ -43,16 +43,6 @@ Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-
 
 Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification to make sure we can automatically determine the next release version if necessary.
 
-### Env Variables
-
-To test and develop the workflow on your local machine, you need to setup an `.env` file in the root directory of the project with the following content:
-
-```bash
-TRAVIS_TOKEN=XXX
-```
-
-Replace `XXX` with the according value.
-
 ## Deployment
 
 TravisCI is building as soon as a branch gets merged into the master branch. After successful linting, the Lyne Design Tokens package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).

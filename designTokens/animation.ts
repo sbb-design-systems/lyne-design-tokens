@@ -1,8 +1,7 @@
-/* eslint-disable sort-keys */
 const baseDuration = 40;
-const duration = (value) => `${value * Number(baseDuration)}ms`;
+const duration = (value: number) => `${value * baseDuration}ms`;
 
-module.exports = {
+export const animation = {
   duration: {
     '-1x': {
       value: duration(1),
@@ -27,5 +26,3 @@ module.exports = {
     value: 'cubic-bezier(.47, .1, 1, .63)',
   },
 };
-
-/* eslint-enable sort-keys */

@@ -1,6 +1,4 @@
-/* eslint-disable sort-keys */
-
-module.exports = {
+export const breakpoint = {
   zero: {
     min: {
       value: 0,
@@ -58,5 +56,3 @@ module.exports = {
     },
   },
 };
-
-/* eslint-enable sort-keys */
