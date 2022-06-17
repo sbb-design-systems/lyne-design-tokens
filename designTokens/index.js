@@ -8,5 +8,5 @@ module.exports = {
   shadow: require('./shadow'),
   size: require('./size'),
   spacing: require('./spacing'),
-  typo: require('./typo')
+  typo: require('./typo'),
 };

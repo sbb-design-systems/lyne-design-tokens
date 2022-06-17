@@ -5,38 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "node ./build.js",
+    "format": "prettier \"**/*\" --write --ignore-unknown",
     "lint": "npm run lint:yml && npm run lint:js",
-    "lint:js": "eslint --ext .js",
-    "lint:yml": "eslint --ext .yml,.yaml",
+    "lint:js": "eslint \"**/*.{js,ts}\"",
+    "lint:yml": "eslint \"**/*.{yml,yaml}\"",
     "semantic-release": "semantic-release",
     "prepare": "husky install"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@commitlint/cli": "^17.0.1",
-    "@commitlint/config-conventional": "~17.0.0",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "axios": "~0.27.2",
-    "dotenv": "~16.0.0",
-    "eslint": "^8.0.1",
-    "eslint-plugin-yaml": "^0.5.0",
-    "husky": "~8.0.1",
-    "lodash": "^4.17.15",
-    "lyne-helper-eslint-config": "~1.0.1",
-    "lyne-helper-trigger-travis": "~1.0.3",
-    "minimist": "~1.2.5",
-    "netlify-cli": "~10.5.1",
-    "semantic-release": "~19.0.2",
-    "semantic-release-slack-bot": "^3.0.0",
-    "shelljs": "~0.8.4",
-    "simple-git": "~3.7.1",
-    "style-dictionary": "~3.7.0"
-  },
-  "files": [
-    "dist/"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lyne-design-system/lyne-design-tokens.git"
@@ -49,5 +24,45 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/lyne-design-system/lyne-design-tokens#readme"
+  "homepage": "https://github.com/lyne-design-system/lyne-design-tokens#readme",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "~17.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "axios": "~0.27.2",
+    "dotenv": "~16.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-yaml": "^0.5.0",
+    "husky": "~8.0.1",
+    "lint-staged": "^13.0.1",
+    "lodash": "^4.17.15",
+    "lyne-helper-trigger-travis": "~1.0.3",
+    "minimist": "~1.2.5",
+    "netlify-cli": "~10.5.1",
+    "prettier": "2.7.1",
+    "semantic-release": "~19.0.2",
+    "semantic-release-slack-bot": "^3.0.0",
+    "shelljs": "~0.8.4",
+    "simple-git": "~3.7.1",
+    "style-dictionary": "~3.7.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "endOfLine": "lf",
+    "printWidth": 100
+  },
+  "lint-staged": {
+    "*.{js,ts,css,scss,json,md,html,yaml,yml}": [
+      "prettier --write"
+    ],
+    "*.{js,ts,yaml,yml}": [
+      "eslint --fix"
+    ]
+  }
 }

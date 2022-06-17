@@ -13,7 +13,7 @@
     ["@semantic-release/git", {
       "assets": [
         "package.json",
-        "package-lock.json",
+        "yarn.lock",
         "CHANGELOG.md",
         "properties/**/*.json"
       ],
