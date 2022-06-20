@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.2 (2022-06-20)
+
+### Bug Fixes
+
+- assign registry and scope for yarn publish ([3c90ef7](https://github.com/lyne-design-system/lyne-design-tokens/commit/3c90ef755d2291f856e4ff2469339776142feee9))
+
 ### 0.1.1 (2022-06-20)
 
 ### Bug Fixes
