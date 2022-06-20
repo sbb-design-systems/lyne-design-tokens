@@ -25,6 +25,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14
+          registry-url: 'https://registry.npmjs.org'
+          scope: sbb-esta
       - name: Yarn Install
         uses: ./.github/actions/yarn-install
 
