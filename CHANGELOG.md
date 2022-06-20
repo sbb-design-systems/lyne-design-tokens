@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.3 (2022-06-20)
+
+### Features
+
+- add `sbb` prefixed variable files and convert prefixed css variables to rem ([#428](https://github.com/lyne-design-system/lyne-design-tokens/issues/428)) ([a83810f](https://github.com/lyne-design-system/lyne-design-tokens/commit/a83810f7adc53bd8a108185eeaff9c7e9472c8d4))
+
 ### 0.1.2 (2022-06-20)
 
 ### Bug Fixes
