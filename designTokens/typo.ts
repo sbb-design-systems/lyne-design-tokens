@@ -1,7 +1,16 @@
+import { DesignToken, DesignTokens } from 'style-dictionary';
+
 const baseTypoSpacing = 16;
 const typoSpacing = (value: number) => value * baseTypoSpacing;
 
-export const typo = {
+const attributes = () =>
+  <Partial<DesignToken>>{
+    attributes: {
+      category: 'size',
+    },
+  };
+
+export const typo: DesignTokens = {
   fontFamilyFallback: {
     value: '"Helvetica Neue", Helvetica, Arial, sans-serif',
   },
@@ -40,39 +49,51 @@ export const typo = {
   scale: {
     '0-75x': {
       value: typoSpacing(0.75),
+      ...attributes(),
     },
     '0-8125x': {
       value: typoSpacing(0.8125),
+      ...attributes(),
     },
     '0-875x': {
       value: typoSpacing(0.875),
+      ...attributes(),
     },
     default: {
       value: typoSpacing(1),
+      ...attributes(),
     },
     '1-125x': {
       value: typoSpacing(1.125),
+      ...attributes(),
     },
     '1-25x': {
       value: typoSpacing(1.25),
+      ...attributes(),
     },
     '1-5x': {
       value: typoSpacing(1.5),
+      ...attributes(),
     },
     '2x': {
       value: typoSpacing(2),
+      ...attributes(),
     },
     '2-5x': {
       value: typoSpacing(2.5),
+      ...attributes(),
     },
     '3x': {
       value: typoSpacing(3),
+      ...attributes(),
     },
     '3-5x': {
       value: typoSpacing(3.5),
+      ...attributes(),
     },
     '4x': {
       value: typoSpacing(4),
+      ...attributes(),
     },
   },
 };

@@ -1,7 +1,9 @@
+import { DesignTokens } from 'style-dictionary';
+
 const baseDuration = 40;
 const duration = (value: number) => `${value * baseDuration}ms`;
 
-export const animation = {
+export const animation: DesignTokens = {
   duration: {
     '-1x': {
       value: duration(1),
