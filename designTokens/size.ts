@@ -1,10 +1,14 @@
-const attributes = (group: string) => ({
-  attributes: {
-    group,
-  },
-});
+import { DesignToken, DesignTokens } from 'style-dictionary';
 
-export const size = {
+const attributes = (group: string) =>
+  <Partial<DesignToken>>{
+    attributes: {
+      category: 'size',
+      group,
+    },
+  };
+
+export const size: DesignTokens = {
   form: {
     element: {
       m: {

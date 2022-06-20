@@ -1,8 +1,12 @@
-const attributes = (shadowLevel: number) => ({
-  attributes: {
-    group: shadowLevel,
-  },
-});
+import { DesignToken, DesignTokens } from 'style-dictionary';
+
+const attributes = (shadowLevel: number, category?: string) =>
+  <Partial<DesignToken>>{
+    attributes: {
+      category,
+      group: shadowLevel,
+    },
+  };
 
 const shadowObject = (
   shadowLevel: number,
@@ -24,40 +28,40 @@ const shadowObject = (
       offset: {
         x: {
           value: x1,
-          ...attributes(shadowLevel),
+          ...attributes(shadowLevel, 'size'),
         },
         y: {
           value: y1,
-          ...attributes(shadowLevel),
+          ...attributes(shadowLevel, 'size'),
         },
       },
       blur: {
         value: blur1,
-        ...attributes(shadowLevel),
+        ...attributes(shadowLevel, 'size'),
       },
       spread: {
         value: spread1,
-        ...attributes(shadowLevel),
+        ...attributes(shadowLevel, 'size'),
       },
     },
     2: {
       offset: {
         x: {
           value: x2,
-          ...attributes(shadowLevel),
+          ...attributes(shadowLevel, 'size'),
         },
         y: {
           value: y2,
-          ...attributes(shadowLevel),
+          ...attributes(shadowLevel, 'size'),
         },
       },
       blur: {
         value: blur2,
-        ...attributes(shadowLevel),
+        ...attributes(shadowLevel, 'size'),
       },
       spread: {
         value: spread2,
-        ...attributes(shadowLevel),
+        ...attributes(shadowLevel, 'size'),
       },
     },
   },
@@ -91,7 +95,7 @@ const shadowObject = (
   },
 });
 
-export const shadow = {
+export const shadow: DesignTokens = {
   elevation: {
     level: {
       3: {

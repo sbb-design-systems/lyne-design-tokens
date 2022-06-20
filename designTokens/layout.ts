@@ -1,10 +1,14 @@
-const attributes = (group: string) => ({
-  attributes: {
-    group,
-  },
-});
+import { DesignToken, DesignTokens } from 'style-dictionary';
 
-export const layout = {
+const attributes = (group: string) =>
+  <Partial<DesignToken>>{
+    attributes: {
+      category: 'size',
+      group,
+    },
+  };
+
+export const layout: DesignTokens = {
   base: {
     grid: {
       columns: {

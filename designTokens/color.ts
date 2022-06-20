@@ -1,4 +1,6 @@
-export const color = {
+import { DesignTokens } from 'style-dictionary';
+
+export const color: DesignTokens = {
   black: {
     default: {
       value: 'rgba(0,0,0,1)',
