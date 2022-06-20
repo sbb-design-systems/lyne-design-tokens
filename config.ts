@@ -27,15 +27,15 @@ export const config: Config = {
       buildPath: 'dist/js/',
       files: [
         {
-          destination: 'tokens.es6.js',
+          destination: 'tokens.mjs',
           format: 'javascript/es6',
         },
         {
-          destination: 'tokens.commonjs.js',
+          destination: 'tokens.cjs',
           format: 'custom/format/javascript/module',
         },
         {
-          destination: 'tokens.es6.d.ts',
+          destination: 'tokens.d.ts',
           format: 'typescript/es6-declarations',
         },
         {
