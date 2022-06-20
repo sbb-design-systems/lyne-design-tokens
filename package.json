@@ -2,7 +2,6 @@
   "name": "@sbb-esta/lyne-design-tokens",
   "version": "0.1.0",
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
-  "main": "index.js",
   "scripts": {
     "build": "tsx ./build.ts",
     "format": "prettier \"**/*\" --write --ignore-unknown",
@@ -46,6 +45,32 @@
     "style-dictionary": "~3.7.0",
     "tsx": "^3.4.3",
     "typescript": "^4.7.3"
+  },
+  "main": "./dist/js/tokens.cjs",
+  "module": "./dist/js/tokens.mjs",
+  "typings": "./dist/js/tokens.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/js/tokens.d.ts",
+      "node": "./dist/js/tokens.mjs",
+      "default": "./dist/js/tokens.mjs",
+      "require": "./dist/js/tokens.cjs",
+      "sass": "./dist/scss/variables.scss",
+      "less": "./dist/less/variables.less"
+    },
+    "./dist/js/tokens-raw.json": {
+      "default": "./dist/js/tokens-raw.json"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./dist/scss/*": {
+      "sass": "./dist/scss/*.scss"
+    },
+    "./dist/less/*": {
+      "less": "./dist/less/*.less"
+    }
   },
   "prettier": {
     "singleQuote": true,
