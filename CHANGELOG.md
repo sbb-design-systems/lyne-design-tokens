@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.1 (2022-06-20)
+
+### Bug Fixes
+
+- trigger release ([c0ce0d0](https://github.com/lyne-design-system/lyne-design-tokens/commit/c0ce0d088fb3e159ae0456ee736c751cef382368))
+
 ## 0.1.0 (2022-06-17)
 
 ### Features
