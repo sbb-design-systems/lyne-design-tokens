@@ -8,37 +8,46 @@ const attributes = (group: string) =>
     },
   };
 
+const gridAttributes = (group: string) =>
+  <Partial<DesignToken>>{
+    attributes: {
+      category: 'size',
+      isPureNumber: true,
+      group,
+    },
+  };
+
 export const layout: DesignTokens = {
   base: {
     grid: {
       columns: {
         zero: {
           value: 4,
-          ...attributes('base-grid-columns'),
+          ...gridAttributes('base-grid-columns'),
         },
         micro: {
           value: 4,
-          ...attributes('base-grid-columns'),
+          ...gridAttributes('base-grid-columns'),
         },
         small: {
           value: 4,
-          ...attributes('base-grid-columns'),
+          ...gridAttributes('base-grid-columns'),
         },
         medium: {
           value: 8,
-          ...attributes('base-grid-columns'),
+          ...gridAttributes('base-grid-columns'),
         },
         large: {
           value: 8,
-          ...attributes('base-grid-columns'),
+          ...gridAttributes('base-grid-columns'),
         },
         wide: {
           value: 12,
-          ...attributes('base-grid-columns'),
+          ...gridAttributes('base-grid-columns'),
         },
         ultra: {
           value: 12,
-          ...attributes('base-grid-columns'),
+          ...gridAttributes('base-grid-columns'),
         },
       },
       gutter: {
