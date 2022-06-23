@@ -1,9 +1,9 @@
 import { DesignToken, DesignTokens } from 'style-dictionary';
 
-const attributes = (group: string) =>
+const attributes = (group: string, category = 'size') =>
   <Partial<DesignToken>>{
     attributes: {
-      category: 'size',
+      category,
       group,
     },
   };
@@ -14,31 +14,31 @@ export const layout: DesignTokens = {
       columns: {
         zero: {
           value: 4,
-          ...attributes('base-grid-columns'),
+          ...attributes('base-grid-columns', 'noUnit'),
         },
         micro: {
           value: 4,
-          ...attributes('base-grid-columns'),
+          ...attributes('base-grid-columns', 'noUnit'),
         },
         small: {
           value: 4,
-          ...attributes('base-grid-columns'),
+          ...attributes('base-grid-columns', 'noUnit'),
         },
         medium: {
           value: 8,
-          ...attributes('base-grid-columns'),
+          ...attributes('base-grid-columns', 'noUnit'),
         },
         large: {
           value: 8,
-          ...attributes('base-grid-columns'),
+          ...attributes('base-grid-columns', 'noUnit'),
         },
         wide: {
           value: 12,
-          ...attributes('base-grid-columns'),
+          ...attributes('base-grid-columns', 'noUnit'),
         },
         ultra: {
           value: 12,
-          ...attributes('base-grid-columns'),
+          ...attributes('base-grid-columns', 'noUnit'),
         },
       },
       gutter: {

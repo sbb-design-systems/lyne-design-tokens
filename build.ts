@@ -1,3 +1,4 @@
+import { FormatterArguments } from 'style-dictionary/types/Format';
 import { config } from './config';
 import StyleDictionaryBase, { TransformedToken } from 'style-dictionary';
 
@@ -7,12 +8,13 @@ console.log('Build started...');
 console.log('\n==============================================');
 
 StyleDictionary.registerFormat({
-  formatter: (args) => args.dictionary.allProperties.map(scssTemplate).join('') + '\n',
+  formatter: (args: FormatterArguments) =>
+    args.dictionary.allProperties.map(scssTemplate).join('') + '\n',
   name: 'custom/format/scss',
 });
 
 StyleDictionary.registerFormat({
-  formatter: (args) => {
+  formatter: (args: FormatterArguments) => {
     const symbols = args.dictionary.allProperties.map(commonjsTemplate).join('');
     return `module.exports = {\n${symbols}};\n`;
   },

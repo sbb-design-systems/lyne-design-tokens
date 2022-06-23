@@ -50,6 +50,7 @@ export const config: Config = {
         'content/icon',
         'color/css',
         'size/pxToRem',
+        'size/rem',
       ],
     },
     js: {
@@ -173,6 +174,7 @@ export const config: Config = {
         'content/icon',
         'color/css',
         'size/pxToRem',
+        'size/rem',
       ],
     },
     scss: {
@@ -217,6 +219,7 @@ export const config: Config = {
         'content/icon',
         'color/css',
         'size/pxToRem',
+        'size/rem',
       ],
     },
   },
