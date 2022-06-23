@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.4 (2022-06-23)
+
+### Bug Fixes
+
+- add rem to zero values and mark grid column values as unitless ([#429](https://github.com/lyne-design-system/lyne-design-tokens/issues/429)) ([9cddd41](https://github.com/lyne-design-system/lyne-design-tokens/commit/9cddd41547f7dc9950a0ae40ae545f914e62a0d1))
+
 ### 0.1.3 (2022-06-20)
 
 ### Features
