@@ -46,30 +46,30 @@
     "tsx": "3.6.0",
     "typescript": "4.7.4"
   },
-  "main": "./dist/js/tokens.cjs",
-  "module": "./dist/js/tokens.mjs",
-  "typings": "./dist/js/tokens.d.ts",
+  "main": "./dist/js/sbb-tokens.cjs",
+  "module": "./dist/js/sbb-tokens.mjs",
+  "typings": "./dist/js/sbb-tokens.d.ts",
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/js/tokens.d.ts",
-      "node": "./dist/js/tokens.mjs",
-      "default": "./dist/js/tokens.mjs",
-      "require": "./dist/js/tokens.cjs",
-      "sass": "./dist/scss/variables.scss",
-      "less": "./dist/less/variables.less"
+      "types": "./dist/js/sbb-tokens.d.ts",
+      "node": "./dist/js/sbb-tokens.mjs",
+      "default": "./dist/js/sbb-tokens.mjs",
+      "require": "./dist/js/sbb-tokens.cjs",
+      "sass": "./dist/scss/sbb-variables.scss",
+      "less": "./dist/less/sbb-variables.less"
     },
-    "./dist/js/tokens-raw.json": {
-      "default": "./dist/js/tokens-raw.json"
+    "./dist/js/*": {
+      "default": "./dist/js/*"
     },
     "./package.json": {
       "default": "./package.json"
     },
     "./dist/scss/*": {
-      "sass": "./dist/scss/*.scss"
+      "sass": "./dist/scss/*"
     },
     "./dist/less/*": {
-      "less": "./dist/less/*.less"
+      "less": "./dist/less/*"
     }
   },
   "prettier": {
