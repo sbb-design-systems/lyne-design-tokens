@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.5 (2022-06-24)
+
+### Bug Fixes
+
+- use prefixed files per default and relax exports config ([58a0f05](https://github.com/lyne-design-system/lyne-design-tokens/commit/58a0f052e7b6e4af5453f0e964e4ee5a60f57bd0))
+
 ### 0.1.4 (2022-06-23)
 
 ### Bug Fixes
