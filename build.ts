@@ -3,9 +3,18 @@ import { config } from './config';
 import StyleDictionaryBase, { TransformedToken } from 'style-dictionary';
 
 const StyleDictionary = StyleDictionaryBase.extend(config);
+const fileHeader = StyleDictionary.formatHelpers.fileHeader;
 
 console.log('Build started...');
 console.log('\n==============================================');
+
+StyleDictionary.registerFormat({
+  formatter: ({ file, dictionary, options }: FormatterArguments) => {
+    const symbols = dictionary.allProperties.map(cssTemplate).join('') + '\n';
+    return fileHeader({ file }) + `${options.selector ?? ':root'} {\n${symbols}\n}\n`;
+  },
+  name: 'css/variables',
+});
 
 StyleDictionary.registerFormat({
   formatter: (args: FormatterArguments) =>
@@ -51,6 +60,30 @@ StyleDictionary.buildAllPlatforms();
 console.log('\n==============================================');
 console.log('\nBuild completed!');
 
+function cssTemplate(token: TransformedToken) {
+  let output = '';
+  if (token.deprecated || token.comment || token.attributes?.category === 'size') {
+    output += '  /**\n';
+    if (token.deprecated) {
+      output += `   * @deprecated ${token.name} is deprecated`;
+      if (token.deprecated_comment) {
+        output += ` (${token.deprecated_comment})`;
+      }
+      output += '\n';
+    }
+    if (token.comment) {
+      output += `   * ${token.comment}\n`;
+    }
+    if (token.attributes?.category === 'size') {
+      output += `   * Original Value: ${token.original.value}px\n`;
+    }
+    output += '   */\n';
+  }
+  output += `  --${token.name}: ${token.value};\n`;
+
+  return output;
+}
+
 function scssTemplate(token: TransformedToken) {
   let output = '';
   if (token.deprecated) {
@@ -64,6 +97,9 @@ function scssTemplate(token: TransformedToken) {
   if (token.comment) {
     output += `/// ${token.comment}\n`;
   }
+  if (token.attributes?.category === 'size') {
+    output += `/// Original Value: ${token.original.value}px\n`;
+  }
   output += `$${token.name}: ${token.value};\n`;
 
   return output;
@@ -72,7 +108,7 @@ function scssTemplate(token: TransformedToken) {
 function commonjsTemplate(token: TransformedToken) {
   let output = '';
   if (token.deprecated || token.comment) {
-    output += '  /**';
+    output += '  /**\n';
     if (token.deprecated) {
       output += `   * @deprecated ${token.name} is deprecated`;
       if (token.deprecated_comment) {
@@ -83,7 +119,7 @@ function commonjsTemplate(token: TransformedToken) {
     if (token.comment) {
       output += `   * ${token.comment}\n`;
     }
-    output += ' */\n';
+    output += '   */\n';
   }
   output += `  ${token.name}: '${token.value}',\n`;
   return output;
