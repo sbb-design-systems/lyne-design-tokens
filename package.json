@@ -56,8 +56,7 @@
       "node": "./dist/js/sbb-tokens.mjs",
       "default": "./dist/js/sbb-tokens.mjs",
       "require": "./dist/js/sbb-tokens.cjs",
-      "sass": "./dist/scss/sbb-variables.scss",
-      "less": "./dist/less/sbb-variables.less"
+      "sass": "./dist/scss/sbb-variables.scss"
     },
     "./dist/js/*": {
       "default": "./dist/js/*"
@@ -67,9 +66,6 @@
     },
     "./dist/scss/*": {
       "sass": "./dist/scss/*"
-    },
-    "./dist/less/*": {
-      "less": "./dist/less/*"
     }
   },
   "prettier": {

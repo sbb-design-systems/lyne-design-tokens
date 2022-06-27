@@ -34,9 +34,6 @@ lyne-design-tokens/
     │    ├── tokens.cjs                             # Flat commonjs file
     │    ├── tokens.d.ts                            # Flat type declaration
     │    └── tokens.json                            # Flat .json file
-    ├── less/
-    │    ├── sbb-variables.less                     # `sbb-` prefixed Less variables (converted to `rem`)
-    │    └── variables.less                         # Less variables
     └── scss/
          ├── sbb-variables_css--placeholder.scss    # `sbb-` prefixed CSS variables with Sass placeholder selector (%) (converted to `rem`)
          ├── sbb-variables.scss                     # `sbb-` prefixed Sass variables (converted to `rem`)

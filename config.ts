@@ -146,37 +146,6 @@ export const config: Config = {
       transformGroup: 'js',
       transforms: ['attribute/cti', 'name/cti/kebab', 'color/css'],
     },
-    less: {
-      buildPath: 'dist/less/',
-      files: [
-        {
-          destination: 'variables.less',
-          format: 'less/variables',
-        },
-      ],
-      transformGroup: 'less',
-      transforms: ['attribute/cti', 'name/cti/kebab', 'time/seconds', 'content/icon', 'color/css'],
-    },
-    lessPrefix: {
-      buildPath: 'dist/less/',
-      prefix: 'sbb',
-      files: [
-        {
-          destination: 'sbb-variables.less',
-          format: 'less/variables',
-        },
-      ],
-      transformGroup: 'less',
-      transforms: [
-        'attribute/cti',
-        'name/cti/kebab',
-        'time/seconds',
-        'content/icon',
-        'color/css',
-        'size/pxToRem',
-        'size/rem',
-      ],
-    },
     scss: {
       buildPath: 'dist/scss/',
       files: [
