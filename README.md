@@ -20,25 +20,16 @@ lyne-design-tokens/
 └── dist/                                           # These files get built through the build task and get published via npm — are part of the npm package
     ├── css/
     │    ├── sbb-variables--host.css                # `sbb-` prefixed CSS variables with :host selector (converted to `rem`)
-    │    ├── sbb-variables--root.css                # `sbb-` prefixed CSS variables with :root selector (converted to `rem`)
-    │    ├── variables--host.css                    # CSS variables with :host selector
-    │    └── variables--root.css                    # CSS variables with :root selector
+    │    └── sbb-variables--root.css                # `sbb-` prefixed CSS variables with :root selector (converted to `rem`)
     ├── js/
     │    ├── sbb-tokens-raw.json                    # `sbb-` prefixed nested .json file
     │    ├── sbb-tokens.mjs                         # `Sbb` prefixed flat esm file
     │    ├── sbb-tokens.cjs                         # `Sbb` prefixed flat commonjs file
     │    ├── sbb-tokens.d.ts                        # `Sbb` prefixed flat type declaration
-    │    ├── sbb-tokens.json                        # `sbb-` prefixed flat .json file
-    │    ├── tokens-raw.json                        # Nested .json file
-    │    ├── tokens.mjs                             # Flat esm file
-    │    ├── tokens.cjs                             # Flat commonjs file
-    │    ├── tokens.d.ts                            # Flat type declaration
-    │    └── tokens.json                            # Flat .json file
+    │    └── sbb-tokens.json                        # `sbb-` prefixed flat .json file
     └── scss/
          ├── sbb-variables_css--placeholder.scss    # `sbb-` prefixed CSS variables with Sass placeholder selector (%) (converted to `rem`)
-         ├── sbb-variables.scss                     # `sbb-` prefixed Sass variables (converted to `rem`)
-         ├── variables_css--placeholder.scss        # CSS variables with Sass placeholder selector (%)
-         └── variables.scss                         # Sass variables
+         └── sbb-variables.scss                     # `sbb-` prefixed Sass variables (converted to `rem`)
 ```
 
 ## Usage
