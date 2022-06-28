@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 0.2.0 (2022-06-28)
+
+### ⚠ BREAKING CHANGES
+
+- This PR removes the non-prefixed files. This will
+  break consumers, if they depend on this.
+
+- remove non prefixed values/files ([#432](https://github.com/lyne-design-system/lyne-design-tokens/issues/432)) ([6818047](https://github.com/lyne-design-system/lyne-design-tokens/commit/6818047f22ebb177181a81adc900f670991d1978))
+
 ### 0.1.7 (2022-06-27)
 
 ### 0.1.6 (2022-06-27)
