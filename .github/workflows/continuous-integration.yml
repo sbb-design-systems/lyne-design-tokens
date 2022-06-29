@@ -19,6 +19,11 @@ jobs:
       - name: Run eslint
         run: yarn lint
 
+      - name: 'Integrity: Verify prettier integrity'
+        run: yarn format
+      - name: 'Integrity: Assert no changes (run `yarn format` if this fails)'
+        run: git diff --exit-code
+
   build:
     runs-on: ubuntu-latest
     steps:
