@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.1 (2022-07-08)
+
+### Features
+
+- add button sizes and fix form element sizes ([#433](https://github.com/lyne-design-system/lyne-design-tokens/issues/433)) ([328cc8c](https://github.com/lyne-design-system/lyne-design-tokens/commit/328cc8c4c5c71baf6857a8a1641d792520234b69))
+
 ## 0.2.0 (2022-06-28)
 
 ### ⚠ BREAKING CHANGES
