@@ -9,37 +9,107 @@ const attributes = (group: string) =>
   };
 
 export const size: DesignTokens = {
+  button: {
+    m: {
+      min: {
+        height: {
+          zero: {
+            value: 44,
+            ...attributes('button'),
+          },
+          micro: {
+            value: 44,
+            ...attributes('button'),
+          },
+          small: {
+            value: 44,
+            ...attributes('button'),
+          },
+          medium: {
+            value: 48,
+            ...attributes('button'),
+          },
+          large: {
+            value: 48,
+            ...attributes('button'),
+          },
+          wide: {
+            value: 48,
+            ...attributes('button'),
+          },
+          ultra: {
+            value: 48,
+            ...attributes('button'),
+          },
+        },
+      },
+    },
+    l: {
+      min: {
+        height: {
+          zero: {
+            value: 48,
+            ...attributes('button'),
+          },
+          micro: {
+            value: 48,
+            ...attributes('button'),
+          },
+          small: {
+            value: 48,
+            ...attributes('button'),
+          },
+          medium: {
+            value: 56,
+            ...attributes('button'),
+          },
+          large: {
+            value: 56,
+            ...attributes('button'),
+          },
+          wide: {
+            value: 56,
+            ...attributes('button'),
+          },
+          ultra: {
+            value: 56,
+            ...attributes('button'),
+          },
+        },
+      },
+    },
+  },
   form: {
     element: {
       m: {
         min: {
           height: {
             zero: {
-              value: 44,
+              value: 48,
               ...attributes('form'),
             },
             micro: {
-              value: 44,
+              value: 48,
               ...attributes('form'),
             },
             small: {
-              value: 44,
+              value: 48,
               ...attributes('form'),
             },
             medium: {
-              value: 48,
+              value: 56,
               ...attributes('form'),
             },
             large: {
-              value: 48,
+              value: 56,
               ...attributes('form'),
             },
             wide: {
-              value: 48,
+              value: 56,
               ...attributes('form'),
             },
             ultra: {
-              value: 48,
+              value: 56,
               ...attributes('form'),
             },
           },
@@ -49,31 +119,31 @@ export const size: DesignTokens = {
         min: {
           height: {
             zero: {
-              value: 48,
+              value: 56,
               ...attributes('form'),
             },
             micro: {
-              value: 48,
+              value: 56,
               ...attributes('form'),
             },
             small: {
-              value: 48,
+              value: 56,
               ...attributes('form'),
             },
             medium: {
-              value: 56,
+              value: 64,
               ...attributes('form'),
             },
             large: {
-              value: 56,
+              value: 64,
               ...attributes('form'),
             },
             wide: {
-              value: 56,
+              value: 64,
               ...attributes('form'),
             },
             ultra: {
-              value: 56,
+              value: 64,
               ...attributes('form'),
             },
           },
