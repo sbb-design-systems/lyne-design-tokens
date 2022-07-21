@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.2 (2022-07-21)
+
+### Features
+
+- icon size for error alert ([#434](https://github.com/lyne-design-system/lyne-design-tokens/issues/434)) ([e871320](https://github.com/lyne-design-system/lyne-design-tokens/commit/e87132042f4035195881126bb3ae27586dcc1449))
+
 ### 0.2.1 (2022-07-08)
 
 ### Features
