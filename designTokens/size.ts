@@ -190,5 +190,11 @@ export const size: DesignTokens = {
       value: 24,
       ...attributes('icon'),
     },
+    form: {
+      error: {
+        value: 17,
+        ...attributes('icon'),
+      },
+    },
   },
 };
