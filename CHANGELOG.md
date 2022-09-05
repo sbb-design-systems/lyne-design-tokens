@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.3 (2022-09-05)
+
+### Features
+
+- add red alpha 90 color ([#436](https://github.com/lyne-design-system/lyne-design-tokens/issues/436)) ([b96fc94](https://github.com/lyne-design-system/lyne-design-tokens/commit/b96fc9426808ec6f8cd203eaf89d154c32a0f236))
+
 ### 0.2.2 (2022-07-21)
 
 ### Features
