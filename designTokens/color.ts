@@ -15,6 +15,9 @@ export const color: DesignTokens = {
       20: {
         value: 'rgba(0,0,0,.2)',
       },
+      30: {
+        value: 'rgba(0,0,0,.3)',
+      },
       50: {
         value: 'rgba(0,0,0,.5)',
       },
