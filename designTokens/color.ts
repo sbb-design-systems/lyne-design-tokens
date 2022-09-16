@@ -182,7 +182,10 @@ export const color: DesignTokens = {
         value: 'rgba(255,255,255,0)',
       },
       20: {
-        value: 'rgba(255,255,255,.5)',
+        value: 'rgba(255,255,255,.2)',
+      },
+      30: {
+        value: 'rgba(255,255,255,.3)',
       },
       50: {
         value: 'rgba(255,255,255,.5)',
