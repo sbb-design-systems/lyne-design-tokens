@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.4 (2022-09-16)
+
+### Features
+
+- fix token for white color, add new tokens for white and black colors ([#438](https://github.com/lyne-design-system/lyne-design-tokens/issues/438)) ([0cbf4d8](https://github.com/lyne-design-system/lyne-design-tokens/commit/0cbf4d817628dc1e0be9e8cfa65c2b8f15b847d1))
+
 ### 0.2.3 (2022-09-05)
 
 ### Features
