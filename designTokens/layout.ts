@@ -106,5 +106,11 @@ export const layout: DesignTokens = {
         },
       },
     },
+    page: {
+      maxWidth: {
+        value: 1200,
+        ...attributes('base-page'),
+      },
+    },
   },
 };
