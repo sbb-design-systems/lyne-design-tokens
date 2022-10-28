@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.5 (2022-10-28)
+
+### Features
+
+- add layout page max width ([#442](https://github.com/lyne-design-system/lyne-design-tokens/issues/442)) ([7b3ebcc](https://github.com/lyne-design-system/lyne-design-tokens/commit/7b3ebccd88cbdc0d2a6bb699544ea57eb6a94aba))
+
 ### 0.2.4 (2022-09-16)
 
 ### Features
