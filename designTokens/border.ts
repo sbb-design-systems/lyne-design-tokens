@@ -29,6 +29,10 @@ export const border: DesignTokens = {
       value: borderRadius(1),
       ...attributes(),
     },
+    '2x': {
+      value: borderRadius(2),
+      ...attributes(),
+    },
     '4x': {
       value: borderRadius(4),
       ...attributes(),
