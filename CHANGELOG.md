@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.2.5...v0.2.6) (2022-11-17)
+
+### Features
+
+- new border radius token ([#444](https://github.com/lyne-design-system/lyne-design-tokens/issues/444)) ([5711279](https://github.com/lyne-design-system/lyne-design-tokens/commit/571127979723430bcf017089f31ca906da4121ce))
+
 ### 0.2.5 (2022-10-28)
 
 ### Features
