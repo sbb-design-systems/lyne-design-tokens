@@ -43,7 +43,7 @@ export const typo: DesignTokens = {
       value: '1.3',
     },
     bodyText: {
-      value: '1.7',
+      value: '1.75',
     },
   },
   scale: {
