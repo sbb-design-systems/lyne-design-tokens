@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.0...v0.3.1) (2022-12-12)
+
+### Bug Fixes
+
+- change grid columns from 12 to 16 for ultra viewport ([#447](https://github.com/lyne-design-system/lyne-design-tokens/issues/447)) ([0a1632b](https://github.com/lyne-design-system/lyne-design-tokens/commit/0a1632b0ee34f4569c0971cdc8715a59f1bb10e6))
+
 ## [0.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.2.6...v0.3.0) (2022-12-12)
 
 ### ⚠ BREAKING CHANGES
