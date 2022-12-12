@@ -37,7 +37,7 @@ export const layout: DesignTokens = {
           ...attributes('base-grid-columns', 'noUnit'),
         },
         ultra: {
-          value: 12,
+          value: 16,
           ...attributes('base-grid-columns', 'noUnit'),
         },
       },
