@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.2.6...v0.3.0) (2022-12-12)
+
+### ⚠ BREAKING CHANGES
+
+- Text line height has changed from 1.7 to 1.75.
+
+### Bug Fixes
+
+- set text line-height from 1.7 to 1.75 ([#446](https://github.com/lyne-design-system/lyne-design-tokens/issues/446)) ([46a78d6](https://github.com/lyne-design-system/lyne-design-tokens/commit/46a78d6e0a1c9d6ce0ef1436aa4fb18bf710e879))
+
 ### [0.2.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.2.5...v0.2.6) (2022-11-17)
 
 ### Features
