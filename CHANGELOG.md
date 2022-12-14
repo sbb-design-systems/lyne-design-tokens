@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.1...v0.3.2) (2022-12-14)
+
+### Features
+
+- added functional colors ([#449](https://github.com/lyne-design-system/lyne-design-tokens/issues/449)) ([5fe7b42](https://github.com/lyne-design-system/lyne-design-tokens/commit/5fe7b4237a70f9e08edf7aed2756f270be2a1537))
+
 ### [0.3.1](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.0...v0.3.1) (2022-12-12)
 
 ### Bug Fixes
