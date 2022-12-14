@@ -201,4 +201,59 @@ export const color: DesignTokens = {
       },
     },
   },
+  sky: {
+    default: {
+      value: 'rgba(0,121,199,1)',
+    },
+  },
+  night: {
+    default: {
+      value: 'rgba(20,58,133,1)',
+    },
+  },
+  violet: {
+    default: {
+      value: 'rgba(111,34,130,1)',
+    },
+  },
+  pink: {
+    default: {
+      value: 'rgba(207,64,130,1)',
+    },
+  },
+  autumn: {
+    default: {
+      value: 'rgba(232,78,16,1)',
+    },
+  },
+  orange: {
+    default: {
+      value: 'rgba(242,126,0,1)',
+    },
+  },
+  peach: {
+    default: {
+      value: 'rgba(252,187,0,1)',
+    },
+  },
+  lemon: {
+    default: {
+      value: 'rgba(255,222,21,1)',
+    },
+  },
+  brown: {
+    default: {
+      value: 'rgba(183,96,0,1)',
+    },
+  },
+  green: {
+    default: {
+      value: 'rgba(0,138,54,1)',
+    },
+  },
+  turquoise: {
+    default: {
+      value: 'rgba(0,165,155,1)',
+    },
+  },
 };
