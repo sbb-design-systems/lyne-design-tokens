@@ -35,6 +35,10 @@ export const animation: DesignTokens = {
       value: duration(6),
       ...attributes(),
     },
+    '-12x': {
+      value: duration(12),
+      ...attributes(),
+    },
   },
   easing: {
     value: 'cubic-bezier(.47, .1, 1, .63)',
