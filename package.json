@@ -35,7 +35,7 @@
     "eslint": "8.31.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-yaml": "0.5.0",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "minimist": "1.2.7",
     "netlify-cli": "12.5.0",
