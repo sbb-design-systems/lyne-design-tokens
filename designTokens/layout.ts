@@ -101,7 +101,7 @@ export const layout: DesignTokens = {
           ...attributes('base-offset-responsive'),
         },
         ultra: {
-          value: 124,
+          value: 120,
           ...attributes('base-offset-responsive'),
         },
       },
