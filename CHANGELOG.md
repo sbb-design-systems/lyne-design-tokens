@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.3...v0.3.4) (2023-01-12)
+
+### Bug Fixes
+
+- base offset responsive for ultra breakpoint ([#451](https://github.com/lyne-design-system/lyne-design-tokens/issues/451)) ([1454b77](https://github.com/lyne-design-system/lyne-design-tokens/commit/1454b7702ce5893dc381346e50aae68306d20ab9))
+
 ### [0.3.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.2...v0.3.3) (2022-12-21)
 
 ### Features
