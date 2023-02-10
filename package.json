@@ -37,7 +37,7 @@
     "eslint-plugin-yaml": "0.5.0",
     "husky": "8.0.3",
     "lint-staged": "13.1.1",
-    "minimist": "1.2.7",
+    "minimist": "1.2.8",
     "netlify-cli": "12.11.0",
     "prettier": "2.8.4",
     "simple-git": "3.16.0",
