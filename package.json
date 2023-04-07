@@ -44,7 +44,7 @@
     "standard-version": "9.5.0",
     "style-dictionary": "3.7.2",
     "tsx": "3.12.6",
-    "typescript": "5.0.3"
+    "typescript": "5.0.4"
   },
   "main": "./dist/js/sbb-tokens.cjs",
   "module": "./dist/js/sbb-tokens.mjs",
