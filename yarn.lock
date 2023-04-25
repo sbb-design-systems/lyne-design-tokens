@@ -600,10 +600,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/binary-info/-/binary-info-1.0.0.tgz#cd0d86fb783fb03e52067f0cd284865e57be86c8"
   integrity sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==
 
-"@netlify/build-info@^7.0.0-pre-20230418.0":
-  version "7.0.0-pre-20230418.0"
-  resolved "https://registry.yarnpkg.com/@netlify/build-info/-/build-info-7.0.0-pre-20230418.0.tgz#cefc8e4da8e2bb4a63bbae0c483731d8cf6f9a48"
-  integrity sha512-2SH071pIs6eufG5ZBFusZ2FVvpp1UKf6JDChOwNYWcQ86kaELqAkfE4fGE/5cXDEvp8ieid4HdD9i6DgwIIVxw==
+"@netlify/build-info@^7.0.0-pre-20230424.0":
+  version "7.0.0-pre-20230425.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build-info/-/build-info-7.0.0-pre-20230425.0.tgz#122870a07b9fce6aac2f04f771c56435b5d1b6a4"
+  integrity sha512-ILt5RDRTVyFvYxufGJ61/IFfDabUZNAemysANLvEob7rHVEAfDRtk/tmoYAmVWXzf1I7G2ifXy0VrH1wEPe+9Q==
   dependencies:
     "@bugsnag/js" "^7.20.0"
     "@netlify/framework-info" "^9.8.5"
@@ -614,14 +614,14 @@
     yaml "^2.1.3"
     yargs "^17.6.0"
 
-"@netlify/build@^29.9.2":
-  version "29.9.2"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.9.2.tgz#46a44250d9a3101920c6329b42b9a50e38aa907a"
-  integrity sha512-wNMOF/XUJuCDkeeTK+baX3OfNCqbTHANA0cGwSM/5k6N/HQCZ49y52z8ryC+SsQukoKufxyzl92OTtFmEe3aTA==
+"@netlify/build@^29.10.0":
+  version "29.10.0"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-29.10.0.tgz#1b0f88dd976bda0918f6f0eb0ec0240bff73d999"
+  integrity sha512-nTT+rndjvFcp5GM5hkdccL45Kyft1IF/ha6hyRM/vpNP91kjK86WR7VrYh6TBVTNlXH8GiGcKu5EcUYm0sCAQw==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^5.1.3"
-    "@netlify/config" "^20.3.7"
+    "@netlify/config" "^20.4.0"
     "@netlify/edge-bundler" "8.13.2"
     "@netlify/framework-info" "^9.8.5"
     "@netlify/functions-utils" "^5.2.2"
@@ -688,10 +688,10 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^20.3.7":
-  version "20.3.7"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.3.7.tgz#efe531d52f2cdc52c480f609ed9079d36a88bad3"
-  integrity sha512-NBxYaqZd9e3U2g5yB4RFmkMJsRomVym5WcXI/P8qnQTN3eChy/FsmGsZhspGwwiN4Z4ctB+Slqe6y6u1sw5Jlg==
+"@netlify/config@^20.4.0":
+  version "20.4.0"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.4.0.tgz#de4e8ee79483f8ba6f83ee0f3ad1780f455df104"
+  integrity sha512-HOX9Y7xykhD/6CSvDjfasmSp5a0uWRf8Q4Oi+ysH6gGq3WwyJOz/xTzhQs/FRKMWn+iulUJV0wCjl2OVRK6ZCg==
   dependencies:
     chalk "^5.0.0"
     cron-parser "^4.1.0"
@@ -6602,16 +6602,16 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0, nested-error-stacks@^2.1
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz#26c8a3cee6cc05fbcf1e333cd2fc3e003326c0b5"
   integrity sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==
 
-netlify-cli@14.2.1:
-  version "14.2.1"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-14.2.1.tgz#73e135f50498376054dfe3825dca75459dbd3348"
-  integrity sha512-DssanJ2npzYMCf7zV0KZnETN/CYrKFPvflp6s2fb8RpiIlcO6H1CtUDDIdAsqi9/gwBRiynS+L6LGVCJgmA9iw==
+netlify-cli@14.3.0:
+  version "14.3.0"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-14.3.0.tgz#e312cba49b6fb3171c0470c544773749c0468c12"
+  integrity sha512-rxhEcrjqsnZUaKe/CYdPt7wuKeLY5HmsaABHtTOb/fu6PO2iTIdLx2ng0lD32JtmEYneFdsT6iZSyyzh+Me5vQ==
   dependencies:
     "@bugsnag/js" "^7.20.0"
     "@fastify/static" "^6.6.0"
-    "@netlify/build" "^29.9.2"
-    "@netlify/build-info" "^7.0.0-pre-20230418.0"
-    "@netlify/config" "^20.3.7"
+    "@netlify/build" "^29.10.0"
+    "@netlify/build-info" "^7.0.0-pre-20230424.0"
+    "@netlify/config" "^20.4.0"
     "@netlify/edge-bundler" "^8.13.2"
     "@netlify/framework-info" "^9.8.5"
     "@netlify/local-functions-proxy" "^1.1.1"
