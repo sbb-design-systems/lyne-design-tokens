@@ -40,7 +40,7 @@
     "minimist": "1.2.8",
     "netlify-cli": "14.3.0",
     "prettier": "2.8.8",
-    "simple-git": "3.17.0",
+    "simple-git": "3.18.0",
     "standard-version": "9.5.0",
     "style-dictionary": "3.7.2",
     "tsx": "3.12.6",
