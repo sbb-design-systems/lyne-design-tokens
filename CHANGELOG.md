@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.4...v0.3.5) (2023-07-05)
+
+### Features
+
+- add new spacing-9x token ([#458](https://github.com/lyne-design-system/lyne-design-tokens/issues/458)) ([d250bf2](https://github.com/lyne-design-system/lyne-design-tokens/commit/d250bf235b541017beb2f4d22da6314bf415e74b))
+
 ### [0.3.4](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.3...v0.3.4) (2023-01-12)
 
 ### Bug Fixes
