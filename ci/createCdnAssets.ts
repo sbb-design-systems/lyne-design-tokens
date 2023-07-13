@@ -124,7 +124,7 @@ function createVersionsFile(archiveDir: string) {
   fs.writeFileSync(
     `./${config.cdnFolder}/${config.cdnVersionsFile}`,
     JSON.stringify(fileContent),
-    'utf8'
+    'utf8',
   );
 }
 

@@ -21,7 +21,7 @@ const shadowObject = (
   color1: string,
   color2: string,
   color3: string,
-  color4: string
+  color4: string,
 ) => ({
   shadow: {
     1: {
@@ -112,7 +112,7 @@ export const shadow: DesignTokens = {
           '{color.smoke.alpha.5.value}',
           '{color.smoke.alpha.10.value}',
           '{color.smoke.alpha.10.value}',
-          '{color.smoke.alpha.20.value}'
+          '{color.smoke.alpha.20.value}',
         ),
       },
       5: {
@@ -129,7 +129,7 @@ export const shadow: DesignTokens = {
           '{color.smoke.alpha.5.value}',
           '{color.smoke.alpha.10.value}',
           '{color.smoke.alpha.10.value}',
-          '{color.smoke.alpha.20.value}'
+          '{color.smoke.alpha.20.value}',
         ),
       },
       9: {
@@ -146,7 +146,7 @@ export const shadow: DesignTokens = {
           '{color.smoke.alpha.5.value}',
           '{color.smoke.alpha.10.value}',
           '{color.smoke.alpha.10.value}',
-          '{color.smoke.alpha.20.value}'
+          '{color.smoke.alpha.20.value}',
         ),
       },
     },
