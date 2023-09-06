@@ -157,6 +157,11 @@ export const color: DesignTokens = {
         value: 'rgba(235,0,0,.9)',
       },
     },
+    mode: {
+      dark: {
+        value: 'rgb(255,56,56,1)',
+      },
+    },
   },
   red125: {
     default: {
