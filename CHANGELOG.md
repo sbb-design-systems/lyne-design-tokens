@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.5...v0.3.6) (2023-09-06)
+
+### Features
+
+- introduce dark mode red color ([#465](https://github.com/lyne-design-system/lyne-design-tokens/issues/465)) ([678fba7](https://github.com/lyne-design-system/lyne-design-tokens/commit/678fba704c112febcd5feea3430e47844b623acb))
+
 ### [0.3.5](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.4...v0.3.5) (2023-07-05)
 
 ### Features
