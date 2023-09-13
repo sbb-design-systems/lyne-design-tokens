@@ -18,10 +18,14 @@ const shadowObject = (
   y2: number,
   blur2: number,
   spread2: number,
-  color1: string,
-  color2: string,
-  color3: string,
-  color4: string,
+  colorSoft1: string,
+  colorSoft2: string,
+  colorSoftNegative1: string,
+  colorSoftNegative2: string,
+  colorHard1: string,
+  colorHard2: string,
+  colorHardNegative1: string,
+  colorHardNegative2: string,
 ) => ({
   shadow: {
     1: {
@@ -68,28 +72,56 @@ const shadowObject = (
   soft: {
     1: {
       color: {
-        value: color1,
+        value: colorSoft1,
         ...attributes(shadowLevel),
       },
     },
     2: {
       color: {
-        value: color2,
+        value: colorSoft2,
         ...attributes(shadowLevel),
+      },
+    },
+    negative: {
+      1: {
+        color: {
+          value: colorSoftNegative1,
+          ...attributes(shadowLevel),
+        },
+      },
+      2: {
+        color: {
+          value: colorSoftNegative2,
+          ...attributes(shadowLevel),
+        },
       },
     },
   },
   hard: {
     1: {
       color: {
-        value: color3,
+        value: colorHard1,
         ...attributes(shadowLevel),
       },
     },
     2: {
       color: {
-        value: color4,
+        value: colorHard2,
         ...attributes(shadowLevel),
+      },
+    },
+    negative: {
+      1: {
+        color: {
+          value: colorHardNegative1,
+          ...attributes(shadowLevel),
+        },
+      },
+      2: {
+        color: {
+          value: colorHardNegative2,
+          ...attributes(shadowLevel),
+        },
       },
     },
   },
@@ -111,8 +143,12 @@ export const shadow: DesignTokens = {
           0,
           '{color.smoke.alpha.5.value}',
           '{color.smoke.alpha.10.value}',
+          '{color.black.alpha.15.value}',
+          '{color.black.alpha.20.value}',
           '{color.smoke.alpha.10.value}',
           '{color.smoke.alpha.20.value}',
+          '{color.black.alpha.30.value}',
+          '{color.black.alpha.40.value}',
         ),
       },
       5: {
@@ -128,8 +164,12 @@ export const shadow: DesignTokens = {
           0,
           '{color.smoke.alpha.5.value}',
           '{color.smoke.alpha.10.value}',
+          '{color.black.alpha.15.value}',
+          '{color.black.alpha.20.value}',
           '{color.smoke.alpha.10.value}',
           '{color.smoke.alpha.20.value}',
+          '{color.black.alpha.30.value}',
+          '{color.black.alpha.40.value}',
         ),
       },
       9: {
@@ -145,8 +185,12 @@ export const shadow: DesignTokens = {
           0,
           '{color.smoke.alpha.5.value}',
           '{color.smoke.alpha.10.value}',
+          '{color.black.alpha.15.value}',
+          '{color.black.alpha.20.value}',
           '{color.smoke.alpha.10.value}',
           '{color.smoke.alpha.20.value}',
+          '{color.black.alpha.30.value}',
+          '{color.black.alpha.40.value}',
         ),
       },
     },

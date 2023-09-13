@@ -12,11 +12,17 @@ export const color: DesignTokens = {
       10: {
         value: 'rgba(0,0,0,.1)',
       },
+      15: {
+        value: 'rgba(0,0,0,.15)',
+      },
       20: {
         value: 'rgba(0,0,0,.2)',
       },
       30: {
         value: 'rgba(0,0,0,.3)',
+      },
+      40: {
+        value: 'rgba(0,0,0,.4)',
       },
       50: {
         value: 'rgba(0,0,0,.5)',
