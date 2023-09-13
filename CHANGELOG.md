@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.7](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.6...v0.3.7) (2023-09-13)
+
+### Features
+
+- introduce negative shadows ([#467](https://github.com/lyne-design-system/lyne-design-tokens/issues/467)) ([4c9867d](https://github.com/lyne-design-system/lyne-design-tokens/commit/4c9867d49676a1a82e4370a024f6bae117d3ff90))
+
 ### [0.3.6](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.5...v0.3.6) (2023-09-06)
 
 ### Features
