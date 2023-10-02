@@ -843,10 +843,10 @@
     validate-npm-package-name "^4.0.0"
     yargs "^17.6.0"
 
-"@netlify/edge-bundler@8.19.1":
-  version "8.19.1"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-8.19.1.tgz#d9b04c5c278185e3f69f5ab7262e9eb13369e6f0"
-  integrity sha512-Erj0+dfRFMQjV3R+FX9NtCV35t6qU91rWKtsuawLzS6tAHLvrR8sOmyFxt5Neg4VPjAstYg1ik16lDak2LhQww==
+"@netlify/edge-bundler@8.20.0":
+  version "8.20.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-8.20.0.tgz#f934455c484303787f0cf9f89e0dbf69a102eef8"
+  integrity sha512-eIDXLqAzz2XpGzPUKe6DKAjldFFTlyaZCQ6v8zrBJ60jKQde5/2tWM2yfHVW9seTehP/0ssLYZW2xmrIM+WqWQ==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     ajv "^8.11.2"
@@ -854,6 +854,7 @@
     better-ajv-errors "^1.2.0"
     common-path-prefix "^3.0.0"
     env-paths "^3.0.0"
+    esbuild "0.19.2"
     execa "^6.0.0"
     find-up "^6.3.0"
     get-port "^6.1.2"
@@ -870,10 +871,10 @@
     urlpattern-polyfill "8.0.2"
     uuid "^9.0.0"
 
-"@netlify/edge-bundler@8.20.0":
-  version "8.20.0"
-  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-8.20.0.tgz#f934455c484303787f0cf9f89e0dbf69a102eef8"
-  integrity sha512-eIDXLqAzz2XpGzPUKe6DKAjldFFTlyaZCQ6v8zrBJ60jKQde5/2tWM2yfHVW9seTehP/0ssLYZW2xmrIM+WqWQ==
+"@netlify/edge-bundler@9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@netlify/edge-bundler/-/edge-bundler-9.1.0.tgz#42ef5a9f34b3535ed37e375f95fcd1ce3e2217d2"
+  integrity sha512-st05JP+QkNbsvlKelM2KL0nceGD3so86fA9oml47AmemSVvqYlGY0iHRdLGgufqpHfrA4QbQY22IGOP9tZxrXg==
   dependencies:
     "@import-maps/resolve" "^1.0.1"
     ajv "^8.11.2"
@@ -6753,17 +6754,17 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0, nested-error-stacks@^2.1
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz#26c8a3cee6cc05fbcf1e333cd2fc3e003326c0b5"
   integrity sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==
 
-netlify-cli@16.4.2:
-  version "16.4.2"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-16.4.2.tgz#9c3071f3ae8a1d8b6d5827862636117afbbd6ee1"
-  integrity sha512-17ygfQJ7HhE+E9zn6aVUYctj+j8Js/ozNqlLbNF4/AGviCmS7phX5FdECKMbFSwC8jdHB12L9mNVfiqYGLPquw==
+netlify-cli@16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-16.5.0.tgz#0a132f788849a9c43431ec0d83431376104f6574"
+  integrity sha512-Od0TJi4Gba7lLrzdt7BlGm8lxplE9Gw3OoHO7ggsChBhGMkbfNd1mN10+5WwSqk5UWhlpdm8Ia+FPenz1IQPCg==
   dependencies:
     "@bugsnag/js" "7.20.2"
     "@fastify/static" "6.10.2"
     "@netlify/build" "29.21.1"
     "@netlify/build-info" "7.8.0"
     "@netlify/config" "20.9.0"
-    "@netlify/edge-bundler" "8.19.1"
+    "@netlify/edge-bundler" "9.1.0"
     "@netlify/local-functions-proxy" "1.1.1"
     "@netlify/serverless-functions-api" "1.7.3"
     "@netlify/zip-it-and-ship-it" "9.18.1"
