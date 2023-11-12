@@ -9429,10 +9429,10 @@ tsutils@^3.21.0:
   dependencies:
     tslib "^1.8.1"
 
-tsx@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-3.14.0.tgz#be6e2176b6f210fe8f48124fb6e22e0f075e927b"
-  integrity sha512-xHtFaKtHxM9LOklMmJdI3BEnQq/D5F73Of2E1GDrITi9sgoVkvIsrQUTY1G8FlmGtA+awCI4EBlTRRYxkL2sRg==
+tsx@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.1.1.tgz#cd08732708aad17b28c28358c341b1d9d0ed21bb"
+  integrity sha512-zyPn5BFMB0TB5kMLbYPNx4x/oL/oSlaecdKCv6WeJ0TeSEfx8RTJWjuB5TZ2dSewktgfBsBO/HNA9mrMWqLXMA==
   dependencies:
     esbuild "~0.18.20"
     get-tsconfig "^4.7.2"
