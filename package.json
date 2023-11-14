@@ -43,7 +43,7 @@
     "simple-git": "3.20.0",
     "standard-version": "9.5.0",
     "style-dictionary": "3.9.0",
-    "tsx": "4.1.1",
+    "tsx": "4.1.2",
     "typescript": "5.2.2"
   },
   "main": "./dist/js/sbb-tokens.cjs",
