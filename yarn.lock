@@ -719,9 +719,9 @@
     readable-stream "^4.0.0"
 
 "@grpc/grpc-js@^1.7.1", "@grpc/grpc-js@^1.7.3":
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.9.9.tgz#ce3a05439b1c957ec64c2ecdc6f1e4f54e8af797"
-  integrity sha512-vQ1qwi/Kiyprt+uhb1+rHMpyk4CVRMTGNUGGPRGS7pLNfWkdCHrGEnT6T3/JyC2VZgoOX/X1KwdoU0WYQAeYcQ==
+  version "1.9.11"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.9.11.tgz#7b21195c910a49c0bb5d0df21d28a30c4e174851"
+  integrity sha512-QDhMfbTROOXUhLHMroow8f3EHiCKUOh6UwxMP5S3EuXMnWMNSVIhatGZRwkpg9OUTYdZPsDUVH3cOAkWhGFUJw==
   dependencies:
     "@grpc/proto-loader" "^0.7.8"
     "@types/node" ">=12.12.47"
@@ -944,7 +944,7 @@
     path-exists "^5.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@20.9.0", "@netlify/config@^20.9.0":
+"@netlify/config@20.9.0":
   version "20.9.0"
   resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.9.0.tgz#b6664414da1f12ed56f7a4137f7887658bb644dd"
   integrity sha512-+bKrRDhoUiZbAbdILPtlF5tmR1Ttt6plHQawQVByw9fHaQZ0Kxh6hA896sVFgkR1wGqu2v/5OFhH2t9eJO0nuw==
@@ -963,6 +963,36 @@
     js-yaml "^4.0.0"
     map-obj "^5.0.0"
     netlify "^13.1.10"
+    netlify-headers-parser "^7.1.2"
+    netlify-redirect-parser "^14.2.0"
+    node-fetch "^3.3.1"
+    omit.js "^2.0.2"
+    p-locate "^6.0.0"
+    path-type "^5.0.0"
+    toml "^3.0.0"
+    tomlify-j0.4 "^3.0.0"
+    validate-npm-package-name "^4.0.0"
+    yargs "^17.6.0"
+
+"@netlify/config@^20.9.0":
+  version "20.10.0"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-20.10.0.tgz#df51f277c7eaa984105f4e90c3ea676b935c5df3"
+  integrity sha512-7CNoL5IPSRBzDVzxuQgltZ71D/vZ/oYR29sfN8EXjAFOZPSLtnZgborcPa9V9BXLN4N5h0hFp2A26lnnCttEFg==
+  dependencies:
+    chalk "^5.0.0"
+    cron-parser "^4.1.0"
+    deepmerge "^4.2.2"
+    dot-prop "^7.0.0"
+    execa "^6.0.0"
+    fast-safe-stringify "^2.0.7"
+    figures "^5.0.0"
+    filter-obj "^5.0.0"
+    find-up "^6.0.0"
+    indent-string "^5.0.0"
+    is-plain-obj "^4.0.0"
+    js-yaml "^4.0.0"
+    map-obj "^5.0.0"
+    netlify "^13.1.11"
     netlify-headers-parser "^7.1.2"
     netlify-redirect-parser "^14.2.0"
     node-fetch "^3.3.1"
@@ -1153,7 +1183,7 @@
   resolved "https://registry.yarnpkg.com/@netlify/node-cookies/-/node-cookies-0.1.0.tgz#dda912ba618527695cf519fafa221c5e6777c612"
   integrity sha512-OAs1xG+FfLX0LoRASpqzVntVV/RpYkgpI0VrUnw2u0Q1qiZUzcPffxRK8HF3gc4GjuhG5ahOEMJ9bswBiZPq0g==
 
-"@netlify/open-api@^2.19.1":
+"@netlify/open-api@^2.19.1", "@netlify/open-api@^2.26.0":
   version "2.26.0"
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-2.26.0.tgz#cdc8033371079955501f4b9a5323f2dcd76741c2"
   integrity sha512-B7q+ySzQm6rJhaGbY0Pzqnb1p3FsBqwiPLnLtA17JgTsqmXgQ7j6OQImW9fRJy/Al1ob9M6Oxng/FA2c7aIW1g==
@@ -1979,9 +2009,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*", "@types/node@>=12.12.47", "@types/node@>=13.7.0":
-  version "20.9.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.0.tgz#bfcdc230583aeb891cf51e73cfdaacdd8deae298"
-  integrity sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==
+  version "20.9.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.2.tgz#002815c8e87fe0c9369121c78b52e800fadc0ac6"
+  integrity sha512-WHZXKFCEyIUJzAwh3NyyTHYSR35SevJ6mZ1nWwJafKtiQbqRTIKSRcw3Ma3acqgsent3RRDqeVwpHntMk+9irg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -1991,9 +2021,9 @@
   integrity sha512-/zbPnIBkef8sT+6vw6BxdvU3dCxRI0v6rBu/6IvXnRNtOPILucigqhUBPYxtQ/8JdAna0JLTAcNTCDmQ77QYkQ==
 
 "@types/node@^18.11.9":
-  version "18.18.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.9.tgz#5527ea1832db3bba8eb8023ce8497b7d3f299592"
-  integrity sha512-0f5klcuImLnG4Qreu9hPj/rEfFq6YRc5n2mAjSsH+ec/mJL+3voBH0+8T7o8RpFjH7ovc+TRsL/c7OYIQsPTfQ==
+  version "18.18.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.10.tgz#4971bffdf3a43977c4c8166aa714b2c0b05b3256"
+  integrity sha512-luANqZxPmjTll8bduz4ACs/lNTCLuWssCyjqTY9yLdsv1xnViQp3ISKwsEWOIecO13JWUqjVdig/Vjjc09o8uA==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2644,9 +2674,9 @@ avvio@^8.2.0:
     fastq "^1.6.1"
 
 axios@^1.1.3:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.1.tgz#76550d644bf0a2d469a01f9244db6753208397d7"
-  integrity sha512-vfBmhDpKafglh0EldBEbVuoe7DyAavGSLWhuSm5ZSEKQnHhBf0xAAwybbNH1IkrJNGnS/VG4I5yxig1pCEXE4g==
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.2.tgz#de67d42c755b571d3e698df1b6504cde9b0ee9f2"
+  integrity sha512-7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -3318,9 +3348,9 @@ compare-func@^2.0.0:
     dot-prop "^5.1.0"
 
 component-emitter@^1.2.1:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
-  integrity sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.3.1.tgz#ef1d5796f7d93f135ee6fb684340b26403c97d17"
+  integrity sha512-T0+barUSQRTUQASh8bx02dl+DhF54GtIDY13Y3m9oWTklKbb3Wv974meRpeZ3lp1JpLVECWWNHC4vaG2XHXouQ==
 
 compress-commons@^5.0.1:
   version "5.0.1"
@@ -5638,9 +5668,9 @@ ieee754@^1.1.13, ieee754@^1.2.1:
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^5.2.0, ignore@^5.2.4:
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
-  integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.0.tgz#67418ae40d34d6999c95ff56016759c718c82f78"
+  integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
 
 import-fresh@^3.0.0, import-fresh@^3.2.1, import-fresh@^3.3.0:
   version "3.3.0"
@@ -7161,12 +7191,25 @@ netlify-redirector@0.5.0:
   resolved "https://registry.yarnpkg.com/netlify-redirector/-/netlify-redirector-0.5.0.tgz#9611dd8497dab4e13d9f6a6f1595b9528b9e7abf"
   integrity sha512-4zdzIP+6muqPCuE8avnrgDJ6KW/2+UpHTRcTbMXCIRxiRmyrX+IZ4WSJGZdHPWF3WmQpXpy603XxecZ9iygN7w==
 
-netlify@13.1.10, netlify@^13.1.10:
+netlify@13.1.10:
   version "13.1.10"
   resolved "https://registry.yarnpkg.com/netlify/-/netlify-13.1.10.tgz#27520caf8582bd3c12d961e46b723f614c1d9b28"
   integrity sha512-ByFz8S08HWVKd9r/lkTahZX7xSq4IRyPCUvuaduI4GHyQaSWEdVNK1krC05vlhL9W0SzDn8Yjowh0Ru4PKrOYw==
   dependencies:
     "@netlify/open-api" "^2.19.1"
+    lodash-es "^4.17.21"
+    micro-api-client "^3.3.0"
+    node-fetch "^3.0.0"
+    omit.js "^2.0.2"
+    p-wait-for "^4.0.0"
+    qs "^6.9.6"
+
+netlify@^13.1.10, netlify@^13.1.11:
+  version "13.1.11"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-13.1.11.tgz#f5151bbd5e05cd5a67713f89c05a57dd6377b599"
+  integrity sha512-exrD6cqwo5avDNtU7YT9iuN0+yoW+aaEUxvr/39oP36wZRKreoPm6KNVisTR9d4lXrPeUG8XI+rERuLhwMQmdw==
+  dependencies:
+    "@netlify/open-api" "^2.26.0"
     lodash-es "^4.17.21"
     micro-api-client "^3.3.0"
     node-fetch "^3.0.0"
@@ -7211,9 +7254,9 @@ node-fetch@^3.0.0, node-fetch@^3.1.1, node-fetch@^3.3.1:
     formdata-polyfill "^4.0.10"
 
 node-gyp-build@^4.2.2:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.6.1.tgz#24b6d075e5e391b8d5539d98c7fc5c210cac8a3e"
-  integrity sha512-24vnklJmyRS8ViBNI8KbtK/r/DmXQMRiOMXTNz2nrTnAYUwjmEEbnnpB/+kt+yWRv73bPsSPRFddrcIbAxSiMQ==
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.7.0.tgz#749f0033590b2a89ac8edb5e0775f95f5ae86d15"
+  integrity sha512-PbZERfeFdrHQOOXiAKOY0VPbykZy90ndPKk0d+CFDegTKmWp1VgOTz2xACVbr1BjCWxrQp68CXtvNsveFhqDJg==
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -7841,9 +7884,9 @@ pino-std-serializers@^6.0.0:
   integrity sha512-cHjPPsE+vhj/tnhCy/wiMh3M3z3h/j15zHQX+S9GkTBgqJuTuJzYJ4gUyACLhDaJ7kk9ba9iRDmbH2tJU03OiA==
 
 pino@^8.5.0:
-  version "8.16.1"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-8.16.1.tgz#dcaf82764b1a27f24101317cdd6453e96290f1d9"
-  integrity sha512-3bKsVhBmgPjGV9pyn4fO/8RtoVDR8ssW1ev819FsRXlRNgW8gR/9Kx+gCK4UPWd4JjrRDLWpzd/pb1AyWm3MGA==
+  version "8.16.2"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-8.16.2.tgz#7a906f2d9a8c5b4c57412c9ca95d6820bd2090cd"
+  integrity sha512-2advCDGVEvkKu9TTVSa/kWW7Z3htI/sBKEZpqiHk6ive0i/7f5b1rsU8jn0aimxqfnSz5bj/nOYkwhBUn5xxvg==
   dependencies:
     atomic-sleep "^1.0.0"
     fast-redact "^3.1.1"
@@ -7950,9 +7993,9 @@ process-nextick-args@~2.0.0:
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
 process-warning@^2.0.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/process-warning/-/process-warning-2.3.0.tgz#02ccba12fd55c05879cb7ddab31b6a20af2fe4d9"
-  integrity sha512-N6mp1+2jpQr3oCFMz6SeHRGbv6Slb20bRhj4v3xR99HqNToAcOe1MFOp4tytyzOfJn+QtN8Rf7U/h2KAn4kC6g==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/process-warning/-/process-warning-2.3.1.tgz#0caf992272c439f45dd416e1407ee25a3d4c778a"
+  integrity sha512-JjBvFEn7MwFbzUDa2SRtKJSsyO0LlER4V/FmwLMhBlXNbGgGxdyFCxIdMDLerWUycsVUyaoM9QFLvppFy4IWaQ==
 
 process@^0.10.0:
   version "0.10.1"
@@ -8906,9 +8949,9 @@ stdin-discarder@^0.1.0:
     bl "^5.0.0"
 
 streamx@^2.15.0:
-  version "2.15.4"
-  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.4.tgz#497b8102d076ae12b43c456e0bb16940d1ba0999"
-  integrity sha512-uSXKl88bibiUCQ1eMpItRljCzDENcDx18rsfDmV79r0e/ThfrAwxG4Y2FarQZ2G4/21xcOKmFFd1Hue+ZIDwHw==
+  version "2.15.5"
+  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.5.tgz#87bcef4dc7f0b883f9359671203344a4e004c7f1"
+  integrity sha512-9thPGMkKC2GctCzyCUjME3yR03x2xNo0GPKGkRw2UMYN+gqWa9uqpyNWhmsNCutU5zHmkUum0LsCRQTXUgUCAg==
   dependencies:
     fast-fifo "^1.1.0"
     queue-tick "^1.0.1"
