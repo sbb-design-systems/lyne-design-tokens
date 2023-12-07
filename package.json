@@ -42,7 +42,7 @@
     "prettier": "3.1.0",
     "simple-git": "3.21.0",
     "standard-version": "9.5.0",
-    "style-dictionary": "3.9.0",
+    "style-dictionary": "3.9.1",
     "tsx": "4.6.2",
     "typescript": "5.3.3"
   },
