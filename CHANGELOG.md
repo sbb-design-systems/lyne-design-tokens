@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.8](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.7...v0.3.8) (2024-01-16)
+
+### Bug Fixes
+
+- fix order of package exports ([#478](https://github.com/lyne-design-system/lyne-design-tokens/issues/478)) ([7caf5c1](https://github.com/lyne-design-system/lyne-design-tokens/commit/7caf5c1e14bb9b89f01eca5205bbe47ee57fe303))
+- renaming branch master to main ([16c04b1](https://github.com/lyne-design-system/lyne-design-tokens/commit/16c04b1516232edd4494f582b06a4f3fdc1a0d1d))
+
 ### [0.3.7](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.6...v0.3.7) (2023-09-13)
 
 ### Features
