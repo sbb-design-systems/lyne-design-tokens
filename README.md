@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/lyne-design-system/lyne-design-tokens.svg?branch=master)](https://travis-ci.com/lyne-design-system/lyne-design-tokens) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/lyne-design-system/lyne-design-tokens?label=release)
+[![Build Status](https://travis-ci.com/lyne-design-system/lyne-design-tokens.svg?branch=main)](https://travis-ci.com/lyne-design-system/lyne-design-tokens) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/lyne-design-system/lyne-design-tokens?label=release)
 
 # Lyne Design Tokens
 
@@ -44,6 +44,6 @@ Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/
 
 ## Deployment
 
-TravisCI is building as soon as a branch gets merged into the master branch. After successful linting, the Lyne Design Tokens package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
+TravisCI is building as soon as a branch gets merged into the main branch. After successful linting, the Lyne Design Tokens package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
 
 After successful build, the job for lyne-components will be triggered.

@@ -7,7 +7,7 @@ on:
   workflow_run:
     workflows: ['Continuous Integration']
     types: [completed]
-    branches: [master]
+    branches: [main]
 
 permissions: read-all
 
@@ -51,7 +51,7 @@ jobs:
       - name: 'Release: Create release with standard-version'
         run: yarn standard-version
       - name: 'Release: Push release to repository'
-        run: git push --follow-tags origin master
+        run: git push --follow-tags origin main
       - name: 'Release: Determine npm tag'
         id: npm_tag
         run: |

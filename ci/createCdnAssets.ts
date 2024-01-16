@@ -22,7 +22,7 @@ const config = {
   const tokensFileSource = `${config.tokensSourcePath}${config.tokensFileName}`;
   const tokensFileTarget = `${cdnDir}/${config.tokensFileName}`;
 
-  await git.checkout('master');
+  await git.checkout('main');
   await git.pull();
 
   // make sure cdn folder exists
@@ -61,7 +61,7 @@ const config = {
     // add all files, commit and push
     await git.add(`${cdnDir}/*`);
     await git.commit(`chore: add CDN assets for version ${version} [skip ci]`);
-    await git.push('origin', 'master', {
+    await git.push('origin', 'main', {
       '--force': 'true',
     });
 
