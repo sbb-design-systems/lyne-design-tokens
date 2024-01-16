@@ -53,10 +53,10 @@
   "exports": {
     ".": {
       "types": "./dist/js/sbb-tokens.d.ts",
+      "sass": "./dist/scss/sbb-variables.scss",
       "node": "./dist/js/sbb-tokens.mjs",
-      "default": "./dist/js/sbb-tokens.mjs",
       "require": "./dist/js/sbb-tokens.cjs",
-      "sass": "./dist/scss/sbb-variables.scss"
+      "default": "./dist/js/sbb-tokens.mjs"
     },
     "./dist/js/*": {
       "default": "./dist/js/*"
