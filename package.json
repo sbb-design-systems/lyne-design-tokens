@@ -39,7 +39,7 @@
     "lint-staged": "15.2.1",
     "minimist": "1.2.8",
     "netlify-cli": "17.15.7",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "simple-git": "3.22.0",
     "standard-version": "9.5.0",
     "style-dictionary": "3.9.2",
