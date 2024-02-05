@@ -38,7 +38,7 @@
     "husky": "9.0.10",
     "lint-staged": "15.2.1",
     "minimist": "1.2.8",
-    "netlify-cli": "17.15.7",
+    "netlify-cli": "17.16.0",
     "prettier": "3.2.5",
     "simple-git": "3.22.0",
     "standard-version": "9.5.0",
