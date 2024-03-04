@@ -1,0 +1,57 @@
+name: Release Please
+on:
+  push:
+    branches:
+      - main
+
+# Documentation:
+# https://github.com/googleapis/release-please
+# https://github.com/google-github-actions/release-please-action
+# https://github.com/googleapis/release-please/blob/main/docs/customizing.md
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      releases_created: ${{ steps.release.outputs.releases_created }}
+      version: ${{ steps.release.outputs.version }}
+    steps:
+      - uses: google-github-actions/release-please-action@v4
+        id: release
+        with:
+          release-type: node
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
+      - name: Release Info
+        run: echo "${{ steps.release.outputs }}"
+
+  release:
+    needs: release-please
+    if: needs.release-please.outputs.releases_created
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ needs.release-please.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
+          registry-url: 'https://registry.npmjs.org'
+          scope: sbb-esta
+      - run: yarn install --frozen-lockfile --non-interactive
+
+      - name: Run build
+        run: yarn build
+
+      - name: 'Release: Determine npm tag'
+        id: npm_tag
+        run: echo "npm_tag=$([[ "$VERSION" == *"-"* ]] && echo "next" || echo "latest")" >> $GITHUB_OUTPUT
+      - name: 'Release: Publish @sbb-esta/lyne-design-tokens'
+        run: yarn publish --tag ${{ steps.npm_tag.outputs.npm_tag }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
