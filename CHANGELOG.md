@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.9...v1.0.0) (2024-03-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **color:** 
+
+### Styles
+
+* **color:** remove '-default' from tokens ([#486](https://github.com/lyne-design-system/lyne-design-tokens/issues/486)) ([dceb0f2](https://github.com/lyne-design-system/lyne-design-tokens/commit/dceb0f2814025a0600f834e232e4df2d82f13aad))
+
 ### [0.3.9](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.8...v0.3.9) (2024-01-16)
 
 ### [0.3.8](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.7...v0.3.8) (2024-01-16)
