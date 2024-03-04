@@ -22,7 +22,9 @@ jobs:
         with:
           release-type: node
       - name: Release Info
-        run: echo "${{ toJSON(steps.release.outputs) }}"
+        run: echo "$RELEASE_OUTPUT"
+        env:
+          RELEASE_OUTPUT: ${{ toJSON(steps.release.outputs) }}
 
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
