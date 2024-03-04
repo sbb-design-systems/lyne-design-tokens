@@ -1,15 +1,13 @@
-[![Build Status](https://travis-ci.com/lyne-design-system/lyne-design-tokens.svg?branch=main)](https://travis-ci.com/lyne-design-system/lyne-design-tokens) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/lyne-design-system/lyne-design-tokens?label=release)
-
 # Lyne Design Tokens
 
-Automatically generate cross platform Design Tokens for the Lyne Design System based json properties files and publish them as `lyne-design-tokens` npm package.
+Automatically generate cross platform Design Tokens for the Lyne Design System based json properties files and publish them as `@sbb-esta/lyne-design-tokens` npm package.
 
 ## Installation
 
 Install the Lyne Design Tokens with the following command:
 
 ```bash
-npm install --save-dev lyne-design-tokens
+npm install --save-dev @sbb-esta/lyne-design-tokens
 ```
 
 ## What's included
@@ -34,16 +32,10 @@ lyne-design-tokens/
 
 ## Usage
 
-Have a look at the dist folder inside node_modules: `./node_modules/lyne-design-tokens/dist/`. There you will find the different variables files which you can import and use in your project.
+Have a look at the dist folder inside node_modules: `./node_modules/@sbb-esta/lyne-design-tokens/dist/`. There you will find the different variables files which you can import and use in your project.
 
 ## Development
 
 ### Conventional Commits
 
 Please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification to make sure we can automatically determine the next release version if necessary.
-
-## Deployment
-
-TravisCI is building as soon as a branch gets merged into the main branch. After successful linting, the Lyne Design Tokens package will be published to npm. You can find the package on npm [here](https://www.npmjs.com/package/lyne-design-tokens).
-
-After successful build, the job for lyne-components will be triggered.
