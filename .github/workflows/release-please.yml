@@ -16,9 +16,6 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-    outputs:
-      releases_created: ${{ steps.release.outputs.releases_created }}
-      version: ${{ steps.release.outputs.version }}
     steps:
       - uses: google-github-actions/release-please-action@v4
         id: release
@@ -27,29 +24,27 @@ jobs:
       - name: Release Info
         run: echo "${{ toJSON(steps.release.outputs) }}"
 
-  release:
-    needs: release-please
-    if: ${{ needs.release-please.outputs.releases_created != "false" }}
-    runs-on: ubuntu-latest
-    env:
-      VERSION: ${{ needs.release-please.outputs.version }}
-    steps:
       - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-node@v4
+        if: ${{ steps.release.outputs.release_created }}
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
           registry-url: 'https://registry.npmjs.org'
           scope: sbb-esta
       - run: yarn install --frozen-lockfile --non-interactive
+        if: ${{ steps.release.outputs.release_created }}
 
       - name: Run build
+        if: ${{ steps.release.outputs.release_created }}
         run: yarn build
-
       - name: 'Release: Determine npm tag'
+        if: ${{ steps.release.outputs.release_created }}
         id: npm_tag
-        run: echo "npm_tag=$([[ "$VERSION" == *"-"* ]] && echo "next" || echo "latest")" >> $GITHUB_OUTPUT
+        run: echo "npm_tag=$([[ "${{ steps.release.outputs.version }}" == *"-"* ]] && echo "next" || echo "latest")" >> $GITHUB_OUTPUT
       - name: 'Release: Publish @sbb-esta/lyne-design-tokens'
+        if: ${{ steps.release.outputs.release_created }}
         run: yarn publish --tag ${{ steps.npm_tag.outputs.npm_tag }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
