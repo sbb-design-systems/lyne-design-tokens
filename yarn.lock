@@ -2534,7 +2534,7 @@ ci-info@^3.2.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.9.0.tgz#4279a62028a7b1f262f3473fc9605f5e218c59b4"
   integrity sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==
 
-citty@^0.1.4, citty@^0.1.5, citty@^0.1.6:
+citty@^0.1.5, citty@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/citty/-/citty-0.1.6.tgz#0f7904da1ed4625e1a9ea7e0fa780981aab7c5e4"
   integrity sha512-tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==
@@ -4990,7 +4990,7 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-h3@^1.10.2, h3@^1.8.2:
+h3@^1.10.0, h3@^1.10.2, h3@^1.8.2:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/h3/-/h3-1.11.1.tgz#e9414ae6f2a076a345ea07256b320edb29bab9f7"
   integrity sha512-AbaH6IDnZN6nmbnJOH72y3c5Wwh9P97soSVdGSBbcDACRdkC0FEWf25pzx4f/NuOCK6quHmW18yF2Wx+G4Zi1A==
@@ -5384,26 +5384,26 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-ipx@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/ipx/-/ipx-2.0.1.tgz#06515452b317241076b22e40763267c43efead65"
-  integrity sha512-+EyZiVNosYr3hu3F5+5GripTBLjKmSPTvcy3YdT4zxlhqHQJ2gUopLGxpfv9Wd11YgeiPh53ysbtG+ZNIOVF4A==
+ipx@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/ipx/-/ipx-2.1.0.tgz#235d37f789b6c5100f34a0bb3b3bef9852af4d76"
+  integrity sha512-AVnPGXJ8L41vjd11Z4akIF2yd14636Klxul3tBySxHA6PKfCOQPxBDkCFK5zcWh0z/keR6toh1eg8qzdBVUgdA==
   dependencies:
     "@fastify/accept-negotiator" "^1.1.0"
-    citty "^0.1.4"
+    citty "^0.1.5"
     consola "^3.2.3"
-    defu "^6.1.3"
+    defu "^6.1.4"
     destr "^2.0.2"
     etag "^1.8.1"
-    h3 "^1.8.2"
+    h3 "^1.10.0"
     image-meta "^0.2.0"
-    listhen "^1.5.5"
+    listhen "^1.5.6"
     ofetch "^1.3.3"
-    pathe "^1.1.1"
+    pathe "^1.1.2"
     sharp "^0.32.6"
-    svgo "^3.0.2"
-    ufo "^1.3.1"
-    unstorage "^1.9.0"
+    svgo "^3.2.0"
+    ufo "^1.3.2"
+    unstorage "^1.10.1"
     xss "^1.0.14"
 
 iron-webcrypto@^1.0.0:
@@ -6009,7 +6009,7 @@ lint-staged@15.2.2:
     string-argv "0.3.2"
     yaml "2.3.4"
 
-listhen@^1.5.5:
+listhen@^1.5.5, listhen@^1.5.6:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.7.2.tgz#66b81740692269d5d8cafdc475020f2fc51afbae"
   integrity sha512-7/HamOm5YD9Wb7CFgAZkKgVPA96WwhcTQoqtm2VTZGVbVVn3IWKRBTgrU7cchA3Q8k9iCsG8Osoi9GX4JsGM9g==
@@ -6720,10 +6720,10 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0, nested-error-stacks@^2.1
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz#26c8a3cee6cc05fbcf1e333cd2fc3e003326c0b5"
   integrity sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==
 
-netlify-cli@17.17.1:
-  version "17.17.1"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-17.17.1.tgz#26df19cab771034025f0948aca93a8fa3c8a32e4"
-  integrity sha512-jn0KPVKDnLnpm8vytmUgG36AjdOKQVQ8qnWzm3lOPNtpX37W8j38PK/m5+C4ZXLLwVbwe8e4ZRNajDFBB3M1AA==
+netlify-cli@17.17.2:
+  version "17.17.2"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-17.17.2.tgz#bece9fae26d88f59c611a6364bcf4650e579ad7f"
+  integrity sha512-IvjHS67dE3ITtRtiLElTOee1PreW+gtpqkEMO6gccnlY109j84G6wK0g6H7wieOHNBx/RTlX1MOFM28+pThKIQ==
   dependencies:
     "@bugsnag/js" "7.20.2"
     "@fastify/static" "6.10.2"
@@ -6783,7 +6783,7 @@ netlify-cli@17.17.1:
     https-proxy-agent "5.0.1"
     inquirer "6.5.2"
     inquirer-autocomplete-prompt "1.4.0"
-    ipx "2.0.1"
+    ipx "2.1.0"
     is-docker "3.0.0"
     is-stream "3.0.0"
     is-wsl "2.2.0"
@@ -8922,7 +8922,7 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svgo@^3.0.2:
+svgo@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-3.2.0.tgz#7a5dff2938d8c6096e00295c2390e8e652fa805d"
   integrity sha512-4PP6CMW/V7l/GmKRKzsLR8xxjdHTV4IMvhTnpuHwwBazSIlw5W/5SmPjN8Dwyt7lKbSJrRDgp4t9ph0HgChFBQ==
@@ -9453,7 +9453,7 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
-unstorage@^1.9.0:
+unstorage@^1.10.1:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-1.10.1.tgz#bf8cc00a406e40a6293e893da9807057d95875b0"
   integrity sha512-rWQvLRfZNBpF+x8D3/gda5nUCQL2PgXy2jNG4U7/Rc9BGEv9+CAJd0YyGCROUBKs9v49Hg8huw3aih5Bf5TAVw==
