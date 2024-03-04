@@ -24,10 +24,8 @@ jobs:
         id: release
         with:
           release-type: node
-          bump-minor-pre-major: true
-          bump-patch-for-minor-pre-major: true
       - name: Release Info
-        run: echo "${{ steps.release.outputs }}"
+        run: echo "${{ toJSON(steps.release.outputs) }}"
 
   release:
     needs: release-please
