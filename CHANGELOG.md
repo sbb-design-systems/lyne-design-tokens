@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.4.0...v0.5.0) (2024-03-11)
+
+
+### Features
+
+* introduce shadow level 11 ([#491](https://github.com/lyne-design-system/lyne-design-tokens/issues/491)) ([0aa5899](https://github.com/lyne-design-system/lyne-design-tokens/commit/0aa5899cff40bb048d6ca954c1fef01857313111))
+
 ## [0.4.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.3.9...v0.4.0) (2024-03-04)
 
 
