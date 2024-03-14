@@ -80,6 +80,17 @@ export const config: Config = {
       transformGroup: 'js',
       transforms: ['attribute/cti', 'name/cti/kebab', 'color/css'],
     },
+    tailwind: {
+      buildPath: 'dist/tailwind/',
+      prefix: 'sbb',
+      files: [
+        {
+          destination: 'tailwind.config.json',
+          format: 'custom/tailwind',
+        },
+      ],
+      transforms: ['name/cti/kebab'],
+    },
     scss: {
       buildPath: 'dist/scss/',
       prefix: 'sbb',
