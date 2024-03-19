@@ -92,7 +92,8 @@ function unnestObjects(objects: TransformedToken[]): object {
     }
 
     const finalKey = path[path.length - 1];
-    currentObject[finalKey] = `var(--${obj.name})`;
+    // add the actual value behind the variable as a comment for a better developer experience
+    currentObject[finalKey] = `var(--${obj.name}) /* ${obj.value} */`;
   }
 
   return nestedObject;

@@ -89,7 +89,14 @@ export const config: Config = {
           format: 'custom/tailwind',
         },
       ],
-      transforms: ['name/cti/kebab'],
+      transforms: [
+        'attribute/cti',
+        'name/cti/kebab',
+        'time/seconds',
+        'content/icon',
+        'color/css',
+        'size/px',
+      ],
     },
     scss: {
       buildPath: 'dist/scss/',
