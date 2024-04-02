@@ -15,11 +15,11 @@ StyleDictionary.registerFormat({
 
     const composedVars = fs
       .readFileSync('./composed-variables/composed-variables.css', 'utf-8')
-      .match(/:root \{\n([\S\s]*)}/m)![1];
+      .match(/\/\* EXTRACTING_CSS_VARS_START \*\/([\S\s]*)\/\* EXTRACTING_CSS_VARS_END \*\//m)![1];
 
     return (
       fileHeader({ file }) +
-      `${options.selector ?? ':root'} {\n${symbols}\n\n  /* Composed variables */\n\n${composedVars}\n}\n`
+      `${options.selector ?? ':root'} {\n${symbols}\n  /* Composed variables */\n\n  ${composedVars.trim()}\n}\n`
     );
   },
   name: 'css/variables',

@@ -1,4 +1,13 @@
 :root {
+  /* EXTRACTING_CSS_VARS_START */
+
+  /**
+   * We provide an extended collection of css variables which are mainly breakpoint
+   * dependant or simply referencing other variables.
+   * Due to technical limitations these variables are only provided as CSS variables.
+   */
+
+  /* Font Color */
   --sbb-font-default-color: var(--sbb-color-charcoal);
 
   /* Focus outline */
@@ -51,7 +60,9 @@
     --sbb-focus-outline-width: var(--sbb-border-width-2x);
   }
 
-  /* Micro */
+  /**
+   * Micro (value corresponds to --sbb-breakpoint-micro-min)
+   */
   @media (min-width: 22.5rem) {
     /* Layout */
     --sbb-layout-base-offset-responsive: var(--sbb-layout-base-offset-responsive-micro);
@@ -59,7 +70,9 @@
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-micro);
   }
 
-  /* Small */
+  /**
+   * Small (value corresponds to --sbb-breakpoint-small-min)
+   */
   @media (min-width: 37.5rem) {
     /* Title */
     --sbb-font-size-title-1: var(--sbb-typo-scale-3x);
@@ -75,7 +88,9 @@
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-small);
   }
 
-  /* Medium */
+  /**
+   * Medium (value corresponds to --sbb-breakpoint-medium-min)
+   */
   @media (min-width: 52.5rem) {
     /* Title */
     --sbb-font-size-title-2: var(--sbb-typo-scale-2-5x);
@@ -119,7 +134,9 @@
     --sbb-time-input-max-width: #{functions.px-to-rem-build(65)};
   }
 
-  /* Large */
+  /**
+   * Large (value corresponds to --sbb-breakpoint-large-min)
+   */
   @media (min-width: 64rem) {
     /* Title */
     --sbb-font-size-title-1: var(--sbb-typo-scale-3-5x);
@@ -135,7 +152,9 @@
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-large);
   }
 
-  /* Wide */
+  /**
+   * Wide (value corresponds to --sbb-breakpoint-wide-min)
+   */
   @media (min-width: 80rem) {
     /* Spacing */
     --sbb-spacing-responsive-m: var(--sbb-spacing-responsive-m-wide);
@@ -146,7 +165,9 @@
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-wide);
   }
 
-  /* Ultra */
+  /**
+   * Ultra (value corresponds to --sbb-breakpoint-ultra-min)
+   */
   @media (min-width: 90rem) {
     /* Title */
     --sbb-font-size-title-1: var(--sbb-typo-scale-4x);
@@ -161,4 +182,6 @@
     --sbb-grid-base-columns: var(--sbb-layout-base-grid-columns-ultra);
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-ultra);
   }
+
+  /* EXTRACTING_CSS_VARS_END */
 }
