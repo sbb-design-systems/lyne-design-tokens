@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.4.2...v0.4.3) (2024-04-02)
+
+
+### Bug Fixes
+
+* remove misplaced vars ([#497](https://github.com/lyne-design-system/lyne-design-tokens/issues/497)) ([395c7f5](https://github.com/lyne-design-system/lyne-design-tokens/commit/395c7f520125df6672309a6d5b0ef426e751192c))
+
 ## [0.4.2](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.4.1...v0.4.2) (2024-04-02)
 
 
