@@ -126,12 +126,6 @@
     /* Form */
     --sbb-size-form-element-m-min-height: var(--sbb-size-form-element-m-min-height-medium);
     --sbb-size-form-element-l-min-height: var(--sbb-size-form-element-l-min-height-medium);
-
-    /* Header */
-    --sbb-header-height: var(--sbb-spacing-fixed-24x);
-
-    /* Time Input */
-    --sbb-time-input-max-width: #{functions.px-to-rem-build(65)};
   }
 
   /**
