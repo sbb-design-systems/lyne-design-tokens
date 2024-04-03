@@ -95,7 +95,8 @@ export const config: Config = {
         'time/seconds',
         'content/icon',
         'color/css',
-        'size/px',
+        'size/pxToRem',
+        'size/rem',
       ],
     },
     scss: {

@@ -14,7 +14,7 @@ export function createTailwindSdFormatter(): Named<Format> {
 }
 
 export function createTailwindConfig(tokens: TransformedToken[]) {
-  const sbbTokens = unnestObjects(tokens) as Record<keyof typeof SBBTokens, Record<string, any>>;
+  const sbbTokens = unnestObjects<typeof SBBTokens>(tokens);
 
   // map colors and respective transparency variants to a common color
   // e.g. "black" and "blackAlpha" will get merged into one color object, with the value of "black" as the default
@@ -42,9 +42,15 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
 
   const spacing = { ...fixedSizes, ...responsiveSizes };
 
+  // ignore the max values from the breakpoint and only use the min sizes,
+  // since min-width media queries are to be used
+  const screens = Object.fromEntries(
+    Object.entries(sbbTokens.breakpoint).map(([bpName, range]) => [bpName, range.min]),
+  );
+
   const tailwindTheme: Partial<CustomThemeConfig> = {
     colors: { transparent: 'transparent', current: 'currentColor', ...colors },
-    screens: sbbTokens.breakpoint,
+    screens,
     transitionDuration: removeDashPrefix(sbbTokens.animation.duration),
     transitionTimingFunction: withTwDefault(sbbTokens.animation.easing),
     borderRadius: sbbTokens.border.radius,
@@ -63,9 +69,9 @@ const withTwDefault = <T extends object, V>(defaultValue: V, obj = {} as T) => (
   ...obj,
   DEFAULT: defaultValue,
 });
+
 // remove the dash prefix from the keys
 // e.g. "-1x" becomes "1x" in the key
-
 const removeDashPrefix = (obj: Record<string, any>) =>
   Object.fromEntries(
     Object.entries(obj).map(([key, value]) => [
@@ -74,7 +80,13 @@ const removeDashPrefix = (obj: Record<string, any>) =>
     ]),
   );
 
-function unnestObjects(objects: TransformedToken[]): object {
+// this type recursively unnests objects that have a "value" property
+// e.g. recursively transforms objects like { a: { value: "b" } } to { a: "b" }
+type UnnestValue<T> = {
+  [K in keyof T]: T[K] extends { value: any } ? T[K]['value'] : UnnestValue<T[K]>;
+};
+
+function unnestObjects<T extends object>(objects: TransformedToken[]): UnnestValue<T> {
   const nestedObject: any = {};
 
   for (const obj of objects) {
@@ -92,8 +104,15 @@ function unnestObjects(objects: TransformedToken[]): object {
     }
 
     const finalKey = path[path.length - 1];
-    // add the actual value behind the variable as a comment for a better developer experience
-    currentObject[finalKey] = `var(--${obj.name}) /* ${obj.value} */`;
+
+    if (path[0] === 'breakpoint') {
+      // breakpoints don't support css variables, we need to use the actual value of the variable instead
+      currentObject[finalKey] = `${obj.value} /* var(--${obj.name}) */`;
+    } else {
+      // add the actual value behind the variable as a comment for a better developer experience
+      currentObject[finalKey] =
+        `var(--${obj.name}) /* ${obj.attributes?.category === 'size' ? obj.original.value + 'px' : obj.value} */`;
+    }
   }
 
   return nestedObject;

@@ -9,7 +9,7 @@ const attributes = () =>
     },
   };
 
-export const animation: DesignTokens = {
+export const animation = {
   duration: {
     '-1x': {
       value: duration(1),
@@ -43,4 +43,4 @@ export const animation: DesignTokens = {
   easing: {
     value: 'cubic-bezier(.47, .1, 1, .63)',
   },
-};
+} satisfies DesignTokens;

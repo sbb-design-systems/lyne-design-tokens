@@ -13,7 +13,7 @@ const attributes = () =>
     },
   };
 
-export const border: DesignTokens = {
+export const border = {
   width: {
     '1x': {
       value: borderWidth(1),
@@ -45,5 +45,5 @@ export const border: DesignTokens = {
       value: borderRadius(16),
       ...attributes(),
     },
-  },
+  } satisfies DesignTokens,
 };
