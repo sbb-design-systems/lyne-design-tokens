@@ -40,7 +40,7 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
 
   const fixedSizes = removeDashPrefix(fixed);
 
-  const spacing = { ...fixedSizes, ...responsiveSizes };
+  const spacing = { ...fixedSizes, ...responsiveSizes, '0': '0px' };
 
   // ignore the max values from the breakpoint and only use the min sizes,
   // since min-width media queries are to be used
