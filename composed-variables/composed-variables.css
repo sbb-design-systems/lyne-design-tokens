@@ -46,13 +46,14 @@
   --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-zero);
 
   /* Button */
-  --sbb-size-button-m-min-height: var(--sbb-size-button-m-min-height-zero);
-  --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-zero);
+  --sbb-size-button-s-min-height: var(--sbb-size-element-xs-zero);
+  --sbb-size-button-m-min-height: var(--sbb-size-element-s-zero);
+  --sbb-size-button-l-min-height: var(--sbb-size-element-m-zero);
 
   /* Form */
-  --sbb-size-form-element-s-min-height: var(--sbb-size-form-element-s-min-height-zero);
-  --sbb-size-form-element-m-min-height: var(--sbb-size-form-element-m-min-height-zero);
-  --sbb-size-form-element-l-min-height: var(--sbb-size-form-element-l-min-height-zero);
+  --sbb-size-form-element-s-min-height: var(--sbb-size-element-xs-zero);
+  --sbb-size-form-element-m-min-height: var(--sbb-size-element-m-zero);
+  --sbb-size-form-element-l-min-height: var(--sbb-size-element-l-zero);
 
   @media (forced-colors: active) {
     /* Focus outline */
@@ -121,13 +122,14 @@
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-medium);
 
     /* Button */
-    --sbb-size-button-m-min-height: var(--sbb-size-button-m-min-height-medium);
-    --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-medium);
+    --sbb-size-button-s-min-height: var(--sbb-size-element-xs-medium);
+    --sbb-size-button-m-min-height: var(--sbb-size-element-s-medium);
+    --sbb-size-button-l-min-height: var(--sbb-size-element-m-medium);
 
     /* Form */
-    --sbb-size-form-element-s-min-height: var(--sbb-size-form-element-s-min-height-medium);
-    --sbb-size-form-element-m-min-height: var(--sbb-size-form-element-m-min-height-medium);
-    --sbb-size-form-element-l-min-height: var(--sbb-size-form-element-l-min-height-medium);
+    --sbb-size-form-element-s-min-height: var(--sbb-size-element-xs-medium);
+    --sbb-size-form-element-m-min-height: var(--sbb-size-element-m-medium);
+    --sbb-size-form-element-l-min-height: var(--sbb-size-element-l-medium);
   }
 
   /**
