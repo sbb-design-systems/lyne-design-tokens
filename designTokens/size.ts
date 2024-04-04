@@ -81,6 +81,40 @@ export const size: DesignTokens = {
   },
   form: {
     element: {
+      s: {
+        min: {
+          height: {
+            zero: {
+              value: 36,
+              ...attributes('form'),
+            },
+            micro: {
+              value: 36,
+              ...attributes('form'),
+            },
+            small: {
+              value: 36,
+              ...attributes('form'),
+            },
+            medium: {
+              value: 40,
+              ...attributes('form'),
+            },
+            large: {
+              value: 40,
+              ...attributes('form'),
+            },
+            wide: {
+              value: 40,
+              ...attributes('form'),
+            },
+            ultra: {
+              value: 40,
+              ...attributes('form'),
+            },
+          },
+        },
+      },
       m: {
         min: {
           height: {

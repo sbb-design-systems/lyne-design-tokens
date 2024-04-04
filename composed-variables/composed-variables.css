@@ -50,6 +50,7 @@
   --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-zero);
 
   /* Form */
+  --sbb-size-form-element-s-min-height: var(--sbb-size-form-element-s-min-height-zero);
   --sbb-size-form-element-m-min-height: var(--sbb-size-form-element-m-min-height-zero);
   --sbb-size-form-element-l-min-height: var(--sbb-size-form-element-l-min-height-zero);
 
@@ -124,6 +125,7 @@
     --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-medium);
 
     /* Form */
+    --sbb-size-form-element-s-min-height: var(--sbb-size-form-element-s-min-height-medium);
     --sbb-size-form-element-m-min-height: var(--sbb-size-form-element-m-min-height-medium);
     --sbb-size-form-element-l-min-height: var(--sbb-size-form-element-l-min-height-medium);
   }
