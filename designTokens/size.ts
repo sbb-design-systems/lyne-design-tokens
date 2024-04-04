@@ -10,6 +10,40 @@ const attributes = (group: string) =>
 
 export const size: DesignTokens = {
   button: {
+    s: {
+      min: {
+        height: {
+          zero: {
+            value: 36,
+            ...attributes('button'),
+          },
+          micro: {
+            value: 36,
+            ...attributes('button'),
+          },
+          small: {
+            value: 36,
+            ...attributes('button'),
+          },
+          medium: {
+            value: 40,
+            ...attributes('button'),
+          },
+          large: {
+            value: 40,
+            ...attributes('button'),
+          },
+          wide: {
+            value: 40,
+            ...attributes('button'),
+          },
+          ultra: {
+            value: 40,
+            ...attributes('button'),
+          },
+        },
+      },
+    },
     m: {
       min: {
         height: {

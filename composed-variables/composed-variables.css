@@ -46,6 +46,7 @@
   --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-zero);
 
   /* Button */
+  --sbb-size-button-s-min-height: var(--sbb-size-button-s-min-height-zero);
   --sbb-size-button-m-min-height: var(--sbb-size-button-m-min-height-zero);
   --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-zero);
 
@@ -120,6 +121,7 @@
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-medium);
 
     /* Button */
+    --sbb-size-button-s-min-height: var(--sbb-size-button-s-min-height-medium);
     --sbb-size-button-m-min-height: var(--sbb-size-button-m-min-height-medium);
     --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-medium);
 
