@@ -2,6 +2,48 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.4.3...v0.5.0) (2024-04-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* some tokens have been removed and some others added; specifically:
+    - the following tokens have been removed:
+        - `--sbb-size-button-m-min-height-<breakpoint>`
+        - `--sbb-size-button-l-min-height-<breakpoint>`
+        - `--sbb-size-form-element-m-min-height-<breakpoint>`
+        - `--sbb-size-form-element-l-min-height-<breakpoint>`
+        - `--sbb-size-touch-min`
+        - `--sbb-size-icon-timetable-attribute`
+        - `--sbb-size-icon-timetable-him-cus`
+        - `--sbb-size-icon-timetable-product-brand`
+        - `--sbb-size-icon-pictograms`
+        - `--sbb-size-icon-form-error`
+    - the following composed tokens have been removed:
+        - `--sbb-size-button-m-min-height`
+        - `--sbb-size-button-l-min-height`
+        - `--sbb-size-form-element-m-min-height`
+        - `--sbb-size-form-element-l-min-height`
+    - the following tokens have been added:
+       - `--sbb-size-element-xs-<breakpoint>`
+       - `--sbb-size-element-s-<breakpoint>`
+       - `--sbb-size-element-m-<breakpoint>`
+       - `--sbb-size-element-l-<breakpoint>`
+    - the following composed tokens have been added:
+        - `--sbb-size-element-xs`
+        - `--sbb-size-element-s`
+        - `--sbb-size-element-m`
+        - `--sbb-size-element-l`
+
+### Features
+
+* creation of new 'size' tokens ([ced8d75](https://github.com/lyne-design-system/lyne-design-tokens/commit/ced8d75411fe42fbb8eb9b1d4bf8aa2a64683258))
+
+
+### Miscellaneous Chores
+
+* release 0.5.0 ([f66a107](https://github.com/lyne-design-system/lyne-design-tokens/commit/f66a107d345ebb82538153a34b25bf8a9a70e8a9))
+
 ## [0.4.3](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.4.2...v0.4.3) (2024-04-02)
 
 
