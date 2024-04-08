@@ -1,4 +1,0 @@
-dist/**/*
-
-# not ignored folders/files
-!.github

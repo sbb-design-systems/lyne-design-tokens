@@ -1,4 +1,4 @@
-import { Config } from 'style-dictionary';
+import type { Config } from 'style-dictionary';
 
 export const config: Config = {
   platforms: {

@@ -1,7 +1,7 @@
-import { FormatterArguments } from 'style-dictionary/types/Format';
+import type { FormatterArguments } from 'style-dictionary/types/Format';
 import { config } from './config';
-import StyleDictionaryBase, { TransformedToken } from 'style-dictionary';
-import * as fs from 'fs';
+import StyleDictionaryBase, { type TransformedToken } from 'style-dictionary';
+import { readFileSync } from 'node:fs';
 
 const StyleDictionary = StyleDictionaryBase.extend(config);
 const fileHeader = StyleDictionary.formatHelpers.fileHeader;
@@ -13,13 +13,13 @@ StyleDictionary.registerFormat({
   formatter: ({ file, dictionary, options }: FormatterArguments) => {
     const symbols = dictionary.allProperties.map(cssTemplate).join('') + '\n';
 
-    const composedVars = fs
-      .readFileSync('./composed-variables/composed-variables.css', 'utf-8')
-      .match(/\/\* EXTRACTING_CSS_VARS_START \*\/([\S\s]*)\/\* EXTRACTING_CSS_VARS_END \*\//m)![1];
+    const composedVars = readFileSync('./composed-variables/composed-variables.css', 'utf-8').match(
+      /\/\* EXTRACTING_CSS_VARS_START \*\/([\S\s]*)\/\* EXTRACTING_CSS_VARS_END \*\//m,
+    )?.[1];
 
     return (
       fileHeader({ file }) +
-      `${options.selector ?? ':root'} {\n${symbols}\n  /* Composed variables */\n\n  ${composedVars.trim()}\n}\n`
+      `${options.selector ?? ':root'} {\n${symbols}\n  /* Composed variables */\n\n  ${composedVars?.trim()}\n}\n`
     );
   },
   name: 'css/variables',
@@ -69,18 +69,23 @@ StyleDictionary.buildAllPlatforms();
 console.log('\n==============================================');
 console.log('\nBuild completed!');
 
-function cssTemplate(token: TransformedToken) {
+function cssTemplate(token: TransformedToken): string {
   let output = '';
-  if (token.deprecated || token.comment || token.attributes?.category === 'size') {
+
+  const isDeprecated = Boolean(token.depreacated);
+  const isComment = Boolean(token.comment);
+  const isDeprecatedComment = Boolean(token.deprecated_comment);
+
+  if (isDeprecated || isComment || token.attributes?.category === 'size') {
     output += '  /**\n';
-    if (token.deprecated) {
+    if (isDeprecated) {
       output += `   * @deprecated ${token.name} is deprecated`;
-      if (token.deprecated_comment) {
+      if (isDeprecatedComment) {
         output += ` (${token.deprecated_comment})`;
       }
       output += '\n';
     }
-    if (token.comment) {
+    if (isComment) {
       output += `   * ${token.comment}\n`;
     }
     if (token.attributes?.category === 'size') {
@@ -93,17 +98,22 @@ function cssTemplate(token: TransformedToken) {
   return output;
 }
 
-function scssTemplate(token: TransformedToken) {
+function scssTemplate(token: TransformedToken): string {
   let output = '';
-  if (token.deprecated) {
+
+  const isDeprecated = Boolean(token.depreacated);
+  const isComment = Boolean(token.comment);
+  const isDeprecatedComment = Boolean(token.deprecated_comment);
+
+  if (isDeprecated) {
     output += `/// @deprecated Notice: ${token.name} is deprecated`;
-    if (token.deprecated_comment) {
+    if (isDeprecatedComment) {
       output += ` (${token.deprecated_comment})`;
     }
     output += '\n';
   }
 
-  if (token.comment) {
+  if (isComment) {
     output += `/// ${token.comment}\n`;
   }
   if (token.attributes?.category === 'size') {
@@ -114,18 +124,23 @@ function scssTemplate(token: TransformedToken) {
   return output;
 }
 
-function commonjsTemplate(token: TransformedToken) {
+function commonjsTemplate(token: TransformedToken): string {
   let output = '';
-  if (token.deprecated || token.comment) {
+
+  const isDeprecated = Boolean(token.depreacated);
+  const isComment = Boolean(token.comment);
+  const isDeprecatedComment = Boolean(token.deprecated_comment);
+
+  if (isDeprecated || isComment) {
     output += '  /**\n';
-    if (token.deprecated) {
+    if (isDeprecated) {
       output += `   * @deprecated ${token.name} is deprecated`;
-      if (token.deprecated_comment) {
+      if (isDeprecatedComment) {
         output += ` (${token.deprecated_comment})`;
       }
       output += '\n';
     }
-    if (token.comment) {
+    if (isComment) {
       output += `   * ${token.comment}\n`;
     }
     output += '   */\n';

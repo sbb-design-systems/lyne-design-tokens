@@ -1,14 +1,13 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
 const baseTypoSpacing = 16;
-const typoSpacing = (value: number) => value * baseTypoSpacing;
+const typoSpacing = (value: number): number => value * baseTypoSpacing;
 
-const attributes = () =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category: 'size',
-    },
-  };
+const attributes = (): Partial<DesignToken> => ({
+  attributes: {
+    category: 'size',
+  },
+});
 
 export const typo: DesignTokens = {
   fontFamilyFallback: {

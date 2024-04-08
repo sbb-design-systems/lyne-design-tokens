@@ -1,12 +1,11 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
-const attributes = (shadowLevel: number, category?: string) =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category,
-      group: shadowLevel,
-    },
-  };
+const attributes = (shadowLevel: number, category?: string): Partial<DesignToken> => ({
+  attributes: {
+    category,
+    group: shadowLevel,
+  },
+});
 
 const shadowObject = (
   shadowLevel: number,
@@ -26,7 +25,7 @@ const shadowObject = (
   colorHard2: string,
   colorHardNegative1: string,
   colorHardNegative2: string,
-) => ({
+): DesignTokens => ({
   shadow: {
     1: {
       offset: {
