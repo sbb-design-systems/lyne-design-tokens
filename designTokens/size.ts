@@ -1,12 +1,11 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
-const attributes = (group?: string) =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category: 'size',
-      group,
-    },
-  };
+const attributes = (group?: string): Partial<DesignToken> => ({
+  attributes: {
+    category: 'size',
+    group,
+  },
+});
 
 export const size: DesignTokens = {
   element: {

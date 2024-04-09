@@ -1,4 +1,4 @@
-import { DesignTokens } from 'style-dictionary';
+import type { DesignTokens } from 'style-dictionary';
 
 export const color: DesignTokens = {
   black: {

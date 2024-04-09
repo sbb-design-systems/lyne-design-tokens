@@ -1,14 +1,13 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
 const baseSpacing = 4;
-const calculatedSpacing = (value: number) => value * baseSpacing;
+const calculatedSpacing = (value: number): number => value * baseSpacing;
 
-const attributes = () =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category: 'size',
-    },
-  };
+const attributes = (): Partial<DesignToken> => ({
+  attributes: {
+    category: 'size',
+  },
+});
 
 export const spacing: DesignTokens = {
   fixed: {

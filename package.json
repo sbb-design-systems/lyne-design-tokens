@@ -5,10 +5,8 @@
   "scripts": {
     "build": "tsx ./build.ts",
     "format": "prettier \"**/*\" --write --ignore-unknown",
-    "lint": "npm run lint:yml && npm run lint:js",
-    "lint:js": "eslint \"**/*.{js,ts}\"",
-    "lint:yml": "eslint \"**/*.{yml,yaml}\"",
-    "prepare": "husky install"
+    "lint": "eslint",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -29,18 +27,19 @@
   "devDependencies": {
     "@commitlint/cli": "19.2.1",
     "@commitlint/config-conventional": "19.1.0",
+    "@eslint/js": "9.0.0",
     "@types/node": "20.12.6",
-    "@typescript-eslint/eslint-plugin": "7.6.0",
-    "@typescript-eslint/parser": "7.6.0",
-    "eslint": "8.57.0",
+    "eslint": "9.0.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-yaml": "0.5.0",
+    "eslint-plugin-yml": "1.14.0",
+    "globals": "15.0.0",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "style-dictionary": "3.9.2",
     "tsx": "4.7.2",
-    "typescript": "5.4.4"
+    "typescript": "5.4.4",
+    "typescript-eslint": "7.5.0"
   },
   "main": "./dist/js/sbb-tokens.cjs",
   "module": "./dist/js/sbb-tokens.mjs",
