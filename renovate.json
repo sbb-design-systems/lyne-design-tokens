@@ -19,13 +19,7 @@
     },
     {
       "groupName": "eslint",
-      "matchPackagePrefixes": [
-        "@typescript-eslint/",
-        "eslint",
-        "@eslint/",
-        "eslint-",
-        "typescript-eslint"
-      ]
+      "matchPackagePrefixes": ["eslint", "@eslint/", "eslint-", "typescript-eslint"]
     },
     {
       "groupName": "commitlint",
