@@ -17,5 +17,6 @@ export default [
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
   ...eslintPluginYml.configs['flat/standard'],
+  ...eslintPluginYml.configs['flat/prettier'],
   eslintConfigPrettier,
 ];

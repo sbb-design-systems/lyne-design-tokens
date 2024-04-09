@@ -35,7 +35,7 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: yarn
-          registry-url: "https://registry.npmjs.org"
+          registry-url: 'https://registry.npmjs.org'
           scope: sbb-esta
       - run: yarn install --frozen-lockfile --non-interactive
         if: ${{ steps.release.outputs.release_created }}
@@ -43,11 +43,11 @@ jobs:
       - name: Run build
         if: ${{ steps.release.outputs.release_created }}
         run: yarn build
-      - name: "Release: Determine npm tag"
+      - name: 'Release: Determine npm tag'
         if: ${{ steps.release.outputs.release_created }}
         id: npm_tag
         run: echo "npm_tag=$([[ "${{ steps.release.outputs.version }}" == *"-"* ]] && echo "next" || echo "latest")" >> $GITHUB_OUTPUT
-      - name: "Release: Publish @sbb-esta/lyne-design-tokens"
+      - name: 'Release: Publish @sbb-esta/lyne-design-tokens'
         if: ${{ steps.release.outputs.release_created }}
         run: yarn publish --tag ${{ steps.npm_tag.outputs.npm_tag }}
         env:

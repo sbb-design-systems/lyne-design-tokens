@@ -16,11 +16,11 @@ jobs:
           cache: yarn
       - run: yarn install --frozen-lockfile --non-interactive
 
-      - name: "Lint: Pull request title"
+      - name: 'Lint: Pull request title'
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: echo "$PR_TITLE" | yarn commitlint
 
-      - name: "Warning: Pull request title must match conventional commits pattern!"
+      - name: 'Warning: Pull request title must match conventional commits pattern!'
         if: ${{ failure() }}
         run: echo "Pull request title must match conventional commits pattern!"
