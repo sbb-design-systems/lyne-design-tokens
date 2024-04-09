@@ -5,9 +5,7 @@
   "scripts": {
     "build": "tsx ./build.ts",
     "format": "prettier \"**/*\" --write --ignore-unknown",
-    "lint": "npm run lint:yml && npm run lint:js",
-    "lint:js": "eslint \"**/*.{js,ts}\"",
-    "lint:yml": "eslint \"**/*.{yml,yaml}\"",
+    "lint": "eslint",
     "prepare": "husky"
   },
   "repository": {

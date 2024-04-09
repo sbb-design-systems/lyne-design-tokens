@@ -10,6 +10,8 @@ import eslint from '@eslint/js';
 export default [
   {
     languageOptions: { globals: globals.es2020, ecmaVersion: 2020 },
+  },
+  {
     ignores: ['dist/**/*'],
   },
   eslint.configs.recommended,
