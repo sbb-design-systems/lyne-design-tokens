@@ -7,17 +7,10 @@ export const config: Config = {
       prefix: 'sbb',
       files: [
         {
-          destination: 'sbb-variables--root.css',
+          destination: 'sbb-variables.css',
           format: 'css/variables',
           options: {
             selector: ':root',
-          },
-        },
-        {
-          destination: 'sbb-variables--host.css',
-          format: 'css/variables',
-          options: {
-            selector: ':host',
           },
         },
       ],
@@ -89,10 +82,10 @@ export const config: Config = {
           format: 'custom/format/scss',
         },
         {
-          destination: 'sbb-variables_css--placeholder.scss',
+          destination: 'sbb-variables_css--mixin.scss',
           format: 'css/variables',
           options: {
-            selector: '%lyne-design-tokens-css-variables',
+            selector: '@mixin lyne-design-tokens-css-variables',
           },
         },
       ],
