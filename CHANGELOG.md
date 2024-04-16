@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.5.0...v0.6.0) (2024-04-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove :host() scoped output, replace css placeholder output by SCSS mixin
+
+### Features
+
+* adapt generated outputs ([#504](https://github.com/lyne-design-system/lyne-design-tokens/issues/504)) ([d1c9a3b](https://github.com/lyne-design-system/lyne-design-tokens/commit/d1c9a3b3791bd49a5e009ee5f1b48d867b2b2f90))
+
+
+### Miscellaneous Chores
+
+* release 0.6.0 ([0fbdb66](https://github.com/lyne-design-system/lyne-design-tokens/commit/0fbdb667ad0331d146d89eb38177c1e0965cc051))
+
 ## [0.5.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.4.3...v0.5.0) (2024-04-04)
 
 
