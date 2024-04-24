@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.6.0...v0.7.0) (2024-04-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* replaced Roman, bold, and light font-face variants with a single "SbbWeb" font. Changed the "typeFace" symbol name into "fontFamily".
+
+### Features
+
+* reduce font-faces to single SbbWeb variant ([#506](https://github.com/lyne-design-system/lyne-design-tokens/issues/506)) ([7b6cad4](https://github.com/lyne-design-system/lyne-design-tokens/commit/7b6cad47e52e5024f15731721b1ef7b84759c2ec))
+
+
+### Miscellaneous Chores
+
+* release 0.7.0 ([8df6ee9](https://github.com/lyne-design-system/lyne-design-tokens/commit/8df6ee95ba26ecfc82961e2fbd2d9208151e689d))
+
 ## [0.6.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.5.0...v0.6.0) (2024-04-16)
 
 
