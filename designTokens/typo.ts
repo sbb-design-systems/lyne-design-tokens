@@ -10,24 +10,8 @@ const attributes = (): Partial<DesignToken> => ({
 });
 
 export const typo: DesignTokens = {
-  fontFamilyFallback: {
-    value: '"Helvetica Neue", Helvetica, Arial, sans-serif',
-  },
-  typeFace: {
-    sbbLight: {
-      value: '"SBBWeb Light", {typo.fontFamilyFallback.value}',
-    },
-    sbbRoman: {
-      value: '"SBBWeb Roman", {typo.fontFamilyFallback.value}',
-    },
-    sbbBold: {
-      value: '"SBBWeb Bold", {typo.fontFamilyFallback.value}',
-    },
-    i18n: {
-      traditionalChinese: {
-        value: '"Example for possible i18n structure"',
-      },
-    },
+  fontFamily: {
+    value: '"SBBWeb", "Helvetica Neue", Helvetica, Arial, sans-serif',
   },
   letterSpacing: {
     titles: {
