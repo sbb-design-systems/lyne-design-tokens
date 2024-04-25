@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.7.0...v0.8.0) (2024-04-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* font-family was renamed from "SBBWeb" to "SBB"
+
+### Miscellaneous Chores
+
+* release 0.8.0 ([3125ef0](https://github.com/lyne-design-system/lyne-design-tokens/commit/3125ef0a6966b3d704fe693f4bc4c93415062f04))
+
+
+### Code Refactoring
+
+* use "SBB" instead of "SBBWeb" as font-family ([#508](https://github.com/lyne-design-system/lyne-design-tokens/issues/508)) ([f746c95](https://github.com/lyne-design-system/lyne-design-tokens/commit/f746c9557f15fcca33e021ffcc3eeda8250290bd))
+
 ## [0.7.0](https://github.com/lyne-design-system/lyne-design-tokens/compare/v0.6.0...v0.7.0) (2024-04-24)
 
 
