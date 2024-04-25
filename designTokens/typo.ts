@@ -11,7 +11,7 @@ const attributes = (): Partial<DesignToken> => ({
 
 export const typo: DesignTokens = {
   fontFamily: {
-    value: '"SBBWeb", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    value: '"SBB", "Helvetica Neue", Helvetica, Arial, sans-serif',
   },
   letterSpacing: {
     titles: {
