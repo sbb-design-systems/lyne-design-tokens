@@ -39,7 +39,7 @@
     "style-dictionary": "3.9.2",
     "tsx": "4.7.3",
     "typescript": "5.4.5",
-    "typescript-eslint": "7.7.1"
+    "typescript-eslint": "7.8.0"
   },
   "main": "./dist/js/sbb-tokens.cjs",
   "module": "./dist/js/sbb-tokens.mjs",
