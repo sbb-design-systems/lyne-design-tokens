@@ -40,23 +40,51 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
 
   const fixedSizes = removeDashPrefix(fixed);
 
-  const spacing = { ...fixedSizes, ...responsiveSizes, '0': '0px' };
+  const spacing = { ...fixedSizes, ...responsiveSizes, '0': '0' };
 
   // ignore the max values from the breakpoint and only use the min sizes,
   // since min-width media queries are to be used
-  const screens = Object.fromEntries(
+  const minWidthScreens = Object.fromEntries(
     Object.entries(sbbTokens.breakpoint).map(([bpName, range]) => [bpName, range.min]),
   );
 
+  const maxWidthScreens = Object.fromEntries(
+    Object.entries(sbbTokens.breakpoint).map(([bpName, range]) => [
+      `max-${bpName}`,
+      { max: range.max },
+    ]),
+  );
+
+  const typeFaces = sbbTokens.typo.typeFace;
+
+  const fontFamily: CustomThemeConfig['fontFamily'] = {
+    roman: typeFaces.sbbRoman,
+    bold: typeFaces.sbbBold,
+    light: typeFaces.sbbLight,
+  };
+
+  // const fontSize =
+
+  // Object.fromEntries(
+  //   Object.entries(sbbTokens.typo.typeFace).map(([name, value]) => {
+  //     if (name.startsWith('sbb')) name = name.substring(0, 3);
+  //     return [name, ];
+  //   }),
+  // );
+
+  // const font: CustomThemeConfig["fontFamily"]
+
   const tailwindTheme: Partial<CustomThemeConfig> = {
     colors: { transparent: 'transparent', current: 'currentColor', ...colors },
-    screens,
+    screens: { ...minWidthScreens, ...maxWidthScreens },
     transitionDuration: removeDashPrefix(sbbTokens.animation.duration),
     transitionTimingFunction: withTwDefault(sbbTokens.animation.easing),
-    borderRadius: sbbTokens.border.radius,
-    borderWidth: sbbTokens.border.width,
+    borderRadius: { ...sbbTokens.border.radius, '0': '0', full: '9999px' },
+    borderWidth: { ...sbbTokens.border.width, '0': '0' },
     outlineOffset: withTwDefault(sbbTokens.focus.outline.offset),
     spacing,
+    fontFamily,
+
     // TODO:
     // font
     // shadow

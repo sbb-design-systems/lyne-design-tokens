@@ -10,7 +10,7 @@ const attributes = () =>
     },
   };
 
-export const typo: DesignTokens = {
+export const typo = {
   fontFamilyFallback: {
     value: '"Helvetica Neue", Helvetica, Arial, sans-serif',
   },
@@ -24,6 +24,7 @@ export const typo: DesignTokens = {
     sbbBold: {
       value: '"SBBWeb Bold", {typo.fontFamilyFallback.value}',
     },
+    // is this necessary?
     i18n: {
       traditionalChinese: {
         value: '"Example for possible i18n structure"',
@@ -96,4 +97,4 @@ export const typo: DesignTokens = {
       ...attributes(),
     },
   },
-};
+} satisfies DesignTokens;
