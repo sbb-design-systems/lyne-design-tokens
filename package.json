@@ -1,7 +1,7 @@
 {
   "name": "@sbb-esta/lyne-design-tokens",
   "version": "0.8.0",
-  "description": "Managing and publishing design tokens for the lyne design system: https://github.com/lyne-design-system/lyne-components",
+  "description": "Managing and publishing design tokens for the lyne design system: https://github.com/sbb-design-systems/lyne-components",
   "scripts": {
     "build": "tsx ./build.ts",
     "format": "prettier \"**/*\" --write --ignore-unknown",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyne-design-system/lyne-design-tokens.git"
+    "url": "git+https://github.com/sbb-design-systems/lyne-design-tokens.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lyne-design-system/lyne-design-tokens/issues"
+    "url": "https://github.com/sbb-design-systems/lyne-design-tokens/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/lyne-design-system/lyne-design-tokens#readme",
+  "homepage": "https://github.com/sbb-design-systems/lyne-design-tokens#readme",
   "files": [
     "dist/"
   ],
