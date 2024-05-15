@@ -46,4 +46,4 @@ determine the next release version if necessary.
 
 ## Components
 
-See [Lyne Components](https://github.com/lyne-design-system/lyne-components) for components using these design tokens.
+See [Lyne Components](https://github.com/sbb-design-systems/lyne-components) for components using these design tokens.
