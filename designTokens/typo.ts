@@ -1,35 +1,17 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
 const baseTypoSpacing = 16;
-const typoSpacing = (value: number) => value * baseTypoSpacing;
+const typoSpacing = (value: number): number => value * baseTypoSpacing;
 
-const attributes = () =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category: 'size',
-    },
-  };
+const attributes = (): Partial<DesignToken> => ({
+  attributes: {
+    category: 'size',
+  },
+});
 
 export const typo = {
-  fontFamilyFallback: {
-    value: '"Helvetica Neue", Helvetica, Arial, sans-serif',
-  },
-  typeFace: {
-    sbbLight: {
-      value: '"SBBWeb Light", {typo.fontFamilyFallback.value}',
-    },
-    sbbRoman: {
-      value: '"SBBWeb Roman", {typo.fontFamilyFallback.value}',
-    },
-    sbbBold: {
-      value: '"SBBWeb Bold", {typo.fontFamilyFallback.value}',
-    },
-    // is this necessary?
-    i18n: {
-      traditionalChinese: {
-        value: '"Example for possible i18n structure"',
-      },
-    },
+  fontFamily: {
+    value: '"SBB", "Helvetica Neue", Helvetica, Arial, sans-serif',
   },
   letterSpacing: {
     titles: {

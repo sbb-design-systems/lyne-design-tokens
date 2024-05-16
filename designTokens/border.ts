@@ -1,17 +1,16 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
 const baseBorderWidth = 1;
 const baseBorderRadius = 2;
 
-const borderWidth = (width: number) => width * baseBorderWidth;
-const borderRadius = (width: number) => width * baseBorderRadius;
+const borderWidth = (width: number): number => width * baseBorderWidth;
+const borderRadius = (width: number): number => width * baseBorderRadius;
 
-const attributes = () =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category: 'size',
-    },
-  };
+const attributes = (): Partial<DesignToken> => ({
+  attributes: {
+    category: 'size',
+  },
+});
 
 export const border = {
   width: {

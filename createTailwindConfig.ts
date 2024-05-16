@@ -55,13 +55,13 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
     ]),
   );
 
-  const typeFaces = sbbTokens.typo.typeFace;
+  // const typeFaces = sbbTokens.typo.typeFace;
 
-  const fontFamily: CustomThemeConfig['fontFamily'] = {
-    roman: typeFaces.sbbRoman,
-    bold: typeFaces.sbbBold,
-    light: typeFaces.sbbLight,
-  };
+  // const fontFamily: CustomThemeConfig['fontFamily'] = {
+  //   roman: typeFaces.sbbRoman,
+  //   bold: typeFaces.sbbBold,
+  //   light: typeFaces.sbbLight,
+  // };
 
   // const fontSize =
 
@@ -83,7 +83,7 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
     borderWidth: { ...sbbTokens.border.width, '0': '0' },
     outlineOffset: withTwDefault(sbbTokens.focus.outline.offset),
     spacing,
-    fontFamily,
+    // fontFamily,
 
     // TODO:
     // font

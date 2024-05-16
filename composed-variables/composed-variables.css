@@ -45,13 +45,11 @@
   --sbb-grid-base-columns: var(--sbb-layout-base-grid-columns-zero);
   --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-zero);
 
-  /* Button */
-  --sbb-size-button-m-min-height: var(--sbb-size-button-m-min-height-zero);
-  --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-zero);
-
-  /* Form */
-  --sbb-size-form-element-m-min-height: var(--sbb-size-form-element-m-min-height-zero);
-  --sbb-size-form-element-l-min-height: var(--sbb-size-form-element-l-min-height-zero);
+  /* Size */
+  --sbb-size-element-xs: var(--sbb-size-element-xs-zero);
+  --sbb-size-element-s: var(--sbb-size-element-s-zero);
+  --sbb-size-element-m: var(--sbb-size-element-m-zero);
+  --sbb-size-element-l: var(--sbb-size-element-l-zero);
 
   @media (forced-colors: active) {
     /* Focus outline */
@@ -119,13 +117,11 @@
     --sbb-grid-base-columns: var(--sbb-layout-base-grid-columns-medium);
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-medium);
 
-    /* Button */
-    --sbb-size-button-m-min-height: var(--sbb-size-button-m-min-height-medium);
-    --sbb-size-button-l-min-height: var(--sbb-size-button-l-min-height-medium);
-
-    /* Form */
-    --sbb-size-form-element-m-min-height: var(--sbb-size-form-element-m-min-height-medium);
-    --sbb-size-form-element-l-min-height: var(--sbb-size-form-element-l-min-height-medium);
+    /* Size */
+    --sbb-size-element-xs: var(--sbb-size-element-xs-medium);
+    --sbb-size-element-s: var(--sbb-size-element-s-medium);
+    --sbb-size-element-m: var(--sbb-size-element-m-medium);
+    --sbb-size-element-l: var(--sbb-size-element-l-medium);
   }
 
   /**

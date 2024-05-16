@@ -1,13 +1,12 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
 const baseDuration = 40;
-const duration = (value: number) => value * baseDuration;
-const attributes = () =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category: 'time',
-    },
-  };
+const duration = (value: number): number => value * baseDuration;
+const attributes = (): Partial<DesignToken> => ({
+  attributes: {
+    category: 'time',
+  },
+});
 
 export const animation = {
   duration: {

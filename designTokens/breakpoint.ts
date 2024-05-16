@@ -1,11 +1,10 @@
-import { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignToken, DesignTokens } from 'style-dictionary';
 
-const attributes = () =>
-  <Partial<DesignToken>>{
-    attributes: {
-      category: 'size',
-    },
-  };
+const attributes = (): Partial<DesignToken> => ({
+  attributes: {
+    category: 'size',
+  },
+});
 
 export const breakpoint = {
   zero: {
