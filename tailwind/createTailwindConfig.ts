@@ -1,8 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-
 import { Format, Named, TransformedToken } from 'style-dictionary';
-import * as SBBTokens from './designTokens';
-import { Config, CustomThemeConfig } from 'tailwindcss/types/config';
+import * as SBBTokens from '../designTokens';
+import { Config } from 'tailwindcss/types/config';
 
 export function createTailwindSdFormatter(): Named<Format> {
   return {
@@ -12,9 +11,10 @@ export function createTailwindSdFormatter(): Named<Format> {
     },
   };
 }
+type SbbTokens = typeof SBBTokens;
 
 export function createTailwindConfig(tokens: TransformedToken[]) {
-  const sbbTokens = unnestObjects<typeof SBBTokens>(tokens);
+  const sbbTokens = unnestObjects<SbbTokens>(tokens);
 
   // map colors and respective transparency variants to a common color
   // e.g. "black" and "blackAlpha" will get merged into one color object, with the value of "black" as the default
@@ -22,17 +22,26 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
   Object.keys(colors).forEach((color) => {
     if (color.endsWith('Alpha') && typeof colors[color] === 'object') {
       const realColorName = color.replace('Alpha', '');
-      colors[realColorName] = withTwDefault(colors[realColorName], colors[color]);
+      colors[realColorName] = withDefault(colors[realColorName], colors[color]);
       delete colors[color];
     }
   });
 
   const { fixed, responsive } = sbbTokens.spacing;
 
-  // TODO: implement appropriate media queries (like currently done in lyne-components)
+  // the css variables for the responsive sizes in the design tokens look like this:
+  // --sbb-spacing-responsive-xxl-zero
+  // this is because the spacings are dependent on breakpoints. this variable contains
+  // the value that the spacing "xxl" should have on breakpoint "zero".
+  // to achieve this, there are some css media queries, that define a new variable
+  // for each size, without the breakpoint name at the end ("--sbb-spacing-responsive-xxl" in this case),
+  // that will set the value of this variable based on the current breakpoint.
+  // so to work with the responsive sizes, we can just use the variable names without
+  // the breakpoint name, and the correct value will be set by the css in "composed-variables.css"
   const responsiveSizes = Object.fromEntries(
     Object.keys(responsive).map((size) => {
-      const breakpoint = 'zero';
+      // it doesn't really matter which breakpoint we choose, any one will work
+      const breakpoint: keyof SbbTokens['breakpoint'] = 'zero';
       const variableName = responsive[size][breakpoint].replace(`-${breakpoint}`, '');
       return [size, variableName];
     }),
@@ -40,10 +49,6 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
 
   const fixedSizes = removeDashPrefix(fixed);
 
-  const spacing = { ...fixedSizes, ...responsiveSizes, '0': '0' };
-
-  // ignore the max values from the breakpoint and only use the min sizes,
-  // since min-width media queries are to be used
   const minWidthScreens = Object.fromEntries(
     Object.entries(sbbTokens.breakpoint).map(([bpName, range]) => [bpName, range.min]),
   );
@@ -55,45 +60,31 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
     ]),
   );
 
-  // const typeFaces = sbbTokens.typo.typeFace;
+  const { default: defaultFontSize, ...otherFontSizes } = sbbTokens.typo.scale;
 
-  // const fontFamily: CustomThemeConfig['fontFamily'] = {
-  //   roman: typeFaces.sbbRoman,
-  //   bold: typeFaces.sbbBold,
-  //   light: typeFaces.sbbLight,
-  // };
-
-  // const fontSize =
-
-  // Object.fromEntries(
-  //   Object.entries(sbbTokens.typo.typeFace).map(([name, value]) => {
-  //     if (name.startsWith('sbb')) name = name.substring(0, 3);
-  //     return [name, ];
-  //   }),
-  // );
-
-  // const font: CustomThemeConfig["fontFamily"]
-
-  const tailwindTheme: Partial<CustomThemeConfig> = {
-    colors: { transparent: 'transparent', current: 'currentColor', ...colors },
-    screens: { ...minWidthScreens, ...maxWidthScreens },
-    transitionDuration: removeDashPrefix(sbbTokens.animation.duration),
-    transitionTimingFunction: withTwDefault(sbbTokens.animation.easing),
-    borderRadius: { ...sbbTokens.border.radius, '0': '0', full: '9999px' },
-    borderWidth: { ...sbbTokens.border.width, '0': '0' },
-    outlineOffset: withTwDefault(sbbTokens.focus.outline.offset),
-    spacing,
-    // fontFamily,
-
-    // TODO:
-    // font
-    // shadow
-    // grid layout
+  const tailwindConfig: Partial<Config> = {
+    theme: {
+      colors: { transparent: 'transparent', current: 'currentColor', ...colors },
+      screens: { ...minWidthScreens, ...maxWidthScreens },
+      transitionDuration: removeDashPrefix(sbbTokens.animation.duration),
+      transitionTimingFunction: withDefault(sbbTokens.animation.easing),
+      borderRadius: { ...sbbTokens.border.radius, '0': '0', full: '9999px' },
+      borderWidth: { ...sbbTokens.border.width, '0': '0' },
+      outlineOffset: withDefault(sbbTokens.focus.outline.offset),
+      spacing: { ...fixedSizes, ...responsiveSizes, '0': '0' },
+      letterSpacing: sbbTokens.typo.letterSpacing,
+      lineHeight: sbbTokens.typo.lineHeight,
+      fontFamily: withDefault(sbbTokens.typo.fontFamily),
+      fontSize: withDefault(defaultFontSize, otherFontSizes),
+      // TODO:
+      // shadow
+      // grid layout
+    },
   };
-
-  return JSON.stringify({ theme: tailwindTheme } as Config, null, 2);
+  return JSON.stringify(tailwindConfig, null, 2);
 }
-const withTwDefault = <T extends object, V>(defaultValue: V, obj = {} as T) => ({
+
+const withDefault = <T extends object, V>(defaultValue: V, obj = {} as T) => ({
   ...obj,
   DEFAULT: defaultValue,
 });

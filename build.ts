@@ -1,7 +1,7 @@
 import { FormatterArguments } from 'style-dictionary/types/Format';
 import { config } from './config';
 import StyleDictionaryBase, { TransformedToken } from 'style-dictionary';
-import { createTailwindSdFormatter } from './createTailwindConfig';
+import { createTailwindSdFormatter } from './tailwind/createTailwindConfig';
 import * as fs from 'fs';
 
 const StyleDictionary = StyleDictionaryBase.extend(config);
