@@ -16,6 +16,7 @@ type SbbTokens = typeof SBBTokens;
 export function createTailwindConfig(tokens: TransformedToken[]) {
   const sbbTokens = unnestObjects<SbbTokens>(tokens);
 
+  // #region colors
   // map colors and respective transparency variants to a common color
   // e.g. "black" and "blackAlpha" will get merged into one color object, with the value of "black" as the default
   const colors = sbbTokens.color;
@@ -26,9 +27,10 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
       delete colors[color];
     }
   });
+  // #endregion colors
 
+  // #region spacing
   const { fixed, responsive } = sbbTokens.spacing;
-
   // the css variables for the responsive sizes in the design tokens look like this:
   // --sbb-spacing-responsive-xxl-zero
   // this is because the spacings are dependent on breakpoints. this variable contains
@@ -38,7 +40,7 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
   // that will set the value of this variable based on the current breakpoint.
   // so to work with the responsive sizes, we can just use the variable names without
   // the breakpoint name, and the correct value will be set by the css in "composed-variables.css"
-  const responsiveSizes = Object.fromEntries(
+  const responsiveSpacing = Object.fromEntries(
     Object.keys(responsive).map((size) => {
       // it doesn't really matter which breakpoint we choose, any one will work
       const breakpoint: keyof SbbTokens['breakpoint'] = 'zero';
@@ -46,9 +48,10 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
       return [size, variableName];
     }),
   );
+  const fixedSpacing = removeDashPrefix(fixed);
+  // #endregion spacing
 
-  const fixedSizes = removeDashPrefix(fixed);
-
+  // #region screens
   const minWidthScreens = Object.fromEntries(
     Object.entries(sbbTokens.breakpoint).map(([bpName, range]) => [bpName, range.min]),
   );
@@ -59,8 +62,29 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
       { max: range.max },
     ]),
   );
+  // #endregion screens
 
+  // #region fontSize
   const { default: defaultFontSize, ...otherFontSizes } = sbbTokens.typo.scale;
+  // #endregion fontSize
+
+  // #region boxShadow
+  const boxShadows = Object.entries<Record<string, any>>(sbbTokens.shadow.elevation.level).reduce(
+    (prev, [key, value]) => {
+      function getShadowDefinition(number: number, type: 'soft' | 'hard') {
+        return `${value.shadow[number].offset.x} ${value.shadow[number].offset.y} ${value.shadow[number].blur} ${value.shadow[number].spread} ${value[type][number].color}`;
+      }
+
+      return {
+        ...prev,
+        [`${key}s`]: `${getShadowDefinition(1, 'soft')}, ${getShadowDefinition(2, 'soft')}`,
+        [`${key}h`]: `${getShadowDefinition(1, 'hard')}, ${getShadowDefinition(2, 'hard')}`,
+      };
+    },
+    {} as Record<string, any>,
+  );
+  const defaultBoxShadow = Object.values(boxShadows)[0];
+  // #endregion boxShadow
 
   const tailwindConfig: Partial<Config> = {
     theme: {
@@ -71,13 +95,13 @@ export function createTailwindConfig(tokens: TransformedToken[]) {
       borderRadius: { ...sbbTokens.border.radius, '0': '0', full: '9999px' },
       borderWidth: { ...sbbTokens.border.width, '0': '0' },
       outlineOffset: withDefault(sbbTokens.focus.outline.offset),
-      spacing: { ...fixedSizes, ...responsiveSizes, '0': '0' },
+      spacing: { ...fixedSpacing, ...responsiveSpacing, '0': '0' },
       letterSpacing: sbbTokens.typo.letterSpacing,
       lineHeight: sbbTokens.typo.lineHeight,
       fontFamily: withDefault(sbbTokens.typo.fontFamily),
       fontSize: withDefault(defaultFontSize, otherFontSizes),
+      boxShadow: withDefault(defaultBoxShadow, boxShadows),
       // TODO:
-      // shadow
       // grid layout
     },
   };
