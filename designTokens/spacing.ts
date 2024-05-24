@@ -35,6 +35,10 @@ export const spacing: DesignTokens = {
       value: calculatedSpacing(6),
       ...attributes(),
     },
+    '-7x': {
+      value: calculatedSpacing(7),
+      ...attributes(),
+    },
     '-8x': {
       value: calculatedSpacing(8),
       ...attributes(),
