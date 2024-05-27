@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v0.8.0...v0.8.1) (2024-05-27)
+
+
+### Features
+
+* add new border-width and border-radius tokens ([#514](https://github.com/sbb-design-systems/lyne-design-tokens/issues/514)) ([265c537](https://github.com/sbb-design-systems/lyne-design-tokens/commit/265c537d2332c5b8500446a019ce92025cb11701))
+* add spacing token fixed-7x ([#512](https://github.com/sbb-design-systems/lyne-design-tokens/issues/512)) ([d3f3303](https://github.com/sbb-design-systems/lyne-design-tokens/commit/d3f330344a8b4b8668fdd5fb8a241de01f9c8057))
+
+
+### Miscellaneous Chores
+
+* release 0.8.1 ([da0cdcf](https://github.com/sbb-design-systems/lyne-design-tokens/commit/da0cdcf2c7ec429e83bfcc7e8415f6ae1e1651f4))
+
 ## [0.8.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v0.7.0...v0.8.0) (2024-04-25)
 
 
