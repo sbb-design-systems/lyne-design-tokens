@@ -15,18 +15,6 @@ All notable changes to this project will be documented in this file. See [standa
 * release 0.8.1 ([2621ab6](https://github.com/sbb-design-systems/lyne-design-tokens/commit/2621ab64efc08dea99c1306943d6e9c10b03a967))
 * release 0.8.2 ([f28f675](https://github.com/sbb-design-systems/lyne-design-tokens/commit/f28f6753a34aedba01384c803b7586b26d6e4f16))
 
-## [0.8.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v0.8.1...v0.8.1) (2024-05-28)
-
-
-### Features
-
-* new size xxxs and xxs tokens ([#515](https://github.com/sbb-design-systems/lyne-design-tokens/issues/515)) ([6c687cf](https://github.com/sbb-design-systems/lyne-design-tokens/commit/6c687cf0fb976135b51648a6eab25021fdb1b7b7))
-
-
-### Miscellaneous Chores
-
-* release 0.8.1 ([2621ab6](https://github.com/sbb-design-systems/lyne-design-tokens/commit/2621ab64efc08dea99c1306943d6e9c10b03a967))
-
 ## [0.8.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v0.8.0...v0.8.1) (2024-05-27)
 
 
