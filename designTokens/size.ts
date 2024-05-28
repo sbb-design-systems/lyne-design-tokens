@@ -9,6 +9,66 @@ const attributes = (group?: string): Partial<DesignToken> => ({
 
 export const size: DesignTokens = {
   element: {
+    xxxs: {
+      zero: {
+        value: 28,
+        ...attributes(),
+      },
+      micro: {
+        value: 28,
+        ...attributes(),
+      },
+      small: {
+        value: 28,
+        ...attributes(),
+      },
+      medium: {
+        value: 32,
+        ...attributes(),
+      },
+      large: {
+        value: 32,
+        ...attributes(),
+      },
+      wide: {
+        value: 32,
+        ...attributes(),
+      },
+      ultra: {
+        value: 32,
+        ...attributes(),
+      },
+    },
+    xxs: {
+      zero: {
+        value: 32,
+        ...attributes(),
+      },
+      micro: {
+        value: 32,
+        ...attributes(),
+      },
+      small: {
+        value: 32,
+        ...attributes(),
+      },
+      medium: {
+        value: 36,
+        ...attributes(),
+      },
+      large: {
+        value: 36,
+        ...attributes(),
+      },
+      wide: {
+        value: 36,
+        ...attributes(),
+      },
+      ultra: {
+        value: 36,
+        ...attributes(),
+      },
+    },
     xs: {
       zero: {
         value: 36,

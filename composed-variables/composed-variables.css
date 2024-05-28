@@ -46,6 +46,8 @@
   --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-zero);
 
   /* Size */
+  --sbb-size-element-xxxs: var(--sbb-size-element-xxxs-zero);
+  --sbb-size-element-xxs: var(--sbb-size-element-xxs-zero);
   --sbb-size-element-xs: var(--sbb-size-element-xs-zero);
   --sbb-size-element-s: var(--sbb-size-element-s-zero);
   --sbb-size-element-m: var(--sbb-size-element-m-zero);
@@ -118,6 +120,8 @@
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-medium);
 
     /* Size */
+    --sbb-size-element-xxxs: var(--sbb-size-element-xxxs-medium);
+    --sbb-size-element-xxs: var(--sbb-size-element-xxs-medium);
     --sbb-size-element-xs: var(--sbb-size-element-xs-medium);
     --sbb-size-element-s: var(--sbb-size-element-s-medium);
     --sbb-size-element-m: var(--sbb-size-element-m-medium);
