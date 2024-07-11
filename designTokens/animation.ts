@@ -4,6 +4,7 @@ const baseDuration = 40;
 const duration = (value: number): number => value * baseDuration;
 const attributes = {
   type: 'time',
+  attributes: { category: 'time' },
 } satisfies Partial<DesignToken>;
 
 export const animation = {

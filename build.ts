@@ -4,13 +4,11 @@ import * as fs from 'fs';
 import type { FormatFnArguments, TransformedToken } from 'style-dictionary/types';
 import { fileHeader, getReferences, usesReferences } from 'style-dictionary/utils';
 
-const StyleDictionaryExtended = await new StyleDictionary().extend(config);
-await StyleDictionaryExtended.hasInitialized;
-
+const styleDictionary = new StyleDictionary(config);
 console.log('Build started...');
 console.log('\n==============================================');
 
-StyleDictionaryExtended.registerFormat({
+styleDictionary.registerFormat({
   format: async ({ file, dictionary, options }: FormatFnArguments) => {
     const symbols = dictionary.allTokens.map(cssTemplate).join('') + '\n';
 
@@ -26,13 +24,13 @@ StyleDictionaryExtended.registerFormat({
   name: 'css/variables',
 });
 
-StyleDictionaryExtended.registerFormat({
+styleDictionary.registerFormat({
   format: async (args: FormatFnArguments) =>
     args.dictionary.allTokens.map(scssTemplate).join('') + '\n',
   name: 'custom/format/scss',
 });
 
-StyleDictionaryExtended.registerFormat({
+styleDictionary.registerFormat({
   format: async (args: FormatFnArguments) => {
     const symbols = args.dictionary.allTokens.map(commonjsTemplate).join('');
     return `module.exports = {\n${symbols}};\n`;
@@ -40,7 +38,7 @@ StyleDictionaryExtended.registerFormat({
   name: 'custom/format/javascript/module',
 });
 
-StyleDictionaryExtended.registerFormat({
+styleDictionary.registerFormat({
   format: async ({ dictionary }: FormatFnArguments) => {
     const { allTokens } = dictionary;
 
@@ -63,7 +61,7 @@ StyleDictionaryExtended.registerFormat({
 });
 
 // FINALLY, BUILD ALL THE PLATFORMS
-await StyleDictionaryExtended.buildAllPlatforms();
+await styleDictionary.buildAllPlatforms();
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');
