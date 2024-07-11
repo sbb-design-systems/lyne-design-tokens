@@ -116,7 +116,7 @@ export const color: DesignTokens = {
   cloudAlpha: {
     80: {
       value: 'rgba(229,229,229,.8)',
-    }
+    },
   },
   milk: {
     value: 'rgba(246,246,246,1)',
