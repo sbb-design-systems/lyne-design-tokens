@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.1.0...v1.1.1) (2024-07-15)
+
+
+### Bug Fixes
+
+* update release reference ([b751c06](https://github.com/sbb-design-systems/lyne-design-tokens/commit/b751c063dd1bfb6224ff6df9c494e1fc2e2c1e86))
+
 ## [1.1.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.0.1...v1.1.0) (2024-07-15)
 
 
