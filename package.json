@@ -33,7 +33,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-yml": "1.14.0",
     "globals": "15.8.0",
-    "husky": "9.1.1",
+    "husky": "9.1.2",
     "lint-staged": "15.2.7",
     "prettier": "3.3.3",
     "style-dictionary": "3.9.2",
