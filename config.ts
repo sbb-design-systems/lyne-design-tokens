@@ -21,7 +21,6 @@ export const config: Config = {
       transforms: [
         'attribute/cti',
         'name/kebab',
-        'time/seconds',
         'html/icon',
         'color/css',
         'size/pxToRem',
