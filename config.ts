@@ -18,14 +18,7 @@ export const config: Config = {
         },
       ],
       transformGroup: 'css',
-      transforms: [
-        'attribute/cti',
-        'name/kebab',
-        'html/icon',
-        'color/css',
-        'size/pxToRem',
-        'size/rem',
-      ],
+      transforms: ['attribute/cti', 'name/kebab', 'html/icon', 'size/pxToRem', 'size/rem'],
     },
     js: {
       buildPath: 'dist/js/',
@@ -49,7 +42,7 @@ export const config: Config = {
         },
       ],
       transformGroup: 'js',
-      transforms: ['attribute/cti', 'name/pascal', 'color/css'],
+      transforms: ['attribute/cti', 'name/pascal'],
     },
     jsonFlat: {
       buildPath: 'dist/js/',
@@ -61,7 +54,7 @@ export const config: Config = {
         },
       ],
       transformGroup: 'js',
-      transforms: ['attribute/cti', 'name/kebab', 'color/css'],
+      transforms: ['attribute/cti', 'name/kebab'],
     },
     jsonRaw: {
       buildPath: 'dist/js/',
@@ -73,7 +66,7 @@ export const config: Config = {
         },
       ],
       transformGroup: 'js',
-      transforms: ['attribute/cti', 'name/kebab', 'color/css'],
+      transforms: ['attribute/cti', 'name/kebab'],
     },
     scss: {
       buildPath: 'dist/scss/',
@@ -97,7 +90,6 @@ export const config: Config = {
         'name/kebab',
         'time/seconds',
         'html/icon',
-        'color/css',
         'size/pxToRem',
         'size/rem',
       ],
