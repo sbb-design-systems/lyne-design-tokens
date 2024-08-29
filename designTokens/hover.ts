@@ -7,8 +7,8 @@ const attributes = (group: string): Partial<DesignToken> => ({
 });
 
 export const hover: DesignTokens = {
-  brightness: {
-    factor: {
+  image: {
+    brightness: {
       value: 1.075,
       ...attributes('hover'),
     },
