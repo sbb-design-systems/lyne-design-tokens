@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.1.1...v1.2.0) (2024-08-29)
+
+
+### Features
+
+* introduce hover brightness token ([#526](https://github.com/sbb-design-systems/lyne-design-tokens/issues/526)) ([84d08ec](https://github.com/sbb-design-systems/lyne-design-tokens/commit/84d08ec8417f569e8f084cc2ec173731daa4346d))
+
 ## [1.1.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.1.0...v1.1.1) (2024-07-15)
 
 
