@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.2.0...v1.2.1) (2024-09-02)
+
+
+### Bug Fixes
+
+* make the default option the last option ([#529](https://github.com/sbb-design-systems/lyne-design-tokens/issues/529)) ([342f281](https://github.com/sbb-design-systems/lyne-design-tokens/commit/342f281ba797c3091563c24fe1302ca15fccc7ef))
+
 ## [1.2.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.1.1...v1.2.0) (2024-08-29)
 
 
