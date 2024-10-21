@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.2.1...v1.3.0) (2024-10-21)
+
+
+### Features
+
+* add new blue colors ([#532](https://github.com/sbb-design-systems/lyne-design-tokens/issues/532)) ([a09b75b](https://github.com/sbb-design-systems/lyne-design-tokens/commit/a09b75bbfa8537f63ac7fb26a64e27ac1e25144d))
+
 ## [1.2.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.2.0...v1.2.1) (2024-09-02)
 
 
