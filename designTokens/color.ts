@@ -36,6 +36,9 @@ export const color: DesignTokens = {
   midnight: {
     value: 'rgba(21,21,21,1)',
   },
+  blue: {
+    value: 'rgba(45,50,125,1)',
+  },
   charcoal: {
     value: 'rgba(33,33,33,1)',
   },
@@ -153,6 +156,15 @@ export const color: DesignTokens = {
   },
   red150: {
     value: 'rgba(162,0,19,1)',
+  },
+  royal: {
+    value: 'rgba(6,52,139,1)',
+  },
+  royal125: {
+    value: 'rgba(3,38,104,1)',
+  },
+  royal150: {
+    value: 'rgba(2,28,78,1)',
   },
   white: {
     value: 'rgba(255,255,255,1)',
