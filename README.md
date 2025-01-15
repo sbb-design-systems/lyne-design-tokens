@@ -23,9 +23,9 @@ lyne-design-tokens/
     │    └── sbb-variables--root.css                # `sbb-` prefixed CSS variables with :root selector (converted to `rem`)
     ├── js/
     │    ├── sbb-tokens-raw.json                    # `sbb-` prefixed nested .json file
-    │    ├── sbb-tokens.mjs                         # `Sbb` prefixed flat esm file
-    │    ├── sbb-tokens.cjs                         # `Sbb` prefixed flat commonjs file
-    │    ├── sbb-tokens.d.ts                        # `Sbb` prefixed flat type declaration
+    │    ├── sbb-tokens.mjs                         # `sbb` prefixed flat esm file
+    │    ├── sbb-tokens.cjs                         # `sbb` prefixed flat commonjs file
+    │    ├── sbb-tokens.d.ts                        # `sbb` prefixed flat type declaration
     │    └── sbb-tokens.json                        # `sbb-` prefixed flat .json file
     └── scss/
          ├── sbb-variables_css--placeholder.scss    # `sbb-` prefixed CSS variables with Sass placeholder selector (%) (converted to `rem`)
