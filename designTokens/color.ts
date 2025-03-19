@@ -131,6 +131,9 @@ export const color: DesignTokens = {
     20: {
       value: 'rgba(235,0,0,.2)',
     },
+    60: {
+      value: 'rgba(235,0,0,.6)',
+    },
     90: {
       value: 'rgba(235,0,0,.9)',
     },
@@ -149,6 +152,9 @@ export const color: DesignTokens = {
     },
     20: {
       value: 'rgba(198,0,24,.2)',
+    },
+    60: {
+      value: 'rgba(198,0,0,.6)',
     },
   },
   red150: {
@@ -175,6 +181,9 @@ export const color: DesignTokens = {
     },
     70: {
       value: 'rgba(255,255,255,.7)',
+    },
+    80: {
+      value: 'rgba(255,255,255,.8)',
     },
   },
   sky: {
