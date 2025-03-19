@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.3.0...v1.4.0) (2025-03-19)
+
+
+### Features
+
+* new red and white alpha colors ([#540](https://github.com/sbb-design-systems/lyne-design-tokens/issues/540)) ([3616f20](https://github.com/sbb-design-systems/lyne-design-tokens/commit/3616f206ab3636775b15ea5e747de267b65cc972))
+
 ## [1.3.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.2.1...v1.3.0) (2024-10-21)
 
 
