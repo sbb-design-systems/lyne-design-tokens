@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.5.0...v1.5.1) (2025-04-17)
+
+
+### Miscellaneous Chores
+
+* configure release 1.5.1 ([c6e67ff](https://github.com/sbb-design-systems/lyne-design-tokens/commit/c6e67ff53c869d02354d3db8cff6e3057c9c0fe5))
+
 ## [1.5.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.4.0...v1.5.0) (2025-04-17)
 
 
