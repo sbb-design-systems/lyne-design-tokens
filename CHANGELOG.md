@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.4.0...v1.5.0) (2025-04-17)
+
+
+### Features
+
+* add token for extra-small icons ([#542](https://github.com/sbb-design-systems/lyne-design-tokens/issues/542)) ([245f5d5](https://github.com/sbb-design-systems/lyne-design-tokens/commit/245f5d5304be7a1ba5736148c668dbcb4e3df6a1))
+
 ## [1.4.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.3.0...v1.4.0) (2025-03-19)
 
 
