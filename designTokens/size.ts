@@ -192,6 +192,10 @@ export const size: DesignTokens = {
   },
   icon: {
     ui: {
+      extraSmall: {
+        value: 16,
+        ...attributes('icon'),
+      },
       small: {
         value: 24,
         ...attributes('icon'),
