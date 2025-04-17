@@ -2,6 +2,95 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.5.0...v1.0.1) (2025-04-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* font-family was renamed from "SBBWeb" to "SBB"
+* replaced Roman, bold, and light font-face variants with a single "SbbWeb" font. Changed the "typeFace" symbol name into "fontFamily".
+* Remove :host() scoped output, replace css placeholder output by SCSS mixin
+* some tokens have been removed and some others added; specifically:
+    - the following tokens have been removed:
+        - `--sbb-size-button-m-min-height-<breakpoint>`
+        - `--sbb-size-button-l-min-height-<breakpoint>`
+        - `--sbb-size-form-element-m-min-height-<breakpoint>`
+        - `--sbb-size-form-element-l-min-height-<breakpoint>`
+        - `--sbb-size-touch-min`
+        - `--sbb-size-icon-timetable-attribute`
+        - `--sbb-size-icon-timetable-him-cus`
+        - `--sbb-size-icon-timetable-product-brand`
+        - `--sbb-size-icon-pictograms`
+        - `--sbb-size-icon-form-error`
+    - the following composed tokens have been removed:
+        - `--sbb-size-button-m-min-height`
+        - `--sbb-size-button-l-min-height`
+        - `--sbb-size-form-element-m-min-height`
+        - `--sbb-size-form-element-l-min-height`
+    - the following tokens have been added:
+       - `--sbb-size-element-xs-<breakpoint>`
+       - `--sbb-size-element-s-<breakpoint>`
+       - `--sbb-size-element-m-<breakpoint>`
+       - `--sbb-size-element-l-<breakpoint>`
+    - the following composed tokens have been added:
+        - `--sbb-size-element-xs`
+        - `--sbb-size-element-s`
+        - `--sbb-size-element-m`
+        - `--sbb-size-element-l`
+* **color:** Removed 'default' suffix from color tokens (e.g. `--sbb-color-iron-default` => `--sbb-color-iron` and `SbbColorIronDefault` => `SbbColorIron`). `lyne-components` will adapt to the changes in the next release.
+
+### Features
+
+* adapt generated outputs ([#504](https://github.com/sbb-design-systems/lyne-design-tokens/issues/504)) ([d1c9a3b](https://github.com/sbb-design-systems/lyne-design-tokens/commit/d1c9a3b3791bd49a5e009ee5f1b48d867b2b2f90))
+* add new blue colors ([#532](https://github.com/sbb-design-systems/lyne-design-tokens/issues/532)) ([a09b75b](https://github.com/sbb-design-systems/lyne-design-tokens/commit/a09b75bbfa8537f63ac7fb26a64e27ac1e25144d))
+* add new border-width and border-radius tokens ([#514](https://github.com/sbb-design-systems/lyne-design-tokens/issues/514)) ([265c537](https://github.com/sbb-design-systems/lyne-design-tokens/commit/265c537d2332c5b8500446a019ce92025cb11701))
+* add spacing token fixed-7x ([#512](https://github.com/sbb-design-systems/lyne-design-tokens/issues/512)) ([d3f3303](https://github.com/sbb-design-systems/lyne-design-tokens/commit/d3f330344a8b4b8668fdd5fb8a241de01f9c8057))
+* add token for extra-small icons ([#542](https://github.com/sbb-design-systems/lyne-design-tokens/issues/542)) ([245f5d5](https://github.com/sbb-design-systems/lyne-design-tokens/commit/245f5d5304be7a1ba5736148c668dbcb4e3df6a1))
+* creation of new 'size' tokens ([ced8d75](https://github.com/sbb-design-systems/lyne-design-tokens/commit/ced8d75411fe42fbb8eb9b1d4bf8aa2a64683258))
+* introduce hover brightness token ([#526](https://github.com/sbb-design-systems/lyne-design-tokens/issues/526)) ([84d08ec](https://github.com/sbb-design-systems/lyne-design-tokens/commit/84d08ec8417f569e8f084cc2ec173731daa4346d))
+* introduce shadow level 11 ([#491](https://github.com/sbb-design-systems/lyne-design-tokens/issues/491)) ([0aa5899](https://github.com/sbb-design-systems/lyne-design-tokens/commit/0aa5899cff40bb048d6ca954c1fef01857313111))
+* new cloud alpha variant ([#521](https://github.com/sbb-design-systems/lyne-design-tokens/issues/521)) ([861c70c](https://github.com/sbb-design-systems/lyne-design-tokens/commit/861c70c85a499586dcb8c472878da3eee6fde13c))
+* new red and white alpha colors ([#540](https://github.com/sbb-design-systems/lyne-design-tokens/issues/540)) ([3616f20](https://github.com/sbb-design-systems/lyne-design-tokens/commit/3616f206ab3636775b15ea5e747de267b65cc972))
+* new size xxxs and xxs tokens ([#515](https://github.com/sbb-design-systems/lyne-design-tokens/issues/515)) ([6c687cf](https://github.com/sbb-design-systems/lyne-design-tokens/commit/6c687cf0fb976135b51648a6eab25021fdb1b7b7))
+* provide composed css variables ([#495](https://github.com/sbb-design-systems/lyne-design-tokens/issues/495)) ([3a97857](https://github.com/sbb-design-systems/lyne-design-tokens/commit/3a978575ee8003201c8840d24b997112220abd60))
+* reduce font-faces to single SbbWeb variant ([#506](https://github.com/sbb-design-systems/lyne-design-tokens/issues/506)) ([7b6cad4](https://github.com/sbb-design-systems/lyne-design-tokens/commit/7b6cad47e52e5024f15731721b1ef7b84759c2ec))
+
+
+### Bug Fixes
+
+* fix order of package exports ([#478](https://github.com/sbb-design-systems/lyne-design-tokens/issues/478)) ([7caf5c1](https://github.com/sbb-design-systems/lyne-design-tokens/commit/7caf5c1e14bb9b89f01eca5205bbe47ee57fe303))
+* make the default option the last option ([#529](https://github.com/sbb-design-systems/lyne-design-tokens/issues/529)) ([342f281](https://github.com/sbb-design-systems/lyne-design-tokens/commit/342f281ba797c3091563c24fe1302ca15fccc7ef))
+* remove misplaced vars ([#497](https://github.com/sbb-design-systems/lyne-design-tokens/issues/497)) ([395c7f5](https://github.com/sbb-design-systems/lyne-design-tokens/commit/395c7f520125df6672309a6d5b0ef426e751192c))
+* renaming branch master to main ([16c04b1](https://github.com/sbb-design-systems/lyne-design-tokens/commit/16c04b1516232edd4494f582b06a4f3fdc1a0d1d))
+* update release reference ([b751c06](https://github.com/sbb-design-systems/lyne-design-tokens/commit/b751c063dd1bfb6224ff6df9c494e1fc2e2c1e86))
+
+
+### Styles
+
+* **color:** remove '-default' from tokens ([dceb0f2](https://github.com/sbb-design-systems/lyne-design-tokens/commit/dceb0f2814025a0600f834e232e4df2d82f13aad))
+
+
+### Miscellaneous Chores
+
+* configure release-please ([7e84314](https://github.com/sbb-design-systems/lyne-design-tokens/commit/7e843147f7e514eba5806fab28c622e387295bb0))
+* release 0.4.1 ([42cb9b6](https://github.com/sbb-design-systems/lyne-design-tokens/commit/42cb9b6668bcaa9d1ae5c5a57929c25d1d689745))
+* release 0.4.2 ([dda727e](https://github.com/sbb-design-systems/lyne-design-tokens/commit/dda727e7308d585ceccbdaf1fcef9738657283f9))
+* release 0.4.3 ([ff977ab](https://github.com/sbb-design-systems/lyne-design-tokens/commit/ff977abd507a9a4606845c77152e422662cd0d97))
+* release 0.5.0 ([f66a107](https://github.com/sbb-design-systems/lyne-design-tokens/commit/f66a107d345ebb82538153a34b25bf8a9a70e8a9))
+* release 0.6.0 ([0fbdb66](https://github.com/sbb-design-systems/lyne-design-tokens/commit/0fbdb667ad0331d146d89eb38177c1e0965cc051))
+* release 0.7.0 ([8df6ee9](https://github.com/sbb-design-systems/lyne-design-tokens/commit/8df6ee95ba26ecfc82961e2fbd2d9208151e689d))
+* release 0.8.0 ([3125ef0](https://github.com/sbb-design-systems/lyne-design-tokens/commit/3125ef0a6966b3d704fe693f4bc4c93415062f04))
+* release 0.8.1 ([2621ab6](https://github.com/sbb-design-systems/lyne-design-tokens/commit/2621ab64efc08dea99c1306943d6e9c10b03a967))
+* release 0.8.1 ([da0cdcf](https://github.com/sbb-design-systems/lyne-design-tokens/commit/da0cdcf2c7ec429e83bfcc7e8415f6ae1e1651f4))
+* release 0.8.2 ([f28f675](https://github.com/sbb-design-systems/lyne-design-tokens/commit/f28f6753a34aedba01384c803b7586b26d6e4f16))
+* release 1.0.0 ([4c79afc](https://github.com/sbb-design-systems/lyne-design-tokens/commit/4c79afce0f377d68f7ee7c9ffe458fbb5f404d3f))
+* release 1.0.1 ([2bd662e](https://github.com/sbb-design-systems/lyne-design-tokens/commit/2bd662e03dcb1a81a66d65bf0d4a17c217ee3577))
+
+
+### Code Refactoring
+
+* use "SBB" instead of "SBBWeb" as font-family ([#508](https://github.com/sbb-design-systems/lyne-design-tokens/issues/508)) ([f746c95](https://github.com/sbb-design-systems/lyne-design-tokens/commit/f746c9557f15fcca33e021ffcc3eeda8250290bd))
+
 ## [1.5.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.4.0...v1.5.0) (2025-04-17)
 
 
