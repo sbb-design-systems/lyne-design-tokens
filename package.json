@@ -27,9 +27,9 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@eslint/js": "9.26.0",
+    "@eslint/js": "9.27.0",
     "@types/node": "20.17.47",
-    "eslint": "9.26.0",
+    "eslint": "9.27.0",
     "eslint-config-prettier": "10.1.5",
     "eslint-plugin-yml": "1.18.0",
     "globals": "16.1.0",
