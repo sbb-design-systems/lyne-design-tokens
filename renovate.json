@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": ["config:recommended"],
   "lockFileMaintenance": {
     "schedule": ["before 7am on monday"],
     "enabled": true
@@ -19,11 +19,11 @@
     },
     {
       "groupName": "eslint",
-      "matchPackagePrefixes": ["eslint", "@eslint/", "eslint-", "typescript-eslint"]
+      "matchPackageNames": ["eslint**", "@eslint**", "typescript-eslint**"]
     },
     {
       "groupName": "commitlint",
-      "matchPackagePrefixes": ["@commitlint/", "standard-version"]
+      "matchPackageNames": ["@commitlint/**"]
     }
   ]
 }
