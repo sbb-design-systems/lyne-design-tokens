@@ -1,13 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": ["config:recommended"],
   "lockFileMaintenance": {
     "schedule": ["before 7am on monday"],
     "enabled": true
   },
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance", "bump"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "bump"
+      ],
       "automerge": true,
       "automergeType": "branch",
       "automergeStrategy": "squash"
@@ -19,11 +26,16 @@
     },
     {
       "groupName": "eslint",
-      "matchPackagePrefixes": ["eslint", "@eslint/", "eslint-", "typescript-eslint"]
+      "matchPackageNames": [
+        "eslint{/,}**",
+        "@eslint/{/,}**",
+        "eslint-{/,}**",
+        "typescript-eslint{/,}**"
+      ]
     },
     {
       "groupName": "commitlint",
-      "matchPackagePrefixes": ["@commitlint/", "standard-version"]
+      "matchPackageNames": ["@commitlint/{/,}**", "standard-version{/,}**"]
     }
   ]
 }
