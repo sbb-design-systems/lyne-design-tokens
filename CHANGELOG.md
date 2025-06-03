@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.5.1...v1.6.0) (2025-06-03)
+
+
+### Features
+
+* add new 4px border width token ([#550](https://github.com/sbb-design-systems/lyne-design-tokens/issues/550)) ([8173269](https://github.com/sbb-design-systems/lyne-design-tokens/commit/8173269afb9cc5c39ebb7234f5d3944e92ac6111))
+* new token for sbb-title size s ([#549](https://github.com/sbb-design-systems/lyne-design-tokens/issues/549)) ([60fbfb0](https://github.com/sbb-design-systems/lyne-design-tokens/commit/60fbfb099de51f09eab3fd0ee957aa1d2857adfb))
+
 ## [1.5.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.5.0...v1.5.1) (2025-04-17)
 
 
