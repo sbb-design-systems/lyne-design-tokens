@@ -7,14 +7,7 @@
   },
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest",
-        "lockFileMaintenance",
-        "bump"
-      ],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance", "bump"],
       "automerge": true,
       "automergeType": "branch",
       "automergeStrategy": "squash"
@@ -26,16 +19,11 @@
     },
     {
       "groupName": "eslint",
-      "matchPackageNames": [
-        "eslint{/,}**",
-        "@eslint/{/,}**",
-        "eslint-{/,}**",
-        "typescript-eslint{/,}**"
-      ]
+      "matchPackageNames": ["eslint**", "@eslint**", "typescript-eslint**"]
     },
     {
       "groupName": "commitlint",
-      "matchPackageNames": ["@commitlint/{/,}**", "standard-version{/,}**"]
+      "matchPackageNames": ["@commitlint/**"]
     }
   ]
 }
