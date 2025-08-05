@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.6.0...v1.6.1) (2025-08-05)
+
+
+### Bug Fixes
+
+* adjust additional colors to meet contrast requirements ([#554](https://github.com/sbb-design-systems/lyne-design-tokens/issues/554)) ([309a72f](https://github.com/sbb-design-systems/lyne-design-tokens/commit/309a72fa71773e0f87e9bcb8bf1c39593a4030be))
+
 ## [1.6.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.5.1...v1.6.0) (2025-06-03)
 
 
