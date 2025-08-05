@@ -199,7 +199,7 @@ export const color: DesignTokens = {
     },
   },
   sky: {
-    value: 'rgba(0,121,199,1)',
+    value: 'rgba(0,116,191,1)',
   },
   night: {
     value: 'rgba(20,58,133,1)',
@@ -208,10 +208,10 @@ export const color: DesignTokens = {
     value: 'rgba(111,34,130,1)',
   },
   pink: {
-    value: 'rgba(207,64,130,1)',
+    value: 'rgba(199,56,122,1)',
   },
   autumn: {
-    value: 'rgba(232,78,16,1)',
+    value: 'rgba(207,59,0,1)',
   },
   orange: {
     value: 'rgba(242,126,0,1)',
@@ -223,12 +223,12 @@ export const color: DesignTokens = {
     value: 'rgba(255,222,21,1)',
   },
   brown: {
-    value: 'rgba(183,96,0,1)',
+    value: 'rgba(160,84,0,1)',
   },
   green: {
-    value: 'rgba(0,138,54,1)',
+    value: 'rgba(0,130,51,1)',
   },
   turquoise: {
-    value: 'rgba(0,165,155,1)',
+    value: 'rgba(0,126,132,1)',
   },
 };
