@@ -67,6 +67,10 @@ export const spacing: DesignTokens = {
       value: calculatedSpacing(18),
       ...attributes(),
     },
+    '-19x': {
+      value: calculatedSpacing(19),
+      ...attributes(),
+    },
     '-20x': {
       value: calculatedSpacing(20),
       ...attributes(),
@@ -86,23 +90,11 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(3),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(3),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(3),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(4),
-        ...attributes(),
-      },
       large: {
-        value: calculatedSpacing(4),
-        ...attributes(),
-      },
-      wide: {
         value: calculatedSpacing(4),
         ...attributes(),
       },
@@ -116,23 +108,11 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(4),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(4),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(4),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(6),
-        ...attributes(),
-      },
       large: {
-        value: calculatedSpacing(6),
-        ...attributes(),
-      },
-      wide: {
         value: calculatedSpacing(6),
         ...attributes(),
       },
@@ -146,23 +126,11 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(5),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(5),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(5),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(6),
-        ...attributes(),
-      },
       large: {
-        value: calculatedSpacing(6),
-        ...attributes(),
-      },
-      wide: {
         value: calculatedSpacing(6),
         ...attributes(),
       },
@@ -176,23 +144,11 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(6),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(6),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(6),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(8),
-        ...attributes(),
-      },
       large: {
-        value: calculatedSpacing(8),
-        ...attributes(),
-      },
-      wide: {
         value: calculatedSpacing(8),
         ...attributes(),
       },
@@ -206,24 +162,12 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(8),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(8),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(8),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(10),
-        ...attributes(),
-      },
       large: {
         value: calculatedSpacing(10),
-        ...attributes(),
-      },
-      wide: {
-        value: calculatedSpacing(12),
         ...attributes(),
       },
       ultra: {
@@ -236,23 +180,11 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(8),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(8),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(10),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(12),
-        ...attributes(),
-      },
       large: {
-        value: calculatedSpacing(14),
-        ...attributes(),
-      },
-      wide: {
         value: calculatedSpacing(14),
         ...attributes(),
       },
@@ -266,23 +198,11 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(8),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(8),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(12),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(16),
-        ...attributes(),
-      },
       large: {
-        value: calculatedSpacing(20),
-        ...attributes(),
-      },
-      wide: {
         value: calculatedSpacing(20),
         ...attributes(),
       },
@@ -296,23 +216,11 @@ export const spacing: DesignTokens = {
         value: calculatedSpacing(12),
         ...attributes(),
       },
-      micro: {
-        value: calculatedSpacing(12),
-        ...attributes(),
-      },
       small: {
         value: calculatedSpacing(18),
         ...attributes(),
       },
-      medium: {
-        value: calculatedSpacing(20),
-        ...attributes(),
-      },
       large: {
-        value: calculatedSpacing(24),
-        ...attributes(),
-      },
-      wide: {
         value: calculatedSpacing(24),
         ...attributes(),
       },
