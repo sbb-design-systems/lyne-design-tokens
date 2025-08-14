@@ -13,16 +13,6 @@ export const breakpoint: DesignTokens = {
       ...attributes(),
     },
     max: {
-      value: 359,
-      ...attributes(),
-    },
-  },
-  micro: {
-    min: {
-      value: 360,
-      ...attributes(),
-    },
-    max: {
       value: 599,
       ...attributes(),
     },
@@ -33,16 +23,6 @@ export const breakpoint: DesignTokens = {
       ...attributes(),
     },
     max: {
-      value: 839,
-      ...attributes(),
-    },
-  },
-  medium: {
-    min: {
-      value: 840,
-      ...attributes(),
-    },
-    max: {
       value: 1023,
       ...attributes(),
     },
@@ -50,16 +30,6 @@ export const breakpoint: DesignTokens = {
   large: {
     min: {
       value: 1024,
-      ...attributes(),
-    },
-    max: {
-      value: 1279,
-      ...attributes(),
-    },
-  },
-  wide: {
-    min: {
-      value: 1280,
       ...attributes(),
     },
     max: {
