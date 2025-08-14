@@ -14,23 +14,11 @@ export const size: DesignTokens = {
         value: 28,
         ...attributes(),
       },
-      micro: {
-        value: 28,
-        ...attributes(),
-      },
       small: {
         value: 28,
         ...attributes(),
       },
-      medium: {
-        value: 32,
-        ...attributes(),
-      },
       large: {
-        value: 32,
-        ...attributes(),
-      },
-      wide: {
         value: 32,
         ...attributes(),
       },
@@ -44,23 +32,11 @@ export const size: DesignTokens = {
         value: 32,
         ...attributes(),
       },
-      micro: {
-        value: 32,
-        ...attributes(),
-      },
       small: {
         value: 32,
         ...attributes(),
       },
-      medium: {
-        value: 36,
-        ...attributes(),
-      },
       large: {
-        value: 36,
-        ...attributes(),
-      },
-      wide: {
         value: 36,
         ...attributes(),
       },
@@ -74,23 +50,11 @@ export const size: DesignTokens = {
         value: 36,
         ...attributes(),
       },
-      micro: {
-        value: 36,
-        ...attributes(),
-      },
       small: {
         value: 36,
         ...attributes(),
       },
-      medium: {
-        value: 40,
-        ...attributes(),
-      },
       large: {
-        value: 40,
-        ...attributes(),
-      },
-      wide: {
         value: 40,
         ...attributes(),
       },
@@ -104,23 +68,11 @@ export const size: DesignTokens = {
         value: 44,
         ...attributes(),
       },
-      micro: {
-        value: 44,
-        ...attributes(),
-      },
       small: {
         value: 44,
         ...attributes(),
       },
-      medium: {
-        value: 48,
-        ...attributes(),
-      },
       large: {
-        value: 48,
-        ...attributes(),
-      },
-      wide: {
         value: 48,
         ...attributes(),
       },
@@ -134,23 +86,11 @@ export const size: DesignTokens = {
         value: 48,
         ...attributes(),
       },
-      micro: {
-        value: 48,
-        ...attributes(),
-      },
       small: {
         value: 48,
         ...attributes(),
       },
-      medium: {
-        value: 56,
-        ...attributes(),
-      },
       large: {
-        value: 56,
-        ...attributes(),
-      },
-      wide: {
         value: 56,
         ...attributes(),
       },
@@ -164,23 +104,11 @@ export const size: DesignTokens = {
         value: 56,
         ...attributes(),
       },
-      micro: {
-        value: 56,
-        ...attributes(),
-      },
       small: {
         value: 56,
         ...attributes(),
       },
-      medium: {
-        value: 64,
-        ...attributes(),
-      },
       large: {
-        value: 64,
-        ...attributes(),
-      },
-      wide: {
         value: 64,
         ...attributes(),
       },
