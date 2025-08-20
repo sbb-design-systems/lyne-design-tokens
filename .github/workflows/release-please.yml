@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write  # Required for OIDC
   pull-requests: write
 
 jobs:
@@ -47,6 +48,6 @@ jobs:
         run: echo "npm_tag=$([[ "${{ steps.release.outputs.version }}" == *"-"* ]] && echo "next" || echo "latest")" >> $GITHUB_OUTPUT
       - name: 'Release: Publish @sbb-esta/lyne-design-tokens'
         if: ${{ steps.release.outputs.release_created }}
-        run: yarn publish --tag ${{ steps.npm_tag.outputs.npm_tag }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm install --global npm@latest
+          npm publish --tag ${{ steps.npm_tag.outputs.npm_tag }}
