@@ -1480,9 +1480,9 @@ lint-staged@16.1.5:
     yaml "^2.8.1"
 
 listr2@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/listr2/-/listr2-9.0.1.tgz#3cad12d81d998f8024621d9b35c969dba5da4103"
-  integrity sha512-SL0JY3DaxylDuo/MecFeiC+7pedM0zia33zl0vcjgwcq1q1FWWF1To9EIauPbl8GbMCU0R2e0uJ8bZunhYKD2g==
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/listr2/-/listr2-9.0.2.tgz#007f8eaefac2b6de30731f6583ddb10430838354"
+  integrity sha512-VVd7cS6W+vLJu2wmq4QmfVj14Iep7cz4r/OWNk36Aq5ZOY7G8/BfCrQFexcwB1OIxB3yERiePfE/REBjEFulag==
   dependencies:
     cli-truncate "^4.0.0"
     colorette "^2.0.20"
