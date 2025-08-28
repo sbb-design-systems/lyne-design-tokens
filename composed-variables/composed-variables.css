@@ -2,12 +2,12 @@
   /* EXTRACTING_CSS_VARS_START */
 
   /**
-   * We provide an extended collection of css variables which are mainly breakpoint
+   * We provide an extended collection of CSS variables which are mainly breakpoint
    * dependant or simply referencing other variables.
    * Due to technical limitations these variables are only provided as CSS variables.
    */
 
-  /* Font Color */
+  /* Font color */
   --sbb-font-default-color: var(--sbb-color-charcoal);
 
   /* Focus outline */
@@ -62,16 +62,6 @@
   }
 
   /**
-   * Micro (value corresponds to --sbb-breakpoint-micro-min)
-   */
-  @media (min-width: 22.5rem) {
-    /* Layout */
-    --sbb-layout-base-offset-responsive: var(--sbb-layout-base-offset-responsive-micro);
-    --sbb-grid-base-columns: var(--sbb-layout-base-grid-columns-micro);
-    --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-micro);
-  }
-
-  /**
    * Small (value corresponds to --sbb-breakpoint-small-min)
    */
   @media (min-width: 37.5rem) {
@@ -90,10 +80,11 @@
   }
 
   /**
-   * Medium (value corresponds to --sbb-breakpoint-medium-min)
+   * Large (value corresponds to --sbb-breakpoint-large-min)
    */
-  @media (min-width: 52.5rem) {
+  @media (min-width: 64rem) {
     /* Title */
+    --sbb-font-size-title-1: var(--sbb-typo-scale-3-5x);
     --sbb-font-size-title-2: var(--sbb-typo-scale-2-5x);
     --sbb-font-size-title-3: var(--sbb-typo-scale-2x);
     --sbb-font-size-title-4: var(--sbb-typo-scale-1-5x);
@@ -107,37 +98,11 @@
     --sbb-font-size-text-xs: var(--sbb-typo-scale-0-875x);
 
     /* Spacing */
-    --sbb-spacing-responsive-xxxs: var(--sbb-spacing-responsive-xxxs-medium);
-    --sbb-spacing-responsive-xxs: var(--sbb-spacing-responsive-xxs-medium);
-    --sbb-spacing-responsive-xs: var(--sbb-spacing-responsive-xs-medium);
-    --sbb-spacing-responsive-s: var(--sbb-spacing-responsive-s-medium);
-    --sbb-spacing-responsive-m: var(--sbb-spacing-responsive-m-medium);
-    --sbb-spacing-responsive-l: var(--sbb-spacing-responsive-l-medium);
-    --sbb-spacing-responsive-xl: var(--sbb-spacing-responsive-xl-medium);
-    --sbb-spacing-responsive-xxl: var(--sbb-spacing-responsive-xxl-medium);
-
-    /* Layout */
-    --sbb-layout-base-offset-responsive: var(--sbb-layout-base-offset-responsive-medium);
-    --sbb-grid-base-columns: var(--sbb-layout-base-grid-columns-medium);
-    --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-medium);
-
-    /* Size */
-    --sbb-size-element-xxxs: var(--sbb-size-element-xxxs-medium);
-    --sbb-size-element-xxs: var(--sbb-size-element-xxs-medium);
-    --sbb-size-element-xs: var(--sbb-size-element-xs-medium);
-    --sbb-size-element-s: var(--sbb-size-element-s-medium);
-    --sbb-size-element-m: var(--sbb-size-element-m-medium);
-    --sbb-size-element-l: var(--sbb-size-element-l-medium);
-  }
-
-  /**
-   * Large (value corresponds to --sbb-breakpoint-large-min)
-   */
-  @media (min-width: 64rem) {
-    /* Title */
-    --sbb-font-size-title-1: var(--sbb-typo-scale-3-5x);
-
-    /* Spacing */
+    --sbb-spacing-responsive-xxxs: var(--sbb-spacing-responsive-xxxs-large);
+    --sbb-spacing-responsive-xxs: var(--sbb-spacing-responsive-xxs-large);
+    --sbb-spacing-responsive-xs: var(--sbb-spacing-responsive-xs-large);
+    --sbb-spacing-responsive-s: var(--sbb-spacing-responsive-s-large);
+    --sbb-spacing-responsive-m: var(--sbb-spacing-responsive-m-large);
     --sbb-spacing-responsive-l: var(--sbb-spacing-responsive-l-large);
     --sbb-spacing-responsive-xl: var(--sbb-spacing-responsive-xl-large);
     --sbb-spacing-responsive-xxl: var(--sbb-spacing-responsive-xxl-large);
@@ -146,19 +111,14 @@
     --sbb-layout-base-offset-responsive: var(--sbb-layout-base-offset-responsive-large);
     --sbb-grid-base-columns: var(--sbb-layout-base-grid-columns-large);
     --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-large);
-  }
 
-  /**
-   * Wide (value corresponds to --sbb-breakpoint-wide-min)
-   */
-  @media (min-width: 80rem) {
-    /* Spacing */
-    --sbb-spacing-responsive-m: var(--sbb-spacing-responsive-m-wide);
-
-    /* Layout */
-    --sbb-layout-base-offset-responsive: var(--sbb-layout-base-offset-responsive-wide);
-    --sbb-grid-base-columns: var(--sbb-layout-base-grid-columns-wide);
-    --sbb-grid-base-gutter-responsive: var(--sbb-layout-base-grid-gutter-responsive-wide);
+    /* Size */
+    --sbb-size-element-xxxs: var(--sbb-size-element-xxxs-large);
+    --sbb-size-element-xxs: var(--sbb-size-element-xxs-large);
+    --sbb-size-element-xs: var(--sbb-size-element-xs-large);
+    --sbb-size-element-s: var(--sbb-size-element-s-large);
+    --sbb-size-element-m: var(--sbb-size-element-m-large);
+    --sbb-size-element-l: var(--sbb-size-element-l-large);
   }
 
   /**
@@ -169,6 +129,7 @@
     --sbb-font-size-title-1: var(--sbb-typo-scale-4x);
 
     /* Spacing */
+    --sbb-spacing-responsive-m: var(--sbb-spacing-responsive-m-ultra);
     --sbb-spacing-responsive-l: var(--sbb-spacing-responsive-l-ultra);
     --sbb-spacing-responsive-xl: var(--sbb-spacing-responsive-xl-ultra);
     --sbb-spacing-responsive-xxl: var(--sbb-spacing-responsive-xxl-ultra);
