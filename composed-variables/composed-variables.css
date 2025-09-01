@@ -7,13 +7,98 @@
    * Due to technical limitations these variables are only provided as CSS variables.
    */
 
-  /* Font Color */
-  --sbb-font-default-color: var(--sbb-color-charcoal);
+  /* Colors */
+  --sbb-color-primary: var(--sbb-color-red);
+  --sbb-color-primary-alpha-20: color-mix(in srgb, var(--sbb-color-primary) 20%, transparent);
+  --sbb-color-primary-alpha-40: color-mix(in srgb, var(--sbb-color-primary) 40%, transparent);
+  --sbb-color-primary-alpha-60: color-mix(in srgb, var(--sbb-color-primary) 60%, transparent);
+  --sbb-color-primary-alpha-90: color-mix(in srgb, var(--sbb-color-primary) 90%, transparent);
+  --sbb-color-primary-85: var(--sbb-color-red85);
+  --sbb-color-primary-125: var(--sbb-color-red125);
+  --sbb-color-primary-125-alpha-20: color-mix(
+    in srgb,
+    var(--sbb-color-primary-125) 20%,
+    transparent
+  );
+  --sbb-color-primary-125-alpha-40: color-mix(
+    in srgb,
+    var(--sbb-color-primary-125) 40%,
+    transparent
+  );
+  --sbb-color-primary-125-alpha-60: color-mix(
+    in srgb,
+    var(--sbb-color-primary-125) 60%,
+    transparent
+  );
+  --sbb-color-primary-150: var(--sbb-color-red150);
+
+  --sbb-color-error: light-dark(var(--sbb-color-red125), var(--sbb-color-red85));
+  --sbb-color-success: var(--sbb-color-green);
+  --sbb-color-warning: var(--sbb-color-peach);
+  --sbb-color-brand: var(--sbb-color-red);
+
+  --sbb-background-color-1: light-dark(var(--sbb-color-white), var(--sbb-color-midnight));
+  --sbb-background-color-1-inverted: light-dark(var(--sbb-color-midnight), var(--sbb-color-white));
+  --sbb-background-color-1-negative: var(--sbb-color-midnight);
+  --sbb-background-color-1-negative-inverted: var(--sbb-color-white);
+  --sbb-background-color-2: light-dark(var(--sbb-color-white), var(--sbb-color-charcoal));
+  --sbb-background-color-2-inverted: light-dark(var(--sbb-color-charcoal), var(--sbb-color-white));
+  --sbb-background-color-2-negative: var(--sbb-color-charcoal);
+  --sbb-background-color-2-negative-inverted: var(--sbb-color-white);
+  --sbb-background-color-3: light-dark(var(--sbb-color-milk), var(--sbb-color-charcoal));
+  --sbb-background-color-3-inverted: light-dark(var(--sbb-color-charcoal), var(--sbb-color-milk));
+  --sbb-background-color-3-negative: var(--sbb-color-charcoal);
+  --sbb-background-color-3-negative-inverted: var(--sbb-color-milk);
+  --sbb-background-color-4: light-dark(var(--sbb-color-cloud), var(--sbb-color-iron));
+  --sbb-background-color-4-inverted: light-dark(var(--sbb-color-iron), var(--sbb-color-cloud));
+  --sbb-background-color-4-negative: var(--sbb-color-iron);
+  --sbb-background-color-4-negative-inverted: var(--sbb-color-cloud);
+
+  --sbb-color-1: light-dark(var(--sbb-color-midnight), var(--sbb-color-white));
+  --sbb-color-1-inverted: light-dark(var(--sbb-color-white), var(--sbb-color-midnight));
+  --sbb-color-1-negative: var(--sbb-color-white);
+  --sbb-color-1-negative-inverted: var(--sbb-color-midnight);
+  --sbb-color-2: light-dark(var(--sbb-color-charcoal), var(--sbb-color-white));
+  --sbb-color-2-inverted: light-dark(var(--sbb-color-white), var(--sbb-color-charcoal));
+  --sbb-color-2-negative: var(--sbb-color-white);
+  --sbb-color-2-negative-inverted: var(--sbb-color-charcoal);
+  --sbb-color-3: light-dark(var(--sbb-color-charcoal), var(--sbb-color-milk));
+  --sbb-color-3-inverted: light-dark(var(--sbb-color-milk), var(--sbb-color-charcoal));
+  --sbb-color-3-negative: var(--sbb-color-milk);
+  --sbb-color-3-negative-inverted: var(--sbb-color-charcoal);
+  --sbb-color-4: light-dark(var(--sbb-color-iron), var(--sbb-color-cloud));
+  --sbb-color-4-inverted: light-dark(var(--sbb-color-cloud), var(--sbb-color-iron));
+  --sbb-color-4-negative: var(--sbb-color-cloud);
+  --sbb-color-4-negative-inverted: var(--sbb-color-iron);
+  --sbb-color-5: var(--sbb-color-smoke);
+
+  --sbb-border-color-1: light-dark(var(--sbb-color-midnight), var(--sbb-color-white));
+  --sbb-border-color-1-inverted: light-dark(var(--sbb-color-white), var(--sbb-color-midnight));
+  --sbb-border-color-1-negative: var(--sbb-color-white);
+  --sbb-border-color-1-negative-inverted: var(--sbb-color-midnight);
+  --sbb-border-color-2: light-dark(var(--sbb-color-charcoal), var(--sbb-color-white));
+  --sbb-border-color-2-inverted: light-dark(var(--sbb-color-white), var(--sbb-color-charcoal));
+  --sbb-border-color-2-negative: var(--sbb-color-white);
+  --sbb-border-color-2-negative-inverted: var(--sbb-color-charcoal);
+  --sbb-border-color-3: light-dark(var(--sbb-color-charcoal), var(--sbb-color-milk));
+  --sbb-border-color-3-inverted: light-dark(var(--sbb-color-milk), var(--sbb-color-charcoal));
+  --sbb-border-color-3-negative: var(--sbb-color-milk);
+  --sbb-border-color-3-negative-inverted: var(--sbb-color-charcoal);
+  --sbb-border-color-4: light-dark(var(--sbb-color-iron), var(--sbb-color-cloud));
+  --sbb-border-color-4-inverted: light-dark(var(--sbb-color-cloud), var(--sbb-color-iron));
+  --sbb-border-color-4-negative: var(--sbb-color-cloud);
+  --sbb-border-color-4-negative-inverted: var(--sbb-color-iron);
+  --sbb-border-color-5: var(--sbb-color-smoke);
+
+  --sbb-font-default-color: var(--sbb-color-2);
 
   /* Focus outline */
   --sbb-focus-outline-color-default: var(--sbb-color-black);
   --sbb-focus-outline-color-dark: var(--sbb-color-white);
-  --sbb-focus-outline-color: var(--sbb-focus-outline-color-default);
+  --sbb-focus-outline-color: light-dark(
+    var(--sbb-focus-outline-color-default),
+    var(--sbb-focus-outline-color-dark)
+  );
   --sbb-focus-outline-width: var(--sbb-border-width-1x);
 
   /* Title */
