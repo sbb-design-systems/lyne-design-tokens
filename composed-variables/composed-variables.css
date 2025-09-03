@@ -90,6 +90,39 @@
   --sbb-border-color-4-negative-inverted: var(--sbb-color-iron);
   --sbb-border-color-5: var(--sbb-color-smoke);
 
+  --sbb-shadow-color-soft-1: light-dark(
+    var(--sbb-color-smoke-alpha-5),
+    var(--sbb-color-black-alpha-15)
+  );
+  --sbb-shadow-color-soft-2: light-dark(
+    var(--sbb-color-smoke-alpha-10),
+    var(--sbb-color-black-alpha-20)
+  );
+  --sbb-shadow-color-soft-1-negative: light-dark(
+    var(--sbb-color-black-alpha-15),
+    var(--sbb-color-black-alpha-15)
+  );
+  --sbb-shadow-color-soft-2-negative: light-dark(
+    var(--sbb-color-black-alpha-20),
+    var(--sbb-color-black-alpha-20)
+  );
+  --sbb-shadow-color-hard-1: light-dark(
+    var(--sbb-color-smoke-alpha-10),
+    var(--sbb-color-black-alpha-30)
+  );
+  --sbb-shadow-color-hard-2: light-dark(
+    var(--sbb-color-smoke-alpha-20),
+    var(--sbb-color-black-alpha-40)
+  );
+  --sbb-shadow-color-hard-1-negative: light-dark(
+    var(--sbb-color-black-alpha-30),
+    var(--sbb-color-black-alpha-30)
+  );
+  --sbb-shadow-color-hard-2-negative: light-dark(
+    var(--sbb-color-black-alpha-40),
+    var(--sbb-color-black-alpha-40)
+  );
+
   --sbb-font-default-color: var(--sbb-color-2);
 
   /* Focus outline */
