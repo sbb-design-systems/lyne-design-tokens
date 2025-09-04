@@ -134,6 +134,9 @@ export const color: DesignTokens = {
     20: {
       value: 'rgba(235,0,0,.2)',
     },
+    40: {
+      value: 'rgba(235,0,0,.4)',
+    },
     60: {
       value: 'rgba(235,0,0,.6)',
     },
@@ -141,10 +144,14 @@ export const color: DesignTokens = {
       value: 'rgba(235,0,0,.9)',
     },
   },
+  // @deprecated, use red85 instead
   redMode: {
     dark: {
-      value: 'rgb(255,56,56,1)',
+      value: 'rgba(255,56,56,1)',
     },
+  },
+  red85: {
+    value: 'rgba(255,56,56,1)',
   },
   red125: {
     value: 'rgba(198,0,24,1)',
@@ -156,8 +163,11 @@ export const color: DesignTokens = {
     20: {
       value: 'rgba(198,0,24,.2)',
     },
+    40: {
+      value: 'rgba(198,0,24,.4)',
+    },
     60: {
-      value: 'rgba(198,0,0,.6)',
+      value: 'rgba(198,0,24,.6)',
     },
   },
   red150: {
@@ -166,8 +176,36 @@ export const color: DesignTokens = {
   royal: {
     value: 'rgba(6,52,139,1)',
   },
+  royalAlpha: {
+    20: {
+      value: 'rgba(6,52,139,.2)',
+    },
+    40: {
+      value: 'rgba(6,52,139,.4)',
+    },
+    60: {
+      value: 'rgba(6,52,139,.6)',
+    },
+    90: {
+      value: 'rgba(6,52,139,.9)',
+    },
+  },
+  royal85: {
+    value: 'rgba(64,119,223,1)',
+  },
   royal125: {
     value: 'rgba(3,38,104,1)',
+  },
+  royal125Alpha: {
+    20: {
+      value: 'rgba(3,38,104,.2)',
+    },
+    40: {
+      value: 'rgba(3,38,104,.4)',
+    },
+    60: {
+      value: 'rgba(3,38,104,.6)',
+    },
   },
   royal150: {
     value: 'rgba(2,28,78,1)',
