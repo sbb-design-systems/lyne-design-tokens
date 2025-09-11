@@ -143,7 +143,7 @@ export const color: DesignTokens = {
   },
   redMode: {
     dark: {
-      value: 'rgb(255,56,56,1)',
+      value: 'rgba(255,56,56,1)',
     },
   },
   red125: {
@@ -198,37 +198,70 @@ export const color: DesignTokens = {
       value: 'rgba(255,255,255,.8)',
     },
   },
-  sky: {
+  skyLight: {
     value: 'rgba(0,116,191,1)',
   },
-  night: {
+  skyDark: {
+    value: 'rgba(18,142,222,1)',
+  },
+  nightLight: {
     value: 'rgba(20,58,133,1)',
   },
-  violet: {
+  nightDark: {
+    value: 'rgba(101,135,202,1)',
+  },
+  violetLight: {
     value: 'rgba(111,34,130,1)',
   },
-  pink: {
+  violetDark: {
+    value: 'rgba(179,108,197,1)',
+  },
+  pinkLight: {
     value: 'rgba(199,56,122,1)',
   },
-  autumn: {
+  pinkDark: {
+    value: 'rgba(228,82,149,1)',
+  },
+  autumnLight: {
     value: 'rgba(207,59,0,1)',
   },
-  orange: {
+  autumnDark: {
+    value: 'rgba(240,83,19,1)',
+  },
+  orangeLight: {
     value: 'rgba(242,126,0,1)',
   },
-  peach: {
+  orangeDark: {
+    value: 'rgba(251,142,25,1)',
+  },
+  peachLight: {
     value: 'rgba(252,187,0,1)',
   },
-  lemon: {
+  peachDark: {
+    value: 'rgba(255,199,39,1)',
+  },
+  lemonLight: {
     value: 'rgba(255,222,21,1)',
   },
-  brown: {
+  lemonDark: {
+    value: 'rgba(255,229,71,1)',
+  },
+  brownLight: {
     value: 'rgba(160,84,0,1)',
   },
-  green: {
+  brownDark: {
+    value: 'rgba(207,111,4)',
+  },
+  greenLight: {
     value: 'rgba(0,130,51,1)',
   },
-  turquoise: {
+  greenDark: {
+    value: 'rgba(16,157,71,1)',
+  },
+  turquoiseLight: {
     value: 'rgba(0,126,132,1)',
+  },
+  turquoiseDark: {
+    value: 'rgba(0,165,155,1)',
   },
 };
