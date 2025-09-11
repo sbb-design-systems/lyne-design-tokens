@@ -8,6 +8,21 @@
    */
 
   /* Colors */
+  --sbb-color-sky: light-dark(var(--sbb-color-sky-light), var(--sbb-color-sky-dark));
+  --sbb-color-night: light-dark(var(--sbb-color-night-light), var(--sbb-color-night-dark));
+  --sbb-color-violet: light-dark(var(--sbb-color-violet-light), var(--sbb-color-violet-dark));
+  --sbb-color-pink: light-dark(var(--sbb-color-pink-light), var(--sbb-color-pink-dark));
+  --sbb-color-autumn: light-dark(var(--sbb-color-autumn-light), var(--sbb-color-autumn-dark));
+  --sbb-color-orange: light-dark(var(--sbb-color-orange-light), var(--sbb-color-orange-dark));
+  --sbb-color-peach: light-dark(var(--sbb-color-peach-light), var(--sbb-color-peach-dark));
+  --sbb-color-lemon: light-dark(var(--sbb-color-lemon-light), var(--sbb-color-lemon-dark));
+  --sbb-color-brown: light-dark(var(--sbb-color-brown-light), var(--sbb-color-brown-dark));
+  --sbb-color-green: light-dark(var(--sbb-color-green-light), var(--sbb-color-green-dark));
+  --sbb-color-turquoise: light-dark(
+    var(--sbb-color-turquoise-light),
+    var(--sbb-color-turquoise-dark)
+  );
+
   --sbb-color-primary: var(--sbb-color-red);
   --sbb-color-primary-alpha-20: color-mix(in srgb, var(--sbb-color-primary) 20%, transparent);
   --sbb-color-primary-alpha-40: color-mix(in srgb, var(--sbb-color-primary) 40%, transparent);

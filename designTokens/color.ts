@@ -236,37 +236,114 @@ export const color: DesignTokens = {
       value: 'rgba(255,255,255,.8)',
     },
   },
+  // @deprecated, use -light or -dark instead
   sky: {
     value: 'rgba(0,116,191,1)',
   },
+  skyLight: {
+    value: 'rgba(0,116,191,1)',
+  },
+  skyDark: {
+    value: 'rgba(18,142,222,1)',
+  },
+  // @deprecated, use -light or -dark instead
   night: {
     value: 'rgba(20,58,133,1)',
   },
+  nightLight: {
+    value: 'rgba(20,58,133,1)',
+  },
+  nightDark: {
+    value: 'rgba(101,135,202,1)',
+  },
+  // @deprecated, use -light or -dark instead
   violet: {
     value: 'rgba(111,34,130,1)',
   },
+  violetLight: {
+    value: 'rgba(111,34,130,1)',
+  },
+  violetDark: {
+    value: 'rgba(179,108,197,1)',
+  },
+  // @deprecated, use -light or -dark instead
   pink: {
     value: 'rgba(199,56,122,1)',
   },
+  pinkLight: {
+    value: 'rgba(199,56,122,1)',
+  },
+  pinkDark: {
+    value: 'rgba(228,82,149,1)',
+  },
+  // @deprecated, use -light or -dark instead
   autumn: {
     value: 'rgba(207,59,0,1)',
   },
+  autumnLight: {
+    value: 'rgba(207,59,0,1)',
+  },
+  autumnDark: {
+    value: 'rgba(240,83,19,1)',
+  },
+  // @deprecated, use -light or -dark instead
   orange: {
     value: 'rgba(242,126,0,1)',
   },
+  orangeLight: {
+    value: 'rgba(242,126,0,1)',
+  },
+  orangeDark: {
+    value: 'rgba(251,142,25,1)',
+  },
+  // @deprecated, use -light or -dark instead
   peach: {
     value: 'rgba(252,187,0,1)',
   },
+  peachLight: {
+    value: 'rgba(252,187,0,1)',
+  },
+  peachDark: {
+    value: 'rgba(255,199,39,1)',
+  },
+  // @deprecated, use -light or -dark instead
   lemon: {
     value: 'rgba(255,222,21,1)',
   },
+  lemonLight: {
+    value: 'rgba(255,222,21,1)',
+  },
+  lemonDark: {
+    value: 'rgba(255,229,71,1)',
+  },
+  // @deprecated, use -light or -dark instead
   brown: {
     value: 'rgba(160,84,0,1)',
   },
+  brownLight: {
+    value: 'rgba(160,84,0,1)',
+  },
+  brownDark: {
+    value: 'rgba(207,111,4)',
+  },
+  // @deprecated, use -light or -dark instead
   green: {
     value: 'rgba(0,130,51,1)',
   },
+  greenLight: {
+    value: 'rgba(0,130,51,1)',
+  },
+  greenDark: {
+    value: 'rgba(16,157,71,1)',
+  },
+  // @deprecated, use -light or -dark instead
   turquoise: {
     value: 'rgba(0,126,132,1)',
+  },
+  turquoiseLight: {
+    value: 'rgba(0,126,132,1)',
+  },
+  turquoiseDark: {
+    value: 'rgba(0,165,155,1)',
   },
 };
