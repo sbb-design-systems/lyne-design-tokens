@@ -17,6 +17,7 @@ const shadowObject = (
   y2: number,
   blur2: number,
   spread2: number,
+  // @deprecated start
   colorSoft1: string,
   colorSoft2: string,
   colorSoftNegative1: string,
@@ -25,6 +26,7 @@ const shadowObject = (
   colorHard2: string,
   colorHardNegative1: string,
   colorHardNegative2: string,
+  // @deprecated end
 ): DesignTokens => ({
   shadow: {
     1: {
@@ -68,6 +70,7 @@ const shadowObject = (
       },
     },
   },
+  // @deprecated
   soft: {
     1: {
       color: {
@@ -96,6 +99,7 @@ const shadowObject = (
       },
     },
   },
+  // @deprecated
   hard: {
     1: {
       color: {
@@ -127,6 +131,44 @@ const shadowObject = (
 });
 
 export const shadow: DesignTokens = {
+  color: {
+    soft: {
+      1: {
+        light: { value: '{color.smokeAlpha.5.value}' },
+        dark: { value: '{color.blackAlpha.15.value}' },
+        negative: {
+          light: { value: '{color.blackAlpha.15.value}' },
+          dark: { value: '{color.blackAlpha.15.value}' },
+        },
+      },
+      2: {
+        light: { value: '{color.smokeAlpha.10.value}' },
+        dark: { value: '{color.blackAlpha.20.value}' },
+        negative: {
+          light: { value: '{color.blackAlpha.20.value}' },
+          dark: { value: '{color.blackAlpha.20.value}' },
+        },
+      },
+    },
+    hard: {
+      1: {
+        light: { value: '{color.smokeAlpha.10.value}' },
+        dark: { value: '{color.blackAlpha.30.value}' },
+        negative: {
+          light: { value: '{color.blackAlpha.30.value}' },
+          dark: { value: '{color.blackAlpha.30.value}' },
+        },
+      },
+      2: {
+        light: { value: '{color.smokeAlpha.20.value}' },
+        dark: { value: '{color.blackAlpha.40.value}' },
+        negative: {
+          light: { value: '{color.blackAlpha.40.value}' },
+          dark: { value: '{color.blackAlpha.40.value}' },
+        },
+      },
+    },
+  },
   elevation: {
     level: {
       3: {
