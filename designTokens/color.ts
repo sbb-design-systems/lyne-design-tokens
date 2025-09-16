@@ -4,6 +4,7 @@ export const color: DesignTokens = {
   black: {
     value: 'rgba(0,0,0,1)',
   },
+  // @deprecated, alpha values are deprecated
   blackAlpha: {
     0: {
       value: 'rgba(0,0,0,0)',
@@ -54,6 +55,7 @@ export const color: DesignTokens = {
   metal: {
     value: 'rgba(118,118,118,1)',
   },
+  // @deprecated, alpha values are deprecated
   metalAlpha: {
     0: {
       value: 'rgba(118,118,118,0)',
@@ -65,6 +67,7 @@ export const color: DesignTokens = {
   smoke: {
     value: 'rgba(141,141,141,1)',
   },
+  // @deprecated, alpha values are deprecated
   smokeAlpha: {
     0: {
       value: 'rgba(141,141,141,0)',
@@ -88,6 +91,7 @@ export const color: DesignTokens = {
   cement: {
     value: 'rgba(189,189,189,1)',
   },
+  // @deprecated, alpha values are deprecated
   cementAlpha: {
     0: {
       value: 'rgba(189,189,189,0)',
@@ -99,6 +103,7 @@ export const color: DesignTokens = {
   platinum: {
     value: 'rgba(205,205,205,1)',
   },
+  // @deprecated, alpha values are deprecated
   platinumAlpha: {
     0: {
       value: 'rgba(205,205,205,0)',
@@ -116,6 +121,7 @@ export const color: DesignTokens = {
   cloud: {
     value: 'rgba(229,229,229,1)',
   },
+  // @deprecated, alpha values are deprecated
   cloudAlpha: {
     80: {
       value: 'rgba(229,229,229,.8)',
@@ -127,15 +133,13 @@ export const color: DesignTokens = {
   red: {
     value: 'rgba(235,0,0,1)',
   },
+  // @deprecated, alpha values are deprecated
   redAlpha: {
     0: {
       value: 'rgba(235,0,0,0)',
     },
     20: {
       value: 'rgba(235,0,0,.2)',
-    },
-    40: {
-      value: 'rgba(235,0,0,.4)',
     },
     60: {
       value: 'rgba(235,0,0,.6)',
@@ -156,15 +160,13 @@ export const color: DesignTokens = {
   red125: {
     value: 'rgba(198,0,24,1)',
   },
+  // @deprecated, alpha values are deprecated
   red125Alpha: {
     0: {
       value: 'rgba(198,0,24,0)',
     },
     20: {
       value: 'rgba(198,0,24,.2)',
-    },
-    40: {
-      value: 'rgba(198,0,24,.4)',
     },
     60: {
       value: 'rgba(198,0,24,.6)',
@@ -173,46 +175,50 @@ export const color: DesignTokens = {
   red150: {
     value: 'rgba(162,0,19,1)',
   },
+  // @deprecated, use -light or -dark instead
   royal: {
     value: 'rgba(6,52,139,1)',
   },
-  royalAlpha: {
-    20: {
-      value: 'rgba(6,52,139,.2)',
-    },
-    40: {
-      value: 'rgba(6,52,139,.4)',
-    },
-    60: {
-      value: 'rgba(6,52,139,.6)',
-    },
-    90: {
-      value: 'rgba(6,52,139,.9)',
-    },
-  },
+  // @deprecated, use -light or -dark instead
   royal85: {
     value: 'rgba(64,119,223,1)',
   },
+  // @deprecated, use -light or -dark instead
   royal125: {
     value: 'rgba(3,38,104,1)',
   },
-  royal125Alpha: {
-    20: {
-      value: 'rgba(3,38,104,.2)',
-    },
-    40: {
-      value: 'rgba(3,38,104,.4)',
-    },
-    60: {
-      value: 'rgba(3,38,104,.6)',
-    },
-  },
+  // @deprecated, use -light or -dark instead
   royal150: {
     value: 'rgba(2,28,78,1)',
+  },
+  royalLight: {
+    value: 'rgba(6,52,139,1)',
+  },
+  royalDark: {
+    value: 'rgba(0,83,239,1)',
+  },
+  royal85Light: {
+    value: 'rgba(64,119,223,1)',
+  },
+  royal85Dark: {
+    value: 'rgba(64,119,223,1)',
+  },
+  royal125Light: {
+    value: 'rgba(3,38,104,1)',
+  },
+  royal125Dark: {
+    value: 'rgba(36,94,203,1)',
+  },
+  royal150Light: {
+    value: 'rgba(2,28,78,1)',
+  },
+  royal150Dark: {
+    value: 'rgba(60,101,179)',
   },
   white: {
     value: 'rgba(255,255,255,1)',
   },
+  // @deprecated, alpha values are deprecated
   whiteAlpha: {
     0: {
       value: 'rgba(255,255,255,0)',
