@@ -1,3 +1,8 @@
+/* EXTRACTING_SCSS_HEADER_START */
+@use 'sass:map';
+$theme: 'standard' !default;
+/* EXTRACTING_SCSS_HEADER_END */
+
 :root {
   /* EXTRACTING_CSS_VARS_START */
 
@@ -27,15 +32,56 @@
   --sbb-color-royal125: light-dark(var(--sbb-color-royal125-light), var(--sbb-color-royal125-dark));
   --sbb-color-royal150: light-dark(var(--sbb-color-royal150-light), var(--sbb-color-royal150-dark));
 
-  --sbb-color-primary: var(--sbb-color-red);
-  --sbb-color-primary-85: var(--sbb-color-red85);
-  --sbb-color-primary-125: var(--sbb-color-red125);
-  --sbb-color-primary-150: var(--sbb-color-red150);
+  --sbb-color-primary: #{map.get(
+      (
+        'standard': var(--sbb-color-red),
+        'off-brand': var(--sbb-color-royal),
+        'safety': var(--sbb-color-metal),
+      ),
+      $theme
+    )};
+  --sbb-color-primary85: #{map.get(
+      (
+        'standard': var(--sbb-color-red85),
+        'off-brand': var(--sbb-color-royal85),
+        'safety': var(--sbb-color-smoke),
+      ),
+      $theme
+    )};
+  /* @deprecated */
+  --sbb-color-primary-85: var(--sbb-color-primary85);
+  --sbb-color-primary125: #{map.get(
+      (
+        'standard': var(--sbb-color-red125),
+        'off-brand': var(--sbb-color-royal125),
+        'safety': var(--sbb-color-granite),
+      ),
+      $theme
+    )};
+  /* @deprecated */
+  --sbb-color-primary-125: var(--sbb-color-primary125);
+  --sbb-color-primary150: #{map.get(
+      (
+        'standard': var(--sbb-color-red150),
+        'off-brand': var(--sbb-color-royal150),
+        'safety': var(--sbb-color-anthracite),
+      ),
+      $theme
+    )};
+  /* @deprecated */
+  --sbb-color-primary-150: var(--sbb-color-primary150);
 
   --sbb-color-error: light-dark(var(--sbb-color-red125), var(--sbb-color-red85));
   --sbb-color-success: var(--sbb-color-green);
   --sbb-color-warning: var(--sbb-color-peach);
-  --sbb-color-brand: var(--sbb-color-red);
+  --sbb-color-brand: #{map.get(
+      (
+        'standard': var(--sbb-color-red),
+        'off-brand': var(--sbb-color-red),
+        'safety': var(--sbb-color-metal),
+      ),
+      $theme
+    )};
 
   --sbb-background-color-1: light-dark(var(--sbb-color-white), var(--sbb-color-midnight));
   --sbb-background-color-1-inverted: light-dark(var(--sbb-color-midnight), var(--sbb-color-white));

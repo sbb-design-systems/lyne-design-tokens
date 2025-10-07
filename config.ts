@@ -9,9 +9,6 @@ export const config: Config = {
         {
           destination: 'sbb-variables.css',
           format: 'css/variables',
-          options: {
-            selector: ':root',
-          },
         },
       ],
       transformGroup: 'css',
@@ -83,10 +80,7 @@ export const config: Config = {
         },
         {
           destination: 'sbb-variables_css--mixin.scss',
-          format: 'css/variables',
-          options: {
-            selector: '@mixin lyne-design-tokens-css-variables',
-          },
+          format: 'scss/variables',
         },
       ],
       transformGroup: 'scss',

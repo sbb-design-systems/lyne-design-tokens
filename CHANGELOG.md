@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.7.0...v1.8.0) (2025-09-18)
+
+
+### Features
+
+* provide off-brand and safety colors ([#562](https://github.com/sbb-design-systems/lyne-design-tokens/issues/562)) ([90cf5b6](https://github.com/sbb-design-systems/lyne-design-tokens/commit/90cf5b6d2350dbd197c168c9b44165e3eaa673f3))
+
+## [1.7.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.6.1...v1.7.0) (2025-09-17)
+
+
+### Features
+
+* introduce context specific colors ([#559](https://github.com/sbb-design-systems/lyne-design-tokens/issues/559)) ([82a588a](https://github.com/sbb-design-systems/lyne-design-tokens/commit/82a588a1de2842186f673fc8c2f06962a48f2afa))
+
 ## [1.6.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.6.0...v1.6.1) (2025-08-05)
 
 
