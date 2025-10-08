@@ -22,7 +22,10 @@ StyleDictionary.registerFormat({
 
     return (
       fileHeader({ file }) +
-      `:root {\n${symbols}\n  /* Composed variables */\n\n  ${composedVars.trim()}\n}\n`
+      `:root {\n${symbols}\n  /* Composed variables */\n\n  ${composedVars.trim()}\n}\n`.replace(
+        /:root\s+\{\s*\}\n/m,
+        '',
+      )
     );
   },
   name: 'css/variables',
