@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-next](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.8.0...v2.0.0-next) (2025-10-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* breakpoints micro, medium and wide have been removed. All related tokens were removed or adapted.
+
+### Features
+
+* reduce to four breakpoints ([#557](https://github.com/sbb-design-systems/lyne-design-tokens/issues/557)) ([42faf00](https://github.com/sbb-design-systems/lyne-design-tokens/commit/42faf00ff3c3ef88249b862b5ef02dbfdfd3936f))
+* use theme functions and provide mixins ([#567](https://github.com/sbb-design-systems/lyne-design-tokens/issues/567)) ([c4abf16](https://github.com/sbb-design-systems/lyne-design-tokens/commit/c4abf160d4806631a2157341c12c2dff83eeba53))
+
 ## [1.8.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.7.0...v1.8.0) (2025-09-18)
 
 
