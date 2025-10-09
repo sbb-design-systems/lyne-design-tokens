@@ -79,7 +79,7 @@ export const config: Config = {
           format: 'custom/format/scss',
         },
         {
-          destination: 'sbb-variables_css--mixin.scss',
+          destination: 'sbb-variables-as-css.scss',
           format: 'scss/variables',
         },
       ],

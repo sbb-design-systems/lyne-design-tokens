@@ -1,0 +1,24 @@
+@use 'composed-variables' as var;
+
+:root {
+  @include var.base;
+
+  @media (forced-colors: active) {
+    @include var.forced-colors;
+  }
+
+  // Small (value corresponds to --sbb-breakpoint-small-min)
+  @media (min-width: 37.5rem) {
+    @include var.breakpoint-small;
+  }
+
+  // Large (value corresponds to --sbb-breakpoint-large-min)
+  @media (min-width: 64rem) {
+    @include var.breakpoint-large;
+  }
+
+  // Ultra (value corresponds to --sbb-breakpoint-ultra-min)
+  @media (min-width: 90rem) {
+    @include var.breakpoint-ultra;
+  }
+}
