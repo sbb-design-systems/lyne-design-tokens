@@ -75,11 +75,11 @@ export const config: Config = {
       prefix: 'sbb',
       files: [
         {
-          destination: 'sbb-sass-variables.scss',
+          destination: 'sbb-variables.scss',
           format: 'custom/format/scss',
         },
         {
-          destination: 'sbb-css-variables.scss',
+          destination: 'sbb-variables-as-css.scss',
           format: 'scss/variables',
         },
       ],
