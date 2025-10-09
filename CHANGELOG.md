@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-next.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next...v2.0.0-next.1) (2025-10-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* The generated scss file doesn't include the `:root` selector anymore, but only mixins to work with. Other than that, the file `sbb-variables_css--mixin.scss` was renamed to `sbb-variables-as-css.scss`.
+
+### Bug Fixes
+
+* export base mixins ([#568](https://github.com/sbb-design-systems/lyne-design-tokens/issues/568)) ([cc12d89](https://github.com/sbb-design-systems/lyne-design-tokens/commit/cc12d89b7afe5ea305180babec5ea66db3afadfb))
+
 ## [2.0.0-next](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v1.8.0...v2.0.0-next) (2025-10-08)
 
 
