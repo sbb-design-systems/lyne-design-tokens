@@ -12,20 +12,11 @@ console.log('\n==============================================');
 
 StyleDictionary.registerFormat({
   formatter: ({ file, dictionary }: FormatterArguments) => {
-    const symbols = dictionary.allProperties.map(cssTemplate).join('') + '\n';
-
-    const composedVars = sass
-      .compile('./composed-variables/composed-variables.scss')
-      .css.match(
-        /\/\* EXTRACTING_CSS_VARS_START \*\/([\S\s]*)\/\* EXTRACTING_CSS_VARS_END \*\//m,
-      )![1];
+    const symbols = dictionary.allProperties.map(cssTemplate).join('');
+    const composedVars = sass.compile('./composed-variables/composed-variables-root.scss').css;
 
     return (
-      fileHeader({ file }) +
-      `:root {\n${symbols}\n  /* Composed variables */\n\n  ${composedVars.trim()}\n}\n`.replace(
-        /:root\s+\{\s*\}\n/m,
-        '',
-      )
+      fileHeader({ file }) + composedVars.replace('/* DICTIONARY_VARIABLES */', symbols.trim())
     );
   },
   name: 'css/variables',
@@ -33,20 +24,11 @@ StyleDictionary.registerFormat({
 
 StyleDictionary.registerFormat({
   formatter: ({ file, dictionary }: FormatterArguments) => {
-    const symbols = dictionary.allProperties.map(cssTemplate).join('') + '\n';
+    const symbols = dictionary.allProperties.map(cssTemplate).join('');
     const composedVars = fs.readFileSync('./composed-variables/composed-variables.scss', 'utf-8');
 
-    const header = composedVars.match(
-      /\/\* EXTRACTING_SCSS_HEADER_START \*\/([\S\s]*)\/\* EXTRACTING_SCSS_HEADER_END \*\//m,
-    )![1];
-
-    const body = composedVars.match(
-      /\/\* EXTRACTING_CSS_VARS_START \*\/([\S\s]*)\/\* EXTRACTING_CSS_VARS_END \*\//m,
-    )![1];
-
     return (
-      fileHeader({ file }) +
-      `${header.trim()}\n\n@mixin lyne-design-tokens-css-variables {\n${symbols}\n  /* Composed variables */\n\n  ${body.trim()}\n}\n`
+      fileHeader({ file }) + composedVars.replace('/* DICTIONARY_VARIABLES */', symbols.trim())
     );
   },
   name: 'scss/variables',
@@ -71,13 +53,11 @@ StyleDictionary.registerFormat({
     const { allTokens } = dictionary;
 
     allTokens.forEach((token) => {
-      // if a token uses a reference token, we add the original token object
+      // If a token uses a reference token, we add the original token object
       const usesReference = dictionary.usesReference(token);
 
       if (usesReference) {
-        const ref = dictionary.getReferences(token.original.value);
-
-        token.refOriginal = ref;
+        token.refOriginal = dictionary.getReferences(token.original.value);
       }
     });
 
