@@ -1,6 +1,6 @@
 {
   "name": "@sbb-esta/lyne-design-tokens",
-  "version": "2.0.0-next.1",
+  "version": "2.0.0-next.2",
   "description": "Managing and publishing design tokens for the lyne design system: https://github.com/sbb-design-systems/lyne-components",
   "scripts": {
     "build": "tsx ./build.ts",
