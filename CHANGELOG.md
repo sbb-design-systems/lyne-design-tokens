@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-next.2](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next.1...v2.0.0-next.2) (2025-10-23)
+
+
+### Features
+
+* expose box-shadows as CSS variables ([#571](https://github.com/sbb-design-systems/lyne-design-tokens/issues/571)) ([27be4d0](https://github.com/sbb-design-systems/lyne-design-tokens/commit/27be4d0a27fd433eced24dbd01ab0c53329a6fc5))
+
 ## [2.0.0-next.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next...v2.0.0-next.1) (2025-10-09)
 
 
