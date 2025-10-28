@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-next.3](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next.2...v2.0.0-next.3) (2025-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* removed alpha colors, shadow colors and redModeDark color (red85 is the replacement).
+
+### Code Refactoring
+
+* remove deprecated symbols ([#573](https://github.com/sbb-design-systems/lyne-design-tokens/issues/573)) ([028502a](https://github.com/sbb-design-systems/lyne-design-tokens/commit/028502aaac1b6294a0b3208c1b64cb1a63477919))
+
 ## [2.0.0-next.2](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next.1...v2.0.0-next.2) (2025-10-23)
 
 
