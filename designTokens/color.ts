@@ -2,354 +2,159 @@ import type { DesignTokens } from 'style-dictionary';
 
 export const color: DesignTokens = {
   black: {
-    value: 'rgba(0,0,0,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  blackAlpha: {
-    0: {
-      value: 'rgba(0,0,0,0)',
-    },
-    10: {
-      value: 'rgba(0,0,0,.1)',
-    },
-    15: {
-      value: 'rgba(0,0,0,.15)',
-    },
-    20: {
-      value: 'rgba(0,0,0,.2)',
-    },
-    30: {
-      value: 'rgba(0,0,0,.3)',
-    },
-    40: {
-      value: 'rgba(0,0,0,.4)',
-    },
-    50: {
-      value: 'rgba(0,0,0,.5)',
-    },
-    60: {
-      value: 'rgba(0,0,0,.6)',
-    },
-    70: {
-      value: 'rgba(0,0,0,.7)',
-    },
+    value: 'rgb(0,0,0)',
   },
   midnight: {
-    value: 'rgba(21,21,21,1)',
+    value: 'rgb(21,21,21)',
   },
   blue: {
-    value: 'rgba(45,50,125,1)',
+    value: 'rgb(45,50,125)',
   },
   charcoal: {
-    value: 'rgba(33,33,33,1)',
+    value: 'rgb(33,33,33)',
   },
   iron: {
-    value: 'rgba(68,68,68,1)',
+    value: 'rgb(68,68,68)',
   },
   anthracite: {
-    value: 'rgba(90,90,90,1)',
+    value: 'rgb(90,90,90)',
   },
   granite: {
-    value: 'rgba(104,104,104,1)',
+    value: 'rgb(104,104,104)',
   },
   metal: {
-    value: 'rgba(118,118,118,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  metalAlpha: {
-    0: {
-      value: 'rgba(118,118,118,0)',
-    },
-    20: {
-      value: 'rgba(118,118,118,.2)',
-    },
+    value: 'rgb(118,118,118)',
   },
   smoke: {
-    value: 'rgba(141,141,141,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  smokeAlpha: {
-    0: {
-      value: 'rgba(141,141,141,0)',
-    },
-    5: {
-      value: 'rgba(141,141,141,.05)',
-    },
-    10: {
-      value: 'rgba(141,141,141,.1)',
-    },
-    20: {
-      value: 'rgba(141,141,141,.2)',
-    },
+    value: 'rgb(141,141,141)',
   },
   storm: {
-    value: 'rgba(168,168,168,1)',
+    value: 'rgb(168,168,168)',
   },
   graphite: {
-    value: 'rgba(183,183,183,1)',
+    value: 'rgb(183,183,183)',
   },
   cement: {
-    value: 'rgba(189,189,189,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  cementAlpha: {
-    0: {
-      value: 'rgba(189,189,189,0)',
-    },
-    20: {
-      value: 'rgba(189,189,189,.2)',
-    },
+    value: 'rgb(189,189,189)',
   },
   platinum: {
-    value: 'rgba(205,205,205,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  platinumAlpha: {
-    0: {
-      value: 'rgba(205,205,205,0)',
-    },
-    20: {
-      value: 'rgba(205,205,205,.2)',
-    },
+    value: 'rgb(205,205,205)',
   },
   aluminium: {
-    value: 'rgba(210,210,210,1)',
+    value: 'rgb(210,210,210)',
   },
   silver: {
-    value: 'rgba(220,220,220,1)',
+    value: 'rgb(220,220,220)',
   },
   cloud: {
-    value: 'rgba(229,229,229,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  cloudAlpha: {
-    80: {
-      value: 'rgba(229,229,229,.8)',
-    },
+    value: 'rgb(229,229,229)',
   },
   milk: {
-    value: 'rgba(246,246,246,1)',
+    value: 'rgb(246,246,246)',
   },
   red: {
-    value: 'rgba(235,0,0,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  redAlpha: {
-    0: {
-      value: 'rgba(235,0,0,0)',
-    },
-    20: {
-      value: 'rgba(235,0,0,.2)',
-    },
-    60: {
-      value: 'rgba(235,0,0,.6)',
-    },
-    90: {
-      value: 'rgba(235,0,0,.9)',
-    },
-  },
-  // @deprecated, use red85 instead
-  redMode: {
-    dark: {
-      value: 'rgba(255,56,56,1)',
-    },
+    value: 'rgb(235,0,0)',
   },
   red85: {
-    value: 'rgba(255,56,56,1)',
+    value: 'rgb(255,56,56)',
   },
   red125: {
-    value: 'rgba(198,0,24,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  red125Alpha: {
-    0: {
-      value: 'rgba(198,0,24,0)',
-    },
-    20: {
-      value: 'rgba(198,0,24,.2)',
-    },
-    60: {
-      value: 'rgba(198,0,24,.6)',
-    },
+    value: 'rgb(198,0,24)',
   },
   red150: {
-    value: 'rgba(162,0,19,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  royal: {
-    value: 'rgba(6,52,139,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  royal85: {
-    value: 'rgba(64,119,223,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  royal125: {
-    value: 'rgba(3,38,104,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  royal150: {
-    value: 'rgba(2,28,78,1)',
+    value: 'rgb(162,0,19)',
   },
   royalLight: {
-    value: 'rgba(6,52,139,1)',
+    value: 'rgb(6,52,139)',
   },
   royalDark: {
-    value: 'rgba(0,83,239,1)',
+    value: 'rgb(0,83,239)',
   },
   royal85Light: {
-    value: 'rgba(64,119,223,1)',
+    value: 'rgb(64,119,223)',
   },
   royal85Dark: {
-    value: 'rgba(64,119,223,1)',
+    value: 'rgb(64,119,223)',
   },
   royal125Light: {
-    value: 'rgba(3,38,104,1)',
+    value: 'rgb(3,38,104)',
   },
   royal125Dark: {
-    value: 'rgba(36,94,203,1)',
+    value: 'rgb(36,94,203)',
   },
   royal150Light: {
-    value: 'rgba(2,28,78,1)',
+    value: 'rgb(2,28,78)',
   },
   royal150Dark: {
-    value: 'rgba(60,101,179)',
+    value: 'rgb(60,101,179)',
   },
   white: {
-    value: 'rgba(255,255,255,1)',
-  },
-  // @deprecated, alpha values are deprecated
-  whiteAlpha: {
-    0: {
-      value: 'rgba(255,255,255,0)',
-    },
-    20: {
-      value: 'rgba(255,255,255,.2)',
-    },
-    30: {
-      value: 'rgba(255,255,255,.3)',
-    },
-    50: {
-      value: 'rgba(255,255,255,.5)',
-    },
-    60: {
-      value: 'rgba(255,255,255,.6)',
-    },
-    70: {
-      value: 'rgba(255,255,255,.7)',
-    },
-    80: {
-      value: 'rgba(255,255,255,.8)',
-    },
-  },
-  // @deprecated, use -light or -dark instead
-  sky: {
-    value: 'rgba(0,116,191,1)',
+    value: 'rgb(255,255,255)',
   },
   skyLight: {
-    value: 'rgba(0,116,191,1)',
+    value: 'rgb(0,116,191)',
   },
   skyDark: {
-    value: 'rgba(18,142,222,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  night: {
-    value: 'rgba(20,58,133,1)',
+    value: 'rgb(18,142,222)',
   },
   nightLight: {
-    value: 'rgba(20,58,133,1)',
+    value: 'rgb(20,58,133)',
   },
   nightDark: {
-    value: 'rgba(101,135,202,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  violet: {
-    value: 'rgba(111,34,130,1)',
+    value: 'rgb(101,135,202)',
   },
   violetLight: {
-    value: 'rgba(111,34,130,1)',
+    value: 'rgb(111,34,130)',
   },
   violetDark: {
-    value: 'rgba(179,108,197,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  pink: {
-    value: 'rgba(199,56,122,1)',
+    value: 'rgb(179,108,197)',
   },
   pinkLight: {
-    value: 'rgba(199,56,122,1)',
+    value: 'rgb(199,56,122)',
   },
   pinkDark: {
-    value: 'rgba(228,82,149,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  autumn: {
-    value: 'rgba(207,59,0,1)',
+    value: 'rgb(228,82,149)',
   },
   autumnLight: {
-    value: 'rgba(207,59,0,1)',
+    value: 'rgb(207,59,0)',
   },
   autumnDark: {
-    value: 'rgba(240,83,19,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  orange: {
-    value: 'rgba(242,126,0,1)',
+    value: 'rgb(240,83,19)',
   },
   orangeLight: {
-    value: 'rgba(242,126,0,1)',
+    value: 'rgb(242,126,0)',
   },
   orangeDark: {
-    value: 'rgba(251,142,25,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  peach: {
-    value: 'rgba(252,187,0,1)',
+    value: 'rgb(251,142,25)',
   },
   peachLight: {
-    value: 'rgba(252,187,0,1)',
+    value: 'rgb(252,187,0)',
   },
   peachDark: {
-    value: 'rgba(255,199,39,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  lemon: {
-    value: 'rgba(255,222,21,1)',
+    value: 'rgb(255,199,39)',
   },
   lemonLight: {
-    value: 'rgba(255,222,21,1)',
+    value: 'rgb(255,222,21)',
   },
   lemonDark: {
-    value: 'rgba(255,229,71,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  brown: {
-    value: 'rgba(160,84,0,1)',
+    value: 'rgb(255,229,71)',
   },
   brownLight: {
-    value: 'rgba(160,84,0,1)',
+    value: 'rgb(160,84,0)',
   },
   brownDark: {
-    value: 'rgba(207,111,4)',
-  },
-  // @deprecated, use -light or -dark instead
-  green: {
-    value: 'rgba(0,130,51,1)',
+    value: 'rgb(207,111,4)',
   },
   greenLight: {
-    value: 'rgba(0,130,51,1)',
+    value: 'rgb(0,130,51)',
   },
   greenDark: {
-    value: 'rgba(16,157,71,1)',
-  },
-  // @deprecated, use -light or -dark instead
-  turquoise: {
-    value: 'rgba(0,126,132,1)',
+    value: 'rgb(16,157,71)',
   },
   turquoiseLight: {
-    value: 'rgba(0,126,132,1)',
+    value: 'rgb(0,126,132)',
   },
   turquoiseDark: {
-    value: 'rgba(0,165,155,1)',
+    value: 'rgb(0,165,155)',
   },
 };
