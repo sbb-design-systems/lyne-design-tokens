@@ -23,7 +23,7 @@ export const typo: DesignTokens = {
   },
   lineHeight: {
     titles: {
-      value: '1.3',
+      value: '1.4',
     },
     bodyText: {
       value: '1.75',
