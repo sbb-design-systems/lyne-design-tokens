@@ -54,7 +54,7 @@ $theme: 'standard' !default;
       (
         'standard': var(--sbb-color-red),
         'off-brand': var(--sbb-color-royal),
-        'safety': var(--sbb-color-metal),
+        'safety': var(--sbb-color-royal),
       ),
       $theme
     )};
@@ -62,7 +62,7 @@ $theme: 'standard' !default;
       (
         'standard': var(--sbb-color-red85),
         'off-brand': var(--sbb-color-royal85),
-        'safety': var(--sbb-color-smoke),
+        'safety': var(--sbb-color-royal85),
       ),
       $theme
     )};
@@ -70,7 +70,7 @@ $theme: 'standard' !default;
       (
         'standard': var(--sbb-color-red125),
         'off-brand': var(--sbb-color-royal125),
-        'safety': var(--sbb-color-granite),
+        'safety': var(--sbb-color-royal125),
       ),
       $theme
     )};
@@ -78,7 +78,7 @@ $theme: 'standard' !default;
       (
         'standard': var(--sbb-color-red150),
         'off-brand': var(--sbb-color-royal150),
-        'safety': var(--sbb-color-anthracite),
+        'safety': var(--sbb-color-royal150),
       ),
       $theme
     )};
