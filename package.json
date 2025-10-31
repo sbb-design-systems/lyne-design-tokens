@@ -37,7 +37,7 @@
     "lint-staged": "16.2.6",
     "prettier": "3.6.2",
     "sass": "1.93.3",
-    "style-dictionary": "3.9.2",
+    "style-dictionary": "5.1.1",
     "tsx": "4.20.6",
     "typescript": "5.9.3",
     "typescript-eslint": "8.46.2"
