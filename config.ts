@@ -1,6 +1,13 @@
-import type { Config } from 'style-dictionary';
+import type { Config } from 'style-dictionary/types';
+
+import tokens from './designTokens/index.js';
+import { formats, transforms } from 'style-dictionary/enums';
+
+const { javascriptEs6, jsonFlat, typescriptEs6Declarations } = formats;
+const { nameKebab, timeSeconds } = transforms;
 
 export const config: Config = {
+  tokens,
   platforms: {
     css: {
       buildPath: 'dist/css/',
@@ -8,43 +15,27 @@ export const config: Config = {
       files: [
         {
           destination: 'sbb-variables.css',
-          format: 'css/variables',
+          format: 'custom/format/css/variables',
         },
       ],
       transformGroup: 'css',
-      transforms: [
-        'attribute/cti',
-        'name/cti/kebab',
-        'time/seconds',
-        'content/icon',
-        'color/css',
-        'size/pxToRem',
-        'size/rem',
-      ],
+      transforms: [nameKebab, 'custom/transform/pxToRem'],
     },
     js: {
       buildPath: 'dist/js/',
       prefix: 'sbb',
       files: [
         {
-          destination: 'sbb-tokens.mjs',
-          format: 'javascript/es6',
-        },
-        {
-          destination: 'sbb-tokens.cjs',
-          format: 'custom/format/javascript/module',
+          destination: 'sbb-tokens.js',
+          format: javascriptEs6,
         },
         {
           destination: 'sbb-tokens.d.ts',
-          format: 'typescript/es6-declarations',
-        },
-        {
-          destination: 'sbb-tokens.json',
-          format: 'json/flat',
+          format: typescriptEs6Declarations,
         },
       ],
       transformGroup: 'js',
-      transforms: ['attribute/cti', 'name/cti/pascal', 'color/css'],
+      transforms: ['custom/transform/pxToRem', timeSeconds],
     },
     jsonFlat: {
       buildPath: 'dist/js/',
@@ -52,11 +43,11 @@ export const config: Config = {
       files: [
         {
           destination: 'sbb-tokens.json',
-          format: 'json/flat',
+          format: jsonFlat,
         },
       ],
       transformGroup: 'js',
-      transforms: ['attribute/cti', 'name/cti/kebab', 'color/css'],
+      transforms: [nameKebab, 'custom/transform/pxToRem', timeSeconds],
     },
     jsonRaw: {
       buildPath: 'dist/js/',
@@ -64,11 +55,11 @@ export const config: Config = {
       files: [
         {
           destination: 'sbb-tokens-raw.json',
-          format: 'json/extended',
+          format: 'custom/format/json/extended',
         },
       ],
       transformGroup: 'js',
-      transforms: ['attribute/cti', 'name/cti/kebab', 'color/css'],
+      transforms: [nameKebab, timeSeconds],
     },
     scss: {
       buildPath: 'dist/scss/',
@@ -80,20 +71,11 @@ export const config: Config = {
         },
         {
           destination: 'sbb-variables-as-css.scss',
-          format: 'scss/variables',
+          format: 'custom/format/scss/variables',
         },
       ],
       transformGroup: 'scss',
-      transforms: [
-        'attribute/cti',
-        'name/cti/kebab',
-        'time/seconds',
-        'content/icon',
-        'color/css',
-        'size/pxToRem',
-        'size/rem',
-      ],
+      transforms: [nameKebab, 'custom/transform/pxToRem'],
     },
   },
-  source: ['designTokens'],
 };

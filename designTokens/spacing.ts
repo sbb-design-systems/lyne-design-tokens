@@ -1,232 +1,230 @@
-import type { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignTokens } from 'style-dictionary/types';
 
 const baseSpacing = 4;
-const calculatedSpacing = (value: number): number => value * baseSpacing;
+const calculatedSpacing = (value: number): string => `${value * baseSpacing}px`;
 
-const attributes = (): Partial<DesignToken> => ({
-  attributes: {
-    category: 'size',
-  },
-});
+const attributes: DesignTokens = {
+  type: 'dimension',
+};
 
 export const spacing: DesignTokens = {
   fixed: {
-    '-1x': {
+    '1x': {
       value: calculatedSpacing(1),
-      ...attributes(),
+      ...attributes,
     },
-    '-2x': {
+    '2x': {
       value: calculatedSpacing(2),
-      ...attributes(),
+      ...attributes,
     },
-    '-3x': {
+    '3x': {
       value: calculatedSpacing(3),
-      ...attributes(),
+      ...attributes,
     },
-    '-4x': {
+    '4x': {
       value: calculatedSpacing(4),
-      ...attributes(),
+      ...attributes,
     },
-    '-5x': {
+    '5x': {
       value: calculatedSpacing(5),
-      ...attributes(),
+      ...attributes,
     },
-    '-6x': {
+    '6x': {
       value: calculatedSpacing(6),
-      ...attributes(),
+      ...attributes,
     },
-    '-7x': {
+    '7x': {
       value: calculatedSpacing(7),
-      ...attributes(),
+      ...attributes,
     },
-    '-8x': {
+    '8x': {
       value: calculatedSpacing(8),
-      ...attributes(),
+      ...attributes,
     },
-    '-9x': {
+    '9x': {
       value: calculatedSpacing(9),
-      ...attributes(),
+      ...attributes,
     },
-    '-10x': {
+    '10x': {
       value: calculatedSpacing(10),
-      ...attributes(),
+      ...attributes,
     },
-    '-12x': {
+    '12x': {
       value: calculatedSpacing(12),
-      ...attributes(),
+      ...attributes,
     },
-    '-14x': {
+    '14x': {
       value: calculatedSpacing(14),
-      ...attributes(),
+      ...attributes,
     },
-    '-16x': {
+    '16x': {
       value: calculatedSpacing(16),
-      ...attributes(),
+      ...attributes,
     },
-    '-18x': {
+    '18x': {
       value: calculatedSpacing(18),
-      ...attributes(),
+      ...attributes,
     },
-    '-19x': {
+    '19x': {
       value: calculatedSpacing(19),
-      ...attributes(),
+      ...attributes,
     },
-    '-20x': {
+    '20x': {
       value: calculatedSpacing(20),
-      ...attributes(),
+      ...attributes,
     },
-    '-24x': {
+    '24x': {
       value: calculatedSpacing(24),
-      ...attributes(),
+      ...attributes,
     },
-    '-30x': {
+    '30x': {
       value: calculatedSpacing(30),
-      ...attributes(),
+      ...attributes,
     },
   },
   responsive: {
     xxxs: {
       zero: {
         value: calculatedSpacing(3),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(3),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(4),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(4),
-        ...attributes(),
+        ...attributes,
       },
     },
     xxs: {
       zero: {
         value: calculatedSpacing(4),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(4),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(6),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(6),
-        ...attributes(),
+        ...attributes,
       },
     },
     xs: {
       zero: {
         value: calculatedSpacing(5),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(5),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(6),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(6),
-        ...attributes(),
+        ...attributes,
       },
     },
     s: {
       zero: {
         value: calculatedSpacing(6),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(6),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(8),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(8),
-        ...attributes(),
+        ...attributes,
       },
     },
     m: {
       zero: {
         value: calculatedSpacing(8),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(8),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(10),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(12),
-        ...attributes(),
+        ...attributes,
       },
     },
     l: {
       zero: {
         value: calculatedSpacing(8),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(10),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(14),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(16),
-        ...attributes(),
+        ...attributes,
       },
     },
     xl: {
       zero: {
         value: calculatedSpacing(8),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(12),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(20),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(24),
-        ...attributes(),
+        ...attributes,
       },
     },
     xxl: {
       zero: {
         value: calculatedSpacing(12),
-        ...attributes(),
+        ...attributes,
       },
       small: {
         value: calculatedSpacing(18),
-        ...attributes(),
+        ...attributes,
       },
       large: {
         value: calculatedSpacing(24),
-        ...attributes(),
+        ...attributes,
       },
       ultra: {
         value: calculatedSpacing(30),
-        ...attributes(),
+        ...attributes,
       },
     },
   },

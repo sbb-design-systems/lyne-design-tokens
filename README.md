@@ -19,17 +19,15 @@ lyne-design-tokens/
 ├── designTokens/                                   # Token source files
 └── dist/                                           # These files get built through the build task and get published via npm — are part of the npm package
     ├── css/
-    │    ├── sbb-variables--host.css                # `sbb-` prefixed CSS variables with :host selector (converted to `rem`)
-    │    └── sbb-variables--root.css                # `sbb-` prefixed CSS variables with :root selector (converted to `rem`)
+    │    ├── sbb-variables.css                      # `sbb-` prefixed CSS variables with :root selector
     ├── js/
     │    ├── sbb-tokens-raw.json                    # `sbb-` prefixed nested .json file
-    │    ├── sbb-tokens.mjs                         # `Sbb` prefixed flat esm file
-    │    ├── sbb-tokens.cjs                         # `Sbb` prefixed flat commonjs file
+    │    ├── sbb-tokens.js                          # `Sbb` prefixed flat esm file
     │    ├── sbb-tokens.d.ts                        # `Sbb` prefixed flat type declaration
     │    └── sbb-tokens.json                        # `sbb-` prefixed flat .json file
     └── scss/
-         ├── sbb-variables_css--placeholder.scss    # `sbb-` prefixed CSS variables with Sass placeholder selector (%) (converted to `rem`)
-         └── sbb-variables.scss                     # `sbb-` prefixed Sass variables (converted to `rem`)
+         ├── sbb-variables-as-css.scss              # `sbb-` prefixed CSS variables wrapped in Sass mixins per breakpoint and forced colors.
+         └── sbb-variables.scss                     # `sbb-` prefixed Sass variables
 ```
 
 ## Usage

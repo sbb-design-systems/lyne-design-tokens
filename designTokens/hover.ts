@@ -1,16 +1,10 @@
-import type { DesignToken, DesignTokens } from 'style-dictionary';
-
-const attributes = (group: string): Partial<DesignToken> => ({
-  attributes: {
-    group,
-  },
-});
+import type { DesignTokens } from 'style-dictionary/types';
 
 export const hover: DesignTokens = {
   image: {
     brightness: {
       value: 1.075,
-      ...attributes('hover'),
+      type: 'number',
     },
   },
 };

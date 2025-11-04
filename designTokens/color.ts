@@ -1,160 +1,214 @@
-import type { DesignTokens } from 'style-dictionary';
+import type { DesignTokens } from 'style-dictionary/types';
+
+const attributes: DesignTokens = { type: 'color' };
 
 export const color: DesignTokens = {
   black: {
-    value: 'rgb(0,0,0)',
+    value: '#000000',
+    ...attributes,
   },
   midnight: {
-    value: 'rgb(21,21,21)',
+    value: '#151515',
+    ...attributes,
   },
   blue: {
-    value: 'rgb(45,50,125)',
+    value: '#2d327d',
+    ...attributes,
   },
   charcoal: {
-    value: 'rgb(33,33,33)',
+    value: '#212121',
+    ...attributes,
   },
   iron: {
-    value: 'rgb(68,68,68)',
+    value: '#444444',
+    ...attributes,
   },
   anthracite: {
-    value: 'rgb(90,90,90)',
+    value: '#5a5a5a',
+    ...attributes,
   },
   granite: {
-    value: 'rgb(104,104,104)',
+    value: '#686868',
+    ...attributes,
   },
   metal: {
-    value: 'rgb(118,118,118)',
+    value: '#767676',
+    ...attributes,
   },
   smoke: {
-    value: 'rgb(141,141,141)',
+    value: '#8d8d8d',
+    ...attributes,
   },
   storm: {
-    value: 'rgb(168,168,168)',
+    value: '#a8a8a8',
+    ...attributes,
   },
   graphite: {
-    value: 'rgb(183,183,183)',
+    value: '#b7b7b7',
+    ...attributes,
   },
   cement: {
-    value: 'rgb(189,189,189)',
+    value: '#bdbdbd',
+    ...attributes,
   },
   platinum: {
-    value: 'rgb(205,205,205)',
+    value: '#cdcdcd',
+    ...attributes,
   },
   aluminium: {
-    value: 'rgb(210,210,210)',
+    value: '#d2d2d2',
+    ...attributes,
   },
   silver: {
-    value: 'rgb(220,220,220)',
+    value: '#dcdcdc',
+    ...attributes,
   },
   cloud: {
-    value: 'rgb(229,229,229)',
+    value: '#e5e5e5',
+    ...attributes,
   },
   milk: {
-    value: 'rgb(246,246,246)',
+    value: '#f6f6f6',
+    ...attributes,
   },
   red: {
-    value: 'rgb(235,0,0)',
+    value: '#eb0000',
+    ...attributes,
   },
   red85: {
-    value: 'rgb(255,56,56)',
+    value: '#ff3838',
+    ...attributes,
   },
   red125: {
-    value: 'rgb(198,0,24)',
+    value: '#c60018',
+    ...attributes,
   },
   red150: {
-    value: 'rgb(162,0,19)',
+    value: '#a20013',
+    ...attributes,
   },
   royalLight: {
-    value: 'rgb(6,52,139)',
+    value: '#06348b',
+    ...attributes,
   },
   royalDark: {
-    value: 'rgb(0,83,239)',
+    value: '#0053ef',
+    ...attributes,
   },
   royal85Light: {
-    value: 'rgb(64,119,223)',
+    value: '#4077df',
+    ...attributes,
   },
   royal85Dark: {
-    value: 'rgb(64,119,223)',
+    value: '#4077df',
+    ...attributes,
   },
   royal125Light: {
-    value: 'rgb(3,38,104)',
+    value: '#032668',
+    ...attributes,
   },
   royal125Dark: {
-    value: 'rgb(36,94,203)',
+    value: '#245ecb',
+    ...attributes,
   },
   royal150Light: {
-    value: 'rgb(2,28,78)',
+    value: '#021c4e',
+    ...attributes,
   },
   royal150Dark: {
-    value: 'rgb(60,101,179)',
+    value: '#3c65b3',
+    ...attributes,
   },
   white: {
-    value: 'rgb(255,255,255)',
+    value: '#ffffff',
+    ...attributes,
   },
   skyLight: {
-    value: 'rgb(0,116,191)',
+    value: '#0074bf',
+    ...attributes,
   },
   skyDark: {
-    value: 'rgb(18,142,222)',
+    value: '#128ede',
+    ...attributes,
   },
   nightLight: {
-    value: 'rgb(20,58,133)',
+    value: '#143a85',
+    ...attributes,
   },
   nightDark: {
-    value: 'rgb(101,135,202)',
+    value: '#6587ca',
+    ...attributes,
   },
   violetLight: {
-    value: 'rgb(111,34,130)',
+    value: '#6f2282',
+    ...attributes,
   },
   violetDark: {
-    value: 'rgb(179,108,197)',
+    value: '#b36cc5',
+    ...attributes,
   },
   pinkLight: {
-    value: 'rgb(199,56,122)',
+    value: '#c7387a',
+    ...attributes,
   },
   pinkDark: {
-    value: 'rgb(228,82,149)',
+    value: '#e45295',
+    ...attributes,
   },
   autumnLight: {
-    value: 'rgb(207,59,0)',
+    value: '#cf3b00',
+    ...attributes,
   },
   autumnDark: {
-    value: 'rgb(240,83,19)',
+    value: '#f05313',
+    ...attributes,
   },
   orangeLight: {
-    value: 'rgb(242,126,0)',
+    value: '#f27e00',
+    ...attributes,
   },
   orangeDark: {
-    value: 'rgb(251,142,25)',
+    value: '#fb8e19',
+    ...attributes,
   },
   peachLight: {
-    value: 'rgb(252,187,0)',
+    value: '#fcbb00',
+    ...attributes,
   },
   peachDark: {
-    value: 'rgb(255,199,39)',
+    value: '#ffc727',
+    ...attributes,
   },
   lemonLight: {
-    value: 'rgb(255,222,21)',
+    value: '#ffde15',
+    ...attributes,
   },
   lemonDark: {
-    value: 'rgb(255,229,71)',
+    value: '#ffe547',
+    ...attributes,
   },
   brownLight: {
-    value: 'rgb(160,84,0)',
+    value: '#a05400',
+    ...attributes,
   },
   brownDark: {
-    value: 'rgb(207,111,4)',
+    value: '#cf6f04',
+    ...attributes,
   },
   greenLight: {
-    value: 'rgb(0,130,51)',
+    value: '#008233',
+    ...attributes,
   },
   greenDark: {
-    value: 'rgb(16,157,71)',
+    value: '#109d47',
+    ...attributes,
   },
   turquoiseLight: {
-    value: 'rgb(0,126,132)',
+    value: '#007e84',
+    ...attributes,
   },
   turquoiseDark: {
-    value: 'rgb(0,165,155)',
+    value: '#00a59b',
+    ...attributes,
   },
 };

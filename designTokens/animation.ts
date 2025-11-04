@@ -1,45 +1,45 @@
-import type { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignTokens } from 'style-dictionary/types';
 
 const baseDuration = 40;
 const duration = (value: number): number => value * baseDuration;
-const attributes = (): Partial<DesignToken> => ({
-  attributes: {
-    category: 'time',
-  },
-});
+
+const attributes: DesignTokens = {
+  type: 'time',
+};
 
 export const animation: DesignTokens = {
   duration: {
-    '-1x': {
+    '1x': {
       value: duration(1),
-      ...attributes(),
+      ...attributes,
     },
-    '-2x': {
+    '2x': {
       value: duration(2),
-      ...attributes(),
+      ...attributes,
     },
-    '-3x': {
+    '3x': {
       value: duration(3),
-      ...attributes(),
+      ...attributes,
     },
-    '-4x': {
+    '4x': {
       value: duration(4),
-      ...attributes(),
+      ...attributes,
     },
-    '-5x': {
+    '5x': {
       value: duration(5),
-      ...attributes(),
+      ...attributes,
     },
-    '-6x': {
+    '6x': {
       value: duration(6),
-      ...attributes(),
+      ...attributes,
     },
-    '-12x': {
+    '12x': {
       value: duration(12),
-      ...attributes(),
+      ...attributes,
     },
   },
   easing: {
+    type: 'cubicBezier',
     value: 'cubic-bezier(.47, .1, 1, .63)',
   },
 };
