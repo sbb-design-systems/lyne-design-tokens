@@ -1,21 +1,20 @@
-import type { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignTokens } from 'style-dictionary/types';
 
 const baseTypoSpacing = 16;
-const typoSpacing = (value: number): number => value * baseTypoSpacing;
+const typoSpacing = (value: number): string => `${value * baseTypoSpacing}px`;
 
-const attributes = (): Partial<DesignToken> => ({
-  attributes: {
-    category: 'size',
-  },
-});
+const attributes: DesignTokens = {
+  type: 'dimension',
+};
 
 export const typo: DesignTokens = {
   fontFamily: {
+    type: 'fontFamily',
     value: '"SBB", "Helvetica Neue", Helvetica, Arial, sans-serif',
   },
   letterSpacing: {
     titles: {
-      value: '0',
+      value: '0em',
     },
     bodyText: {
       value: '0.03em',
@@ -23,60 +22,62 @@ export const typo: DesignTokens = {
   },
   lineHeight: {
     titles: {
-      value: '1.4',
+      value: 1.4,
+      type: 'number',
     },
     bodyText: {
-      value: '1.75',
+      value: 1.75,
+      type: 'number',
     },
   },
   scale: {
     '0-75x': {
       value: typoSpacing(0.75),
-      ...attributes(),
+      ...attributes,
     },
     '0-8125x': {
       value: typoSpacing(0.8125),
-      ...attributes(),
+      ...attributes,
     },
     '0-875x': {
       value: typoSpacing(0.875),
-      ...attributes(),
+      ...attributes,
     },
     default: {
       value: typoSpacing(1),
-      ...attributes(),
+      ...attributes,
     },
     '1-125x': {
       value: typoSpacing(1.125),
-      ...attributes(),
+      ...attributes,
     },
     '1-25x': {
       value: typoSpacing(1.25),
-      ...attributes(),
+      ...attributes,
     },
     '1-5x': {
       value: typoSpacing(1.5),
-      ...attributes(),
+      ...attributes,
     },
     '2x': {
       value: typoSpacing(2),
-      ...attributes(),
+      ...attributes,
     },
     '2-5x': {
       value: typoSpacing(2.5),
-      ...attributes(),
+      ...attributes,
     },
     '3x': {
       value: typoSpacing(3),
-      ...attributes(),
+      ...attributes,
     },
     '3-5x': {
       value: typoSpacing(3.5),
-      ...attributes(),
+      ...attributes,
     },
     '4x': {
       value: typoSpacing(4),
-      ...attributes(),
+      ...attributes,
     },
   },
 };

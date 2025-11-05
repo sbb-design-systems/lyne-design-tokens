@@ -1,50 +1,48 @@
-import type { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignTokens } from 'style-dictionary/types';
 
-const attributes = (): Partial<DesignToken> => ({
-  attributes: {
-    category: 'size',
-  },
-});
+const attributes: DesignTokens = {
+  type: 'dimension',
+};
 
 export const breakpoint: DesignTokens = {
   zero: {
     min: {
-      value: 0,
-      ...attributes(),
+      value: '0px',
+      ...attributes,
     },
     max: {
-      value: 599,
-      ...attributes(),
+      value: '599px',
+      ...attributes,
     },
   },
   small: {
     min: {
-      value: 600,
-      ...attributes(),
+      value: '600px',
+      ...attributes,
     },
     max: {
-      value: 1023,
-      ...attributes(),
+      value: '1023px',
+      ...attributes,
     },
   },
   large: {
     min: {
-      value: 1024,
-      ...attributes(),
+      value: '1024px',
+      ...attributes,
     },
     max: {
-      value: 1439,
-      ...attributes(),
+      value: '1439px',
+      ...attributes,
     },
   },
   ultra: {
     min: {
-      value: 1440,
-      ...attributes(),
+      value: '1440px',
+      ...attributes,
     },
     max: {
-      value: 2579,
-      ...attributes(),
+      value: '2579px',
+      ...attributes,
     },
   },
 };

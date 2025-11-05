@@ -1,60 +1,58 @@
-import type { DesignToken, DesignTokens } from 'style-dictionary';
+import type { DesignTokens } from 'style-dictionary/types';
 
 const baseBorderWidth = 1;
 const baseBorderRadius = 2;
 
-const borderWidth = (width: number): number => width * baseBorderWidth;
-const borderRadius = (width: number): number => width * baseBorderRadius;
+const borderWidth = (width: number): string => `${width * baseBorderWidth}px`;
+const borderRadius = (width: number): string => `${width * baseBorderRadius}px`;
 
-const attributes = (): Partial<DesignToken> => ({
-  attributes: {
-    category: 'size',
-  },
-});
+const attributes: DesignTokens = {
+  type: 'dimension',
+};
 
 export const border: DesignTokens = {
   width: {
     '1x': {
       value: borderWidth(1),
-      ...attributes(),
+      ...attributes,
     },
     '2x': {
       value: borderWidth(2),
-      ...attributes(),
+      ...attributes,
     },
     '3x': {
       value: borderWidth(3),
-      ...attributes(),
+      ...attributes,
     },
     '4x': {
       value: borderWidth(4),
-      ...attributes(),
+      ...attributes,
     },
   },
   radius: {
     '1x': {
       value: borderRadius(1),
-      ...attributes(),
+      ...attributes,
     },
     '2x': {
       value: borderRadius(2),
-      ...attributes(),
+      ...attributes,
     },
     '4x': {
       value: borderRadius(4),
-      ...attributes(),
+      ...attributes,
     },
     '6x': {
       value: borderRadius(6),
-      ...attributes(),
+      ...attributes,
     },
     '8x': {
       value: borderRadius(8),
-      ...attributes(),
+      ...attributes,
     },
     '16x': {
       value: borderRadius(16),
-      ...attributes(),
+      ...attributes,
     },
   },
 };

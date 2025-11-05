@@ -1,11 +1,4 @@
-import type { DesignToken, DesignTokens } from 'style-dictionary';
-
-const attributes = (group: string, category = 'size'): Partial<DesignToken> => ({
-  attributes: {
-    category,
-    group,
-  },
-});
+import type { DesignTokens } from 'style-dictionary/types';
 
 export const layout: DesignTokens = {
   base: {
@@ -13,38 +6,38 @@ export const layout: DesignTokens = {
       columns: {
         zero: {
           value: 4,
-          ...attributes('base-grid-columns', 'noUnit'),
+          type: 'number',
         },
         small: {
           value: 8,
-          ...attributes('base-grid-columns', 'noUnit'),
+          type: 'number',
         },
         large: {
           value: 12,
-          ...attributes('base-grid-columns', 'noUnit'),
+          type: 'number',
         },
         ultra: {
           value: 16,
-          ...attributes('base-grid-columns', 'noUnit'),
+          type: 'number',
         },
       },
       gutter: {
         responsive: {
           zero: {
-            value: 16,
-            ...attributes('base-grid-gutter-responsive'),
+            value: '16px',
+            type: 'dimension',
           },
           small: {
-            value: 24,
-            ...attributes('base-grid-gutter-responsive'),
+            value: '24px',
+            type: 'dimension',
           },
           large: {
-            value: 32,
-            ...attributes('base-grid-gutter-responsive'),
+            value: '32px',
+            type: 'dimension',
           },
           ultra: {
-            value: 32,
-            ...attributes('base-grid-gutter-responsive'),
+            value: '32px',
+            type: 'dimension',
           },
         },
       },
@@ -52,27 +45,27 @@ export const layout: DesignTokens = {
     offset: {
       responsive: {
         zero: {
-          value: 20,
-          ...attributes('base-offset-responsive'),
+          value: '20px',
+          type: 'dimension',
         },
         small: {
-          value: 48,
-          ...attributes('base-offset-responsive'),
+          value: '48px',
+          type: 'dimension',
         },
         large: {
-          value: 64,
-          ...attributes('base-offset-responsive'),
+          value: '64px',
+          type: 'dimension',
         },
         ultra: {
-          value: 120,
-          ...attributes('base-offset-responsive'),
+          value: '120px',
+          type: 'dimension',
         },
       },
     },
     page: {
       maxWidth: {
-        value: 1200,
-        ...attributes('base-page'),
+        value: '1200px',
+        type: 'dimension',
       },
     },
   },
