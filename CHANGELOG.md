@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0-next.4](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next.3...v2.0.0-next.4) (2025-11-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* The following tokens were renamed:
+    - `--sbb-typo-letter-spacing-titles` to `--sbb-typo-letter-spacing-heading`
+    - `--sbb-typo-letter-spacing-body-text` to `--sbb-typo-letter-spacing-text`
+    - `--sbb-typo-line-height-titles` to `--sbb-typo-line-height-heading`
+    - `--sbb-typo-line-height-body-text` to `--sbb-typo-line-height-text`
+    - `--sbb-font-size-title-*` to `--sbb-heading-font-size-*`
+    - `--sbb-font-size-text-*` to `--sbb-text-font-size-*`
+    - `--sbb-font-default-color` to `--sbb-font-color-default`
+* Added units to exported tokens in all export formats. Furthermore, the sbb-tokens-raw.json format has changed.
+
+### Features
+
+* increase title line-height ([#576](https://github.com/sbb-design-systems/lyne-design-tokens/issues/576)) ([3c62c7e](https://github.com/sbb-design-systems/lyne-design-tokens/commit/3c62c7ee0f085d2d8bdcc3ab26a397cb629d390f))
+
+
+### Bug Fixes
+
+* use adapted safety relevant colors ([#577](https://github.com/sbb-design-systems/lyne-design-tokens/issues/577)) ([b807760](https://github.com/sbb-design-systems/lyne-design-tokens/commit/b8077603fab38bb6746fb20a3f095a6b25b8921c))
+
+
+### Code Refactoring
+
+* update to style dictionary 5 ([#579](https://github.com/sbb-design-systems/lyne-design-tokens/issues/579)) ([251d5d7](https://github.com/sbb-design-systems/lyne-design-tokens/commit/251d5d7f23396e181e39fbb43d76fe6d3928fc64))
+* use lean values for titles ([#580](https://github.com/sbb-design-systems/lyne-design-tokens/issues/580)) ([e160ea3](https://github.com/sbb-design-systems/lyne-design-tokens/commit/e160ea3f53ed39973634b479f15445e517b971c5))
+
 ## [2.0.0-next.3](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next.2...v2.0.0-next.3) (2025-10-28)
 
 
