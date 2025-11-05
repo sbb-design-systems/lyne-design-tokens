@@ -253,7 +253,7 @@ $theme: 'standard' !default;
     var(--sbb-shadow-level-11-shadow-2) var(--sbb-shadow-color-hard-2-negative),
     var(--sbb-shadow-level-11-shadow-1) var(--sbb-shadow-color-hard-1-negative);
 
-  --sbb-font-default-color: var(--sbb-color-2);
+  --sbb-font-color-default: var(--sbb-color-2);
 
   /* Focus outline */
   --sbb-focus-outline-color-default: var(--sbb-color-black);
@@ -265,19 +265,99 @@ $theme: 'standard' !default;
   --sbb-focus-outline-width: var(--sbb-border-width-1x);
 
   /* Title */
-  --sbb-font-size-title-1: var(--sbb-typo-scale-2-5x);
-  --sbb-font-size-title-2: var(--sbb-typo-scale-2x);
-  --sbb-font-size-title-3: var(--sbb-typo-scale-1-5x);
-  --sbb-font-size-title-4: var(--sbb-typo-scale-1-25x);
-  --sbb-font-size-title-5: var(--sbb-typo-scale-1-125x);
-  --sbb-font-size-title-6: var(--sbb-typo-scale-0-875x);
-  --sbb-font-size-title-7: var(--sbb-typo-scale-0-75x);
-  --sbb-font-size-text-xl: var(--sbb-typo-scale-1-25x);
-  --sbb-font-size-text-l: var(--sbb-typo-scale-1-125x);
-  --sbb-font-size-text-m: var(--sbb-typo-scale-default);
-  --sbb-font-size-text-s: var(--sbb-typo-scale-0-875x);
-  --sbb-font-size-text-xs: var(--sbb-typo-scale-0-75x);
-  --sbb-font-size-text-xxs: var(--sbb-typo-scale-0-75x);
+  --sbb-heading-font-size-1: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-2-5x),
+        'lean': var(--sbb-typo-scale-2x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-2: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-2x),
+        'lean': var(--sbb-typo-scale-1-5x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-3: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-1-5x),
+        'lean': var(--sbb-typo-scale-1-25x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-4: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-1-25x),
+        'lean': var(--sbb-typo-scale-1-125x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-5: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-1-125x),
+        'lean': var(--sbb-typo-scale-0-875x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-6: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-0-875x),
+        'lean': var(--sbb-typo-scale-0-75x),
+      ),
+      $theme
+    )};
+
+  --sbb-heading-margin-block-1: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-spacing-responsive-l) var(--sbb-spacing-responsive-s),
+        'lean': var(--sbb-spacing-responsive-s) var(--sbb-spacing-fixed-3x),
+      ),
+      $theme
+    )};
+  --sbb-heading-margin-block-2: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-xxxs),
+        'lean': var(--sbb-spacing-responsive-s) var(--sbb-spacing-fixed-3x),
+      ),
+      $theme
+    )};
+  --sbb-heading-margin-block-3: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-xxxs),
+        'lean': var(--sbb-spacing-responsive-s) var(--sbb-spacing-responsive-xxxs),
+      ),
+      $theme
+    )};
+  --sbb-heading-margin-block-4: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-spacing-responsive-m) var(--sbb-spacing-fixed-3x),
+        'lean': var(--sbb-spacing-responsive-s) var(--sbb-spacing-fixed-2x),
+      ),
+      $theme
+    )};
+  --sbb-heading-margin-block-5: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-spacing-responsive-m) var(--sbb-spacing-fixed-2x),
+        'lean': var(--sbb-spacing-responsive-s) var(--sbb-spacing-fixed-1x),
+      ),
+      $theme
+    )};
+  --sbb-heading-margin-block-6: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-spacing-responsive-m) var(--sbb-spacing-fixed-1x),
+        'lean': var(--sbb-spacing-responsive-s) 0,
+      ),
+      $theme
+    )};
+
+  /* Text */
+  --sbb-text-font-size-xl: var(--sbb-typo-scale-1-25x);
+  --sbb-text-font-size-l: var(--sbb-typo-scale-1-125x);
+  --sbb-text-font-size-m: var(--sbb-typo-scale-default);
+  --sbb-text-font-size-s: var(--sbb-typo-scale-0-875x);
+  --sbb-text-font-size-xs: var(--sbb-typo-scale-0-75x);
+  --sbb-text-font-size-xxs: var(--sbb-typo-scale-0-75x);
 
   /* Spacing */
   --sbb-spacing-responsive-xxxs: var(--sbb-spacing-responsive-xxxs-zero);
@@ -312,7 +392,13 @@ $theme: 'standard' !default;
 
 @mixin breakpoint-small {
   /* Title */
-  --sbb-font-size-title-1: var(--sbb-typo-scale-3x);
+  --sbb-heading-font-size-1: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-3x),
+        'lean': var(--sbb-typo-scale-2x),
+      ),
+      $theme
+    )};
 
   /* Spacing */
   --sbb-spacing-responsive-l: var(--sbb-spacing-responsive-l-small);
@@ -327,18 +413,55 @@ $theme: 'standard' !default;
 
 @mixin breakpoint-large {
   /* Title */
-  --sbb-font-size-title-1: var(--sbb-typo-scale-3-5x);
-  --sbb-font-size-title-2: var(--sbb-typo-scale-2-5x);
-  --sbb-font-size-title-3: var(--sbb-typo-scale-2x);
-  --sbb-font-size-title-4: var(--sbb-typo-scale-1-5x);
-  --sbb-font-size-title-5: var(--sbb-typo-scale-1-25x);
-  --sbb-font-size-title-6: var(--sbb-typo-scale-default);
-  --sbb-font-size-title-7: var(--sbb-typo-scale-0-875x);
-  --sbb-font-size-text-xl: var(--sbb-typo-scale-1-5x);
-  --sbb-font-size-text-l: var(--sbb-typo-scale-1-25x);
-  --sbb-font-size-text-m: var(--sbb-typo-scale-1-125x);
-  --sbb-font-size-text-s: var(--sbb-typo-scale-default);
-  --sbb-font-size-text-xs: var(--sbb-typo-scale-0-875x);
+  --sbb-heading-font-size-1: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-3-5x),
+        'lean': var(--sbb-typo-scale-2-5x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-2: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-2-5x),
+        'lean': var(--sbb-typo-scale-2x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-3: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-2x),
+        'lean': var(--sbb-typo-scale-1-5x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-4: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-1-5x),
+        'lean': var(--sbb-typo-scale-1-25x),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-5: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-1-25x),
+        'lean': var(--sbb-typo-scale-default),
+      ),
+      $theme
+    )};
+  --sbb-heading-font-size-6: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-default),
+        'lean': var(--sbb-typo-scale-0-875x),
+      ),
+      $theme
+    )};
+
+  /* Text */
+  --sbb-text-font-size-xl: var(--sbb-typo-scale-1-5x);
+  --sbb-text-font-size-l: var(--sbb-typo-scale-1-25x);
+  --sbb-text-font-size-m: var(--sbb-typo-scale-1-125x);
+  --sbb-text-font-size-s: var(--sbb-typo-scale-default);
+  --sbb-text-font-size-xs: var(--sbb-typo-scale-0-875x);
 
   /* Spacing */
   --sbb-spacing-responsive-xxxs: var(--sbb-spacing-responsive-xxxs-large);
@@ -366,7 +489,13 @@ $theme: 'standard' !default;
 
 @mixin breakpoint-ultra {
   /* Title */
-  --sbb-font-size-title-1: var(--sbb-typo-scale-4x);
+  --sbb-heading-font-size-1: #{theme-pattern-select(
+      (
+        'standard': var(--sbb-typo-scale-4x),
+        'lean': var(--sbb-typo-scale-2-5x),
+      ),
+      $theme
+    )};
 
   /* Spacing */
   --sbb-spacing-responsive-m: var(--sbb-spacing-responsive-m-ultra);

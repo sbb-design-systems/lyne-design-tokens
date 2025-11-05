@@ -13,19 +13,19 @@ export const typo: DesignTokens = {
     value: '"SBB", "Helvetica Neue", Helvetica, Arial, sans-serif',
   },
   letterSpacing: {
-    titles: {
+    heading: {
       value: '0em',
     },
-    bodyText: {
+    text: {
       value: '0.03em',
     },
   },
   lineHeight: {
-    titles: {
+    heading: {
       value: 1.4,
       type: 'number',
     },
-    bodyText: {
+    text: {
       value: 1.75,
       type: 'number',
     },
