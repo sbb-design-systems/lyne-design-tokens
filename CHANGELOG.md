@@ -5,6 +5,42 @@ All notable changes to this project will be documented in this file. See [standa
 ## [2.0.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0-next.4...v2.0.0) (2025-11-27)
 
 
+### ⚠ BREAKING CHANGES
+
+* Breakpoints micro, medium and wide have been removed. All related tokens were removed or adapted.
+* The following tokens were renamed:
+  - `--sbb-typo-letter-spacing-titles` to `--sbb-typo-letter-spacing-heading`
+  - `--sbb-typo-letter-spacing-body-text` to `--sbb-typo-letter-spacing-text`
+  - `--sbb-typo-line-height-titles` to `--sbb-typo-line-height-heading`
+  - `--sbb-typo-line-height-body-text` to `--sbb-typo-line-height-text`
+  - `--sbb-font-size-title-*` to `--sbb-heading-font-size-*`
+  - `--sbb-font-size-text-*` to `--sbb-text-font-size-*`
+  - `--sbb-font-default-color` to `--sbb-font-color-default`
+* Added units to exported tokens in all export formats. Furthermore, the sbb-tokens-raw.json format has changed.
+* Removed alpha colors, shadow colors and redModeDark color (red85 is the replacement).
+* The generated scss file doesn't include the `:root` selector anymore, but only mixins to work with. Other than that, the file `sbb-variables_css--mixin.scss` was renamed to `sbb-variables-as-css.scss`.
+
+### Features
+
+* increase title line-height ([#576](https://github.com/sbb-design-systems/lyne-design-tokens/issues/576)) ([3c62c7e](https://github.com/sbb-design-systems/lyne-design-tokens/commit/3c62c7ee0f085d2d8bdcc3ab26a397cb629d390f))
+* expose box-shadows as CSS variables ([#571](https://github.com/sbb-design-systems/lyne-design-tokens/issues/571)) ([27be4d0](https://github.com/sbb-design-systems/lyne-design-tokens/commit/27be4d0a27fd433eced24dbd01ab0c53329a6fc5))
+* reduce to four breakpoints ([#557](https://github.com/sbb-design-systems/lyne-design-tokens/issues/557)) ([42faf00](https://github.com/sbb-design-systems/lyne-design-tokens/commit/42faf00ff3c3ef88249b862b5ef02dbfdfd3936f))
+* use theme functions and provide mixins ([#567](https://github.com/sbb-design-systems/lyne-design-tokens/issues/567)) ([c4abf16](https://github.com/sbb-design-systems/lyne-design-tokens/commit/c4abf160d4806631a2157341c12c2dff83eeba53))
+
+
+### Bug Fixes
+
+* use adapted safety relevant colors ([#577](https://github.com/sbb-design-systems/lyne-design-tokens/issues/577)) ([b807760](https://github.com/sbb-design-systems/lyne-design-tokens/commit/b8077603fab38bb6746fb20a3f095a6b25b8921c))
+* export base mixins ([#568](https://github.com/sbb-design-systems/lyne-design-tokens/issues/568)) ([cc12d89](https://github.com/sbb-design-systems/lyne-design-tokens/commit/cc12d89b7afe5ea305180babec5ea66db3afadfb))
+
+
+### Code Refactoring
+
+* update to style dictionary 5 ([#579](https://github.com/sbb-design-systems/lyne-design-tokens/issues/579)) ([251d5d7](https://github.com/sbb-design-systems/lyne-design-tokens/commit/251d5d7f23396e181e39fbb43d76fe6d3928fc64))
+* use lean values for titles ([#580](https://github.com/sbb-design-systems/lyne-design-tokens/issues/580)) ([e160ea3](https://github.com/sbb-design-systems/lyne-design-tokens/commit/e160ea3f53ed39973634b479f15445e517b971c5))
+* remove deprecated symbols ([#573](https://github.com/sbb-design-systems/lyne-design-tokens/issues/573)) ([028502a](https://github.com/sbb-design-systems/lyne-design-tokens/commit/028502aaac1b6294a0b3208c1b64cb1a63477919))
+
+
 ### Miscellaneous Chores
 
 * release 2.0.0 preparation ([63ac7da](https://github.com/sbb-design-systems/lyne-design-tokens/commit/63ac7dac2167e1abb2e8bbecba0ab7e282e460a0))
