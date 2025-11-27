@@ -4,9 +4,7 @@
   "include-component-in-tag": false,
   "packages": {
     ".": {
-      "changelog-path": "CHANGELOG.md",
-      "versioning": "prerelease",
-      "prerelease-type": "next"
+      "changelog-path": "CHANGELOG.md"
     }
   }
 }
