@@ -35,7 +35,7 @@
     "globals": "16.5.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
-    "prettier": "3.7.2",
+    "prettier": "3.7.3",
     "sass": "1.94.2",
     "style-dictionary": "5.1.1",
     "tsx": "4.20.6",
