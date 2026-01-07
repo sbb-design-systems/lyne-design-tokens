@@ -23,18 +23,18 @@
   dependencies:
     deepmerge "^4.3.1"
 
-"@bundled-es-modules/glob@^11.0.3":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@bundled-es-modules/glob/-/glob-11.0.3.tgz#ce238c5d05d7841debdb215cb4837efd22a05d26"
-  integrity sha512-rt+1650YhlwRkkj67YMZQj5LXWZiavpHQg8K6jDcZBPbrBIooHbKOQvvxKJsKM80H1oHengEbIymfw3mn4FkUw==
+"@bundled-es-modules/glob@^11.1.0":
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/@bundled-es-modules/glob/-/glob-11.1.0.tgz#b865a0a0c5a8cca76adb989516fa117119116e59"
+  integrity sha512-aD2nUfnJMa4hzRXhCRXKtIeOiCyGzJwJ/3mfHQeFxPANzpmQZRzv8lgWabYt1VtXkI6mvBPA+x8K5gB/lzPhIQ==
   dependencies:
     buffer "^6.0.3"
     events "^3.3.0"
-    glob "^11.0.3"
+    glob "^11.1.0"
     path "^0.12.7"
     stream "^0.0.3"
     string_decoder "^1.3.0"
-    url "^0.11.3"
+    url "^0.11.4"
 
 "@bundled-es-modules/memfs@^4.9.4":
   version "4.17.0"
@@ -1473,7 +1473,7 @@ glob-to-regex.js@^1.0.1:
   resolved "https://registry.yarnpkg.com/glob-to-regex.js/-/glob-to-regex.js-1.2.0.tgz#2b323728271d133830850e32311f40766c5f6413"
   integrity sha512-QMwlOQKU/IzqMUOAZWubUOT8Qft+Y0KQWnX9nK3ch0CJg0tTp4TvGZsTfudYKv2NzoQSyPcnA6TYeIQ3jGichQ==
 
-glob@^11.0.3:
+glob@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-11.1.0.tgz#4f826576e4eb99c7dad383793d2f9f08f67e50a6"
   integrity sha512-vuNwKSaKiqm7g0THUBu2x7ckSs3XJLXE+2ssL7/MfTGPLLcrJQ/4Uq1CjPTtO5cCIiRxqvN6Twy1qOwhL0Xjcw==
@@ -2412,13 +2412,13 @@ strip-json-comments@^3.1.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
-style-dictionary@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.1.1.tgz#0a13d0aa80b488b403983923dca1c6fc57901c8e"
-  integrity sha512-scRFwr2VrerXy6BzO2Ym8AI0dRGkAIoS2YhooagytxCFkoXPYCLhvIxg3VO/yD2i4VeU4aGmHG80+ZLdPDb0uw==
+style-dictionary@5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.1.3.tgz#0ed876f64ac7aa7fc5b5184b6d4c47472ce5fd06"
+  integrity sha512-xXhF458qsN9ABVTBjGfugLZV2id3Ef46KzkeItSLlkAtF8oLax+mAVXbUGlVlYhhkaSP66J8xcSSwn2PqaeYUw==
   dependencies:
     "@bundled-es-modules/deepmerge" "^4.3.1"
-    "@bundled-es-modules/glob" "^11.0.3"
+    "@bundled-es-modules/glob" "^11.1.0"
     "@bundled-es-modules/memfs" "^4.9.4"
     "@zip.js/zip.js" "^2.7.44"
     chalk "^5.3.0"
@@ -2546,7 +2546,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-url@^0.11.3:
+url@^0.11.4:
   version "0.11.4"
   resolved "https://registry.yarnpkg.com/url/-/url-0.11.4.tgz#adca77b3562d56b72746e76b330b7f27b6721f3c"
   integrity sha512-oCwdVC7mTuWiPyjLUz/COz5TLk6wgp0RCsN+wHZ2Ekneac9w8uuV0njcbbie2ME+Vs+d6duwmYuR3HgQXs1fOg==
