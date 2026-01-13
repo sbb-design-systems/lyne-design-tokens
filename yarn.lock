@@ -2412,10 +2412,10 @@ strip-json-comments@^3.1.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
-style-dictionary@5.1.3:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.1.3.tgz#0ed876f64ac7aa7fc5b5184b6d4c47472ce5fd06"
-  integrity sha512-xXhF458qsN9ABVTBjGfugLZV2id3Ef46KzkeItSLlkAtF8oLax+mAVXbUGlVlYhhkaSP66J8xcSSwn2PqaeYUw==
+style-dictionary@5.1.4:
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.1.4.tgz#2e20b8d345a3e3478663d76e06a8202586a3005c"
+  integrity sha512-ig12xIuflWzvIQ+q+WlOynKS7B3+sE6Tj2XUeqtjv8mB+ljcomWJcc8PGcgrbYWXWY1GXw1rBEcsKY31qsmcNQ==
   dependencies:
     "@bundled-es-modules/deepmerge" "^4.3.1"
     "@bundled-es-modules/glob" "^11.1.0"
