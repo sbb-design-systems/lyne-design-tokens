@@ -31,7 +31,7 @@
     "@types/node": "20.19.30",
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-yml": "1.19.1",
+    "eslint-plugin-yml": "2.0.2",
     "globals": "17.0.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
