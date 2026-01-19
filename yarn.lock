@@ -1212,10 +1212,10 @@ eslint-config-prettier@10.1.8:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-10.1.8.tgz#15734ce4af8c2778cc32f0b01b37b0b5cd1ecb97"
   integrity sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==
 
-eslint-plugin-yml@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-yml/-/eslint-plugin-yml-2.0.2.tgz#1966a6d4f24c5a525bae2c39ff716fa5b66c5ab1"
-  integrity sha512-IkHs2qV/AMw6VNY6MQXhHVc7nBQBzafBh1GOl/cNWE10+FqY3BjiN8XsWzZhsqhQs8gghMWfgSih/xiRzmMXGA==
+eslint-plugin-yml@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-yml/-/eslint-plugin-yml-3.0.0.tgz#bab13f68bb9d14f6e2db33d27587441c3a8c1452"
+  integrity sha512-kuAW6o3hlFHyF5p7TLon+AtvNWnsvRrb88pqywGMSCEqAP5d1gOMvNGgWLVlKHqmx5RbFhQLcxFDGmS4IU9DwA==
   dependencies:
     "@eslint/core" "^1.0.1"
     "@eslint/plugin-kit" "^0.5.1"
