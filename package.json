@@ -25,8 +25,8 @@
     "dist/"
   ],
   "devDependencies": {
-    "@commitlint/cli": "20.4.0",
-    "@commitlint/config-conventional": "20.4.0",
+    "@commitlint/cli": "20.4.1",
+    "@commitlint/config-conventional": "20.4.1",
     "@eslint/js": "9.39.2",
     "@types/node": "20.19.30",
     "eslint": "9.39.2",
