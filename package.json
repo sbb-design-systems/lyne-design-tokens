@@ -28,7 +28,7 @@
     "@commitlint/cli": "20.4.3",
     "@commitlint/config-conventional": "20.4.3",
     "@eslint/js": "10.0.1",
-    "@types/node": "20.19.35",
+    "@types/node": "20.19.37",
     "eslint": "10.0.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-yml": "3.3.1",
