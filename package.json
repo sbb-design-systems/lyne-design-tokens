@@ -39,7 +39,7 @@
     "sass": "1.98.0",
     "style-dictionary": "5.4.0",
     "tsx": "4.21.0",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "typescript-eslint": "8.57.2"
   },
   "type": "module",
