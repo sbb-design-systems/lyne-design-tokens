@@ -129,6 +129,10 @@ $theme: 'standard' !default;
   --sbb-color-4-negative: var(--sbb-color-cloud);
   --sbb-color-4-negative-inverted: var(--sbb-color-iron);
   --sbb-color-5: var(--sbb-color-smoke);
+  --sbb-color-6: light-dark(var(--sbb-color-anthracite), var(--sbb-color-platinum));
+  --sbb-color-6-inverted: light-dark(var(--sbb-color-platinum), var(--sbb-color-anthracite));
+  --sbb-color-6-negative: var(--sbb-color-platinum);
+  --sbb-color-6-negative-inverted: var(--sbb-color-anthracite);
 
   --sbb-border-color-1: light-dark(var(--sbb-color-midnight), var(--sbb-color-white));
   --sbb-border-color-1-inverted: light-dark(var(--sbb-color-white), var(--sbb-color-midnight));
@@ -147,6 +151,10 @@ $theme: 'standard' !default;
   --sbb-border-color-4-negative: var(--sbb-color-cloud);
   --sbb-border-color-4-negative-inverted: var(--sbb-color-iron);
   --sbb-border-color-5: var(--sbb-color-smoke);
+  --sbb-border-color-6: light-dark(var(--sbb-color-anthracite), var(--sbb-color-platinum));
+  --sbb-border-color-6-inverted: light-dark(var(--sbb-color-platinum), var(--sbb-color-anthracite));
+  --sbb-border-color-6-negative: var(--sbb-color-platinum);
+  --sbb-border-color-6-negative-inverted: var(--sbb-color-anthracite);
 
   --sbb-shadow-color-soft-1: light-dark(
     color-mix(in srgb, var(--sbb-color-smoke) 5%, transparent),
