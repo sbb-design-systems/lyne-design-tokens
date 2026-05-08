@@ -34,7 +34,7 @@
     "eslint-plugin-yml": "3.3.2",
     "globals": "17.6.0",
     "husky": "9.1.7",
-    "lint-staged": "17.0.2",
+    "lint-staged": "17.0.3",
     "prettier": "3.8.3",
     "sass": "1.99.0",
     "style-dictionary": "5.4.0",
