@@ -38,7 +38,7 @@
     "prettier": "3.8.3",
     "sass": "1.99.0",
     "style-dictionary": "5.4.0",
-    "tsx": "4.22.0",
+    "tsx": "4.22.1",
     "typescript": "6.0.3",
     "typescript-eslint": "8.59.3"
   },
