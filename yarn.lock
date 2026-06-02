@@ -16,10 +16,10 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz#bd87084ced0c796ec46bda492de6e83d29e89fc2"
   integrity sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==
 
-"@bundled-es-modules/deepmerge@^4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@bundled-es-modules/deepmerge/-/deepmerge-4.3.1.tgz#e0ef866494125f64f6fb75adeffacedc25f2f31b"
-  integrity sha512-Rk453EklPUPC3NRWc3VUNI/SSUjdBaFoaQvFRmNBNtMHVtOFD5AntiWg5kEE1hqcPqedYFDzxE3ZcMYPcA195w==
+"@bundled-es-modules/deepmerge@^4.3.2":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/@bundled-es-modules/deepmerge/-/deepmerge-4.3.2.tgz#35c072c9bc8d28f4a6db12ed0293d158468c54f9"
+  integrity sha512-q8doe7ndrY2IolUOFIn0A0++JBX38pMhN7kFhTF4cnjIcILf6X6H2yWczInyv8ZFdR0lrE8088X8XS5efxXz8A==
   dependencies:
     deepmerge "^4.3.1"
 
@@ -2177,12 +2177,12 @@ strip-ansi@^7.1.0, strip-ansi@^7.1.2:
   dependencies:
     ansi-regex "^6.2.2"
 
-style-dictionary@5.4.2:
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.4.2.tgz#9eb64e6ad8090eb35cdf71520d927d0adc297954"
-  integrity sha512-Mienm46H28PWnydBiLFN7nR1QXqTO2FA+Aa/W7jcBJV8N0QGDDTfPQbb10TqwRybdY0rvp1G4pjdVM2HklGI0g==
+style-dictionary@5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.4.3.tgz#24a1334764716f2a37e77f9b64864f8aaa81f954"
+  integrity sha512-VpIXPFqIJXR5bLzWhV9PjB7NBteyAVHq9THk5Hyw6zRqAjgfJkH9zalC9szLthkQlS+S8szmmq6tlnLWFksmTQ==
   dependencies:
-    "@bundled-es-modules/deepmerge" "^4.3.1"
+    "@bundled-es-modules/deepmerge" "^4.3.2"
     "@bundled-es-modules/glob" "^13.0.6"
     "@bundled-es-modules/memfs" "^4.17.0"
     "@zip.js/zip.js" "^2.7.44"
