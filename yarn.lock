@@ -2177,10 +2177,10 @@ strip-ansi@^7.1.0, strip-ansi@^7.1.2:
   dependencies:
     ansi-regex "^6.2.2"
 
-style-dictionary@5.4.4:
-  version "5.4.4"
-  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.4.4.tgz#253d188d4e0b06f4472a2d61589ad28082c05ade"
-  integrity sha512-Sd7dkEOLn33EpvlMyS8ykUu0us2EIFUqsysf4DSwZQ46nqQkZ2Q9o5mozu8cSizj3t7E220HaPk7EV1O7LjvDQ==
+style-dictionary@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.5.0.tgz#0d5cea00e038d3bdd8085fd7aa28c3b5bdc761a3"
+  integrity sha512-AGkOZtAc3OTz99wlzstrmj5OM5BWOW2IbmXD74sf0MXFPi271TGBdywokgd7bS3L0tKOk9M0FR+R9gnbXRSSfg==
   dependencies:
     "@bundled-es-modules/deepmerge" "^4.3.2"
     "@bundled-es-modules/glob" "^13.0.6"
