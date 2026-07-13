@@ -456,74 +456,75 @@
   resolved "https://registry.yarnpkg.com/@jsonjoy.com/codegen/-/codegen-1.0.0.tgz#5c23f796c47675f166d23b948cdb889184b93207"
   integrity sha512-E8Oy+08cmCf0EK/NMxpaJZmOxPqM+6iSe2S4nlSBrPZOORoDJILxtbSUEDKQyTamm/BVAhIGllOBNU79/dwf0g==
 
-"@jsonjoy.com/fs-core@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-core/-/fs-core-4.57.8.tgz#3e399ca856968194b0be73aa4b6fc943bf313bb8"
-  integrity sha512-YzVbwggV9452VCeHgo0bjsTaUt1O7JE0XpEsPar93nn/+RAwXk0mb1Y+f5EDJ3TRtRCFe+Ck5RuojdfB4jeHVw==
+"@jsonjoy.com/fs-core@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-core/-/fs-core-4.64.0.tgz#82378ecedc5cbd8558fcc0a8e3c6b254db070fc8"
+  integrity sha512-zs2TAq7Six5jgMuoMNjpspAvOP3mhtgq/k1UyQodEzCtQi/N83y2/y+zcvnZSGp/Rxq96DBN+bValOBQAyn/ew==
   dependencies:
-    "@jsonjoy.com/fs-node-builtins" "4.57.8"
-    "@jsonjoy.com/fs-node-utils" "4.57.8"
+    "@jsonjoy.com/fs-node-builtins" "4.64.0"
+    "@jsonjoy.com/fs-node-utils" "4.64.0"
     thingies "^2.5.0"
 
-"@jsonjoy.com/fs-fsa@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-fsa/-/fs-fsa-4.57.8.tgz#26a1688ff5c8d1189d32e76bfe2364e0763b6737"
-  integrity sha512-vmClyvCQMxgqz7uamDiGtRfp4MjzOznk3pcQjCxlIwJcw7TWeyr+bF30hI0x8NxdtNOGMg1pHM74VDIXOeyjuw==
+"@jsonjoy.com/fs-fsa@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-fsa/-/fs-fsa-4.64.0.tgz#3cb0af64a33f075300ef63be97af89bb7849e6bd"
+  integrity sha512-nMWOVbkLFyEgmXZih3wyvxA9XpgyyqyfrINMHvEFqhi7uqfRl7c9ERJt6yX7vgMPrB9Uo+OJO+Spa0cFzPD01w==
   dependencies:
-    "@jsonjoy.com/fs-core" "4.57.8"
-    "@jsonjoy.com/fs-node-builtins" "4.57.8"
-    "@jsonjoy.com/fs-node-utils" "4.57.8"
+    "@jsonjoy.com/fs-core" "4.64.0"
+    "@jsonjoy.com/fs-node-builtins" "4.64.0"
+    "@jsonjoy.com/fs-node-utils" "4.64.0"
     thingies "^2.5.0"
 
-"@jsonjoy.com/fs-node-builtins@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node-builtins/-/fs-node-builtins-4.57.8.tgz#ba350bf262571e38d3c195f5346eddec07c1d053"
-  integrity sha512-mxXSXw8zZwRVakcjLqR2I/psy4gURFSASZS10kKJ2kJw05GC2nXGroGrWVHxwgkxXgQLsFQnB74QaLzsxzdL/w==
+"@jsonjoy.com/fs-node-builtins@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node-builtins/-/fs-node-builtins-4.64.0.tgz#84371474b2a06d209ae9f0b2b06fc570b00fb612"
+  integrity sha512-/o7WRFhUWaM/fOrslwLZGnzn4RmRILykn+lAL+mNObqqRNw+CQSiij6hpCeZ+C7buhdoVo7go/OYqzaSUfDYmA==
 
-"@jsonjoy.com/fs-node-to-fsa@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node-to-fsa/-/fs-node-to-fsa-4.57.8.tgz#4372e75e7a6a76b4d8ac91dc2d93edfa8587599f"
-  integrity sha512-AWZcT/4+H+iDl4XCukbXrarvwEgOrf/prFI5/7eg4ix9FxqVsZysIDJd1Kjd+AjlCeHKHJOaRqjLd5HiGSCJEw==
+"@jsonjoy.com/fs-node-to-fsa@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node-to-fsa/-/fs-node-to-fsa-4.64.0.tgz#fbb3026befa07d690f1523c0c166f0d447fa555e"
+  integrity sha512-WDD9WVs0hb7UAEKTgZW2f66WDrbj7gIIWwpP3spbLyXa0rghtUaFTB8L4gdR3ZCWwiKIsj38/CNijpVmpnuPUw==
   dependencies:
-    "@jsonjoy.com/fs-fsa" "4.57.8"
-    "@jsonjoy.com/fs-node-builtins" "4.57.8"
-    "@jsonjoy.com/fs-node-utils" "4.57.8"
+    "@jsonjoy.com/fs-fsa" "4.64.0"
+    "@jsonjoy.com/fs-node-builtins" "4.64.0"
+    "@jsonjoy.com/fs-node-utils" "4.64.0"
 
-"@jsonjoy.com/fs-node-utils@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node-utils/-/fs-node-utils-4.57.8.tgz#a1a15d587fff235b616d5ea775e0f9a88f387a56"
-  integrity sha512-E/bJ7sQAb4pu9nbeJhbULU3WnqWrswte4N9Js/oHt7aHB746S8/XBqKlcbrqIgnD3095XluovNEZuu5ONT230g==
+"@jsonjoy.com/fs-node-utils@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node-utils/-/fs-node-utils-4.64.0.tgz#5803eee4abd6871644a35ea35ad63a6b7f159892"
+  integrity sha512-k5Indsx9hWW9xSF7Y6oSKKwtCUNhzZxadub3owhIlitc+iMRVlPPdX2duTKQWBL3qNWpXya8jykgaaWpheeS4w==
   dependencies:
-    "@jsonjoy.com/fs-node-builtins" "4.57.8"
+    "@jsonjoy.com/fs-node-builtins" "4.64.0"
+    glob-to-regex.js "^1.0.1"
 
-"@jsonjoy.com/fs-node@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node/-/fs-node-4.57.8.tgz#d16b418d2179f7092f9fe5daeb18d31a5835a19b"
-  integrity sha512-IPEOlDYSnTDYpjQlQg2F8h+eqxKQN3sdbroI0WrteRiQZ462HzVpBo9ZZX485njz4nAacoe3fd4iDiIhk+k5Hg==
+"@jsonjoy.com/fs-node@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-node/-/fs-node-4.64.0.tgz#e8c9c4346b38cc116ca0e9fb34b10419bcfc1916"
+  integrity sha512-dO+NNkODbUli4uV42bcNrrLvq5rE7SNpdZ5TNd0dtbLsAaNK3MDiIC9lUi+brboGoIjW6vd2fB1qao60nrk5xA==
   dependencies:
-    "@jsonjoy.com/fs-core" "4.57.8"
-    "@jsonjoy.com/fs-node-builtins" "4.57.8"
-    "@jsonjoy.com/fs-node-utils" "4.57.8"
-    "@jsonjoy.com/fs-print" "4.57.8"
-    "@jsonjoy.com/fs-snapshot" "4.57.8"
+    "@jsonjoy.com/fs-core" "4.64.0"
+    "@jsonjoy.com/fs-node-builtins" "4.64.0"
+    "@jsonjoy.com/fs-node-utils" "4.64.0"
+    "@jsonjoy.com/fs-print" "4.64.0"
+    "@jsonjoy.com/fs-snapshot" "4.64.0"
     glob-to-regex.js "^1.0.0"
     thingies "^2.5.0"
 
-"@jsonjoy.com/fs-print@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-print/-/fs-print-4.57.8.tgz#5ff6b2e0dd3f85aa7563f66cd36b4de1f0ce89a3"
-  integrity sha512-DfzhOBpmvNu5P/KSe4NNQaOnvNliTdcf0qrh/4EReErF/XUQXYkd0vZl/OiJCm/qjEEo8DWRstliw2/JNS84dA==
+"@jsonjoy.com/fs-print@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-print/-/fs-print-4.64.0.tgz#375085d90b50c85754667671f58d13a63da4330d"
+  integrity sha512-PHZFccchvkhWrwPWHjmVAhbC3vSHCtyZvlZfJJ3ho2bnzl450hXri6/8e6pbkWdH+SkmLXNml0sV8e5HDAfxKw==
   dependencies:
-    "@jsonjoy.com/fs-node-utils" "4.57.8"
+    "@jsonjoy.com/fs-node-utils" "4.64.0"
     tree-dump "^1.1.0"
 
-"@jsonjoy.com/fs-snapshot@4.57.8":
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-snapshot/-/fs-snapshot-4.57.8.tgz#65b317f7698816c7196dbebc73e9d43e06f143be"
-  integrity sha512-L+eqKaWOHLDaiMv1dh/EWQ4hA+o6xAhWSumTo3Teg7OM18jU/KE13/e8Mfal+eAZ/pSl4wIhKHcDiwapJzC8Wg==
+"@jsonjoy.com/fs-snapshot@4.64.0":
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/@jsonjoy.com/fs-snapshot/-/fs-snapshot-4.64.0.tgz#99a76af8664595875def5b20ed1cf159adc5f098"
+  integrity sha512-oM7UDeL83q6NBzzsfKAsYKXKVXlykKFqqOLh4xZZKAzzROTlInkPbc6LTDGThEOnPiFiUzA7tYziHG9xavd76Q==
   dependencies:
     "@jsonjoy.com/buffers" "^17.65.0"
-    "@jsonjoy.com/fs-node-utils" "4.57.8"
+    "@jsonjoy.com/fs-node-utils" "4.64.0"
     "@jsonjoy.com/json-pack" "^17.65.0"
     "@jsonjoy.com/util" "^17.65.0"
 
@@ -811,9 +812,9 @@
     eslint-visitor-keys "^5.0.0"
 
 "@zip.js/zip.js@^2.7.44":
-  version "2.8.26"
-  resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.8.26.tgz#826a819f673e8284d0de785551ac37e9972ee794"
-  integrity sha512-RQ4h9F6DOiHxpdocUDrOl6xBM+yOtz+LkUol47AVWcfebGBDpZ7w7Xvz9PS24JgXvLGiXXzSAfdCdVy1tPlaFA==
+  version "2.8.28"
+  resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.8.28.tgz#98ff54b5f8bbbaf6419a43bfe297b25bec73ae9e"
+  integrity sha512-bqf5lkvRZnEn0n2SKgEh5Fz7nmieCS9RJ/juCjc7c5SP/mXAR3iZxp5ZhLyq1gee4z/s3FTDsVYmAhpK4Rb4kA==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -866,6 +867,11 @@ argparse@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
+
+argue-cli@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/argue-cli/-/argue-cli-3.1.0.tgz#5ab702af716dce3e30a95919bd1ac314e2d903f0"
+  integrity sha512-DhBpBfXL4SS2uC0N922MMajKR3CdrTG0u2or1PNYgXMsrSzViJrbtvT0nCLlLGUI0plam/ZZCs7aAauHtW9thw==
 
 assert@^2.1.0:
   version "2.1.0"
@@ -1012,12 +1018,12 @@ conventional-changelog-conventionalcommits@^10.0.0:
     "@conventional-changelog/template" "^1.2.1"
 
 conventional-commits-parser@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-7.0.1.tgz#ba288dd43d13cba1e96d94728873eba787de542c"
-  integrity sha512-6VtskFpPsNkGVk/TY2RnV/MEdKfvCPBtQZN9x8jh9+k5RWBQ+tiaWn5UFCzTr0Dd88iKx7xghxbjBRp5uIzp3g==
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-7.1.0.tgz#1ce5fb1466b9b74ef68c861d37ca96179055c0f1"
+  integrity sha512-DPp6hkUjvwIivxbkrTiLXeRswNv1A/4GFA2X6scXma0AMa9632V3TwxmrlkUIEtUktiM3Ln+RrSH2xlP3/jUTw==
   dependencies:
     "@simple-libs/stream-utils" "^2.0.0"
-    meow "^14.0.0"
+    argue-cli "^3.1.0"
 
 cosmiconfig-typescript-loader@^6.1.0:
   version "6.3.0"
@@ -1501,9 +1507,9 @@ ignore@^5.2.0:
   integrity sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==
 
 ignore@^7.0.5:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.5.tgz#4cb5f6cd7d4c7ab0365738c7aea888baa6d7efd9"
-  integrity sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.6.tgz#6a57aaef4c90df27ac3590875d29e8f11988c88e"
+  integrity sha512-BAg6QkE8W+TuQLrrw0Ugr7HegXduRuuj8/ti2kSOc+jz1dmx8/WNcjr6XGnq5YpDWxFwwaavqD0+jIUOKelTsw==
 
 immutable@^5.1.5:
   version "5.1.9"
@@ -1730,9 +1736,9 @@ log-update@^6.1.0:
     wrap-ansi "^9.0.0"
 
 lru-cache@^11.0.0:
-  version "11.5.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.5.1.tgz#f3daa3540847b9737ebc02499ddb36765e54db4a"
-  integrity sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==
+  version "11.5.2"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.5.2.tgz#00e16665c90c620fba14a3c368732a976493f760"
+  integrity sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==
 
 math-intrinsics@^1.1.0:
   version "1.1.0"
@@ -1740,29 +1746,24 @@ math-intrinsics@^1.1.0:
   integrity sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==
 
 memfs@^4.17.0:
-  version "4.57.8"
-  resolved "https://registry.yarnpkg.com/memfs/-/memfs-4.57.8.tgz#b9c1995040307c60a1503e65a3e5902ad3927628"
-  integrity sha512-bApYhn8BLpFAnAQmFfEl/NPN+8qx5Ar3V4Qt3ek23mVwBEElzV7c6XoPkb/PCG8ZFpowCEpHcPwMFTwHS7tSMA==
+  version "4.64.0"
+  resolved "https://registry.yarnpkg.com/memfs/-/memfs-4.64.0.tgz#88bb85610804c154a8121424d2aeba7c5bdf4e38"
+  integrity sha512-Kw72fgY7Wn+sD8KmtNWSafl1dz0UvAsE/PHs3YVfLiaZuA3HxNm9sRLqAu0ATiBGJvME1PxZXbBZPv5GycDeAw==
   dependencies:
-    "@jsonjoy.com/fs-core" "4.57.8"
-    "@jsonjoy.com/fs-fsa" "4.57.8"
-    "@jsonjoy.com/fs-node" "4.57.8"
-    "@jsonjoy.com/fs-node-builtins" "4.57.8"
-    "@jsonjoy.com/fs-node-to-fsa" "4.57.8"
-    "@jsonjoy.com/fs-node-utils" "4.57.8"
-    "@jsonjoy.com/fs-print" "4.57.8"
-    "@jsonjoy.com/fs-snapshot" "4.57.8"
+    "@jsonjoy.com/fs-core" "4.64.0"
+    "@jsonjoy.com/fs-fsa" "4.64.0"
+    "@jsonjoy.com/fs-node" "4.64.0"
+    "@jsonjoy.com/fs-node-builtins" "4.64.0"
+    "@jsonjoy.com/fs-node-to-fsa" "4.64.0"
+    "@jsonjoy.com/fs-node-utils" "4.64.0"
+    "@jsonjoy.com/fs-print" "4.64.0"
+    "@jsonjoy.com/fs-snapshot" "4.64.0"
     "@jsonjoy.com/json-pack" "^1.11.0"
     "@jsonjoy.com/util" "^1.9.0"
     glob-to-regex.js "^1.0.1"
     thingies "^2.5.0"
     tree-dump "^1.0.3"
     tslib "^2.0.0"
-
-meow@^14.0.0:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/meow/-/meow-14.1.0.tgz#3cd2d16ad534829ab12fcb5010fc2fdb89facd31"
-  integrity sha512-EDYo6VlmtnumlcBCbh1gLJ//9jvM/ndXHfVXIFrZVr6fGcwTUyCTFNTLCKuY3ffbK8L/+3Mzqnd58RojiZqHVw==
 
 mimic-function@^5.0.0:
   version "5.0.1"
@@ -1927,15 +1928,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@3.9.5:
+prettier@3.9.5, prettier@^3.3.3:
   version "3.9.5"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.5.tgz#4fec97736e33b9d0b620b48914fe93b530e835ad"
   integrity sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==
-
-prettier@^3.3.3:
-  version "3.9.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.4.tgz#a9c477cf1614376bd1f6bbc593d8c0d414bcec87"
-  integrity sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg==
 
 process@^0.11.1:
   version "0.11.10"
@@ -2135,9 +2131,9 @@ string-width@^7.0.0, string-width@^7.2.0:
     strip-ansi "^7.1.0"
 
 string-width@^8.2.0:
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-8.2.1.tgz#165089cfa527cc88fbc23dd73313f5e334af1ea1"
-  integrity sha512-IIaP0g3iy9Cyy18w3M9YcaDudujEAVHKt3a3QJg1+sr/oX96TbaGUubG0hJyCjCBThFH+tFpcIyoUHUn1ogaLA==
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-8.2.2.tgz#7310516493df575742fe98af6fae87d85d5ed0ac"
+  integrity sha512-GaPUh5gfdrYzqeVNZvUfT23vYYxXzKYidUcnMtJg/3rxRV63EFZy3k6xfKlmfeJD0176lnUV/Usr3XcwSvFzpg==
   dependencies:
     get-east-asian-width "^1.5.0"
     strip-ansi "^7.1.2"
@@ -2331,9 +2327,9 @@ y18n@^5.0.5:
   integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
 
 yaml-eslint-parser@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/yaml-eslint-parser/-/yaml-eslint-parser-2.0.0.tgz#8cb63e3e28787557b9f295df0a8307c327b7fde4"
-  integrity sha512-h0uDm97wvT2bokfwwTmY6kJ1hp6YDFL0nRHwNKz8s/VD1FH/vvZjAKoMUE+un0eaYBSG7/c6h+lJTP+31tjgTw==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/yaml-eslint-parser/-/yaml-eslint-parser-2.1.0.tgz#0b1c6d0346adba513cd883ebe6d8169a046a5f76"
+  integrity sha512-1zo9KRfp6vIAXBEhWAz09ex3hUwh3T+/6dGbGteHvNseA0Uk4FgQnPES55klZ6cDzSy9FpgKS0D/CoLUvCCj4w==
   dependencies:
     eslint-visitor-keys "^5.0.0"
     yaml "^2.0.0"
