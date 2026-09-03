@@ -18,6 +18,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     env:
+      # Due to a bug in setup-node@v7, we need to set this env variable to an empty string to avoid failing the step.
       NODE_AUTH_TOKEN: ''
     steps:
       - uses: googleapis/release-please-action@v5
@@ -35,7 +36,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         with:
           node-version-file: .nvmrc
-          package-manager-cache: false
+          cache: yarn
           registry-url: 'https://registry.npmjs.org'
           scope: sbb-esta
       - run: yarn install --frozen-lockfile --non-interactive
