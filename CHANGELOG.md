@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.1](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.1.0...v2.1.1) (2026-09-03)
+
+
+### Styles
+
+* add `Inter` font as first fallback font ([#607](https://github.com/sbb-design-systems/lyne-design-tokens/issues/607)) ([a1abbe9](https://github.com/sbb-design-systems/lyne-design-tokens/commit/a1abbe9fa07485ee4598627c0468e49ad79ebef3))
+
 ## [2.1.0](https://github.com/sbb-design-systems/lyne-design-tokens/compare/v2.0.0...v2.1.0) (2026-04-27)
 
 
