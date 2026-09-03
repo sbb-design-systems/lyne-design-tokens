@@ -33,7 +33,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         with:
           node-version-file: .nvmrc
-          cache: yarn
+          package-manager-cache: false
           registry-url: 'https://registry.npmjs.org'
           scope: sbb-esta
       - run: yarn install --frozen-lockfile --non-interactive
