@@ -36,7 +36,7 @@
     "husky": "9.1.7",
     "lint-staged": "17.4.1",
     "prettier": "3.9.6",
-    "sass": "1.103.1",
+    "sass": "1.104.0",
     "style-dictionary": "5.5.2",
     "tsx": "4.23.13",
     "typescript": "6.0.3",
