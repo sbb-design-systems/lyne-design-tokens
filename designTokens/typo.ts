@@ -10,7 +10,7 @@ const attributes: DesignTokens = {
 export const typo: DesignTokens = {
   fontFamily: {
     type: 'fontFamily',
-    value: '"SBB", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    value: 'SBB, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif',
   },
   letterSpacing: {
     heading: {
