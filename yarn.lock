@@ -23,7 +23,7 @@
   dependencies:
     deepmerge "^4.3.1"
 
-"@bundled-es-modules/glob@^13.0.6":
+"@bundled-es-modules/glob@^13.0.6-hotfix.0":
   version "13.0.6"
   resolved "https://registry.yarnpkg.com/@bundled-es-modules/glob/-/glob-13.0.6.tgz#7b90b0767e1c3abbbc9806f2d9b73a34c247ff76"
   integrity sha512-x9nR2e1pt8LF0yLPC6yz/aUoiN7qJJwZ1znLxIXCxGyH+8BI+yO/sklBdn1+QbUyWXQBM+CjfZz3IhqtgIoDVg==
@@ -2105,13 +2105,13 @@ strip-ansi@^7.1.0, strip-ansi@^7.1.2:
   dependencies:
     ansi-regex "^6.2.2"
 
-style-dictionary@5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.5.3.tgz#8efac4c8ab27d3e50ad4fd117015538c88a7402f"
-  integrity sha512-vt4wLw+3H47XLW5Awvq//FqV2BUMElGdhmuUapi2oXNERY4tjFJ6Cd+G3HYjV+9JWYHNFPbmDWwLN8wHzpaEkQ==
+style-dictionary@5.5.4:
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/style-dictionary/-/style-dictionary-5.5.4.tgz#34cbaf1e77c017b54dc7eb30ce2e89657d81965d"
+  integrity sha512-7wxrDIwaoAL4UF3OHqDaqJNDUkfUkqMLGRl+S+zDoWaPc8onlhitEUhseIETrD0IzC7E6n9by4sMADap/S2Qhw==
   dependencies:
     "@bundled-es-modules/deepmerge" "^4.3.2"
-    "@bundled-es-modules/glob" "^13.0.6"
+    "@bundled-es-modules/glob" "^13.0.6-hotfix.0"
     "@bundled-es-modules/memfs" "^4.17.0"
     "@zip.js/zip.js" "^2.7.44"
     chalk "^5.3.0"
