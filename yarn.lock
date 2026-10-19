@@ -837,9 +837,9 @@
     eslint-visitor-keys "^5.0.0"
 
 "@zip.js/zip.js@^2.7.44":
-  version "2.23.0"
-  resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.23.0.tgz#ea45d9b8c56f7d9e9dd1a266b34b153532f2757e"
-  integrity sha512-K5obAqfrO7zhycnCupM9aaoZ9kx0SA0kv7+Z2oOUsdpWquv4s/Z4zyD7AdTqxrK3pgPM+ozaUi8kdRQbCWaIrQ==
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/@zip.js/zip.js/-/zip.js-2.24.0.tgz#83b2639fc874503deef5a63b3e3f6b90791ca987"
+  integrity sha512-WlaVKzdqBK+RF3bdiXZWbdCnvGB6PdO4IHC1mn/2Yfl3bASgqUNegnU3+PNg61iecwoPfUi5BgLUPqBukXpyWw==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -1924,9 +1924,9 @@ qified@^0.10.1:
     hookified "^2.1.1"
 
 qs@^6.12.3:
-  version "6.16.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.16.0.tgz#c22c723a28a920f3aacdce8289fabd43eccb79fd"
-  integrity sha512-h6fhOIaRrID2CbEY2fqs+7t+UXZo+MLAnU5gRIq85uFtdiUPCdsApMlHhXogKVM4HM2DVbIjGNTTYH2OcmP1vA==
+  version "6.16.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.16.1.tgz#0643e17993e551759c85078e1f0bc4b9fe908020"
+  integrity sha512-5Px6J7rfHBAGUhNQ3es4YzcOdBBw0SDcVtThJml4RdnKw4tKs2epA0kPZ+K8X+WiHktT93RHVcQ/3ym5aTCgtg==
   dependencies:
     es-define-property "^1.0.1"
     side-channel "^1.1.1"
